@@ -80,7 +80,7 @@ class Layout extends React.Component {
             html {
               min-height: 100vh;
               background: rgb(45,226,230);
-              background: linear-gradient(0deg, rgba(45,226,230,0.3) 0%, rgba(188,246,247,0.4) 56%, rgba(255,255,255,0.5) 100%);
+              background: linear-gradient(0deg, rgba(45,226,230,0.3) 0%, rgba(188,246,247,0.4) 36%, rgba(255,255,255,0.5) 100%);
             }
 
             body {
@@ -90,7 +90,6 @@ class Layout extends React.Component {
             a {
               color: #f6019d;
             }
-            ...;
           `}
         />
         {header}
