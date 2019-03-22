@@ -10,6 +10,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       render={data => {
         const metaDescription =
           description || data.site.siteMetadata.description
+        console.log(data)
         return (
           <Helmet
             htmlAttributes={{
@@ -33,6 +34,12 @@ function SEO({ description, lang, meta, keywords, title }) {
               {
                 property: `og:type`,
                 content: `website`,
+              },
+              {
+                name: `og:image`,
+                content: `${data.site.siteMetadata.siteUrl}${
+                  data.metaImage.childImageSharp.fixed.src
+                }`,
               },
               {
                 name: `twitter:card`,
@@ -87,9 +94,17 @@ const detailsQuery = graphql`
   query DefaultSEOQuery {
     site {
       siteMetadata {
+        siteUrl
         title
         description
         author
+      }
+    }
+    metaImage: file(absolutePath: { regex: "/the-worst-dev-logo.png/" }) {
+      childImageSharp {
+        fixed(width: 700, height: 400) {
+          ...GatsbyImageSharpFixed
+        }
       }
     }
   }

@@ -1,8 +1,20 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
+import styled from '@emotion/styled'
 
-import { rhythm } from '../utils/typography'
+const ProfilePic = styled(Image)`
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 24px;
+`
+
+const Container = styled(`div`)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+`
 
 function Bio() {
   return (
@@ -11,31 +23,20 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Image
+          <Container>
+            {/* <ProfilePic
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-            />
+            /> */}
             <p>
               Written by <strong>{author}</strong> who lives and works in
-              Minneapolis building silly things.
+              Virginia Beach, VA.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
               </a>
             </p>
-          </div>
+          </Container>
         )
       }}
     />
