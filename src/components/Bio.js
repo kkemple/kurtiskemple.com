@@ -14,6 +14,7 @@ const Container = styled(`div`)`
   justify-content: center;
   align-items: center;
   margin-bottom: 24px;
+  text-align: center;
 `
 
 function Bio() {
@@ -32,6 +33,7 @@ function Bio() {
               Written by <strong>{author}</strong> who lives and works in
               Virginia Beach, VA.
               {` `}
+              <br />
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
               </a>

@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, StaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
 import { Global, css } from '@emotion/core'
-import cssReset from 'emotion-reset'
 import styled from '@emotion/styled'
 
 import 'typeface-work-sans'
@@ -57,10 +56,10 @@ class Layout extends React.Component {
       <Container>
         <Global
           styles={css`
-            // ${cssReset}
-
             // You can continue writing global styles, for instance
-            *, *::after, *::before {
+            *,
+            *::after,
+            *::before {
               box-sizing: border-box;
               -moz-osx-font-smoothing: grayscale;
               -webkit-font-smoothing: antialiased;
@@ -75,20 +74,48 @@ class Layout extends React.Component {
             h6 {
               font-family: 'Work Sans';
               font-weight: 800;
+              margin-top: 40px;
             }
 
             html {
               min-height: 100vh;
-              background: rgb(45,226,230);
-              background: linear-gradient(0deg, rgba(45,226,230,0.3) 0%, rgba(188,246,247,0.4) 36%, rgba(255,255,255,0.5) 100%);
+              background: rgb(45, 226, 230);
+              background: linear-gradient(
+                0deg,
+                rgba(45, 226, 230, 0.15) 0%,
+                rgba(188, 246, 247, 0.225) 36%,
+                rgba(255, 255, 255, 0.3) 100%
+              );
             }
 
             body {
               font-family: 'Work Sans';
+              font-size: 18px;
             }
 
             a {
               color: #f6019d;
+            }
+
+            p {
+              margin-bottom: 24px;
+            }
+
+            code {
+              padding: 1px 4px;
+              border-radius: 2px;
+              background-color: #ff3864;
+              color: white;
+              display: inline-block;
+            }
+
+            blockquote {
+              font-weight: 300;
+              font-size: 20px;
+              // color: #f6019d;
+              line-height: 1.3;
+              margin-top: 32px;
+              margin-bottom: 32px;
             }
           `}
         />
