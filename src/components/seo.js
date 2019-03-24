@@ -100,7 +100,7 @@ const detailsQuery = graphql`
         author
       }
     }
-    metaImage: file(absolutePath: { regex: "/the-worst-dev-logo.png/" }) {
+    metaImage: file(absolutePath: { regex: "/favicon.png/" }) {
       childImageSharp {
         fixed(width: 700, height: 400) {
           ...GatsbyImageSharpFixed
