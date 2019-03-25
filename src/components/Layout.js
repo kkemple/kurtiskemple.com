@@ -82,15 +82,15 @@ class Layout extends React.Component {
               background: rgb(45, 226, 230);
               background: linear-gradient(
                 0deg,
-                rgba(45, 226, 230, 0.15) 0%,
-                rgba(188, 246, 247, 0.225) 36%,
-                rgba(255, 255, 255, 0.3) 100%
+                rgba(45, 226, 230, 0.05) 0%,
+                rgba(188, 246, 247, 0.1) 36%,
+                rgba(255, 255, 255, 0.15) 100%
               );
             }
 
             body {
               font-family: 'Work Sans';
-              font-size: 18px;
+              font-size: 16px;
             }
 
             a {

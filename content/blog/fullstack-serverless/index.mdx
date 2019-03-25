@@ -9,7 +9,7 @@ In recent years there have been huge shifts in both back-end and front-end devel
 
 So, why am I bringing this up? Because I feel like all of this change is culminating in a new way of building apps. One that takes advantage of the changes we’ve seen over the last few years, both on the front-end and the back-end, and allows developers to build really intersting applications on top of serviceful services in very little time.
 
-### Back-end and Serverless Computing
+## Serviceful Serverless
 
 On the back-end we've seen compute power become a commodity, sparking the evolution of `serverless`. However, if you have ever built anything in a truly serverless fashion than you know that the scalability and cost savings you get comes with a heaping pile of complexity.
 
@@ -25,27 +25,23 @@ This in turn brought about a bunch of [serviceful serverless](https://medium.com
 
 > A few examples of serviceful services include **Auth0 / Amazon Cognito** (managed authentication), **Algolia** (managed search), **Contentful** (content infrastructure), **AWS AppSync / Cloud Firestore** (managed API services), **Amazon Lex / Rekognition / Textract** (machine learning services), and **Cloudinary** (managed image & video hosting service). - _Nader Dabit, Full-Stack Development in the Era of Serverless Computing_
 
-### Front-end and tooling
+## UI Toolkits and Frameworks
 
 On the front-end we've also seen a large increase in complexity, borrowing from Nader Dabit again, he explains what has changed, making things so much more complex:
 
 > Because of the rise of SPAs, more complex data concerns, multiple device targets and increased expectations of user experience, client-side development has gotten more complex over the past decade or so. - _Nader Dabit, Full-Stack Development in the Era of Serverless Computing_
 
-However, with this complexity came some really amazing tooling and frameworks. This explosion of tools and frameworks are essentially abstractions for dealing with the new complexity.
-
-We are finally starting to see the opinionated software that is making it possible to deliver value as fast as possible. The best part is, we don't have to do it at the expense of things like accessibility and security. We get this baked right into the solutions.
-
-Frameworks like [Expo](https://expo.io/), [Ionic](https://ionicframework.com/), [Gatsby](https://www.gatsbyjs.org/), and [Meteor](https://www.meteor.com/) are making it possible to build production ready, quality apps, based on their building blocks.
+However, with this complexity came some really amazing tooling and frameworks. These abstractions make it easier to manage the new complexity, allowing developers to focus on creating value. The best part is, we don't have to do it at the expense of things like accessibility and security. We get this baked right into the solutions.
 
 It's pretty fair to say that these tools are providing focus. They allow you to deal strickly with business problems and handle all the technical problems for you. This rings of the same changes on the back-end and the evolution of serverless computing.
 
+Frameworks like [Expo](https://expo.io/), [Ionic](https://ionicframework.com/), [Gatsby](https://www.gatsbyjs.org/), and [Meteor](https://www.meteor.com/) are making it possible to build production ready, quality apps, based on their building blocks.
+
 ## The Best of Both Worlds
 
-Currently a lot of apps are built upon these new abstractions, it's not uncommon to see a React or Vue app using Auth0 or AWS Cognito to handle user management and authentication/authorization. Contentful is oftend used for content management, and coupled with Gatsby for the app. Yet they still don't feel like a cohesive solution. It feels like multiple things glued together.
+What we're seeing now is platforms that encompass the best of both worlds. Providing a solutions for the entire development life cyle of an application. Making it much easier to build fully fledged applications that can scale without question and costs less than building out your own serverless infrastructure and tooling. Solutions like [Firebase](), [Netlify](), [Zeit](), and [AWS Amplify]() provide full-stack features such as toolkits and APIs, data storage, file storage, and build and deployment services. I refer to these types of platforms as `Full-stack Serverless`. They provide feature sets that generally span from the command line tooling to back-end services, and everything in between.
 
-What we're seeing now is platforms that encompass the best of both worlds. Providing a solutions for the entire development life cyle of an application. Making it much easier to build fully fledged applications that can scale without question and costs less than building out your own serverless infrastructure and tooling. Solutions like [Firebase](), [Netlify](), [Zeit](), and [AWS Amplify]() provide full-stack features such as toolkits and APIs, data storage, file storage, and build and deployment services. I refer to these types of platforms as `Full-stack Serverless` solutions. They provide feature sets that generally span from the CLI to back-end services and everything in between.
-
-I recently ran a [poll on Twitter](https://twitter.com/kurtiskemple/status/1109126793938767872) where I posed the question, "When architecting a new application, what do you consider to be the most crucial concern when choosing solutions?"
+I recently ran a [poll on Twitter](https://twitter.com/kurtiskemple/status/1109126793938767872) where I asked, "When architecting a new application, what do you consider to be the most crucial concern when choosing solutions?"
 
 ![picture of twitter poll](./twitter-poll.png)
 
