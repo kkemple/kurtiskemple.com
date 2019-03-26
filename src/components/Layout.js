@@ -8,7 +8,7 @@ import 'typeface-work-sans'
 import 'typeface-creepster'
 
 const Container = styled(`div`)`
-  max-width: 1200px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 `
