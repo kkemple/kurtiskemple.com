@@ -11,6 +11,10 @@ const Container = styled(`div`)`
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 4px;
+  margin-top: 32px;
 `
 
 const LogoContainer = styled(`div`)`
@@ -28,7 +32,7 @@ const Footer = styled(`footer`)`
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
+    const { location, title, children, background } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     let header
 
@@ -52,6 +56,7 @@ class Layout extends React.Component {
         </h3>
       )
     }
+
     return (
       <Container>
         <Global
@@ -80,12 +85,7 @@ class Layout extends React.Component {
             html {
               min-height: 100vh;
               background: rgb(45, 226, 230);
-              background: linear-gradient(
-                0deg,
-                rgba(45, 226, 230, 0.05) 0%,
-                rgba(188, 246, 247, 0.1) 36%,
-                rgba(255, 255, 255, 0.15) 100%
-              );
+              background-image: ${background};
             }
 
             body {
@@ -122,7 +122,9 @@ class Layout extends React.Component {
         {header}
         {children}
         <Footer>
-          © {new Date().getFullYear()}, Built with{' '}
+          <span style={{ display: 'inline-block', marginRight: '5px' }}>
+            © {new Date().getFullYear()}, Built with{' '}
+          </span>
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </Footer>
       </Container>

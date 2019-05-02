@@ -30,10 +30,11 @@ function Bio() {
               alt={author}
             /> */}
             <p>
-              Written by <strong>{author}</strong> who lives and works in
-              Virginia Beach, VA.
-              {` `}
-              <br />
+              <span style={{ display: 'block', marginBottom: '5px' }}>
+                Written by <strong>{author}</strong> who lives and works in
+                Virginia Beach, VA.
+              </span>
+
               <a href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
               </a>
