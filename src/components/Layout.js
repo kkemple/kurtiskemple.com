@@ -7,6 +7,19 @@ import styled from '@emotion/styled'
 import 'typeface-work-sans'
 import 'typeface-creepster'
 
+const backgrounds = [
+  'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+  'linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%)',
+  'linear-gradient(120deg, #f6d365 0%, #fda085 100%)',
+  'linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)',
+  'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)',
+  'linear-gradient(to top, #9890e3 0%, #b1f4cf 100%)',
+  'linear-gradient(to top, #fddb92 0%, #d1fdff 100%)',
+  'linear-gradient(to top, #48c6ef 0%, #6f86d6 100%)',
+  'linear-gradient(to top, #accbee 0%, #e7f0fd 100%)',
+  'linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%)',
+]
+
 const Container = styled(`div`)`
   max-width: 800px;
   margin-left: auto;
@@ -32,8 +45,10 @@ const Footer = styled(`footer`)`
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children, background } = this.props
+    const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
+    const background =
+      backgrounds[Math.floor(Math.random() * backgrounds.length)]
     let header
 
     if (location.pathname === rootPath) {
