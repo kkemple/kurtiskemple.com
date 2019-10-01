@@ -22,12 +22,10 @@ const backgrounds = [
 
 const Container = styled(`div`)`
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
   background: #fff;
   padding: 32px;
   border-radius: 4px;
-  margin-top: 32px;
+  margin: 32px auto 64px;
 `
 
 const LogoContainer = styled(`div`)`
