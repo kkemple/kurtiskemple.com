@@ -143,11 +143,6 @@ class Layout extends React.Component {
               padding: 16px 16px 16px 32px;
             }
 
-            ul {
-              background-color: #fde0f3;
-              padding: 16px 16px 16px 32px;
-            }
-
             li {
               margin-bottom: 8px;
             }
