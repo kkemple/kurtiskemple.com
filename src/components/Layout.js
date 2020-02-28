@@ -135,7 +135,6 @@ class Layout extends React.Component {
 
             p {
               margin-bottom: 24px;
-              font-size: 20px;
             }
 
             ul {
