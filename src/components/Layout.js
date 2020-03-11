@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, StaticQuery } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import { Global, css } from '@emotion/core'
 import styled from '@emotion/styled'
@@ -97,13 +97,12 @@ class Layout extends React.Component {
 
             html {
               min-height: 100vh;
-              background: rgb(45, 226, 230);
               background-image: ${background};
             }
 
             body {
               font-family: 'Work Sans';
-              font-size: 16px;
+              font-size: 18px;
             }
 
             a {
@@ -112,6 +111,15 @@ class Layout extends React.Component {
 
             p {
               margin-bottom: 24px;
+            }
+
+            ul {
+              background-color: #fde0f3;
+              padding: 16px 16px 16px 32px;
+            }
+
+            li {
+              margin-bottom: 8px;
             }
 
             code {
