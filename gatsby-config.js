@@ -5,7 +5,7 @@ module.exports = {
     description: `When you're here, you're family. - Olive Garden`,
     siteUrl: `https://theworst.dev`,
     social: {
-      twitter: `kurtiskemple`,
+      twitter: `kurtkemple`,
       github: `kkemple`,
     },
   },
