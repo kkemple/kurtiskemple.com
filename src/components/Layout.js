@@ -5,7 +5,7 @@ import { Global, css } from '@emotion/core'
 import styled from '@emotion/styled'
 
 import 'typeface-work-sans'
-import 'typeface-creepster'
+import 'typeface-teko'
 
 const backgrounds = [
   'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
@@ -26,6 +26,11 @@ const Container = styled(`div`)`
   padding: 32px;
   border-radius: 4px;
   margin: 32px auto 64px;
+
+  @media (max-width: 850px) {
+    margin: 32px 16px 64px;
+    padding: 16px;
+  }
 `
 
 const LogoContainer = styled(`div`)`
@@ -90,9 +95,27 @@ class Layout extends React.Component {
             h4,
             h5,
             h6 {
-              font-family: 'Work Sans';
+              font-family: 'Teko';
               font-weight: 800;
               margin-top: 40px;
+              margin-bottom: 0;
+            }
+
+            h1 > a,
+            h2 > a,
+            h3 > a,
+            h4 > a,
+            h5 > a,
+            h6 > a {
+              text-decoration: none;
+            }
+
+            p:first-of-type {
+              margin-top: 10px;
+            }
+
+            li > ul {
+              padding-left: 16px;
             }
 
             html {
