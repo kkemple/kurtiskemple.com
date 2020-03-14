@@ -13309,6 +13309,11 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-creepster@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-creepster/-/typeface-creepster-0.0.72.tgz#8133c1c040433d06af811d7f18931e6cf86305e1"
+  integrity sha512-UrCpMBduBcBsJp8CkW7LZYzHmBfT/EKxFgUPpvUjC+ghmYX7tO6NM+yPtEIwVIaYjTJRnf0CCF2KTNuviQcuzw==
+
 typeface-merriweather@0.0.43:
   version "0.0.43"
   resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.43.tgz#b615f7aaf5f826c0cf1da7473af7ef28c7c44428"
@@ -13318,11 +13323,6 @@ typeface-montserrat@0.0.43:
   version "0.0.43"
   resolved "https://registry.yarnpkg.com/typeface-montserrat/-/typeface-montserrat-0.0.43.tgz#c70d76b85ab613a9f4855c061c354eac561c1aae"
   integrity sha512-lWyRVih5jJqZyOAj1+sCj8MijF+roNHrN11eD4fOGpj1dV7nS82kTnYVoz0TIGTu8/Arqw0eCytV1XdFe/i2aw==
-
-typeface-teko@^0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-teko/-/typeface-teko-0.0.72.tgz#74553a327d3fef13a3ddef472c2827c1f0e6d33b"
-  integrity sha512-WAExerDPtm8vxn3J3cbCmVi6GGOVwlZK3t19v2axhhwx8Atfu+rXqjAbwO7Asr4JBrOFcercrF7UGx2FG31rMQ==
 
 typeface-work-sans@^0.0.72:
   version "0.0.72"

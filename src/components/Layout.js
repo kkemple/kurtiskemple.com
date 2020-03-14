@@ -5,7 +5,7 @@ import { Global, css } from '@emotion/core'
 import styled from '@emotion/styled'
 
 import 'typeface-work-sans'
-import 'typeface-teko'
+import 'typeface-creepster'
 
 const backgrounds = [
   'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
@@ -95,10 +95,11 @@ class Layout extends React.Component {
             h4,
             h5,
             h6 {
-              font-family: 'Teko';
+              font-family: 'Creepster';
               font-weight: 800;
               margin-top: 40px;
               margin-bottom: 0;
+              letter-spacing: 1px;
             }
 
             h1 > a,
