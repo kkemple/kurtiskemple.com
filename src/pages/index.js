@@ -23,7 +23,27 @@ class BlogIndex extends React.Component {
           return (
             <div key={node.fields.slug}>
               <h2>
-                <Link to={node.fields.slug}>{title}</Link>
+                <Link
+                  to={node.fields.slug}
+                  style={{ display: 'flex', alignItems: 'center' }}
+                >
+                  {title}
+                  {node.frontmatter.bloomed ? (
+                    <span
+                      style={{ marginLeft: '8px', fontSize: '24px' }}
+                      title="This post has fully bloomed"
+                    >
+                      {'🌸'}
+                    </span>
+                  ) : (
+                    <span
+                      style={{ marginLeft: '8px', fontSize: '24px' }}
+                      title="This post is still growing"
+                    >
+                      {'🌱'}
+                    </span>
+                  )}
+                </Link>
               </h2>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
@@ -53,6 +73,7 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            bloomed
           }
         }
       }
