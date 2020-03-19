@@ -145,90 +145,98 @@ class Layout extends React.Component {
           query={logoQuery}
           render={data => (
             <>
+              <LogoContainer>
+                <Link to={`/`}>
+                  <Image
+                    style={{ width: '400px' }}
+                    fixed={data.logo.childImageSharp.fixed}
+                    alt={title}
+                  />
+                </Link>
+              </LogoContainer>
               <div>
                 <nav>
                   <ul
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      justifyContent: 'flex-end',
+                      justifyContent: 'center',
                       listStyle: 'none',
                       backgroundColor: 'transparent',
                       padding: 0,
                       margin: 0,
-                      fontSize: '18px',
+                      fontSize: '24px',
+                      fontFamily: 'Creepster',
+                      marginTop: '32px',
+                      textDecoration: 'none',
                     }}
                   >
-                    <li style={{ marginLeft: '8px' }}>
+                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
                       <a
                         style={{
                           textDecoration: 'none',
-                          fontFamily: 'Creepster',
                         }}
                         href="https://twitter.com/kurtkemple"
                       >
                         <span
                           style={{
                             background,
-                            webkitBackgroundClip: 'text',
-                            webkitTextFillColor: 'transparent',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
                           }}
                         >
                           Twitter
                         </span>
                       </a>
                     </li>
-                    <li style={{ marginLeft: '8px' }}>
+                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
                       <a
                         style={{
                           textDecoration: 'none',
-                          fontFamily: 'Creepster',
                         }}
                         href="https://twitch.tv/theworstdev"
                       >
                         <span
                           style={{
                             background,
-                            webkitBackgroundClip: 'text',
-                            webkitTextFillColor: 'transparent',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
                           }}
                         >
                           Twitch
                         </span>
                       </a>
                     </li>
-                    <li style={{ marginLeft: '8px' }}>
+                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
                       <a
                         style={{
                           textDecoration: 'none',
-                          fontFamily: 'Creepster',
                         }}
                         href="https://www.youtube.com/channel/UCOnaEARRnazjG2m7HvfEYpg"
                       >
                         <span
                           style={{
                             background,
-                            webkitBackgroundClip: 'text',
-                            webkitTextFillColor: 'transparent',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
                           }}
                         >
                           YouTube
                         </span>
                       </a>
                     </li>
-                    <li style={{ marginLeft: '8px' }}>
+                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
                       <a
                         style={{
                           textDecoration: 'none',
-                          fontFamily: 'Creepster',
                         }}
                         href="https://open.spotify.com/show/7dBdY84WENnRHOhksaXsxH"
                       >
                         <span
                           style={{
                             background,
-                            webkitBackgroundClip: 'text',
-                            webkitTextFillColor: 'transparent',
+                            WebkitBackgroundClip: 'text',
+                            WebkitTextFillColor: 'transparent',
                           }}
                         >
                           Spotify
@@ -238,11 +246,6 @@ class Layout extends React.Component {
                   </ul>
                 </nav>
               </div>
-              <LogoContainer>
-                <Link to={`/`}>
-                  <Image fixed={data.logo.childImageSharp.fixed} alt={title} />
-                </Link>
-              </LogoContainer>
             </>
           )}
         />
@@ -264,7 +267,7 @@ const logoQuery = graphql`
   query LogoQuery {
     logo: file(absolutePath: { regex: "/the-worst-dev-logo.png/" }) {
       childImageSharp {
-        fixed(width: 400, height: 225) {
+        fixed(width: 400) {
           ...GatsbyImageSharpFixed
         }
       }
