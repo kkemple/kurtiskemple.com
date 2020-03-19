@@ -48,32 +48,9 @@ const Footer = styled(`footer`)`
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
+    const { title, children } = this.props
     const background =
       backgrounds[Math.floor(Math.random() * backgrounds.length)]
-    let header
-
-    if (location.pathname === rootPath) {
-      header = (
-        <StaticQuery
-          query={logoQuery}
-          render={data => (
-            <LogoContainer>
-              <Link to={`/`}>
-                <Image fixed={data.logo.childImageSharp.fixed} alt={title} />
-              </Link>
-            </LogoContainer>
-          )}
-        />
-      )
-    } else {
-      header = (
-        <h3>
-          <Link to={`/`}>{title}</Link>
-        </h3>
-      )
-    }
 
     return (
       <Container>
@@ -164,7 +141,111 @@ class Layout extends React.Component {
             }
           `}
         />
-        {header}
+        <StaticQuery
+          query={logoQuery}
+          render={data => (
+            <>
+              <div>
+                <nav>
+                  <ul
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'flex-end',
+                      listStyle: 'none',
+                      backgroundColor: 'transparent',
+                      padding: 0,
+                      margin: 0,
+                      fontSize: '18px',
+                    }}
+                  >
+                    <li style={{ marginLeft: '8px' }}>
+                      <a
+                        style={{
+                          textDecoration: 'none',
+                          fontFamily: 'Creepster',
+                        }}
+                        href="https://twitter.com/kurtkemple"
+                      >
+                        <span
+                          style={{
+                            background,
+                            webkitBackgroundClip: 'text',
+                            webkitTextFillColor: 'transparent',
+                          }}
+                        >
+                          Twitter
+                        </span>
+                      </a>
+                    </li>
+                    <li style={{ marginLeft: '8px' }}>
+                      <a
+                        style={{
+                          textDecoration: 'none',
+                          fontFamily: 'Creepster',
+                        }}
+                        href="https://twitch.tv/theworstdev"
+                      >
+                        <span
+                          style={{
+                            background,
+                            webkitBackgroundClip: 'text',
+                            webkitTextFillColor: 'transparent',
+                          }}
+                        >
+                          Twitch
+                        </span>
+                      </a>
+                    </li>
+                    <li style={{ marginLeft: '8px' }}>
+                      <a
+                        style={{
+                          textDecoration: 'none',
+                          fontFamily: 'Creepster',
+                        }}
+                        href="https://www.youtube.com/channel/UCOnaEARRnazjG2m7HvfEYpg"
+                      >
+                        <span
+                          style={{
+                            background,
+                            webkitBackgroundClip: 'text',
+                            webkitTextFillColor: 'transparent',
+                          }}
+                        >
+                          YouTube
+                        </span>
+                      </a>
+                    </li>
+                    <li style={{ marginLeft: '8px' }}>
+                      <a
+                        style={{
+                          textDecoration: 'none',
+                          fontFamily: 'Creepster',
+                        }}
+                        href="https://open.spotify.com/show/7dBdY84WENnRHOhksaXsxH"
+                      >
+                        <span
+                          style={{
+                            background,
+                            webkitBackgroundClip: 'text',
+                            webkitTextFillColor: 'transparent',
+                          }}
+                        >
+                          Spotify
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <LogoContainer>
+                <Link to={`/`}>
+                  <Image fixed={data.logo.childImageSharp.fixed} alt={title} />
+                </Link>
+              </LogoContainer>
+            </>
+          )}
+        />
         {children}
         <Footer>
           <span style={{ display: 'inline-block', marginRight: '5px' }}>
