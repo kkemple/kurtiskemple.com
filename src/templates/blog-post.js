@@ -15,7 +15,24 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
+        <h1 style={{ display: 'flex', alignItems: 'center' }}>
+          {post.frontmatter.title}
+          {post.frontmatter.bloomed ? (
+            <span
+              style={{ marginLeft: '8px', fontSize: '24px' }}
+              title="This post has fully bloomed"
+            >
+              {' 🌸'}
+            </span>
+          ) : (
+            <span
+              style={{ marginLeft: '8px', fontSize: '24px' }}
+              title="This post is still growing"
+            >
+              {' 🌱'}
+            </span>
+          )}
+        </h1>
         <MDXRenderer>{post.code.body}</MDXRenderer>
         <hr />
         <Bio />
@@ -56,6 +73,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        bloomed
       }
       code {
         body
