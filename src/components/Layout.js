@@ -75,7 +75,7 @@ const Footer = styled(`footer`)`
 
 class Layout extends React.Component {
   render() {
-    const { title, children } = this.props
+    const { title, children, home } = this.props
     const background =
       backgrounds[Math.floor(Math.random() * backgrounds.length)]
 
@@ -173,13 +173,21 @@ class Layout extends React.Component {
           render={data => (
             <>
               <LogoContainer>
-                <Link to={`/`}>
+                {!home ? (
+                  <Link to={`/`}>
+                    <Image
+                      style={{ width: '400px' }}
+                      fixed={data.logo.childImageSharp.fixed}
+                      alt={title}
+                    />
+                  </Link>
+                ) : (
                   <Image
                     style={{ width: '400px' }}
                     fixed={data.logo.childImageSharp.fixed}
                     alt={title}
                   />
-                </Link>
+                )}
               </LogoContainer>
               <div>
                 <nav>
