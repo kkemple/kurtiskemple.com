@@ -21,31 +21,77 @@ const Post = props => {
   return (
     <HeaderStyles>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <h1 style={{ display: 'flex', alignItems: 'center' }}>
-        <span
-        // style={{
-        //   background,
-        //   WebkitBackgroundClip: 'text',
-        //   WebkitTextFillColor: 'transparent',
-        // }}
-        >
-          {post.frontmatter.title}
-        </span>
+      <h1
+        style={
+          {
+            // display: 'flex',
+            // alignItems: 'center',
+            // justifyContent: 'flex-start',
+          }
+        }
+      >
         {post.frontmatter.bloomed ? (
           <span
-            style={{ marginLeft: '8px', fontSize: '24px' }}
+            style={{
+              marginBottom: '16px',
+              fontSize: '24px',
+              background: `${background}`,
+              borderRadius: '50%',
+              width: '42px',
+              height: '42px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
             title="This post has fully bloomed"
           >
-            {' 🌸'}
+            <span
+              style={{
+                borderRadius: '50%',
+                background: 'white',
+                width: '38px',
+                height: '38px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                paddingLeft: '2px',
+              }}
+            >
+              {' 🌸'}
+            </span>
           </span>
         ) : (
           <span
-            style={{ marginLeft: '8px', fontSize: '24px' }}
+            style={{
+              marginBottom: '16px',
+              fontSize: '24px',
+              background: `${background}`,
+              borderRadius: '50%',
+              width: '42px',
+              height: '42px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
             title="This post is still growing"
           >
-            {' 🌱'}
+            <span
+              style={{
+                borderRadius: '50%',
+                background: 'white',
+                width: '38px',
+                height: '38px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                paddingLeft: '2px',
+              }}
+            >
+              {' 🌱'}
+            </span>
           </span>
         )}
+        {post.frontmatter.title}
       </h1>
       <MDXRenderer>{post.code.body}</MDXRenderer>
       <hr

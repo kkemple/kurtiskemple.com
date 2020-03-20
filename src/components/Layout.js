@@ -52,7 +52,7 @@ const Container = styled(`div`)`
   margin: 32px auto 64px;
 
   @media (max-width: 850px) {
-    margin: 32px 16px 64px;
+    margin: 24px 12px 64px;
     padding: 16px;
   }
 `
@@ -68,6 +68,24 @@ const Footer = styled(`footer`)`
   justify-content: center;
   align-items: center;
   margin-top: 32px;
+`
+
+const NavList = styled.ul`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-family: Creepster;
+  margin-top: 32px;
+  text-decoration: none;
+
+  @media (max-width: 850px) {
+    font-size: 20px;
+  }
 `
 
 class Layout extends React.Component {
@@ -188,21 +206,7 @@ class Layout extends React.Component {
               </LogoContainer>
               <div>
                 <nav>
-                  <ul
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      listStyle: 'none',
-                      backgroundColor: 'transparent',
-                      padding: 0,
-                      margin: 0,
-                      fontSize: '24px',
-                      fontFamily: 'Creepster',
-                      marginTop: '32px',
-                      textDecoration: 'none',
-                    }}
-                  >
+                  <NavList>
                     <li style={{ marginLeft: '8px', marginRight: '8px' }}>
                       <a
                         style={{
@@ -275,7 +279,7 @@ class Layout extends React.Component {
                         </span>
                       </a>
                     </li>
-                  </ul>
+                  </NavList>
                 </nav>
               </div>
             </>

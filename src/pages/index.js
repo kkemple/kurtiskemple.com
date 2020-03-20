@@ -21,27 +21,74 @@ const PostsList = props => {
                 to={node.fields.slug}
                 style={{
                   display: 'flex',
-                  alignItems: 'center',
+                  flexDirection: 'row-reverse',
+                  alignItems: 'flex-start',
                   color: 'black',
-                  // background,
-                  // WebkitBackgroundClip: 'text',
-                  // WebkitTextFillColor: 'transparent',
+                  justifyContent: 'flex-end',
                 }}
               >
-                <span>{title}</span>
+                {title}
                 {node.frontmatter.bloomed ? (
                   <span
-                    style={{ marginLeft: '8px', fontSize: '24px' }}
+                    style={{
+                      marginRight: '8px',
+                      marginTop: '2px',
+                      fontSize: '18px',
+                      background: `${background}`,
+                      borderRadius: '50%',
+                      width: '30px',
+                      height: '30px',
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                    }}
                     title="This post has fully bloomed"
                   >
-                    {'🌸'}
+                    <span
+                      style={{
+                        borderRadius: '50%',
+                        background: 'white',
+                        width: '26px',
+                        height: '26px',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        paddingLeft: '5px',
+                      }}
+                    >
+                      {'🌸'}
+                    </span>
                   </span>
                 ) : (
                   <span
-                    style={{ marginLeft: '8px', fontSize: '24px' }}
+                    style={{
+                      marginRight: '8px',
+                      marginTop: '2px',
+                      fontSize: '18px',
+                      background: `${background}`,
+                      borderRadius: '50%',
+                      width: '30px',
+                      height: '30px',
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                    }}
                     title="This post is still growing"
                   >
-                    {'🌱'}
+                    <span
+                      style={{
+                        borderRadius: '50%',
+                        background: 'white',
+                        width: '26px',
+                        height: '26px',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        paddingLeft: '5px',
+                      }}
+                    >
+                      {'🌱'}
+                    </span>
                   </span>
                 )}
               </Link>
