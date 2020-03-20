@@ -100,7 +100,14 @@ const Post = props => {
         }}
       />
       <Bio background={background} />
-      <ul>
+      <ul
+        style={{
+          listStyle: 'none',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+        }}
+      >
         {previous && (
           <li>
             <Link
