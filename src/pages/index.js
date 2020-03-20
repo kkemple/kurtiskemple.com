@@ -22,9 +22,10 @@ const PostsList = props => {
                 style={{
                   display: 'flex',
                   alignItems: 'center',
-                  background,
-                  WebkitBackgroundClip: 'text',
-                  WebkitTextFillColor: 'transparent',
+                  color: 'black',
+                  // background,
+                  // WebkitBackgroundClip: 'text',
+                  // WebkitTextFillColor: 'transparent',
                 }}
               >
                 <span>{title}</span>

@@ -9,13 +9,10 @@ import 'typeface-creepster'
 
 const backgrounds = [
   'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
-  'linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%)',
   'linear-gradient(120deg, #f6d365 0%, #fda085 100%)',
   'linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)',
   'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)',
-  'linear-gradient(to top, #9890e3 0%, #b1f4cf 100%)',
   'linear-gradient(to top, #48c6ef 0%, #6f86d6 100%)',
-  'linear-gradient(to top, #accbee 0%, #e7f0fd 100%)',
   'linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%)',
   'radial-gradient(circle at bottom center, rgb(248, 160, 158),rgb(136, 31, 164))',
   'radial-gradient(circle at top right, rgb(47, 245, 202),rgb(14, 125, 248))',
@@ -142,7 +139,7 @@ class Layout extends React.Component {
             }
 
             ul {
-              background-color: #fde0f3;
+              background-color: #f7f7f7;
               padding: 16px 16px 16px 32px;
             }
 
@@ -291,7 +288,16 @@ class Layout extends React.Component {
           <span style={{ display: 'inline-block', marginRight: '5px' }}>
             © {new Date().getFullYear()}, Built with{' '}
           </span>
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a
+            style={{
+              background,
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}
+            href="https://www.gatsbyjs.org"
+          >
+            Gatsby
+          </a>
         </Footer>
       </Container>
     )

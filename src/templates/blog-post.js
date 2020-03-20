@@ -8,17 +8,13 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
 const Post = props => {
-  const { post, background } = props
+  const { post, background, previous, next } = props
   const HeaderStyles = styled.div`
-    & h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    & a {
       background: ${background};
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      text-decoration: underline;
     }
   `
 
@@ -27,11 +23,11 @@ const Post = props => {
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <h1 style={{ display: 'flex', alignItems: 'center' }}>
         <span
-          style={{
-            background,
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-          }}
+        // style={{
+        //   background,
+        //   WebkitBackgroundClip: 'text',
+        //   WebkitTextFillColor: 'transparent',
+        // }}
         >
           {post.frontmatter.title}
         </span>
@@ -52,6 +48,44 @@ const Post = props => {
         )}
       </h1>
       <MDXRenderer>{post.code.body}</MDXRenderer>
+      <hr
+        style={{
+          background,
+        }}
+      />
+      <Bio background={background} />
+      <ul>
+        {previous && (
+          <li>
+            <Link
+              style={{
+                background,
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+              }}
+              to={previous.fields.slug}
+              rel="prev"
+            >
+              ← {previous.frontmatter.title}
+            </Link>
+          </li>
+        )}
+        {next && (
+          <li>
+            <Link
+              style={{
+                background,
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+              }}
+              to={next.fields.slug}
+              rel="next"
+            >
+              {next.frontmatter.title} →
+            </Link>
+          </li>
+        )}
+      </ul>
     </HeaderStyles>
   )
 }
@@ -64,25 +98,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Post post={post} />
-        <hr />
-        <Bio />
-        <ul>
-          {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
-          )}
-          {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
-          )}
-        </ul>
+        <Post post={post} previous={previous} next={next} />
       </Layout>
     )
   }
