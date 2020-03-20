@@ -19,17 +19,15 @@ const PostsList = props => {
             <h2>
               <Link
                 to={node.fields.slug}
-                style={{ display: 'flex', alignItems: 'center' }}
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  background,
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                }}
               >
-                <span
-                  style={{
-                    background,
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                  }}
-                >
-                  {title}
-                </span>
+                <span>{title}</span>
                 {node.frontmatter.bloomed ? (
                   <span
                     style={{ marginLeft: '8px', fontSize: '24px' }}
