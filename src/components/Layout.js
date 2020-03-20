@@ -221,7 +221,7 @@ class Layout extends React.Component {
                             WebkitTextFillColor: 'transparent',
                           }}
                         >
-                          Twitter
+                          Thoughts
                         </span>
                       </a>
                     </li>
@@ -239,7 +239,7 @@ class Layout extends React.Component {
                             WebkitTextFillColor: 'transparent',
                           }}
                         >
-                          Twitch
+                          Streams
                         </span>
                       </a>
                     </li>
@@ -257,7 +257,7 @@ class Layout extends React.Component {
                             WebkitTextFillColor: 'transparent',
                           }}
                         >
-                          YouTube
+                          Videos
                         </span>
                       </a>
                     </li>
@@ -266,7 +266,7 @@ class Layout extends React.Component {
                         style={{
                           textDecoration: 'none',
                         }}
-                        href="https://open.spotify.com/show/7dBdY84WENnRHOhksaXsxH"
+                        href="https://anchor.fm/fullstack-health"
                       >
                         <span
                           style={{
@@ -275,7 +275,7 @@ class Layout extends React.Component {
                             WebkitTextFillColor: 'transparent',
                           }}
                         >
-                          Spotify
+                          Podcast
                         </span>
                       </a>
                     </li>
