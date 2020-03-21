@@ -106,7 +106,6 @@ module.exports = {
                     fields { slug }
                     frontmatter {
                       title
-                      date
                     }
                   }
                 }
@@ -125,8 +124,8 @@ module.exports = {
         name: `The Worst Dev`,
         short_name: `The Worst Dev`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#ffffff`,
+        background_color: `#000000`,
+        theme_color: `#000000`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
       },
