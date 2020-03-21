@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `The Worst Dev`,
     author: `Kurtis Kemple`,
-    description: `When you're here, you're family. - Olive Garden`,
+    description: `Kurt Kemple's Digital Garden - Development, Advocacy, Vidography, Photography, Mental Health, and more`,
     siteUrl: `https://theworst.dev`,
     social: {
       twitter: `kurtkemple`,
@@ -97,7 +97,6 @@ module.exports = {
             {
               allMdx(
                 limit: 1000,
-                sort: { order: DESC, fields: [frontmatter___date] },
               ) {
                 edges {
                   node {
@@ -127,7 +126,7 @@ module.exports = {
         short_name: `The Worst Dev`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#2de2e6`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
       },

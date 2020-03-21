@@ -188,6 +188,12 @@ class Layout extends React.Component {
               margin-bottom: 32px;
             }
 
+            hr {
+              background: ${background};
+              height: 1px;
+              border: 0;
+            }
+
             .gradient_bg {
               background: ${background};
             }
