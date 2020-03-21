@@ -1,13 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Image from 'gatsby-image'
 import styled from '@emotion/styled'
-
-const ProfilePic = styled(Image)`
-  overflow: hidden;
-  border-radius: 50%;
-  margin-right: 24px;
-`
 
 const Container = styled(`div`)`
   display: flex;
@@ -25,10 +18,6 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
-            {/* <ProfilePic
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-            /> */}
             <p>
               <span style={{ display: 'block', marginBottom: '5px' }}>
                 Written by <strong>{author}</strong> who lives and works in

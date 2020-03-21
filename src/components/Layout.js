@@ -140,7 +140,7 @@ class Layout extends React.Component {
 
             html {
               min-height: 100vh;
-              background-image: ${background};
+              background: ${background};
             }
 
             body {
@@ -150,6 +150,12 @@ class Layout extends React.Component {
 
             a {
               color: #f6019d;
+            }
+
+            #post-body a {
+              background: ${background};
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
             }
 
             p {
@@ -180,6 +186,15 @@ class Layout extends React.Component {
               line-height: 1.3;
               margin-top: 32px;
               margin-bottom: 32px;
+            }
+
+            .gradient_bg {
+              background: ${background};
+            }
+
+            .gradient_text {
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
             }
           `}
         />
@@ -214,13 +229,7 @@ class Layout extends React.Component {
                         }}
                         href="https://twitter.com/kurtkemple"
                       >
-                        <span
-                          style={{
-                            background,
-                            WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
-                          }}
-                        >
+                        <span className="gradient_bg gradient_text">
                           Thoughts
                         </span>
                       </a>
@@ -232,13 +241,7 @@ class Layout extends React.Component {
                         }}
                         href="https://twitch.tv/theworstdev"
                       >
-                        <span
-                          style={{
-                            background,
-                            WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
-                          }}
-                        >
+                        <span className="gradient_bg gradient_text">
                           Streams
                         </span>
                       </a>
@@ -250,13 +253,7 @@ class Layout extends React.Component {
                         }}
                         href="https://www.youtube.com/channel/UCOnaEARRnazjG2m7HvfEYpg"
                       >
-                        <span
-                          style={{
-                            background,
-                            WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
-                          }}
-                        >
+                        <span className="gradient_bg gradient_text">
                           Videos
                         </span>
                       </a>
@@ -268,13 +265,7 @@ class Layout extends React.Component {
                         }}
                         href="https://anchor.fm/fullstack-health"
                       >
-                        <span
-                          style={{
-                            background,
-                            WebkitBackgroundClip: 'text',
-                            WebkitTextFillColor: 'transparent',
-                          }}
-                        >
+                        <span className="gradient_bg gradient_text">
                           Podcast
                         </span>
                       </a>
@@ -285,19 +276,13 @@ class Layout extends React.Component {
             </>
           )}
         />
-        {React.Children.map(children, child =>
-          React.cloneElement(child, { background })
-        )}
+        {children}
         <Footer>
           <span style={{ display: 'inline-block', marginRight: '5px' }}>
             © {new Date().getFullYear()}, Built with{' '}
           </span>
           <a
-            style={{
-              background,
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}
+            className="gradient_bg gradient_text"
             href="https://www.gatsbyjs.org"
           >
             Gatsby
