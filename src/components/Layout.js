@@ -153,6 +153,8 @@ class Layout extends React.Component {
             }
 
             #post-body a {
+              font-weight: 500;
+              word-break: break-word;
               background: ${background};
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
@@ -190,7 +192,7 @@ class Layout extends React.Component {
 
             hr {
               background: ${background};
-              height: 1px;
+              height: 2px;
               border: 0;
             }
 
@@ -199,6 +201,7 @@ class Layout extends React.Component {
             }
 
             .gradient_text {
+              font-weight: 500;
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }

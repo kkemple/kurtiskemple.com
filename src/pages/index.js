@@ -33,67 +33,6 @@ class BlogIndex extends React.Component {
                   }}
                 >
                   {title}
-                  {node.frontmatter.bloomed ? (
-                    <span
-                      className="gradient_bg"
-                      style={{
-                        marginRight: '8px',
-                        marginTop: '2px',
-                        fontSize: '18px',
-                        borderRadius: '50%',
-                        width: '30px',
-                        height: '30px',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                      }}
-                      title="This post has fully bloomed"
-                    >
-                      <span
-                        style={{
-                          borderRadius: '50%',
-                          background: 'white',
-                          width: '26px',
-                          height: '26px',
-                          display: 'flex',
-                          justifyContent: 'center',
-                          alignItems: 'center',
-                        }}
-                      >
-                        {'🌸'}
-                      </span>
-                    </span>
-                  ) : (
-                    <span
-                      className="gradient_bg"
-                      style={{
-                        marginRight: '8px',
-                        marginTop: '2px',
-                        fontSize: '18px',
-                        borderRadius: '50%',
-                        width: '30px',
-                        height: '30px',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                      }}
-                      title="This post is still growing"
-                    >
-                      <span
-                        style={{
-                          borderRadius: '50%',
-                          background: 'white',
-                          width: '26px',
-                          height: '26px',
-                          display: 'flex',
-                          justifyContent: 'center',
-                          alignItems: 'center',
-                        }}
-                      >
-                        {'🌱'}
-                      </span>
-                    </span>
-                  )}
                 </Link>
               </h2>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />

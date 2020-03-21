@@ -17,20 +17,11 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
         <div id="post-body">
-          <h1
-            style={
-              {
-                // display: 'flex',
-                // alignItems: 'center',
-                // justifyContent: 'flex-start',
-              }
-            }
-          >
+          <div style={{ marginTop: 48, display: 'flex', alignItems: 'center' }}>
             {post.frontmatter.bloomed ? (
               <span
                 className="gradient_bg"
                 style={{
-                  marginBottom: '16px',
                   fontSize: '24px',
                   borderRadius: '50%',
                   width: '42px',
@@ -60,7 +51,6 @@ class BlogPostTemplate extends React.Component {
               <span
                 className="gradient_bg"
                 style={{
-                  marginBottom: '16px',
                   fontSize: '24px',
                   borderRadius: '50%',
                   width: '42px',
@@ -87,8 +77,13 @@ class BlogPostTemplate extends React.Component {
                 </span>
               </span>
             )}
-            {post.frontmatter.title}
-          </h1>
+            <span style={{ marginLeft: 8, fontSize: 12, fontStyle: 'italic' }}>
+              {post.frontmatter.bloomed
+                ? 'This post has fully bloomed and is unlikely to change'
+                : 'This post is still growing and likely to be updated'}
+            </span>
+          </div>
+          <h1 style={{ marginTop: 32 }}>{post.frontmatter.title}</h1>
           <MDXRenderer>{post.code.body}</MDXRenderer>
           <hr />
           <Bio />

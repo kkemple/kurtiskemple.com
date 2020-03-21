@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `The Worst Dev`,
-    author: `Kurtis Kemple`,
+    author: `Kurt Kemple`,
     description: `Kurt Kemple's Digital Garden - Development, Advocacy, Vidography, Photography, Mental Health, and more`,
     siteUrl: `https://theworst.dev`,
     social: {
