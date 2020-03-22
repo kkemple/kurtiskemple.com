@@ -91,8 +91,10 @@ class BlogPostTemplate extends React.Component {
             style={{
               listStyle: 'none',
               display: 'flex',
+              flexDirection: 'column',
               alignItems: 'center',
-              justifyContent: 'space-between',
+              justifyContent: 'center',
+              textAlign: 'center',
             }}
           >
             {previous && (
