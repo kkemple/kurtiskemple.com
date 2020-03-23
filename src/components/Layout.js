@@ -306,7 +306,7 @@ export default Layout
 
 const logoQuery = graphql`
   query LogoQuery {
-    logo: file(absolutePath: { regex: "/the-worst-dev-logo.png/" }) {
+    logo: file(absolutePath: { regex: "/logo.png/" }) {
       childImageSharp {
         fixed(width: 400) {
           ...GatsbyImageSharpFixed
