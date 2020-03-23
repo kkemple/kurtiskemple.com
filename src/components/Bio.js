@@ -20,9 +20,19 @@ function Bio() {
         return (
           <Container>
             <p>
-              <span style={{ display: 'block', marginBottom: '5px' }}>
-                Written by <strong>{author}</strong> who lives and works in
+              <span
+                style={{
+                  lineHeight: '1.75rem',
+                  display: 'block',
+                  marginBottom: '5px',
+                }}
+              >
+                Written by <strong>{author}</strong>, who lives and works in
                 Virginia Beach, VA.
+                <br />
+                <strong>Developer</strong> / <strong>Photographer</strong> /{' '}
+                <strong>Videographer</strong> / <strong>Podcaster</strong> /{' '}
+                <strong>Writer</strong>
               </span>
 
               <a href={`https://twitter.com/${social.twitter}`}>
