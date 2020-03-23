@@ -4,9 +4,6 @@ import Image from 'gatsby-image'
 import { Global, css } from '@emotion/core'
 import styled from '@emotion/styled'
 
-import 'typeface-work-sans'
-import 'typeface-creepster'
-
 const backgrounds = [
   'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
   'linear-gradient(120deg, #f6d365 0%, #fda085 100%)',
@@ -114,7 +111,7 @@ class Layout extends React.Component {
             h4,
             h5,
             h6 {
-              font-family: 'Creepster';
+              font-family: 'Work Sans';
               font-weight: 800;
               margin-top: 40px;
               margin-bottom: 0;

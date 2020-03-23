@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "the-worst-dev",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Kurt Kemple's Digital Garden - Development, Photography, Videography, Fitness, Mental Health, and more",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kurt Kemple <kurtiskemple@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -39,8 +39,6 @@
     "react-live": "^1.12.0",
     "react-typography": "^0.16.13",
     "typeface-creepster": "^0.0.72",
-    "typeface-merriweather": "0.0.43",
-    "typeface-montserrat": "0.0.43",
     "typeface-work-sans": "^0.0.72",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.15.10"
