@@ -6,7 +6,8 @@ const Container = styled(`div`)`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+  margin-top: 8px;
   text-align: center;
 `
 

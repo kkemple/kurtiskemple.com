@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h2>
+              <h2 style={{ marginBottom: '8px' }}>
                 <Link
                   to={node.fields.slug}
                   style={{
@@ -36,6 +36,7 @@ class BlogIndex extends React.Component {
                 </Link>
               </h2>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+              <hr />
             </div>
           )
         })}

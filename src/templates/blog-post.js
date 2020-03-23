@@ -85,7 +85,10 @@ class BlogPostTemplate extends React.Component {
           </div>
           <h1 style={{ marginTop: 32 }}>{post.frontmatter.title}</h1>
           <MDXRenderer>{post.code.body}</MDXRenderer>
-          <hr />
+          <div
+            className="gradient_bg"
+            style={{ height: '4px', marginTop: '64px' }}
+          />
           <Bio />
           <ul
             style={{

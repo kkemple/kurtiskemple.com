@@ -114,7 +114,6 @@ class Layout extends React.Component {
               font-family: 'Work Sans';
               font-weight: 800;
               margin-top: 40px;
-              margin-bottom: 0;
               letter-spacing: 1px;
             }
 
@@ -189,8 +188,10 @@ class Layout extends React.Component {
 
             hr {
               background: ${background};
-              height: 2px;
+              height: 4px;
               border: 0;
+              width: 60px;
+              margin-left: 0;
             }
 
             .gradient_bg {
