@@ -142,6 +142,7 @@ class Layout extends React.Component {
             body {
               font-family: 'Work Sans';
               font-size: 18px;
+              transition: color 0.3s linear;
             }
 
             body.dark {
@@ -182,6 +183,10 @@ class Layout extends React.Component {
               margin-bottom: 24px;
             }
 
+            body #___gatsby > div > .container {
+              transition: background-color 0.3s linear;
+            }
+
             body.dark #___gatsby > div > .container {
               background-color: #0f1e2f;
             }
@@ -189,6 +194,7 @@ class Layout extends React.Component {
             ul {
               background-color: #f7f7f7;
               padding: 16px 16px 16px 32px;
+              transition: background-color 0.3s linear;
             }
 
             body.dark ul {
@@ -204,6 +210,11 @@ class Layout extends React.Component {
               border-radius: 2px;
               background-color: #f7f7f7;
               display: inline-block;
+              transition: background-color 0.3s linear;
+            }
+
+            body.dark code {
+              background-color: #172b42;
             }
 
             blockquote {
