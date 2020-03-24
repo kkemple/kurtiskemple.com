@@ -241,6 +241,7 @@ class Layout extends React.Component {
                   maxWidth: '400px',
                   marginLeft: 'auto',
                   marginRight: 'auto',
+                  width: '70%',
                 }}
               >
                 <Link to={`/`}>
