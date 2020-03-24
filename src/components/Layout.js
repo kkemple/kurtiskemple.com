@@ -236,13 +236,15 @@ class Layout extends React.Component {
               >
                 <Link to="/quick-tips">Quick Tips</Link>
               </div>
-              <div>
+              <div
+                style={{
+                  maxWidth: '400px',
+                  marginLeft: 'auto',
+                  marginRight: 'auto',
+                }}
+              >
                 <Link to={`/`}>
-                  <Image
-                    style={{ width: '100%', height: 'auto' }}
-                    fluid={data.logo.childImageSharp.fluid}
-                    alt={title}
-                  />
+                  <Image fluid={data.logo.childImageSharp.fluid} alt={title} />
                 </Link>
               </div>
               <div>
