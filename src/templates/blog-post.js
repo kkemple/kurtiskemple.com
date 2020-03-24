@@ -103,7 +103,7 @@ class BlogPostTemplate extends React.Component {
             {previous && (
               <li>
                 <Link
-                  className="gradient_bg"
+                  className="gradient_bg gradient_text"
                   to={previous.fields.slug}
                   rel="prev"
                 >
@@ -113,7 +113,11 @@ class BlogPostTemplate extends React.Component {
             )}
             {next && (
               <li>
-                <Link className="gradient_bg" to={next.fields.slug} rel="next">
+                <Link
+                  className="gradient_bg gradient_text"
+                  to={next.fields.slug}
+                  rel="next"
+                >
                   {next.frontmatter.title} →
                 </Link>
               </li>

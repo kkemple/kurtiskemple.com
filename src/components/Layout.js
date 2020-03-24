@@ -3,6 +3,8 @@ import { Link, StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
 import { Global, css } from '@emotion/core'
 import styled from '@emotion/styled'
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import DarkModeToggle from 'react-dark-mode-toggle'
 
 const backgrounds = [
   'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
@@ -65,8 +67,8 @@ const NavList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: transparent !important;
   list-style: none;
-  background-color: transparent;
   padding: 0;
   margin: 0;
   font-size: 24px;
@@ -90,7 +92,7 @@ class Layout extends React.Component {
       backgrounds[Math.floor(Math.random() * backgrounds.length)]
 
     return (
-      <Container>
+      <Container className="container">
         <Global
           styles={css`
             // You can continue writing global styles, for instance
@@ -142,6 +144,10 @@ class Layout extends React.Component {
               font-size: 18px;
             }
 
+            body.dark {
+              color: white;
+            }
+
             a {
               color: #f6019d;
               font-weight: 500;
@@ -176,9 +182,17 @@ class Layout extends React.Component {
               margin-bottom: 24px;
             }
 
+            body.dark #___gatsby > div > .container {
+              background-color: #0f1e2f;
+            }
+
             ul {
               background-color: #f7f7f7;
               padding: 16px 16px 16px 32px;
+            }
+
+            body.dark ul {
+              background-color: #172b42;
             }
 
             li {
@@ -188,15 +202,13 @@ class Layout extends React.Component {
             code {
               padding: 1px 4px;
               border-radius: 2px;
-              background-color: #ff3864;
-              color: white;
+              background-color: #f7f7f7;
               display: inline-block;
             }
 
             blockquote {
               font-weight: 300;
               font-size: 20px;
-              // color: #f6019d;
               line-height: 1.3;
               margin-top: 32px;
               margin-bottom: 32px;
@@ -225,83 +237,110 @@ class Layout extends React.Component {
           query={logoQuery}
           render={data => (
             <>
-              <div
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'flex-end',
-                  marginTop: '-8px',
-                  marginBottom: '8px',
+              <ThemeToggler>
+                {({ theme, toggleTheme }) => {
+                  const image = theme === 'dark' ? data.logoDark : data.logo
+                  return (
+                    <>
+                      <div
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'space-between',
+                          marginTop: '-8px',
+                          marginBottom: '8px',
+                        }}
+                      >
+                        <DarkModeToggle
+                          onChange={() =>
+                            toggleTheme(theme === 'light' ? 'dark' : 'light')
+                          }
+                          checked={theme === 'dark'}
+                          size={60}
+                        />
+                        <Link to="/quick-tips">Quick Tips</Link>
+                      </div>
+                      <div
+                        style={{
+                          maxWidth: '400px',
+                          marginLeft: 'auto',
+                          marginRight: 'auto',
+                          width: '70%',
+                        }}
+                      >
+                        <Link to={`/`}>
+                          <Image
+                            fluid={image.childImageSharp.fluid}
+                            alt={title}
+                          />
+                        </Link>
+                      </div>
+                      <div>
+                        <nav>
+                          <NavList>
+                            <li
+                              style={{ marginLeft: '8px', marginRight: '8px' }}
+                            >
+                              <a
+                                style={{
+                                  textDecoration: 'none',
+                                }}
+                                href="https://twitter.com/kurtkemple"
+                              >
+                                <span className="gradient_bg gradient_text">
+                                  Thoughts
+                                </span>
+                              </a>
+                            </li>
+                            <li
+                              style={{ marginLeft: '8px', marginRight: '8px' }}
+                            >
+                              <a
+                                style={{
+                                  textDecoration: 'none',
+                                }}
+                                href="https://twitch.tv/theworstdev"
+                              >
+                                <span className="gradient_bg gradient_text">
+                                  Streams
+                                </span>
+                              </a>
+                            </li>
+                            <li
+                              style={{ marginLeft: '8px', marginRight: '8px' }}
+                            >
+                              <a
+                                style={{
+                                  textDecoration: 'none',
+                                }}
+                                href="https://www.youtube.com/channel/UCOnaEARRnazjG2m7HvfEYpg"
+                              >
+                                <span className="gradient_bg gradient_text">
+                                  Videos
+                                </span>
+                              </a>
+                            </li>
+                            <li
+                              style={{ marginLeft: '8px', marginRight: '8px' }}
+                            >
+                              <a
+                                style={{
+                                  textDecoration: 'none',
+                                }}
+                                href="https://anchor.fm/fullstack-health"
+                              >
+                                <span className="gradient_bg gradient_text">
+                                  Podcast
+                                </span>
+                              </a>
+                            </li>
+                          </NavList>
+                        </nav>
+                      </div>
+                    </>
+                  )
                 }}
-              >
-                <Link to="/quick-tips">Quick Tips</Link>
-              </div>
-              <div
-                style={{
-                  maxWidth: '400px',
-                  marginLeft: 'auto',
-                  marginRight: 'auto',
-                  width: '70%',
-                }}
-              >
-                <Link to={`/`}>
-                  <Image fluid={data.logo.childImageSharp.fluid} alt={title} />
-                </Link>
-              </div>
-              <div>
-                <nav>
-                  <NavList>
-                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
-                      <a
-                        style={{
-                          textDecoration: 'none',
-                        }}
-                        href="https://twitter.com/kurtkemple"
-                      >
-                        <span className="gradient_bg gradient_text">
-                          Thoughts
-                        </span>
-                      </a>
-                    </li>
-                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
-                      <a
-                        style={{
-                          textDecoration: 'none',
-                        }}
-                        href="https://twitch.tv/theworstdev"
-                      >
-                        <span className="gradient_bg gradient_text">
-                          Streams
-                        </span>
-                      </a>
-                    </li>
-                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
-                      <a
-                        style={{
-                          textDecoration: 'none',
-                        }}
-                        href="https://www.youtube.com/channel/UCOnaEARRnazjG2m7HvfEYpg"
-                      >
-                        <span className="gradient_bg gradient_text">
-                          Videos
-                        </span>
-                      </a>
-                    </li>
-                    <li style={{ marginLeft: '8px', marginRight: '8px' }}>
-                      <a
-                        style={{
-                          textDecoration: 'none',
-                        }}
-                        href="https://anchor.fm/fullstack-health"
-                      >
-                        <span className="gradient_bg gradient_text">
-                          Podcast
-                        </span>
-                      </a>
-                    </li>
-                  </NavList>
-                </nav>
-              </div>
+              </ThemeToggler>
             </>
           )}
         />
@@ -327,6 +366,13 @@ export default Layout
 const logoQuery = graphql`
   query LogoQuery {
     logo: file(absolutePath: { regex: "/logo.png/" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    logoDark: file(absolutePath: { regex: "/logo-dark.png/" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
