@@ -145,7 +145,7 @@ class Layout extends React.Component {
             }
 
             body.dark {
-              color: white;
+              color: #f1f1f1;
             }
 
             a {
