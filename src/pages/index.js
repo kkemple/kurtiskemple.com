@@ -12,7 +12,7 @@ class BlogIndex extends React.Component {
     const posts = data.allMdx.edges
 
     return (
-      <Layout location={this.props.location} title={siteTitle} home>
+      <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="All posts"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
@@ -25,11 +25,7 @@ class BlogIndex extends React.Component {
                 <Link
                   to={node.fields.slug}
                   style={{
-                    display: 'flex',
-                    flexDirection: 'row-reverse',
-                    alignItems: 'flex-start',
                     color: 'black',
-                    justifyContent: 'flex-end',
                   }}
                 >
                   {title}

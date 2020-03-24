@@ -1,4 +1,8 @@
+require('dotenv').config()
+
+const crypto = require('crypto')
 const path = require(`path`)
+const ypi = require('youtube-playlist-info')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ graphql, actions }) => {
@@ -62,6 +66,50 @@ exports.createPages = ({ graphql, actions }) => {
       isPermanent: true,
       redirectInBrowser: true,
     })
+  })
+}
+
+exports.sourceNodes = async ({ actions }) => {
+  const { createNode } = actions
+
+  let quickTipsNode = {
+    id: 'quickTipsPlaylist',
+    parent: 'youtubePlaylists',
+    children: [],
+    internal: {
+      type: 'youtubePlaylist',
+    },
+  }
+
+  const makeNode = node => {
+    node.internal.contentDigest = crypto
+      .createHash('md5')
+      .update(JSON.stringify(node))
+      .digest('hex')
+
+    createNode(node)
+  }
+
+  const playlist = 'PLIdaz4KCHMlcH0VLrr1UTGLIIdEneheki'
+
+  const videos = await ypi(process.env.YOUTUBE_API_KEY, playlist)
+
+  quickTipsNode.children = videos.map(video => {
+    const id = `youtubeVideo-${video.resourceId.videoId}`
+    makeNode({
+      id,
+      title: video.title,
+      description: video.description,
+      thumbnails: video.thumbnails,
+      position: video.position,
+      resourceId: video.resourceId,
+      internal: {
+        type: 'youtubeVideo',
+      },
+      parent: 'quickTipsPlaylist',
+      children: [],
+    })
+    return id
   })
 }
 

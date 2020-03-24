@@ -54,12 +54,6 @@ const Container = styled(`div`)`
   }
 `
 
-const LogoContainer = styled(`div`)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
-
 const Footer = styled(`footer`)`
   display: flex;
   justify-content: center;
@@ -83,11 +77,15 @@ const NavList = styled.ul`
   @media (max-width: 850px) {
     font-size: 20px;
   }
+
+  @media (max-width: 375px) {
+    font-size: 16px;
+  }
 `
 
 class Layout extends React.Component {
   render() {
-    const { title, children, home } = this.props
+    const { title, children } = this.props
     const background =
       backgrounds[Math.floor(Math.random() * backgrounds.length)]
 
@@ -146,14 +144,32 @@ class Layout extends React.Component {
 
             a {
               color: #f6019d;
-            }
-
-            #post-body a {
               font-weight: 500;
               word-break: break-word;
               background: ${background};
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+              font-family: 'Work Sans';
+              margin-top: 40px;
+              letter-spacing: 1px;
+            }
+
+            h1 > a,
+            h2 > a,
+            h3 > a,
+            h4 > a,
+            h5 > a,
+            h6 > a {
+              text-decoration: none;
+              font-weight: 800;
             }
 
             p {
@@ -209,23 +225,26 @@ class Layout extends React.Component {
           query={logoQuery}
           render={data => (
             <>
-              <LogoContainer>
-                {!home ? (
-                  <Link to={`/`}>
-                    <Image
-                      style={{ width: '400px' }}
-                      fixed={data.logo.childImageSharp.fixed}
-                      alt={title}
-                    />
-                  </Link>
-                ) : (
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'flex-end',
+                  marginTop: '-8px',
+                  marginBottom: '8px',
+                }}
+              >
+                <Link to="/quick-tips">Quick Tips</Link>
+              </div>
+              <div>
+                <Link to={`/`}>
                   <Image
-                    style={{ width: '400px' }}
-                    fixed={data.logo.childImageSharp.fixed}
+                    style={{ width: '100%', height: 'auto' }}
+                    fluid={data.logo.childImageSharp.fluid}
                     alt={title}
                   />
-                )}
-              </LogoContainer>
+                </Link>
+              </div>
               <div>
                 <nav>
                   <NavList>
@@ -306,8 +325,8 @@ const logoQuery = graphql`
   query LogoQuery {
     logo: file(absolutePath: { regex: "/logo.png/" }) {
       childImageSharp {
-        fixed(width: 400) {
-          ...GatsbyImageSharpFixed
+        fluid {
+          ...GatsbyImageSharpFluid
         }
       }
     }

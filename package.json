@@ -13,6 +13,7 @@
     "@mdx-js/mdx": "^0.16.6",
     "@mdx-js/tag": "^0.16.6",
     "@weknow/gatsby-remark-twitter": "^0.2.3",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.22",
     "gatsby-mdx": "^0.3.5",
@@ -41,7 +42,8 @@
     "typeface-creepster": "^0.0.72",
     "typeface-work-sans": "^0.0.72",
     "typography": "^0.16.17",
-    "typography-theme-wordpress-2016": "^0.15.10"
+    "typography-theme-wordpress-2016": "^0.15.10",
+    "youtube-playlist-info": "^1.1.2"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
