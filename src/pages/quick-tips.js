@@ -53,7 +53,7 @@ class BlogIndex extends React.Component {
                   {title}
                 </h4>
                 <p dangerouslySetInnerHTML={{ __html: node.description }} />
-                <hr />
+                <hr style={{ marginBottom: 64 }} />
               </>
             )
           })}
