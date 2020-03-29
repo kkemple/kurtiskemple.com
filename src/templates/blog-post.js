@@ -17,73 +17,28 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
         <div id="post-body">
-          <div style={{ marginTop: 48, display: 'flex', alignItems: 'center' }}>
-            {post.frontmatter.bloomed ? (
-              <span
-                className="gradient_bg"
-                style={{
-                  fontSize: '24px',
-                  borderRadius: '50%',
-                  width: '42px',
-                  height: '42px',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-                title="This post has fully bloomed"
-              >
-                <span
-                  style={{
-                    borderRadius: '50%',
-                    background: 'white',
-                    width: '38px',
-                    height: '38px',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    paddingLeft: '2px',
-                  }}
-                >
-                  {' 🌸'}
+          <div>
+            <h1 style={{ marginTop: 48, marginBottom: 8 }}>
+              {post.frontmatter.title}
+            </h1>
+            <div style={{ fontSize: 12, marginBottom: 40 }}>
+              {post.frontmatter.bloomed ? (
+                <span>
+                  {'🌸 '}
+                  <span style={{ fontStyle: 'italic' }}>
+                    This post has fully bloomed and is unlikely to change
+                  </span>
                 </span>
-              </span>
-            ) : (
-              <span
-                className="gradient_bg"
-                style={{
-                  fontSize: '24px',
-                  borderRadius: '50%',
-                  width: '42px',
-                  height: '42px',
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-                title="This post is still growing"
-              >
-                <span
-                  style={{
-                    borderRadius: '50%',
-                    background: 'white',
-                    width: '38px',
-                    height: '38px',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    paddingLeft: '2px',
-                  }}
-                >
-                  {' 🌱'}
+              ) : (
+                <span>
+                  {'🌱 '}
+                  <span style={{ fontStyle: 'italic' }}>
+                    This post is still growing and likely to be updated
+                  </span>
                 </span>
-              </span>
-            )}
-            <span style={{ marginLeft: 8, fontSize: 12, fontStyle: 'italic' }}>
-              {post.frontmatter.bloomed
-                ? 'This post has fully bloomed and is unlikely to change'
-                : 'This post is still growing and likely to be updated'}
-            </span>
+              )}
+            </div>
           </div>
-          <h1 style={{ marginTop: 32 }}>{post.frontmatter.title}</h1>
           <MDXRenderer>{post.code.body}</MDXRenderer>
           <div
             className="gradient_bg"
