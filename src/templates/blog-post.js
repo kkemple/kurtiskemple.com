@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import styled from '@emotion/styled'
 
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'

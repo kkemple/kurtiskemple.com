@@ -6,6 +6,8 @@ import styled from '@emotion/styled'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import DarkModeToggle from 'react-dark-mode-toggle'
 
+import LiveStreamEmbed from './LiveStreamEmbed'
+
 const backgrounds = [
   'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
   'linear-gradient(120deg, #f6d365 0%, #fda085 100%)',
@@ -273,7 +275,7 @@ class Layout extends React.Component {
                       </div>
                       <div
                         style={{
-                          maxWidth: '400px',
+                          maxWidth: '300px',
                           marginLeft: 'auto',
                           marginRight: 'auto',
                           width: '70%',
@@ -367,6 +369,7 @@ class Layout extends React.Component {
             Gatsby
           </a>
         </Footer>
+        <LiveStreamEmbed />
       </Container>
     )
   }
@@ -378,14 +381,14 @@ const logoQuery = graphql`
   query LogoQuery {
     logo: file(absolutePath: { regex: "/logo.png/" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     logoDark: file(absolutePath: { regex: "/logo-dark.png/" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth: 300) {
           ...GatsbyImageSharpFluid
         }
       }
