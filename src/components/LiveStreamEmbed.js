@@ -58,7 +58,7 @@ export default () => {
   }, [setIsLive])
 
   useInterval(() => {
-    fetch(`https://api.twitch.tv/helix/streams?user_login=ryan_c_harris`, {
+    fetch(`https://api.twitch.tv/helix/streams?user_login=theworstdev`, {
       headers: {
         'CLIENT-ID': process.env.GATSBY_TWITCH_CLIENT_ID,
       },
@@ -71,7 +71,7 @@ export default () => {
           setIsLive(false)
         }
       })
-  }, 1000 * 60 * 5)
+  }, 1000 * 60 * 2)
 
   return (
     <Container>
