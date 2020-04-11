@@ -193,13 +193,15 @@ class Layout extends React.Component {
               background-color: #0f1e2f;
             }
 
-            ul {
+            ul,
+            ol {
               background-color: #f7f7f7;
               padding: 16px 16px 16px 32px;
               transition: background-color 0.3s linear;
             }
 
-            body.dark ul {
+            body.dark ul,
+            body.dark ol {
               background-color: #172b42;
             }
 
@@ -207,7 +209,8 @@ class Layout extends React.Component {
               margin-bottom: 8px;
             }
 
-            li ul {
+            li ul,
+            li ol {
               padding: 8px 16px 0;
             }
 
