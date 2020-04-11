@@ -207,6 +207,10 @@ class Layout extends React.Component {
               margin-bottom: 8px;
             }
 
+            li ul {
+              padding: 8px 16px 0;
+            }
+
             code {
               padding: 1px 4px;
               border-radius: 2px;
