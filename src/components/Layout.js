@@ -46,15 +46,12 @@ const backgrounds = [
 ]
 
 const Container = styled(`div`)`
-  max-width: 800px;
   background: #fff;
   padding: 32px;
-  border-radius: 4px;
-  margin: 32px auto 64px;
+  margin: 0;
 
-  @media (max-width: 850px) {
-    margin: 24px 12px 64px;
-    padding: 16px;
+  @media (max-width: 720px) {
+    padding: 8px;
   }
 `
 
@@ -73,17 +70,24 @@ const NavList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   font-family: Creepster;
-  margin-top: 32px;
   text-decoration: none;
 
-  @media (max-width: 850px) {
-    font-size: 20px;
+  @media (max-width: 600px) {
+    font-size: 14px;
   }
+`
 
-  @media (max-width: 375px) {
-    font-size: 16px;
+const HeaderLayout = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  postion: relative;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    justify-content: center;
   }
 `
 
@@ -114,7 +118,7 @@ class Layout extends React.Component {
             h5,
             h6 {
               font-family: 'Work Sans';
-              font-weight: 800;
+              font-weight: 400;
               margin-top: 40px;
               letter-spacing: 1px;
             }
@@ -145,6 +149,7 @@ class Layout extends React.Component {
               font-family: 'Work Sans';
               font-size: 18px;
               transition: color 0.3s linear;
+              margin: 3px;
             }
 
             body.dark {
@@ -160,17 +165,6 @@ class Layout extends React.Component {
               -webkit-text-fill-color: transparent;
             }
 
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6 {
-              font-family: 'Work Sans';
-              margin-top: 40px;
-              letter-spacing: 1px;
-            }
-
             h1 > a,
             h2 > a,
             h3 > a,
@@ -178,7 +172,6 @@ class Layout extends React.Component {
             h5 > a,
             h6 > a {
               text-decoration: none;
-              font-weight: 800;
             }
 
             p {
@@ -261,14 +254,16 @@ class Layout extends React.Component {
                 {({ theme, toggleTheme }) => {
                   const image = theme === 'dark' ? data.logoDark : data.logo
                   return (
-                    <>
+                    <HeaderLayout>
                       <div
                         style={{
+                          position: 'absolute',
+                          top: 16,
+                          right: 16,
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'space-between',
-                          marginTop: '-8px',
-                          marginBottom: '8px',
+                          padding: 8,
                         }}
                       >
                         <DarkModeToggle
@@ -276,16 +271,12 @@ class Layout extends React.Component {
                             toggleTheme(theme === 'light' ? 'dark' : 'light')
                           }
                           checked={theme === 'dark'}
-                          size={60}
+                          size={40}
                         />
-                        <Link to="/quick-tips">Quick Tips</Link>
                       </div>
                       <div
                         style={{
-                          maxWidth: '300px',
-                          marginLeft: 'auto',
-                          marginRight: 'auto',
-                          width: '70%',
+                          width: 175,
                         }}
                       >
                         <Link to={`/`}>
@@ -354,10 +345,15 @@ class Layout extends React.Component {
                                 </span>
                               </a>
                             </li>
+                            <li
+                              style={{ marginLeft: '8px', marginRight: '8px' }}
+                            >
+                              <Link to="/quick-tips">Quick Tips</Link>
+                            </li>
                           </NavList>
                         </nav>
                       </div>
-                    </>
+                    </HeaderLayout>
                   )
                 }}
               </ThemeToggler>

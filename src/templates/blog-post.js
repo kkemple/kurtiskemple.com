@@ -1,10 +1,22 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import styled from '@emotion/styled'
 
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+
+const Container = styled(`div`)`
+  max-width: 800px;
+  padding: 32px;
+  margin: 32px auto 64px;
+
+  @media (max-width: 850px) {
+    margin: 24px 12px 64px;
+    padding: 16px;
+  }
+`
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -15,7 +27,7 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <div id="post-body">
+        <Container id="post-body">
           <div>
             <h1 style={{ marginTop: 48, marginBottom: 8 }}>
               {post.frontmatter.title}
@@ -77,7 +89,7 @@ class BlogPostTemplate extends React.Component {
               </li>
             )}
           </ul>
-        </div>
+        </Container>
       </Layout>
     )
   }

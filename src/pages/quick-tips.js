@@ -15,6 +15,18 @@ const Embed = styled(`iframe`)`
   border: 0;
 `
 
+const Container = styled(`div`)`
+  max-width: 800px;
+  background: #fff;
+  padding: 32px;
+  margin: 32px auto 64px;
+
+  @media (max-width: 850px) {
+    margin: 24px 12px 64px;
+    padding: 16px;
+  }
+`
+
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
@@ -28,7 +40,7 @@ class BlogIndex extends React.Component {
           title="Quick tips"
           keywords={[`blog`, `youtube`, `video`, `quick tips`]}
         />
-        <div style={{ marginTop: '40px' }}>
+        <Container style={{ marginTop: '40px' }}>
           <h2>Quick Tips ✨</h2>
           {videos.map(({ node }) => {
             const title = node.title
@@ -67,7 +79,7 @@ class BlogIndex extends React.Component {
             style={{ height: '4px', marginTop: '64px' }}
           />
           <Bio />
-        </div>
+        </Container>
       </Layout>
     )
   }
