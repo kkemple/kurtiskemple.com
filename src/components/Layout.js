@@ -364,7 +364,7 @@ class Layout extends React.Component {
                                 href="https://twitter.com/kurtkemple"
                               >
                                 <span className="gradient_bg gradient_text">
-                                  Thoughts
+                                  Tweets
                                 </span>
                               </a>
                             </li>
