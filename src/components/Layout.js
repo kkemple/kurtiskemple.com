@@ -84,6 +84,7 @@ const HeaderLayout = styled.div`
   justify-content: space-between;
   align-items: center;
   postion: relative;
+  padding-top: 24px;
 
   @media (max-width: 720px) {
     flex-direction: column;
@@ -258,12 +259,12 @@ class Layout extends React.Component {
                       <div
                         style={{
                           position: 'absolute',
-                          top: 16,
-                          right: 16,
+                          top: 8,
+                          right: 8,
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'space-between',
-                          padding: 8,
+                          padding: 12,
                         }}
                       >
                         <DarkModeToggle
@@ -276,7 +277,7 @@ class Layout extends React.Component {
                       </div>
                       <div
                         style={{
-                          width: 175,
+                          width: 150,
                         }}
                       >
                         <Link to={`/`}>

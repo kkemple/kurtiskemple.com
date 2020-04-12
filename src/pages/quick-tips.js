@@ -11,19 +11,44 @@ const Embed = styled(`iframe`)`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   border: 0;
+
+  @media (max-width: 720px) {
+    height: 100%;
+  }
 `
 
 const Container = styled(`div`)`
   max-width: 800px;
-  background: #fff;
   padding: 32px;
   margin: 32px auto 64px;
 
   @media (max-width: 850px) {
     margin: 24px 12px 64px;
     padding: 16px;
+  }
+`
+
+const QuickTip = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+  }
+`
+
+const EmbedContainer = styled.div`
+  position: relative;
+  overflow: hidden;
+  padding-top: 21.25%;
+  min-width: 250px;
+  margin-right: 24px;
+
+  @media (max-width: 720px) {
+    margin-right: 0;
+    margin-bottom: 24px;
+    padding-top: 56.25%;
   }
 `
 
@@ -46,25 +71,20 @@ class BlogIndex extends React.Component {
             const title = node.title
             return (
               <>
-                <div
-                  style={{
-                    position: 'relative',
-                    overflow: 'hidden',
-                    paddingTop: '56.25%',
-                  }}
-                  key={node.resourceId.videoId}
-                >
-                  <Embed
-                    src={`https://www.youtube.com/embed/${node.resourceId.videoId}`}
-                    frameborder="0"
-                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  />
-                </div>
-                <h4 style={{ marginBottom: '0px', marginTop: '16px' }}>
-                  {title}
-                </h4>
-                <p dangerouslySetInnerHTML={{ __html: node.description }} />
+                <QuickTip>
+                  <EmbedContainer>
+                    <Embed
+                      src={`https://www.youtube.com/embed/${node.resourceId.videoId}`}
+                      frameborder="0"
+                      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    />
+                  </EmbedContainer>
+                  <div>
+                    <h4 style={{ marginBottom: 0, marginTop: 0 }}>{title}</h4>
+                    <p dangerouslySetInnerHTML={{ __html: node.description }} />
+                  </div>
+                </QuickTip>
                 <hr style={{ marginBottom: 64 }} />
               </>
             )
