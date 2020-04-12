@@ -121,17 +121,6 @@ class Layout extends React.Component {
 
             html {
               min-height: 100vh;
-              // background: linear-gradient(
-              //   90deg,
-              //   rgb(144, 243, 179),
-              //   rgb(144, 233, 243),
-              //   rgb(144, 159, 243),
-              //   rgb(204, 144, 243),
-              //   rgb(243, 144, 209),
-              //   rgb(243, 154, 144),
-              //   rgb(243, 229, 144),
-              //   rgb(184, 243, 144)
-              // );
             }
 
             body {
@@ -142,14 +131,12 @@ class Layout extends React.Component {
               margin: 0;
               background: linear-gradient(
                 90deg,
-                hsl(226, 81%, 64%),
-                hsl(271, 81%, 64%),
-                hsl(316, 81%, 64%),
-                hsl(1, 81%, 64%),
-                hsl(46, 81%, 64%),
-                hsl(91, 81%, 64%),
-                hsl(136, 81%, 64%),
-                hsl(181, 81%, 64%)
+                hsl(157, 75%, 62%),
+                hsl(217, 75%, 62%),
+                hsl(277, 75%, 62%),
+                hsl(337, 75%, 62%),
+                hsl(37, 75%, 62%),
+                hsl(97, 75%, 62%)
               );
             }
 
@@ -174,14 +161,12 @@ class Layout extends React.Component {
               word-break: break-word;
               background: linear-gradient(
                 90deg,
-                hsl(226, 81%, 64%),
-                hsl(271, 81%, 64%),
-                hsl(316, 81%, 64%),
-                hsl(1, 81%, 64%),
-                hsl(46, 81%, 64%),
-                hsl(91, 81%, 64%),
-                hsl(136, 81%, 64%),
-                hsl(181, 81%, 64%)
+                hsl(157, 75%, 62%),
+                hsl(217, 75%, 62%),
+                hsl(277, 75%, 62%),
+                hsl(337, 75%, 62%),
+                hsl(37, 75%, 62%),
+                hsl(97, 75%, 62%)
               );
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
@@ -286,14 +271,12 @@ class Layout extends React.Component {
             .gradient_bg {
               background: linear-gradient(
                 90deg,
-                hsl(226, 81%, 64%),
-                hsl(271, 81%, 64%),
-                hsl(316, 81%, 64%),
-                hsl(1, 81%, 64%),
-                hsl(46, 81%, 64%),
-                hsl(91, 81%, 64%),
-                hsl(136, 81%, 64%),
-                hsl(181, 81%, 64%)
+                hsl(157, 75%, 62%),
+                hsl(217, 75%, 62%),
+                hsl(277, 75%, 62%),
+                hsl(337, 75%, 62%),
+                hsl(37, 75%, 62%),
+                hsl(97, 75%, 62%)
               );
             }
 
