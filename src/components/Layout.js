@@ -8,23 +8,6 @@ import DarkModeToggle from 'react-dark-mode-toggle'
 
 import LiveStreamEmbed from './LiveStreamEmbed'
 
-const backgrounds = [
-  'linear-gradient(90deg, hsl(141,81%,76%),hsl(186,81%,76%),hsl(231,81%,76%),hsl(276,81%,76%),hsl(321,81%,76%),hsl(6,81%,76%),hsl(51,81%,76%),hsl(96,81%,76%))',
-  'linear-gradient(45deg, hsl(19,67%,54%),hsl(64,67%,54%),hsl(109,67%,54%),hsl(154,67%,54%),hsl(199,67%,54%),hsl(244,67%,54%),hsl(289,67%,54%),hsl(334,67%,54%))',
-  'linear-gradient(45deg, hsl(151,61%,51%),hsl(196,61%,51%),hsl(241,61%,51%),hsl(286,61%,51%),hsl(331,61%,51%),hsl(16,61%,51%),hsl(61,61%,51%),hsl(106,61%,51%))',
-  'linear-gradient(135deg, hsl(327,90%,59%),hsl(12,90%,59%),hsl(57,90%,59%),hsl(102,90%,59%),hsl(147,90%,59%),hsl(192,90%,59%),hsl(237,90%,59%),hsl(282,90%,59%))',
-  'linear-gradient(270deg, hsl(341,63%,71%),hsl(26,63%,71%),hsl(71,63%,71%),hsl(116,63%,71%),hsl(161,63%,71%),hsl(206,63%,71%),hsl(251,63%,71%),hsl(296,63%,71%))',
-  'linear-gradient(90deg, hsl(330,81%,44%),hsl(15,81%,44%),hsl(60,81%,44%),hsl(105,81%,44%),hsl(150,81%,44%),hsl(195,81%,44%),hsl(240,81%,44%),hsl(285,81%,44%))',
-  'linear-gradient(90deg, rgb(252, 108, 53),rgb(170, 18, 159))',
-  'linear-gradient(90deg, rgb(111, 34, 83),rgb(253, 64, 149))',
-  'linear-gradient(0deg, rgb(112, 84, 203),rgb(232, 47, 180))',
-  'linear-gradient(90deg, rgb(119, 14, 191),rgb(238, 141, 125))',
-  'linear-gradient(90deg, rgb(84, 21, 156),rgb(132, 51, 77))',
-  'linear-gradient(90deg, rgb(247, 14, 199),rgb(24, 34, 250))',
-]
-
-// background: linear-gradient(90deg, rgb(144, 243, 179), rgb(144, 233, 243), rgb(144, 159, 243), rgb(204, 144, 243), rgb(243, 144, 209), rgb(243, 154, 144), rgb(243, 229, 144), rgb(184, 243, 144));
-
 const Container = styled(`div`)`
   background: #fff;
   padding: 32px;
