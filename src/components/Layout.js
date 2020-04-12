@@ -102,6 +102,13 @@ class Layout extends React.Component {
               letter-spacing: 1px;
             }
 
+            h4 {
+              font-weight: 800;
+              font-size: 16px;
+              text-transform: uppercase;
+              margin-bottom: 0;
+            }
+
             h1 > a,
             h2 > a,
             h3 > a,
@@ -199,6 +206,7 @@ class Layout extends React.Component {
 
             p {
               margin-bottom: 24px;
+              margin-top: 16px;
             }
 
             body #___gatsby > div > .container {
