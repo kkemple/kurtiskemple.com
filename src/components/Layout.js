@@ -324,12 +324,12 @@ class Layout extends React.Component {
                       </div>
                       <div
                         style={{
-                          width: 150,
+                          width: 175,
                         }}
                       >
                         <Link to={`/`}>
                           <Image
-                            style={{ opacity: '.6' }}
+                            // style={{ opacity: '.2' }}
                             fluid={image.childImageSharp.fluid}
                             alt={title}
                           />
@@ -433,14 +433,14 @@ const logoQuery = graphql`
   query LogoQuery {
     logo: file(absolutePath: { regex: "/logo.png/" }) {
       childImageSharp {
-        fluid(maxWidth: 300) {
+        fluid(maxWidth: 175) {
           ...GatsbyImageSharpFluid
         }
       }
     }
     logoDark: file(absolutePath: { regex: "/logo-dark.png/" }) {
       childImageSharp {
-        fluid(maxWidth: 300) {
+        fluid(maxWidth: 175) {
           ...GatsbyImageSharpFluid
         }
       }
