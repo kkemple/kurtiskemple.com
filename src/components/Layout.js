@@ -329,6 +329,7 @@ class Layout extends React.Component {
                       >
                         <Link to={`/`}>
                           <Image
+                            style={{ opacity: '.6' }}
                             fluid={image.childImageSharp.fluid}
                             alt={title}
                           />

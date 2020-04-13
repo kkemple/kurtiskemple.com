@@ -6,7 +6,7 @@ import { wrapRootElement as wrap } from './wrap-root-element'
 
 const scrollTo = id => () => {
   const el = document.querySelector(id)
-  if (el) return window.scrollTo(0, el.offsetTop - 20)
+  if (el) return window.scrollTo(0, el.offsetTop - 30)
   return false
 }
 
