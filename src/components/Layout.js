@@ -117,7 +117,7 @@ class Layout extends React.Component {
               font-family: 'Work Sans';
               font-size: 18px;
               transition: color 0.3s linear;
-              padding: 3px;
+              padding: 4px;
               margin: 0;
               background: linear-gradient(
                 90deg,
