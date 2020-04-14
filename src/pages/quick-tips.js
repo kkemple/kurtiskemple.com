@@ -114,7 +114,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allYoutubeVideo(limit: 10, sort: { fields: [position], order: ASC }) {
+    allYoutubeVideo(limit: 10, sort: { fields: [position], order: DESC }) {
       edges {
         node {
           description
