@@ -57,14 +57,12 @@ exports.createPages = ({ graphql, actions }) => {
       fromPath: '/uses',
       toPath: '/what-i-use',
       isPermanent: true,
-      redirectInBrowser: true,
     })
 
     createRedirect({
       fromPath: '/uses/',
       toPath: '/what-i-use/',
       isPermanent: true,
-      redirectInBrowser: true,
     })
   })
 }
