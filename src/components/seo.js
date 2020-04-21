@@ -37,9 +37,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `og:image`,
-                content: `${data.site.siteMetadata.siteUrl}${
-                  data.metaImage.childImageSharp.fixed.src
-                }`,
+                content: `${data.site.siteMetadata.siteUrl}/social-card.png`,
               },
               {
                 name: `twitter:card`,

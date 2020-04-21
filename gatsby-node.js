@@ -53,17 +53,17 @@ exports.createPages = ({ graphql, actions }) => {
       })
     })
 
-    createRedirect({
-      fromPath: '/uses',
-      toPath: '/what-i-use',
-      isPermanent: true,
-    })
+    // createRedirect({
+    //   fromPath: '/uses',
+    //   toPath: '/what-i-use',
+    //   isPermanent: true,
+    // })
 
-    createRedirect({
-      fromPath: '/uses/',
-      toPath: '/what-i-use/',
-      isPermanent: true,
-    })
+    // createRedirect({
+    //   fromPath: '/uses/',
+    //   toPath: '/what-i-use/',
+    //   isPermanent: true,
+    // })
   })
 }
 
