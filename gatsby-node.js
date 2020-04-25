@@ -6,7 +6,7 @@ const ypi = require('youtube-playlist-info')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage, createRedirect } = actions
+  const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   return graphql(
@@ -52,18 +52,6 @@ exports.createPages = ({ graphql, actions }) => {
         },
       })
     })
-
-    // createRedirect({
-    //   fromPath: '/uses',
-    //   toPath: '/what-i-use',
-    //   isPermanent: true,
-    // })
-
-    // createRedirect({
-    //   fromPath: '/uses/',
-    //   toPath: '/what-i-use/',
-    //   isPermanent: true,
-    // })
   })
 }
 
