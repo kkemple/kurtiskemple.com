@@ -4,7 +4,9 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 const buildCloudinaryURL = (title, tags) => {
-  const encodedTags = tags.map(tag => `%23${tag}`).join('%20%20')
+  const encodedTags = tags
+    .map(tag => `%23${tag.replace(' ', '')}`)
+    .join('%20%20')
 
   return `https://res.cloudinary.com/theworstdev/image/upload/l_text:Teko_36:${encodedTags},g_south_west,x_160,y_100,co_rgb:ffffff/l_text:Teko_96_bold_line_spacing_-30:${title},co_rgb:ffffff,c_fit,g_south_west,w_800,x_160,y_300/v1587829683/twd_wb0nyw.png`
 }
