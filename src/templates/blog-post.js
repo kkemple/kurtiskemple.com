@@ -26,7 +26,11 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} />
+        <SEO
+          title={post.frontmatter.title}
+          description={post.excerpt}
+          tags={post.frontmatter.tags}
+        />
         <Container id="post-body">
           <div>
             <h1 style={{ marginTop: 48, marginBottom: 8 }}>
@@ -110,8 +114,8 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
         bloomed
+        tags
       }
       code {
         body

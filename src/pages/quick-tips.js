@@ -62,8 +62,9 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Quick tips"
+          title="Quick Tips"
           keywords={[`blog`, `youtube`, `video`, `quick tips`]}
+          tags={['tips', 'videos', 'tutorials']}
         />
         <Container style={{ marginTop: '40px' }}>
           <h2>Quick Tips ✨</h2>
