@@ -8,7 +8,7 @@ const buildCloudinaryURL = (title, tags) => {
     .map(tag => `%23${tag.replace(' ', '')}`)
     .join('%20%20')
 
-  return `https://res.cloudinary.com/theworstdev/image/upload/l_text:Teko_48:${encodedTags},g_south_west,x_160,y_90,co_rgb:ffffff/l_text:Teko_96_bold_line_spacing_-30:${title},co_rgb:ffffff,c_fit,g_south_west,w_800,x_160,y_280/v1587829683/twd_wb0nyw.png`
+  return `https://res.cloudinary.com/theworstdev/image/upload/l_text:Teko_48:${encodedTags},g_south_west,x_160,y_90,co_rgb:ffffff/l_text:Teko_96_bold_line_spacing_-30:${title},co_rgb:ffffff,c_fit,g_south_west,w_900,x_160,y_280/v1587829683/twd_wb0nyw.png`
 }
 
 function SEO({ description, lang, meta, keywords, title, tags }) {
