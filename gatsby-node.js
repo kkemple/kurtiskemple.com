@@ -1,9 +1,18 @@
 require('dotenv').config()
 
+const fetch = require('isomorphic-fetch')
 const crypto = require('crypto')
 const path = require(`path`)
 const ypi = require('youtube-playlist-info')
 const { createFilePath } = require(`gatsby-source-filesystem`)
+
+const buildCloudinaryURL = (title, tags) => {
+  const encodedTags = tags
+    .map(tag => `%23${tag.replace(' ', '')}`)
+    .join('%20%20')
+
+  return `https://res.cloudinary.com/theworstdev/image/upload/l_text:Teko_48:${encodedTags},g_south_west,x_160,y_90,co_rgb:ffffff/l_text:Teko_96_bold_line_spacing_-30:${title},co_rgb:ffffff,c_fit,g_south_west,w_900,x_160,y_280/v1587829683/twd_wb0nyw.png`
+}
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -21,6 +30,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                tags
               }
               code {
                 scope
@@ -41,6 +51,12 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
+
+      const { title, tags } = post.node.frontmatter
+
+      // make sure we cache the new social card in Cloudinary
+      // HACK THE PLANET!!!
+      fetch(buildCloudinaryURL(title, tags))
 
       createPage({
         path: post.node.fields.slug,
