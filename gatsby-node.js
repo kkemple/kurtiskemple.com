@@ -7,11 +7,15 @@ const ypi = require('youtube-playlist-info')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 const buildCloudinaryURL = (title, tags) => {
-  const encodedTags = tags
-    .map(tag => `%23${tag.replace(' ', '')}`)
-    .join('%20%20')
+  let tags = ''
+  if (tags.length) {
+    const encodedTags = tags
+      .map(tag => `%23${tag.replace(' ', '')}`)
+      .join('%20%20')
+    tags = `l_text:Teko_48:${encodedTags},g_south_west,x_130,y_85,co_rgb:ffffff/`
+  }
 
-  return `https://res.cloudinary.com/theworstdev/image/upload/l_text:Teko_48:${encodedTags},g_south_west,x_130,y_85,co_rgb:ffffff/l_text:Teko_96_bold_line_spacing_-30:${title},co_rgb:ffffff,c_fit,g_south_west,w_900,x_130,y_280/v1587829683/twd_wq5r4k.png`
+  return `https://res.cloudinary.com/theworstdev/image/upload/${tags}l_text:Teko_96_bold_line_spacing_-30:${title},co_rgb:ffffff,c_fit,g_south_west,w_900,x_130,y_280/v1587829683/twd_wq5r4k.png`
 }
 
 exports.createPages = ({ graphql, actions }) => {
