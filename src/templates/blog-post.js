@@ -55,44 +55,7 @@ class BlogPostTemplate extends React.Component {
             </div>
           </div>
           <MDXRenderer>{post.code.body}</MDXRenderer>
-          <div
-            className="gradient_bg"
-            style={{ height: '4px', marginTop: '64px' }}
-          />
           <Bio />
-          <ul
-            style={{
-              listStyle: 'none',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              textAlign: 'center',
-            }}
-          >
-            {previous && (
-              <li>
-                <Link
-                  className="gradient_bg gradient_text"
-                  to={previous.fields.slug}
-                  rel="prev"
-                >
-                  ← {previous.frontmatter.title}
-                </Link>
-              </li>
-            )}
-            {next && (
-              <li>
-                <Link
-                  className="gradient_bg gradient_text"
-                  to={next.fields.slug}
-                  rel="next"
-                >
-                  {next.frontmatter.title} →
-                </Link>
-              </li>
-            )}
-          </ul>
         </Container>
       </Layout>
     )
