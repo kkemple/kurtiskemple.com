@@ -8,7 +8,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 const buildCloudinaryURL = (title, tags) => {
   let tagsURL = ''
-  if (tags.length) {
+  if (tags) {
     const encodedTags = tags
       .map(tag => `%23${tag.replace(' ', '')}`)
       .join('%20%20')
