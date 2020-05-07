@@ -10,7 +10,7 @@ import SEO from '../components/seo'
 const Container = styled(`div`)`
   max-width: 800px;
   padding: 32px;
-  margin: 32px auto 64px;
+  margin: 32px auto 32px;
 
   @media (max-width: 850px) {
     margin: 24px 12px 64px;
