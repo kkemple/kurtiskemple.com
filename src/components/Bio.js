@@ -3,9 +3,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import styled from '@emotion/styled'
 
 const Container = styled(`div`)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 8px;
   margin-top: 8px;
   text-align: center;
@@ -19,6 +16,7 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
+            <div className="gradient_bg" style={{ height: 1 }} />
             <p>
               <span
                 style={{
@@ -29,10 +27,6 @@ function Bio() {
               >
                 Written by <strong>{author}</strong>, who lives and works in
                 Virginia Beach, VA.
-                <br />
-                <strong>Developer</strong> / <strong>Photographer</strong> /{' '}
-                <strong>Videographer</strong> / <strong>Podcaster</strong> /{' '}
-                <strong>Writer</strong>
               </span>
 
               <a href={`https://twitter.com/${social.twitter}`}>
