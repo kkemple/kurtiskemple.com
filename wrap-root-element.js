@@ -252,6 +252,7 @@ export const wrapRootElement = ({ element }) => (
 
         .prism-code {
           padding: 16px;
+          overflow-x: scroll;
         }
 
         .highlight-line {

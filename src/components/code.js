@@ -3,10 +3,9 @@ import Highlight, { defaultProps } from 'prism-react-renderer'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 import rangeParser from 'parse-numeric-range'
 import theme from 'prism-react-renderer/themes/nightOwl'
-// import { useMDXScope } from 'gatsby-plugin-mdx/context'
 import { AnimatePresence, motion } from 'framer-motion'
-import { useValue, useRepeater } from '@repeaterjs/react-hooks'
 import styled from '@emotion/styled'
+import * as Apollo from '@apollo/client'
 
 const calculateLinesToHighlight = meta => {
   const RE = /{([\d,-]+)}/
@@ -24,9 +23,8 @@ export const Code = ({ codeString, language, ...props }) => {
   const scope = {
     motion,
     AnimatePresence,
-    useValue,
-    useRepeater,
     styled,
+    Apollo,
   }
 
   if (props['react-live']) {
