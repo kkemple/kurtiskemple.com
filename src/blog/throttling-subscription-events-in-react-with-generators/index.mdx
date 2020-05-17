@@ -228,4 +228,4 @@ export default function useFollows() {
 }
 ```
 
-And that's it! I now have a queue component that will throttle incoming follows and allow me to display an animation for each one in turn.
+And that's it! I now have a queue component that will throttle incoming follows and no matter how fast those events come in, this hook will only ever update with a new one every three seconds.
