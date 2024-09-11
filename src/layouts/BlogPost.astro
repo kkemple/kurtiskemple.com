@@ -1,0 +1,81 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { ViewTransitions } from "astro:transitions";
+import "../styles/global.css";
+
+interface Props {
+  frontmatter: {
+    description: string;
+    image: string;
+    title: string;
+    pubDate: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Basic metadata -->
+    <title>{`${frontmatter.title} | Kurtis Kemple`}</title>
+    <meta name="description" content={frontmatter.description} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={`${frontmatter.title}`} />
+    <meta property="og:description" content={frontmatter.description} />
+    <meta property="og:image" content={new URL(frontmatter.image, Astro.url)} />
+    <meta property="og:site_name" content="Kurtis Kemple" />
+
+    <!-- Twitter -->
+    <meta name="twitter:creator" content="@_digitalvandal" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:title" content={`${frontmatter.title}`} />
+    <meta property="twitter:description" content={frontmatter.description} />
+    <meta
+      property="twitter:image"
+      content={new URL(frontmatter.image, Astro.url)}
+    />
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{frontmatter.title}</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet prefetch"
+    />
+    <ViewTransitions />
+  </head>
+  <body class="font-sans bg-naval min-h-screen">
+    <div class="relative min-h-screen overflow-hidden">
+      <Header />
+
+      <main class="pt-60 max-w-3xl mx-auto">
+        <h1
+          class="text-4xl md:text-5xl lg:text-6xl text-honey-crusted-chicken mb-12 mx-8 md:mx-6 lg:mx-0"
+          style="line-height: 1.1 !important;"
+        >
+          {frontmatter.title}
+        </h1>
+        <span class="block mb-8 text-autumn-fire font-semibold">
+          {frontmatter.pubDate}
+        </span>
+        <div class="blog-post mb-16 mx-8 md:mx-6 lg:mx-0 rounded-lg">
+          <slot />
+        </div>
+      </main>
+
+      <Footer />
+    </div>
+  </body>
+</html>

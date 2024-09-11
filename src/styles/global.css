@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-naval-night text-silver-thistle-beige;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading mb-4;
+  }
+
+  h1 {
+    @apply text-h1;
+  }
+
+  h2 {
+    @apply text-h2;
+  }
+
+  h3 {
+    @apply text-h3;
+  }
+
+  p {
+    @apply mb-6;
+  }
+
+  a {
+    @apply text-honey-crusted-chicken underline;
+  }
+
+  ul, ol {
+    @apply mb-6 pl-6;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  li {
+    @apply mb-2;
+  }
+
+  pre {
+    @apply p-4 rounded-md;
+  }
+}
+
+@layer components {
+  .bg-gradient {
+    background: conic-gradient(from 0deg at 20% -3%, #011c39, #1e244b, #3c2a5a, #5b2e63, #7a3167, #973564, #b13e5b, #c44e4f); /* made at https://learnui.design/tools/gradient-generator.html */
+  }
+
+  .text-gradient {
+    @apply text-transparent bg-clip-text;
+    background-image: linear-gradient(to right, #011c39, #1e244b, #3c2a5a, #5b2e63, #7a3167, #973564, #b13e5b, #c44e4f);
+  }
+
+  .border-gradient {
+    position: relative;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .border-gradient::before {
+    content: '';
+    position: absolute;
+    top: -2px; right: -2px; bottom: -2px; left: -2px;
+    background: linear-gradient(95deg, #011c39, #1e244b, #3c2a5a, #5b2e63, #7a3167, #973564, #b13e5b, #c44e4f);
+    border-radius: inherit;
+    z-index: -1;
+  }
+
+  .container {
+    @apply w-11/12 max-w-7xl mx-auto py-8;
+  }
+
+  .btn {
+    @apply inline-block px-6 py-3 bg-honey-crusted-chicken text-naval-night font-bold rounded transition-colors duration-300 hover:bg-autumn-fire hover:text-raptures-light;
+  }
+
+  .blog-post h2, h3, h4, h5, h6 {
+    @apply text-autumn-fire mt-8;
+  }
+}

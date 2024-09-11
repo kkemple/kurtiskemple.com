@@ -1,0 +1,100 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+import { getCollection } from "astro:content";
+
+interface BlogPost {
+  data: {
+    title: string;
+    description: string;
+    pubDate: string;
+    featured: boolean;
+  };
+  slug: string;
+}
+
+const posts = (await getCollection("blog")) as BlogPost[];
+
+const sortedPosts = posts.sort((a, b) => {
+  if (a.data.featured !== b.data.featured) {
+    return a.data.featured ? -1 : 1;
+  }
+  return (
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+  );
+});
+
+const featuredPosts = sortedPosts.filter((post) => post.data.featured);
+const regularPosts = sortedPosts.filter((post) => !post.data.featured);
+
+function truncateDescription(
+  description: string,
+  maxLength: number = 300
+): string {
+  return description.length > maxLength
+    ? `${description.slice(0, maxLength)}...`
+    : description;
+}
+---
+
+<Layout title="Blog | Kurtis Kemple" intensity="subtle">
+  <div class="flex flex-col">
+    <div class="container mx-auto px-4 md:px-0 py-8 flex-grow">
+      <h1 class="text-5xl mt-24 mb-16 text-honey-crusted-chicken">
+        Writings & Musings
+      </h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {
+          featuredPosts.length > 0 && (
+            <section class="col-span-full">
+              <h2 class="text-3xl mb-8">Featured Posts</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {featuredPosts.map((post) => (
+                  <a href={`/blog/${post.slug}`} class="block no-underline">
+                    <article class="bg-naval-night h-full p-6 rounded-lg border-2 border-gradient hover:border-autumn-fire transition-all duration-300">
+                      <h3 class="text-3xl mb-2 text-honey-crusted-chicken">
+                        {post.data.title}
+                      </h3>
+                      <p class="text-silver-thistle-beige">
+                        {truncateDescription(post.data.description)}
+                      </p>
+                      <span class="font-semibold text-autumn-fire">
+                        {post.data.pubDate}
+                      </span>
+                    </article>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )
+        }
+
+        {
+          featuredPosts.length > 0 && regularPosts.length > 0 && (
+            <div class="my-12 flex justify-center col-span-full">
+              <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full" />
+            </div>
+          )
+        }
+
+        {
+          regularPosts.map((post) => (
+            <a href={`/blog/${post.slug}`} class="block no-underline">
+              <article class="bg-naval-night h-full p-6 rounded-lg border-2 border-gradient hover:border-autumn-fire transition-all duration-300">
+                <h3 class="text-3xl mb-2 text-honey-crusted-chicken">
+                  {post.data.title}
+                </h3>
+                <p class="text-silver-thistle-beige">
+                  {truncateDescription(post.data.description)}
+                </p>
+                <span class="font-semibold text-autumn-fire">
+                  {post.data.pubDate}
+                </span>
+              </article>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</Layout>

@@ -1,16 +1,88 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import ContentCard from "../components/ContentCard.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Home | Kurtis Kemple">
+  <div class="container mx-auto px-4">
+    <div class="mb-48">
+      <div class="text-center">
+        <h1 class="text-7xl mb-8">Hey, I'm Kurt.</h1>
+        <p
+          class="text-5xl mb-12 font-heading max-w-2xl mx-auto"
+          style="line-height: 1.15;"
+        >
+          <span>I'm a</span>
+          <span class="text-honey-crusted-chicken">
+            formerly incarcerated
+          </span>
+          <span>tech leader, photographer, creator, and</span>
+          <span class="text-autumn-fire">advocate</span>
+          <span class="text-silver-thistle-beige">for second chances.</span>
+          <span class="block text-lg -rotate-2 mt-1 font-sans font-semibold"
+            >(lately I've been getting into democratizing <span
+              class="text-autumn-fire">AI</span
+            >)</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <h3 id="must-read" class="mb-8 text-4xl text-silver-thistle-beige">
+      Latest Writings
+    </h3>
+
+    <div class="mb-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <ContentCard
+        slug="unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture"
+        title="Unlocking Expert Minds: Eight Patterns for AI-guided Knowledge Capture"
+        description="Explore eight innovative patterns for capturing specialized knowledge through guided, interactive interviews. These approaches use dynamic questioning and real-time analysis with AI to uncover deep insights, challenge assumptions, and map complex expertise across various fields. Discover how these methods could transform our understanding and transfer of expert knowledge in the age of advanced technology."
+      />
+      <ContentCard
+        slug="democratizing-ai-empowering-creators"
+        title="Democratizing AI: Empowering Creators and Shaping the Future of Innovation"
+        description="As AI becomes increasingly powerful and pervasive, a crucial question emerges: Who will control this technology and reap its benefits? The answer to this question will have profound implications for innovation, economic opportunity, and the future of work. That's why democratizing AI - making it accessible and usable for everyone, not just tech giants - is one of the most important technological and societal challenges we face."
+      />
+    </div>
+
+    <div class="my-24 flex justify-center">
+      <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
+    </div>
+
+    <h3
+      class="text-4xl font-semibold mb-8 text-silver-thistle-beige"
+      id="guides"
+    >
+      The Developer Advocate's Guides
+    </h3>
+
+    {/* Repeat this pattern for each ContentCard */}
+    <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <ContentCard
+        slug="developer-advocates-guide-to-metrics-and-reporting"
+        title="The Developer Advocate's Guide to Metrics and Reporting"
+        description="As developer advocates, avoid becoming extensions of other teams by closely learning metrics: the different types you'll encounter and when to use them, which are trusted and untrusted, and how to build them effectively to support your team's goals."
+      />
+      <ContentCard
+        slug="developer-advocates-guide-to-addressing-product-friction"
+        title="The Developer Advocate's Guide to Addressing Product Friction"
+        description="Over the last three months, we've been developing a framework at Apollo called DX Audits to help us identify, document, report, and address product friction. It was getting difficult to scale this part of developer advocacy so we came up with a framework and this post covers our experience with it and where we landed on the framework's implementation."
+      />
+      <ContentCard
+        slug="developer-advocates-guide-to-content-creation"
+        title="The Developer Advocate's Guide to Content Creation"
+        description={`Have you ever felt overwhelmed by the idea of having to create that next blog post or YouTube video? Do you find yourself unable to finish things because you're not quite sure when to call it done? Are you adjusting your outlines or talking points on the fly? Learn how to create content more effectively by doing the work before the work.`}
+      />
+      <ContentCard
+        slug="developer-advocates-guide-to-getting-buy-in"
+        title="The Developer Advocate's Guide to Getting Buy-In"
+        description={`Getting buy-in as a developer advocate is a unique challenge. We usually are not the owners or even direct contributors to what we're trying to change. Instead, we represent this bizarre ephemeral thing called a "community." In this post, I'll cover what buy-in is, how it applies to developer advocacy, what skills help the most when trying to get buy-in, and the processes I use.`}
+      />
+      <ContentCard
+        slug="developer-advocates-guide-to-asking-for-things"
+        title="The Developer Advocate's Guide to Asking for Things"
+        description={`Whether we're trying to get buy-in internally or working on collaborations externally, we're generally in the business of asking. Learn how to get better results from your requests by rethinking the nature of relationships and following the three Rs of asking for things: Recognition, Request, and Reward.`}
+      />
+    </div>
+  </div>
+</Layout>

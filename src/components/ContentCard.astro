@@ -1,0 +1,31 @@
+---
+interface Props {
+  slug: string;
+  title: string;
+  description: string;
+}
+
+const { slug, title, description } = Astro.props;
+
+function truncateDescription(
+  description: string,
+  maxLength: number = 300
+): string {
+  return description.length > maxLength
+    ? `${description.slice(0, maxLength)}...`
+    : description;
+}
+---
+
+<a href={`/blog/${slug}`} class="block no-underline mb-8">
+  <article
+    class="bg-naval-night h-full p-6 rounded-lg border-2 border-gradient hover:border-autumn-fire transition-all duration-300"
+  >
+    <h3 class="text-3xl mb-2 text-honey-crusted-chicken">
+      {title}
+    </h3>
+    <p class="text-silver-thistle-beige">
+      {truncateDescription(description)}
+    </p>
+  </article>
+</a>
