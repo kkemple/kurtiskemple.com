@@ -26,15 +26,6 @@ const sortedPosts = posts.sort((a, b) => {
 
 const featuredPosts = sortedPosts.filter((post) => post.data.featured);
 const regularPosts = sortedPosts.filter((post) => !post.data.featured);
-
-function truncateDescription(
-  description: string,
-  maxLength: number = 300
-): string {
-  return description.length > maxLength
-    ? `${description.slice(0, maxLength)}...`
-    : description;
-}
 ---
 
 <Layout title="Blog | Kurtis Kemple" intensity="subtle">
