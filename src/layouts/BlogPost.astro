@@ -13,6 +13,29 @@ interface Props {
 }
 
 const { frontmatter } = Astro.props;
+
+function formatDate(dateString: string) {
+  const date = new Date(dateString);
+
+  const formatter = new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+
+  const parts = formatter.formatToParts(date);
+  const month = parts.find((part) => part.type === "month")?.value ?? "";
+  const day = parts.find((part) => part.type === "day")?.value ?? "";
+  const year = parts.find((part) => part.type === "year")?.value ?? "";
+
+  return `${month} ${day}${getOrdinalSuffix(parseInt(day))}, ${year}`;
+}
+
+function getOrdinalSuffix(day: number) {
+  const suffixes = ["th", "st", "nd", "rd"];
+  const v = day % 100;
+  return suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0];
+}
 ---
 
 <!doctype html>
@@ -65,8 +88,8 @@ const { frontmatter } = Astro.props;
         >
           {frontmatter.title}
         </h1>
-        <span class="block mb-8 text-honey-crusted-chicken font-semibold">
-          {frontmatter.pubDate}
+        <span class="block mb-8 text-autumn-fire font-bold">
+          {formatDate(frontmatter.pubDate)}
         </span>
         <div class="blog-post mb-16 rounded-lg">
           <slot />
