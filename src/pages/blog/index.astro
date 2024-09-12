@@ -1,6 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-
+import ContentCard from "../../components/ContentCard.astro";
 import { getCollection } from "astro:content";
 
 interface BlogPost {
@@ -50,19 +50,11 @@ function truncateDescription(
               <h2 class="text-3xl mb-8">Featured Posts</h2>
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {featuredPosts.map((post) => (
-                  <a href={`/blog/${post.slug}`} class="block no-underline">
-                    <article class="bg-naval-night h-full p-6 rounded-lg border-2 border-gradient hover:border-autumn-fire transition-all duration-300">
-                      <h3 class="text-3xl mb-2 text-honey-crusted-chicken">
-                        {post.data.title}
-                      </h3>
-                      <p class="text-silver-thistle-beige">
-                        {truncateDescription(post.data.description)}
-                      </p>
-                      <span class="font-semibold text-honey-crusted-chicken">
-                        {post.data.pubDate}
-                      </span>
-                    </article>
-                  </a>
+                  <ContentCard
+                    slug={post.slug}
+                    title={post.data.title}
+                    description={post.data.description}
+                  />
                 ))}
               </div>
             </section>
@@ -79,19 +71,11 @@ function truncateDescription(
 
         {
           regularPosts.map((post) => (
-            <a href={`/blog/${post.slug}`} class="block no-underline">
-              <article class="bg-naval-night h-full p-6 rounded-lg border-2 border-gradient hover:border-autumn-fire transition-all duration-300">
-                <h3 class="text-3xl mb-2 text-honey-crusted-chicken">
-                  {post.data.title}
-                </h3>
-                <p class="text-silver-thistle-beige">
-                  {truncateDescription(post.data.description)}
-                </p>
-                <span class="font-semibold text-honey-crusted-chicken">
-                  {post.data.pubDate}
-                </span>
-              </article>
-            </a>
+            <ContentCard
+              slug={post.slug}
+              title={post.data.title}
+              description={post.data.description}
+            />
           ))
         }
       </div>

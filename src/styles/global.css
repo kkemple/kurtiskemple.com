@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-naval-night text-silver-thistle-beige;
+    @apply bg-naval-night text-raptures-light;
   }
 
   h1, h2, h3, h4, h5, h6 {
