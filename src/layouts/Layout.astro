@@ -1,7 +1,6 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { ViewTransitions } from "astro:transitions";
 import "../styles/global.css";
 
 interface Props {
@@ -56,13 +55,12 @@ const frontmatter = {
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet prefetch"
     />
-    <ViewTransitions />
   </head>
   <body class="font-sans bg-naval text-charcoal min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
       <Header />
 
-      <main class="max py-32">
+      <main class="max md:py-8 lg:py-16 xl:py-24">
         <slot />
       </main>
 

@@ -1,7 +1,6 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { ViewTransitions } from "astro:transitions";
 import "../styles/global.css";
 
 interface Props {
@@ -54,23 +53,22 @@ const { frontmatter } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet prefetch"
     />
-    <ViewTransitions />
   </head>
   <body class="font-sans bg-naval min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
       <Header />
 
-      <main class="pt-60 max-w-3xl mx-auto">
+      <main class="pt-24 md:pt-60 max-w-3xl mx-auto px-8 md:px-6 lg:px-0">
         <h1
-          class="text-4xl md:text-5xl lg:text-6xl text-honey-crusted-chicken mb-12 mx-8 md:mx-6 lg:mx-0"
+          class="text-4xl md:text-5xl lg:text-6xl text-honey-crusted-chicken mb-12"
           style="line-height: 1.1 !important;"
         >
           {frontmatter.title}
         </h1>
-        <span class="block mb-8 text-autumn-fire font-semibold">
+        <span class="block mb-8 text-honey-crusted-chicken font-semibold">
           {frontmatter.pubDate}
         </span>
-        <div class="blog-post mb-16 mx-8 md:mx-6 lg:mx-0 rounded-lg">
+        <div class="blog-post mb-16 rounded-lg">
           <slot />
         </div>
       </main>
