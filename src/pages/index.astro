@@ -1,6 +1,28 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ContentCard from "../components/ContentCard.astro";
+
+import { getCollection } from "astro:content";
+
+interface BlogPost {
+  data: {
+    title: string;
+    description: string;
+    pubDate: string;
+    featured: boolean;
+  };
+  slug: string;
+}
+
+const posts = (await getCollection("blog")) as BlogPost[];
+
+const sortedPosts = posts.sort((a, b) => {
+  return (
+    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+  );
+});
+
+const latest = sortedPosts.slice(0,3)
 ---
 
 <Layout title="Home | Kurtis Kemple">
@@ -33,21 +55,13 @@ import ContentCard from "../components/ContentCard.astro";
     </h3>
 
     <div class="mb-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <ContentCard
-        slug="theory-to-practice"
-        title="Theory to Practice: Meeting Learners Where They Are"
-        description="Explore eight innovative patterns for capturing specialized knowledge through guided, interactive interviews. These approaches use dynamic questioning and real-time analysis with AI to uncover deep insights, challenge assumptions, and map complex expertise across various fields. Discover how these methods could transform our understanding and transfer of expert knowledge in the age of advanced technology."
-      />
-      <ContentCard
-        slug="unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture"
-        title="Unlocking Expert Minds: Eight Patterns for AI-guided Knowledge Capture"
-        description="Explore eight innovative patterns for capturing specialized knowledge through guided, interactive interviews. These approaches use dynamic questioning and real-time analysis with AI to uncover deep insights, challenge assumptions, and map complex expertise across various fields. Discover how these methods could transform our understanding and transfer of expert knowledge in the age of advanced technology."
-      />
-      <ContentCard
-        slug="democratizing-ai-empowering-creators"
-        title="Democratizing AI: Empowering Creators and Shaping the Future of Innovation"
-        description="As AI becomes increasingly powerful and pervasive, a crucial question emerges: Who will control this technology and reap its benefits? The answer to this question will have profound implications for innovation, economic opportunity, and the future of work. That's why democratizing AI - making it accessible and usable for everyone, not just tech giants - is one of the most important technological and societal challenges we face."
-      />
+      {latest.map((post) => (
+        <ContentCard
+          slug={post.slug}
+          title={post.data.title}
+          description={post.data.description}
+        />
+      ))}
     </div>
 
     <div class="my-24 flex justify-center">
