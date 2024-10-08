@@ -100,4 +100,9 @@
   .blog-post h2, h3, h4, h5, h6 {
     @apply text-autumn-fire mt-8;
   }
+
+  .blog-post blockquote {
+    border-left: 4px solid #FFBB55;
+    padding-left: 10px;
+  }
 }
