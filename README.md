@@ -2,5 +2,4 @@
 
 ### Built with Astro
 
-Causing a conflict.
-
+Includes my writing and soon my photography.
