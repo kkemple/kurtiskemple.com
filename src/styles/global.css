@@ -113,4 +113,17 @@
     padding: 2px 4px;
     border-radius: 3px;
   }
+
+  .blog-post table {
+    @apply w-full mb-6 block;
+  }
+
+  .blog-post table th {
+    @apply border-b-2 border-gray-300 p-2;
+  }
+
+  .blog-post table td {
+    @apply p-2 px-4;
+  }
+
 }
