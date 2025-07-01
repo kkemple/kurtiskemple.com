@@ -8,7 +8,7 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   site: "https://digitalvandal.xyz",
   integrations: [tailwind(), react(), mdx()],
-  output: "hybrid",
+  output: "static",
   adapter: netlify(),
   markdown: {
     shikiConfig: {
@@ -18,6 +18,6 @@ export default defineConfig({
     },
   },
   image: {
-    domains: ["localhost:4321", "localhost:4322", "digitalvandal.xyz"],
+    domains: ["localhost:4321", "localhost:4322", "kurtiskemple.com"],
   },
 });
