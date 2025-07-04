@@ -115,15 +115,15 @@
   }
 
   .blog-post table {
-    @apply w-full mb-6 block;
+    @apply w-full mb-6;
   }
 
   .blog-post table th {
-    @apply border-b-2 border-gray-300 p-2;
+    @apply border-b-2 border-gray-300 whitespace-nowrap pr-4 text-left;
   }
 
   .blog-post table td {
-    @apply p-2 px-4;
+    @apply pr-2 pb-2 text-left;
   }
 
 }

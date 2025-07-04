@@ -1,0 +1,57 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "The Sentiment-Inertia Index (Sii): Measuring frustration coalition disruption"
+description: "The Sentiment-Inertia Index (Sii): A quantifiable metric that measures trapped user frustration in B2B SaaS. When NPS drops but churn stays flat, Sii = (100-NPS)/Churn reveals the accumulating pressure that predicts competitive displacement before revenue impact."
+image: "/images/og/sentiment-inertia-index.png"
+pubDate: "07/03/2025"
+---
+
+The Sentiment-Inertia Index is a predictive tool designed to identify and quantify the risk of a frustration coalition forming within a user base. It measures the dangerous gap between poor customer sentiment and low churn, which often indicates a large base of dissatisfied, trapped customers who are vulnerable to competitive displacement. A higher Sii score signifies a greater risk.
+
+## Formula
+
+```math
+Sii = (100 - NPS) / C
+```
+
+### Definition
+
+- **NPS** = Net Promoter Score, a measure of customer sentiment (from -100 to 100)
+- **C** = Churn Rate (%), a measure of customer or user attrition
+
+The numerator, **(100 - NPS)**, creates a Dissatisfaction Score, which represents the amount of frustration or pressure building within the user base. The denominator, **C**, represents the leakiness of the customer moat. A low churn rate contains the pressure, increasing the risk.
+
+## Risk Scale
+
+This table outlines the risk levels associated with the Sentiment-Inertia Index score.
+
+| Sii Score | Risk Level | Interpretation |
+|-----------|-----------|----------------|
+| **< 10** | Low Risk | High customer satisfaction is reinforced by a strong moat (low churn). The user base is stable and happy. |
+| **10-25** | Guarded | Satisfaction may be declining or mediocre, but the moat is largely intact. An early warning to investigate sentiment. |
+| **25-50** | Elevated | A significant level of dissatisfaction is being contained by customer lock-in. Prime conditions for a mass exodus. |
+| **> 50** | Critical | An extreme amount of user frustration is trapped. The user base is highly vulnerable to a competitor's arrival. |
+
+## Important Notes on Usage
+
+To ensure the index provides a clear and accurate signal, follow these guidelines:
+
+1. **Align your metrics**: The most critical rule is that the NPS score and the churn rate must measure the same population. Mixing a general NPS score with a segment-specific churn rate will produce a noisy and unreliable index.
+   - If you are using an Enterprise NPS, you must use an Enterprise Customer Churn Rate
+   - If you are using a User-level NPS, you should use User Churn Rate
+
+2. **Prioritize user or customer churn**: For this specific formula, metrics that count people—like User Churn or Customer (Logo) Churn—are more effective than those that count money, like Revenue Churn. The goal is to measure user frustration, which can be masked by financial metrics if a few happy accounts expand while many others become dissatisfied.
+
+3. **Use it as a trending indicator**: While a single Sii score is a useful snapshot, its true power comes from tracking it over time. A sharp increase in the score, even if churn remains stable, is a powerful early warning that sentiment is collapsing and risk is accumulating.
+
+## Supporting Research
+
+This framework is built upon established principles of customer sentiment, product-led growth, and organizational behavior:
+
+1. **The financial impact of NPS**: Research from Bain & Company (and others) consistently shows a strong correlation between high NPS and organic growth, higher Customer Lifetime Value (CLTV), and increased profitability. This validates the `(100-NPS)` numerator as a proxy for financial health and user loyalty. [[1](https://www.bain.com/insights/the-economics-of-loyalty/)]
+
+2. **The disconnect between NPS and churn in B2B SaaS**: The *sentiment-inertia gap* is supported by analysis showing a weak direct correlation between NPS and churn in markets with high switching costs. This highlights the importance of the churn rate `C` as a denominator that contextualizes the sentiment score. [[2](https://hbsp.harvard.edu/product/H07JA1-PDF-ENG)], [[3](https://www.nngroup.com/articles/nps-ux/)]
+
+3. **The power of bottom-up adoption (PLG)**: The success of companies like Slack and Asana demonstrates how user-led movements can displace incumbents. This validates the core threat model: a competitor can arm a frustration coalition with a freemium or self-service product to bypass traditional procurement. [[4](https://www.sequoiacap.com/article/mongodb-built-by-developers-for-developers/)], [[5](https://www.sequoiacap.com/article/warp-spotlight/)]
+
+4. **The dynamics of coalition formation**: Principles from organizational behavior show how informal groups mobilize around shared grievances to effect change. The frustration coalition is an application of these principles to software adoption. [[6](https://www.polly.ai/blog/bottom-up-software-adoption)], [[7](https://www.rippling.com/blog/shadow-it)]
