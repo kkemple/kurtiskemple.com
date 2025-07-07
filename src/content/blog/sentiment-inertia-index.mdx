@@ -26,18 +26,30 @@ The numerator, **(100 - NPS)**, creates a Dissatisfaction Score, which represent
 
 This table outlines the risk levels associated with the Sentiment-Inertia Index score.
 
-| Sii Score | Risk Level | Interpretation |
-|-----------|-----------|----------------|
-| **< 10** | Low Risk | High customer satisfaction is reinforced by a strong moat (low churn). The user base is stable and happy. |
-| **10-25** | Guarded | Satisfaction may be declining or mediocre, but the moat is largely intact. An early warning to investigate sentiment. |
-| **25-50** | Elevated | A significant level of dissatisfaction is being contained by customer lock-in. Prime conditions for a mass exodus. |
-| **> 50** | Critical | An extreme amount of user frustration is trapped. The user base is highly vulnerable to a competitor's arrival. |
+| Sii Score | Risk Level | Interpretation                                                                                                        |
+| --------- | ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| **< 15**  | Low Risk   | High customer satisfaction is reinforced by a strong moat (low churn). The user base is stable and happy.             |
+| **15-35** | Guarded    | Satisfaction may be declining or mediocre, but the moat is largely intact. An early warning to investigate sentiment. |
+| **35-60** | Elevated   | A significant level of dissatisfaction is being contained by customer lock-in. Prime conditions for a mass exodus.    |
+| **> 60**  | Critical   | An extreme amount of user frustration is trapped. The user base is highly vulnerable to a competitor's arrival.       |
+
+### Industry Examples
+
+Real-world calibration of Sii scores:
+
+| Company Type      | Example           | NPS | Monthly Churn | Sii Score | Risk Level |
+| ----------------- | ----------------- | --- | ------------- | --------- | ---------- |
+| Extreme Lock-in   | SAP/Oracle        | ~15 | ~0.5%         | 170       | Critical   |
+| Disruption Target | Jira/Confluence   | ~35 | ~1.5%         | 43        | Elevated   |
+| Acquisition Panic | Adobe (pre-Figma) | ~40 | ~1%           | 60        | Elevated   |
+| High-growth PLG   | Linear/Notion     | ~60 | ~3%           | 13        | Low Risk   |
 
 ## Important Notes on Usage
 
 To ensure the index provides a clear and accurate signal, follow these guidelines:
 
 1. **Align your metrics**: The most critical rule is that the NPS score and the churn rate must measure the same population. Mixing a general NPS score with a segment-specific churn rate will produce a noisy and unreliable index.
+
    - If you are using an Enterprise NPS, you must use an Enterprise Customer Churn Rate
    - If you are using a User-level NPS, you should use User Churn Rate
 
@@ -51,7 +63,7 @@ This framework is built upon established principles of customer sentiment, produ
 
 1. **The financial impact of NPS**: Research from Bain & Company (and others) consistently shows a strong correlation between high NPS and organic growth, higher Customer Lifetime Value (CLTV), and increased profitability. This validates the `(100-NPS)` numerator as a proxy for financial health and user loyalty. [[1](https://www.bain.com/insights/the-economics-of-loyalty/)]
 
-2. **The disconnect between NPS and churn in B2B SaaS**: The *sentiment-inertia gap* is supported by analysis showing a weak direct correlation between NPS and churn in markets with high switching costs. This highlights the importance of the churn rate `C` as a denominator that contextualizes the sentiment score. [[2](https://hbsp.harvard.edu/product/H07JA1-PDF-ENG)], [[3](https://www.nngroup.com/articles/nps-ux/)]
+2. **The disconnect between NPS and churn in B2B SaaS**: The _sentiment-inertia gap_ is supported by analysis showing a weak direct correlation between NPS and churn in markets with high switching costs. This highlights the importance of the churn rate `C` as a denominator that contextualizes the sentiment score. [[2](https://hbsp.harvard.edu/product/H07JA1-PDF-ENG)], [[3](https://www.nngroup.com/articles/nps-ux/)]
 
 3. **The power of bottom-up adoption (PLG)**: The success of companies like Slack and Asana demonstrates how user-led movements can displace incumbents. This validates the core threat model: a competitor can arm a frustration coalition with a freemium or self-service product to bypass traditional procurement. [[4](https://www.sequoiacap.com/article/mongodb-built-by-developers-for-developers/)], [[5](https://www.sequoiacap.com/article/warp-spotlight/)]
 
