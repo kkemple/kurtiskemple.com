@@ -4,7 +4,7 @@
 
 This is the personal website of Kurt Kemple, Senior Director of Developer Relations at Slack. Kurt's journey to tech leadership began in the most unexpected place: learning to code while incarcerated. That unconventional start shaped his entire approach to technology and his belief that the best opportunities often exist where conventional thinking ends.
 
-Kurt specializes in finding the intersection between developer needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, and more that help individuals and companies identify, name, and dismantle complexity.
+Kurt specializes in finding the intersection between developer needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, LLM Experience (LX), Leaky Prompts, and more that help individuals and companies identify, name, and dismantle complexity.
 
 His work focuses on making the invisible work of developer relations visible and measurable, connecting systematic approaches to developer experience with clear business impact. Kurt's writing combines strategic thinking with actionable frameworks, drawing from his experience in DevRel, product management, and engineering leadership. His blog covers everything from day-to-day DevRel operations to high-level competitive strategy and organizational psychology.
 
@@ -23,6 +23,22 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Key Framework**: Five pillars: open research, accessible tools, education, ethics, supportive policy
 - **Practical Tips**: Focus on user-friendly AI tools, expand AI education, create ethical frameworks
 - **Impact**: Vision for equitable AI development that benefits all of humanity
+
+**[LLM Experience: The Missing Discipline in AI Development](https://kurtiskemple.com/blog/llm-experience)**
+*Framework: LLM Experience (LX) Design*
+
+- **Intent**: Establish LX as a discipline that optimizes for AI cognition and information architecture
+- **Key Framework**: Architecture-centric design over prompt-centric design
+- **Practical Tips**: Multi-level embedding, semantic chunking, context prioritization, automatic enhancement
+- **Impact**: Transforms AI systems from functional to exceptional through superior information architecture
+
+**[Leaky Prompts: How Context Pollution Degrades AI Performance](https://kurtiskemple.com/blog/leaky-prompts)**
+*Framework: Context Engineering for AI Systems*
+
+- **Intent**: Identify and prevent context pollution that degrades AI performance over time
+- **Key Framework**: Task drift + conversational noise = context pollution
+- **Practical Tips**: Context pruning, task anchoring, information hierarchy, checkpoint validation
+- **Impact**: Maintains AI system quality and focus through extended interactions
 
 **[Gap-filling Expertise with Claude Projects](https://kurtiskemple.com/blog/gap-filling-expertise-with-claude-projects)**
 *Framework: AI-Assisted Cross-Functional Work*
