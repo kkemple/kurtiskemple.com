@@ -115,7 +115,7 @@
   }
 
   .blog-post table {
-    @apply w-full mb-6;
+    @apply w-full mb-6 overflow-x-auto;
   }
 
   .blog-post table th {

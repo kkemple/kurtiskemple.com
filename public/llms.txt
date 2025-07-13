@@ -48,6 +48,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Upload relevant documents, create custom instructions, use for preliminary reviews
 - **Impact**: Maintain project momentum while preparing for expert collaboration
 
+**[Unlocking Expert Minds: Eight Patterns for Interactive Knowledge Capture](https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture)**
+*Framework: AI-Guided Interview Patterns*
+
+- **Intent**: Explore innovative approaches to capturing specialized knowledge
+- **Key Framework**: Eight patterns for dynamic, AI-driven knowledge capture sessions
+- **Practical Tips**: Use guided interactivity, adaptive questioning, real-time analysis
+- **Impact**: Transforms static knowledge capture into dynamic expertise articulation
+
 ### Competitive Strategy & Market Analysis
 
 **[The Friction Economy: How User Experience Failures Create Systematic B2B SaaS Disruption](https://kurtiskemple.com/blog/friction-economy)**
@@ -90,7 +98,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Reframe retention metrics, focus on user empowerment over entrapment
 - **Impact**: Helps companies identify hidden competitive vulnerabilities
 
-**[The Sentiment-Inertia Index (Sii): Measuring frustration coalition disruption](https://kurtiskemple.com/blog/sentiment-inertia-index)**
+**[The Sentiment-Inertia Index (Sii)](https://kurtiskemple.com/blog/sentiment-inertia-index)**
 *Framework: Sentiment-Inertia Index Formula*
 
 - **Intent**: Quantify risk of frustration coalition formation
@@ -241,14 +249,6 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Key Framework**: Spectrum from theory enthusiasts to practice pioneers
 - **Practical Tips**: Layer documentation, create interactive tutorials, provide multiple entry points
 - **Impact**: More inclusive and effective learning experiences for diverse developer audiences
-
-**[Unlocking Expert Minds: Eight Patterns for Interactive Knowledge Capture](https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture)**
-*Framework: AI-Guided Interview Patterns*
-
-- **Intent**: Explore innovative approaches to capturing specialized knowledge
-- **Key Framework**: Eight patterns for dynamic, AI-driven knowledge capture sessions
-- **Practical Tips**: Use guided interactivity, adaptive questioning, real-time analysis
-- **Impact**: Transforms static knowledge capture into dynamic expertise articulation
 
 ## Common Themes
 
