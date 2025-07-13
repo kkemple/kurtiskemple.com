@@ -50,6 +50,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ### Competitive Strategy & Market Analysis
 
+**[The Friction Economy: How User Experience Failures Create Systematic B2B SaaS Disruption](https://kurtiskemple.com/blog/friction-economy)**
+*Framework: Friction Economy Analysis*
+
+- **Intent**: Reveal how user experience failures drive systematic B2B SaaS market disruption
+- **Key Framework**: Friction Economy dynamics with Sentiment-Inertia Index for quantifying disruption risk
+- **Practical Tips**: Address underlying friction points, track NPS vs retention gaps, implement platform defense strategies
+- **Impact**: Helps companies identify hidden vulnerabilities and transform them into competitive strengths
+
 **[Market Disruption in the AI Era](https://kurtiskemple.com/blog/market-disruption-in-the-ai-era)**
 *Framework: Jobs to Be Done + Frustration Coalitions + Blue Ocean Strategy*
 
@@ -66,7 +74,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Watch for linguistic shifts from "I" to "we", monitor NPS vs churn gaps, focus on workflow friction
 - **Impact**: Early warning system for mass customer churn events
 
-**[The Frustration Coalition Framework](https://kurtiskemple.com/blog/the-frustration-coalition-framework)**
+**[Frustration Coalitions](https://kurtiskemple.com/blog/frustration-coalitions)**
 *Framework: Complete Frustration Coalition Framework*
 
 - **Intent**: Comprehensive strategic framework for predicting B2B customer defection
@@ -82,7 +90,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Reframe retention metrics, focus on user empowerment over entrapment
 - **Impact**: Helps companies identify hidden competitive vulnerabilities
 
-**[The Sentiment-Inertia Index (Sii): Measuring Frustration Coalition Disruption](https://kurtiskemple.com/blog/sentiment-inertia-index)**
+**[The Sentiment-Inertia Index (Sii): Measuring frustration coalition disruption](https://kurtiskemple.com/blog/sentiment-inertia-index)**
 *Framework: Sentiment-Inertia Index Formula*
 
 - **Intent**: Quantify risk of frustration coalition formation
