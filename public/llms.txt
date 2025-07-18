@@ -6,7 +6,7 @@ This is the personal website of Kurt Kemple, Senior Director of Developer Relati
 
 Kurt specializes in finding the intersection between developer needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, LLM Experience (LX), Leaky Prompts, Information Physics, and more that help individuals and companies identify, name, and dismantle complexity.
 
-His theoretical work on Information Physics provides the foundational understanding of why his practical frameworks consistently work across different domains - revealing that information systems naturally evolve toward optimal configurations following consistent patterns of entropy, energy, and topology.
+His theoretical work on Information Physics provides the foundational understanding of why his practical frameworks consistently work across different domains - revealing that humans organize information systems using patterns they understand from physics, leading to consistent optimization approaches across cultures and contexts.
 
 His work focuses on making the invisible work of developer relations visible and measurable, connecting systematic approaches to developer experience with clear business impact. Kurt's writing combines strategic thinking with actionable frameworks, drawing from his experience in DevRel, product management, and engineering leadership. His blog covers everything from day-to-day DevRel operations to high-level competitive strategy and organizational psychology.
 
@@ -22,7 +22,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 *Framework: Information Physics Pattern Recognition*
 
 - **Intent**: Explain why human systems across cultures and time periods exhibit similar optimization patterns
-- **Key Framework**: Information systems spontaneously evolve toward optimal configurations following consistent patterns of entropy, energy, and topology
+- **Key Framework**: Humans organize information systems using patterns they understand from physics, leading to consistent optimization approaches following familiar concepts of entropy, energy, and topology
 - **Practical Tips**: Measure Shannon entropy in organizations, track percolation thresholds in networks, design systems aligned with optimization patterns, recognize constraint violations as failure predictors
 - **Impact**: Provides foundational understanding of why frameworks work universally and how to predict system failures through pattern recognition
 
@@ -266,7 +266,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 Kurt's work consistently focuses on:
 
-- **Information Physics as foundational principle**: Understanding that all human systems exhibit physics-like optimization patterns, providing the theoretical basis for why his practical frameworks work universally
+- **Information Physics as foundational principle**: Understanding that humans organize information systems using patterns they understand from physics, providing the theoretical basis for why his practical frameworks work universally
 - Systematic approaches to traditionally intuitive work
 - Cross-functional collaboration and alignment
 - Measurement and metrics for proving impact (informed by information theory principles)
@@ -274,7 +274,7 @@ Kurt's work consistently focuses on:
 - Organizational psychology and team dynamics (viewed through information optimization lens)
 - Practical frameworks combined with grand theory (unified by information physics principles)
 - Strategic thinking applied to operational challenges
-- **Pattern recognition across scales**: From individual cognition to market dynamics to organizational behavior, consistent optimization patterns emerge
+- **Pattern recognition across scales**: From individual cognition to market dynamics to organizational behavior, consistent optimization patterns emerge as humans organize systems using familiar physics principles
 
 ## Contact & More
 
