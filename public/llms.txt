@@ -52,6 +52,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Context pruning, task anchoring, information hierarchy, checkpoint validation
 - **Impact**: Maintains AI system quality and focus through extended interactions
 
+**[Entropic Gaps: Measuring Context Pollution in AI Workflows](https://kurtiskemple.com/blog/entropic-gaps)**
+*Framework: Entropic Gap Measurement*
+
+- **Intent**: Provide measurable diagnostic signal for detecting semantic drift in AI conversations
+- **Key Framework**: EG = 1 - S(anchor, current) with risk thresholds for actionable intervention
+- **Practical Tips**: Anchor reference embeddings, drift visualizations, re-anchoring workflows, context window management
+- **Impact**: Transforms context pollution from invisible problem to measurable, manageable system property
+
 **[Gap-filling Expertise with Claude Projects](https://kurtiskemple.com/blog/gap-filling-expertise-with-claude-projects)**
 *Framework: AI-Assisted Cross-Functional Work*
 
