@@ -10,8 +10,8 @@ Core principle: Make others successful while ensuring the system remembers who e
 
 ### The Inversion
 
-**Traditional Power**: Control resources → Create dependencies → Maintain dominance
-**Reverse Power**: Enable capabilities → Create mutual success → Build sustainable influence
+**Negative-sum power**: Control resources → Create dependencies → Maintain dominance
+**Positive-sum power**: Enable capabilities → Create mutual success → Build sustainable influence
 
 You achieve the same strategic outcomes through opposite means. The calculation remains, but the ethics invert.
 
@@ -47,7 +47,7 @@ Present solutions at 70% completion:
 - Makes success feel shared
 - Prevents "not invented here" syndrome
 
-The remaining 30% often makes the solution better while building crucial buy-in.
+The remaining 30% makes the solution better while building crucial buy-in.
 
 ### 4. Value Arbitrage
 
