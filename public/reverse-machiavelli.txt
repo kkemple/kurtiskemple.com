@@ -40,7 +40,7 @@ Key: Your "coalition" doesn't know they're a coalition. They just know you help 
 
 ### 3. The 70% Rule
 
-Present solutions at 70% completion:
+Present solutions at 60-70% completion:
 - Demonstrates competence without threatening ownership
 - Creates space for meaningful contribution
 - Builds investment through co-creation
