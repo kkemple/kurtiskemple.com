@@ -304,7 +304,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ## Common Themes
 
-Kurt's work is unified by Information Physics - the foundational principle that humans are entropy-competent beings who consistently organize information systems using physics-like optimization patterns. Every framework derives from this core understanding:
+Kurt's work is unified by Information Physics - the foundational principle that humans are entropy-competent beings who consistently organize information systems using physics-like optimization patterns. Every framework manifests this core understanding:
 
 - **Information Physics as Universal Foundation**: All frameworks work because they align with how humans naturally optimize information flow - from neural pathways to civilizations, the same patterns emerge because we evolved to observe entropy and build against it
 - **Entropy-Based System Analysis**: Success comes from working with information physics principles; failure comes from violating fundamental constraints. This explains why certain strategies work universally while others inevitably collapse
