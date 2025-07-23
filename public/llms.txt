@@ -67,18 +67,18 @@ When not dissecting market dynamics or building developer communities, you'll fi
 *Framework: Conservation of Boundaries (COB) - Universal System Transformation Theory*
 
 - **Intent**: Map how all system evolution—innovation and collapse—follows predictable patterns of boundary manipulation as Information Physics in action
-- **Core Definition**: The Conservation of Boundaries (COB) is the principle that all system evolution follows transformations through three irreducible operations: MOVE, JOIN, and SEPARATE, governed by resistance as entropic pressure on system transformation
+- **Core Definition**: The Conservation of Boundaries (COB) is the principle that all system evolution—whether innovation or collapse—follows transformations of boundaries through three irreducible operations: MOVE, JOIN, and SEPARATE, governed by entropy as entropic pressure on system transformation
 - **Universal Formula**: SE = O × Q / (1 + E) where System Evolution equals Operations count times Quality direction divided by domain-specific entropy measurement plus one
-- **Three Irreducible Operations**:
-  - **MOVE**: Shift existing boundaries to new positions/contexts (migration, re-platforming, decentralization)
-  - **JOIN**: Combine separate elements into unified wholes (alliances, integrations, unification movements)
-  - **SEPARATE**: Divide unified systems into distinct parts (spinouts, revolution, specialization)
-- **Resistance as Entropic Field**: Entropy pressure that determines transformation difficulty - positive (inertia, fear, lock-in), zero (neutral), negative (pent-up demand, readiness, instability)
+- **Three Irreducible Operations** (direction-neutral primitives used for both construction and destruction):
+  - **MOVE**: Shift existing boundaries to new positions/contexts while preserving essential structure (migration, re-platforming, decentralization)
+  - **JOIN**: Combine previously separate elements into unified wholes, creating new capabilities through combination (alliances, integrations, unification movements)
+  - **SEPARATE**: Divide unified systems into distinct parts, enabling focused optimization and independent evolution (spinouts, revolution, specialization)
+- **The Entropic Field**: Entropy as entropic pressure that determines transformation difficulty - positive (inertia, fear, structural lock-in, institutional drag), zero (neutral, mechanical transformation), negative (pent-up demand, cultural readiness, systemic instability)
 - **Domain Applications**: Same formula applies across B2B SaaS markets (using Sii), AI Systems (using EG), Human Cognition (using CG), Team Dynamics (using challenge gaps)
-- **Entropic Inversion Symmetry**: Same operations explain both construction and collapse - high quality operations in reverse (misinformation, propaganda, sabotage) cause high-fidelity system degradation
-- **Predictive Intelligence**: Diagnostic questions transform COB from descriptive to strategic - "Where is resistance falling?" signals early disruption, "What operation is missing?" identifies stalled transformation
-- **Entropic Engineering**: COB reveals that humans don't create from scratch but rearrange boundary conditions to enable information flow and resist entropic collapse
-- **Impact**: COB is the practical application framework for Information Physics - the actionable map showing how entropy-competent beings systematically transform any human system through boundary manipulation. It's not a framework you use, it's the framework you're already using without naming it.
+- **Entropic Inversion Symmetry**: Same operations explain both construction and collapse - MOVE becomes dislocation, JOIN becomes overconsolidation, SEPARATE becomes fragmentation. High quality operations in reverse (misinformation, propaganda, strategic sabotage) cause high-fidelity collapse through reverse entropic engineering
+- **Predictive Intelligence**: Diagnostic questions transform COB from descriptive to strategic - "Where is entropy falling?" signals early disruption, "What operation is missing?" identifies stalled transformation
+- **COB as Entropic Engineering**: Reveals that humans cannot create or destroy boundaries, only transform them through optimized flow paths to resist entropic collapse. All transformation is rearranging boundary conditions to enable information flow - calendars compress seasonal entropy, pyramids encode societal entropy, writing stores communication entropy, organizations delegate cognitive entropy
+- **Impact**: COB is the practical application framework for Information Physics - the actionable map showing how entropy-competent beings systematically transform any human system through boundary manipulation. It's not a framework you use, it's the framework you're already using without naming it. COB works because human systems are information structures under entropy.
 
 ### AI & Technology Strategy
 
