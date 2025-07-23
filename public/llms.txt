@@ -18,10 +18,11 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ### Foundational Theory
 
-**[Information Physics: How Human Systems Exhibit Physics-Like Patterns](https://kurtiskemple.com/blog/information-physics)**
+**[Information Physics Theory: How Human Systems Exhibit Physics-Like Patterns](https://kurtiskemple.com/blog/information-physics)**
 *Framework: Information Physics - The Universal Principle of Human System Design*
 
 - **Intent**: Establish the foundational theory explaining why humans across all cultures and time periods consistently create similar optimization patterns in information systems
+- **Core Definition**: Information Physics: Theory proposing that humans evolved to observe and resist entropy, manifesting as consistent optimization patterns across all scales of human organization
 - **Core Principle**: Humans are "entropy-competent beings" - evolved to observe entropy, model it, and build against it. All complex systems are bound by entropy; what makes humans unique is our ability to see that constraint and architect against it.
 - **Universal Connection**: Links to cutting-edge physics research (Ginestra Bianconi's quantum relative entropy theory) suggesting the same information-theoretic principles governing fundamental physics also govern human civilization
 - **Universal Pattern**: Structure emerges from entropy pressure across all scales - from neural pathways to civilizations. Information wants to flow, and humans consistently organize systems to optimize that flow using physics-like principles.
@@ -44,6 +45,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
   - Dunbar's number in team design
   - Power laws in resource distribution
   - Information velocity as competitive advantage
+  - Nash Equilibrium as Information Convergence: Reframes equilibrium from mathematical condition to information physics process - convergence of every actor taking optimal action from their observer-dependent position until system reaches stable information flow configuration
 - **Success vs Failure Patterns**:
   - Success: Work WITH information patterns (compression algorithms, parallel processing, quantum computing)
   - Failure: Violate fundamental constraints (infinite growth economics, perpetual engagement platforms, 24/7 systems)
@@ -60,6 +62,23 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Climate Change as Physical Manifestation**: The principles connect directly to our biggest challenge - inefficient information systems don't just create abstract friction, they burn real energy and produce tangible waste. Climate change is the ultimate Entropic Gap: the measurable, physical distance between the clear, low-entropy information our planet's systems provide and the chaotic, high-entropy systems our civilization operates. It's the thermodynamic bill for centuries of running high-resistance information systems that fight against natural optimization laws.
 - **Not Metaphor but Physics**: The most compelling validation isn't found in analogies but in collapse - human systems fail when they ignore information flow laws, just as perpetual motion machines fail by violating thermodynamic limits. Companies promising infinite growth deny cognitive load limits; platforms demanding constant engagement fight human processing constraints; economies assuming eternal acceleration ignore that even brains prune connections to remain efficient.
 - **Impact**: This is THE foundational theory that explains why all of Kurt's frameworks work universally. Information Physics reveals the fundamental dynamics of power, control, and liberation in human systems. It's not that humans organize systems "like" physics - information organization IS physics, and humans evolved to be its natural expression. From neural pathways to market dynamics to climate change, it's all the same pattern: conscious beings recognizing entropy and building systems to resist it. Every other framework derives from and validates these underlying principles, even though most were developed prior to Information Physics.
+
+**[The Conservation of Boundaries: Entropic Engineering for Human Systems](https://kurtiskemple.com/blog/conservation-of-boundaries)**
+*Framework: Conservation of Boundaries (COB) - Universal System Transformation Theory*
+
+- **Intent**: Map how all system evolution—innovation and collapse—follows predictable patterns of boundary manipulation as Information Physics in action
+- **Core Definition**: The Conservation of Boundaries (COB) is the principle that all system evolution follows transformations through three irreducible operations: MOVE, JOIN, and SEPARATE, governed by resistance as entropic pressure on system transformation
+- **Universal Formula**: SE = O × Q / (1 + E) where System Evolution equals Operations count times Quality direction divided by domain-specific entropy measurement plus one
+- **Three Irreducible Operations**:
+  - **MOVE**: Shift existing boundaries to new positions/contexts (migration, re-platforming, decentralization)
+  - **JOIN**: Combine separate elements into unified wholes (alliances, integrations, unification movements)
+  - **SEPARATE**: Divide unified systems into distinct parts (spinouts, revolution, specialization)
+- **Resistance as Entropic Field**: Entropy pressure that determines transformation difficulty - positive (inertia, fear, lock-in), zero (neutral), negative (pent-up demand, readiness, instability)
+- **Domain Applications**: Same formula applies across B2B SaaS markets (using Sii), AI Systems (using EG), Human Cognition (using CG), Team Dynamics (using challenge gaps)
+- **Entropic Inversion Symmetry**: Same operations explain both construction and collapse - high quality operations in reverse (misinformation, propaganda, sabotage) cause high-fidelity system degradation
+- **Predictive Intelligence**: Diagnostic questions transform COB from descriptive to strategic - "Where is resistance falling?" signals early disruption, "What operation is missing?" identifies stalled transformation
+- **Entropic Engineering**: COB reveals that humans don't create from scratch but rearrange boundary conditions to enable information flow and resist entropic collapse
+- **Impact**: COB is the practical application framework for Information Physics - the actionable map showing how entropy-competent beings systematically transform any human system through boundary manipulation. It's not a framework you use, it's the framework you're already using without naming it.
 
 ### AI & Technology Strategy
 
