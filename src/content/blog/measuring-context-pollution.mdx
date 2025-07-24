@@ -1,32 +1,32 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Entropic Gaps: Measuring Context Pollution in AI Workflows"
-description: "The Entropic Gap is a diagnostic signal that measures the growing semantic divergence between what the user intended and what the AI is now doing."
-image: "/images/og/entropic-gaps.png"
+title: "Context Pollution: Measuring Semantic Drift in AI Workflows"
+description: "Context Pollution is a diagnostic signal that measures the growing semantic divergence between what the user intended and what the AI is now doing."
+image: "/images/og/context-pollution.png"
 pubDate: "07/19/2025"
 featured: true
 ---
 
 We know that [leaky prompts create context pollution](/blog/leaky-prompts) that systematically degrades AI performance over time. But knowing a problem exists and being able to measure it are two different challenges. How do you quantify the moment when a focused AI conversation starts to drift? How do you detect semantic misalignment before it becomes a user experience problem?
 
-The answer lies in measuring the **entropic gap**—a diagnostic signal that captures the growing semantic distance between your original intent and where the AI conversation has actually gone. This isn't just another metric; it's a way to make context pollution visible, measurable, and actionable.
+The answer lies in measuring **context pollution**—a diagnostic signal that captures the growing semantic distance between your original intent and where the AI conversation has actually gone. This isn't just another metric; it's a way to make context pollution visible, measurable, and actionable.
 
-## Defining the Entropic Gap
+## Defining Context Pollution
 
-> **Entropic gap** is the measurable distance between original intent and current direction, created by the natural entropy of complex interactions.
+> **Context pollution** is the measurable distance between original intent and current direction, created by the natural entropy of complex interactions.
 
 ### Formula
 
 ```math
-EG = 1 - S(anchor, current)
+CP = 1 - S(anchor, current)
 ```
 
 ### Definition
 
-* **EG** = Entropic Gap (range: 0 to 1, higher is worse)
+* **CP** = Context Pollution (range: 0 to 1, higher is worse)
 * **S(anchor, current)** = Cosine similarity between the original task intent embedding and the current working context embedding
 
-A similarity score of 1.0 means perfect alignment with the original task. As that score drops, the Entropic Gap grows, signaling increasing semantic divergence.
+A similarity score of 1.0 means perfect alignment with the original task. As that score drops, the Context Pollution grows, signaling increasing semantic divergence.
 
 ---
 
@@ -34,7 +34,7 @@ A similarity score of 1.0 means perfect alignment with the original task. As tha
 
 Understanding when context pollution becomes actionable requires clear thresholds that translate abstract similarity scores into concrete operational decisions. These risk levels provide systematic guidelines for when to intervene in AI workflows before performance degradation becomes user-facing.
 
-| Entropic Gap  | Risk Level | Interpretation                                                                                                |
+| Context Pollution  | Risk Level | Interpretation                                                                                                |
 | ------------- | ---------- | ------------------------------------------------------------------------------------------------------------- |
 | **< 0.10**    | Aligned    | Task intent and active context are strongly aligned. No corrective action needed.                             |
 | **0.10–0.25** | Mild Drift | Minor drift detected. Performance quality may begin to degrade. Review for subtle misalignment.               |
@@ -47,7 +47,7 @@ These thresholds enable proactive intervention rather than reactive damage contr
 
 ## Deep Research Workflow Example
 
-To see how entropic gap measurement works in practice, we can trace through a systematic workflow where drift detection and re-anchoring are built into the process itself.
+To see how context pollution measurement works in practice, we can trace through a systematic workflow where drift detection and re-anchoring are built into the process itself.
 
 Consider an AI research assistant helping with a complex analysis project:
 
@@ -62,7 +62,9 @@ Consider an AI research assistant helping with a complex analysis project:
 7. **Re-anchoring**: On user acceptance of clarifications, agent creates a new anchor embedding
 8. **Workflow continuation**: Research continues with updated alignment reference
 
- ![Illustration showcasing increasing entropic gap over interactions](/images/blog/eg-visualization-example.png)
+ ![Illustration showcasing increasing context pollution over interactions](/images/blog/eg-visualization-example.png)
+
+ > While the visualization refers to Entropic Gap (`EG`)—the underlying mathematics—the same principles apply to Context Pollution (`CP`).
 
 This systematic approach prevents research scope creep and ensures the final deliverable matches the original intent, even through dozens of interactions. Additionally, the re-anchoring process naturally manages context window limits—when the system creates a new anchor, it can prune outdated context and irrelevant conversation history, avoiding the truncation issues that plague today's long-running AI workflows. This means research sessions can continue indefinitely without degrading due to either semantic drift or technical limitations.
 
@@ -83,7 +85,7 @@ Understanding these causes is crucial, but measuring drift becomes even more pow
 
 ## Connecting Drift to System Failures
 
-Measuring the entropic gap provides a quantitative signal, but it becomes even more effective when paired with qualitative evaluations. Most AI systems already log test failures, unexpected outputs, or annotated breakdowns. By comparing these logs with entropic gap measurements, you can start to map how semantic drift contributes to downstream failure.
+Measuring context pollution provides a quantitative signal, but it becomes even more effective when paired with qualitative evaluations. Most AI systems already log test failures, unexpected outputs, or annotated breakdowns. By comparing these logs with context pollution measurements, you can start to map how semantic drift contributes to downstream failure.
 
 ### Building a Hybrid Diagnostic Model
 
@@ -97,7 +99,7 @@ When these three signals align, you can trace system failures back to specific m
 
 ### Common Failure Patterns
 
-Different types of semantic drift produce distinct failure signatures that emerge consistently across AI workflows. By cataloging these patterns, you can build predictive models that anticipate breakdown before it becomes user-facing. Analysis of entropic gap data reveals several recurring failure modes:
+Different types of semantic drift produce distinct failure signatures that emerge consistently across AI workflows. By cataloging these patterns, you can build predictive models that anticipate breakdown before it becomes user-facing. Analysis of context pollution data reveals several recurring failure modes:
 
 * Sharp drift early in a session often results in task confusion or tool misfire
 * Gradual drift over time may lead to vague, repetitive, or hallucinated responses
@@ -107,7 +109,7 @@ These patterns form the foundation for automated intervention systems that can r
 
 ### Operational Benefits
 
-The real value of drift measurement emerges when you can act on the insights systematically. When you connect entropic gap data to known failure points, you can classify failure modes by shape and trajectory. This classification enables several critical operational capabilities:
+The real value of drift measurement emerges when you can act on the insights systematically. When you connect context pollution data to known failure points, you can classify failure modes by shape and trajectory. This classification enables several critical operational capabilities:
 
 * **Drift signature mapping**: clustering different types of decay into recognizable patterns
 * **Root cause visibility**: identifying which type of drift leads to which kind of breakdown
@@ -121,15 +123,15 @@ Once you can reliably detect and categorize drift patterns, the next step is bui
 
 ## Strategies to Track and Control the Gap
 
-When you identify the Entropic Gap as a key failure mode, you can design systems that measure and counteract it. Effective mitigation requires combining detection mechanisms with active intervention strategies.
+When you identify Context Pollution as a key failure mode, you can design systems that measure and counteract it. Effective mitigation requires combining detection mechanisms with active intervention strategies.
 
 The most successful approaches treat drift prevention as an architectural principle rather than a post-hoc debugging tool. Consider these proven mitigation techniques:
 
 * **Anchor reference embeddings**: Save a vector representation of the original task to continuously compare against the evolving context.
-* **Drift visualizations**: Plot the Entropic Gap over time to reveal when and how semantic misalignment occurs.
+* **Drift visualizations**: Plot the Context Pollution over time to reveal when and how semantic misalignment occurs.
 * **Context pruning**: Remove irrelevant, outdated, or conflicting turns from the prompt history.
 * **Task reinforcement**: Reiterate the task objective every few turns or whenever drift exceeds a certain threshold.
-* **Reset triggers**: If EG exceeds 0.45, initiate re-anchoring prompts or system-initiated clarifications.
+* **Reset triggers**: If CP exceeds 0.45, initiate re-anchoring prompts or system-initiated clarifications.
 
 Each of these strategies addresses a specific failure pattern and allows your AI system to regain alignment proactively. The key is implementing them as systematic processes rather than manual interventions, creating self-correcting workflows that maintain task coherence automatically.
 
@@ -137,7 +139,7 @@ Each of these strategies addresses a specific failure pattern and allows your AI
 
 ## How AI Can Help Close the Gap
 
-As LLMs improve, they won't just suffer from drift—they'll help detect it. If an AI can compute its own Entropic Gap, it can:
+As LLMs improve, they won't just suffer from drift—they'll help detect it. If an AI can compute its own Context Pollution, it can:
 
 * Detect when a user has unintentionally changed direction
 * Suggest clarification or re-anchoring strategies
@@ -153,17 +155,17 @@ This fundamentally changes the dynamic: instead of humans keeping AI on task, AI
 
 As agents become embedded in multi-step workflows and long conversations, the ability to maintain task coherence becomes critical. A 2% misalignment early in the chain can create a 40% failure rate by the end.
 
-The Entropic Gap gives you a way to detect that misalignment *before* it becomes a user complaint. It lets you debug AI workflows the same way you debug latency or churn.
+Context Pollution gives you a way to detect that misalignment *before* it becomes a user complaint. It lets you debug AI workflows the same way you debug latency or churn.
 
 ---
 
 ## Conclusion
 
-The progression from concept to implementation is clear: leaky prompts describe the failure mode, context pollution describes the technical cause, and the entropic gap provides the measurable signal that makes intervention possible.
+The progression from concept to implementation is clear: leaky prompts describe the failure mode, context pollution describes the technical cause, and context pollution measurement provides the measurable signal that makes intervention possible.
 
-But measurement without action is just monitoring. The real power emerges when you build systems that can detect drift early and respond systematically. The research workflow example demonstrates how entropic gap measurement transforms from diagnostic tool into architectural principle, enabling AI systems that maintain alignment across extended interactions while managing finite context windows.
+But measurement without action is just monitoring. The real power emerges when you build systems that can detect drift early and respond systematically. The research workflow example demonstrates how context pollution measurement transforms from diagnostic tool into architectural principle, enabling AI systems that maintain alignment across extended interactions while managing finite context windows.
 
-With entropic gap measurement, you can build systems that:
+With context pollution measurement, you can build systems that:
 
 * Maintain task fidelity across long sessions
 * Trigger re-anchoring when needed
