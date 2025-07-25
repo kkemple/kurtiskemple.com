@@ -21,8 +21,8 @@ Humans are entropy-competent beings who evolved to observe universal decay and c
 **Variables:**
 - SEC: System Entropy Change (positive reduces entropy, negative increases)
 - O: Operations count (MOVE, JOIN, SEPARATE primitives)
-- V: Vector (conscious intent direction, -1 to +1)
-- E: Entropy from observer position (0 to ∞)
+- V: Vector of actor-group conscious intent (positive for entropy reduction, negative for entropy increase, -1 to +1)
+- E: Entropy as measured from individual actor's position (lived reality/informational constraints/entropy from the system, 0 to ∞)
 
 **Key Properties:**
 - Observer-dependent: E varies by position in system

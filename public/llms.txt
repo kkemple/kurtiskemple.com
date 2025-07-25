@@ -48,7 +48,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 - **Intent**: Map how all system evolution—innovation and collapse—follows predictable patterns of boundary manipulation as Information Physics in action
 - **Core Definition**: The Conservation of Boundaries (COB) is the principle that all system evolution follows transformations of boundaries through three irreducible operations: MOVE, JOIN, and SEPARATE, governed by entropy as pressure on system transformation
-- **Universal Formula**: `SEC = O × V / (1 + E)` where System Evolution Capability equals Operations count times Value direction divided by observer-specific entropy measurement plus one
+- **Universal Formula**: `SEC = O × V / (1 + E)` where System Evolution Capability equals Operations count times actor-group conscious intent divided by individual actor's positional entropy plus one
 - **Three Universal Operations**: MOVE (shift boundaries to new positions), JOIN (combine separate elements), SEPARATE (divide unified systems) - used for both construction and destruction
 - **Observer-Dependent Reality**: Same operations feel impossible from one position and trivial from another - the executive at E=0.2 lives in different mathematical reality than worker at E=0.9
 - **Entropic Inversion Symmetry**: Same operations explain both innovation and collapse - high quality operations in reverse cause high-fidelity system destruction
@@ -59,7 +59,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 - **Intent**: Develop mathematical framework where observer position and consciousness are fundamental variables, not complications to eliminate
 - **Core Innovation**: The first mathematics designed for conscious systems navigating possibility spaces rather than unconscious objects following fixed laws
-- **Foundation Formula**: All calculations flow from `SEC = O × V / (1 + E)` where entropy from observer position fundamentally determines outcomes
+- **Foundation Formula**: All calculations flow from `SEC = O × V / (1 + E)` where individual actor's positional entropy fundamentally determines outcomes
 - **Consciousness as Variable**: Traditional mathematics eliminates observer effects; Entropic Mathematics makes position and awareness primary factors in all calculations
 - **Practical Application**: Transforms vague management concepts into precise calculations - "impossible" vs "trivial" becomes mathematical difference in E values
 - **Implication**: Mathematics can now describe and optimize human choice, agency, and possibility rather than just mechanical processes
