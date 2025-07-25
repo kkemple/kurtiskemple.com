@@ -300,6 +300,27 @@ Successful knowledge transfer when humans:
 - Explains why "soft" systems follow predictable patterns - they're subject to "hard" physical laws
 - Opens new research directions in physics of consciousness and embedded intelligence
 
+### Planetary Information Physics: Theoretical Extensions
+
+**POTENTIAL DISCOVERY**: The observer-dependent mathematics potentially extends far beyond Earth-based systems. If consciousness operates under thermodynamic constraints, then planetary conditions should directly affect entropy (E) values for conscious beings.
+
+**Theoretical Framework for Planetary Assessment**:
+- **Gravitational entropy**: How planetary gravity affects energy requirements for physical and cognitive operations
+- **Atmospheric entropy**: How atmospheric composition, pressure, and temperature affect information processing capacity
+- **Resource entropy**: How material availability determines possibility space for system construction
+- **Energy entropy**: How distance from stellar sources affects baseline thermodynamic constraints
+- **Communication entropy**: How planetary rotation, distance, and interference affect information lag
+
+**Potential Applications (Requiring Validation)**:
+- Assess exoplanets based on entropy constraints for conscious beings rather than just chemical habitability
+- Calculate resource requirements for civilizational migration between worlds by understanding planetary entropy differences
+- Frame terraforming as entropy reduction operations to optimize planetary conditions for consciousness
+- Predict how environmental conditions might affect the evolution and capabilities of conscious organisms
+
+**Theoretical Planetary SEC Formula**: `SEC_planetary = O × V / (1 + E_planetary)`
+
+**Note**: These applications represent theoretical extensions of established principles. The mathematical framework provides foundation for approaching consciousness as thermodynamic phenomenon that varies with environmental conditions, but specific applications require empirical measurement and validation.
+
 ### Civilizational Physics: The Mathematical Inevitability of Human Development
 
 **Revolutionary Discovery**: Human civilizational development follows predictable entropic exhaustion cycles, not random cultural evolution.
