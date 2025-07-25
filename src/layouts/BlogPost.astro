@@ -28,7 +28,7 @@ function formatDate(dateString: string) {
   const day = parts.find((part) => part.type === "day")?.value ?? "";
   const year = parts.find((part) => part.type === "year")?.value ?? "";
 
-  return `${month} ${day}${getOrdinalSuffix(parseInt(day))}, ${year}`;
+  return `${month} ${day}${getOrdinalSuffix(Number.parseInt(day))}, ${year}`;
 }
 
 function getOrdinalSuffix(day: number) {
@@ -83,7 +83,7 @@ function getOrdinalSuffix(day: number) {
 
       <main class="pt-24 md:pt-32 max-w-3xl mx-auto px-8 md:px-6 lg:px-0">
         <h1
-          class="text-4xl md:text-5xl lg:text-6xl text-honey-crusted-chicken mb-12"
+          class="text-4xl md:text-5xl text-honey-crusted-chicken mb-12"
           style="line-height: 1.1 !important;"
         >
           {frontmatter.title}
