@@ -63,7 +63,7 @@ const regularPosts = sortedPosts.filter((post) => !post.data.featured);
         {
           regularPosts.map((post) => (
             <ContentCard
-              slug={post.slug}
+              slug={`/blog/${post.slug}`}
               title={post.data.title}
               description={post.data.description}
             />
