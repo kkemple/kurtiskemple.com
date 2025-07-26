@@ -42,7 +42,7 @@ const regularPosts = sortedPosts.filter((post) => !post.data.featured);
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {featuredPosts.map((post) => (
                   <ContentCard
-                    slug={post.slug}
+                    slug={`/blog/${post.slug}`}
                     title={post.data.title}
                     description={post.data.description}
                   />

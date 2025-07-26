@@ -50,18 +50,56 @@ const latest = sortedPosts.slice(0,3)
       </div>
     </div>
 
-    <h3 id="must-read" class="mb-8 text-4xl text-raptures-light">
-      Latest Writings
+    <h3 class="text-4xl font-semibold mb-8 text-raptures-light" id="guides">
+      The Theory of Information Physics
     </h3>
 
-    <div class="mb-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {latest.map((post) => (
-        <ContentCard
-          slug={post.slug}
-          title={post.data.title}
-          description={post.data.description}
-        />
-      ))}
+    <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <ContentCard
+        slug="/information-physics/theory"
+        title="Information Physics Theory"
+        description="The first mathematics for conscious beings as physical entities subject to actual thermodynamic constraints. Building on Shannon's information-entropy equivalence to create observer-dependent mathematics for embedded consciousness."
+      />
+      <ContentCard
+        slug="/information-physics/conservation-of-boundaries"
+        title="Universal Law: Conservation of Boundaries"
+        description="All system change occurs through exactly three operations: MOVE, JOIN, SEPARATE. Learn the universal law governing how boundaries transform and why the same mechanics that build can destroy."
+      />
+      <ContentCard
+        slug="/information-physics/entropic-mathematics"
+        title="Entropic Mathematics: The First Mathematics for Conscious Embedded Agents in Systems"
+        description="Observer-dependent mathematics for conscious beings as physical entities subject to actual thermodynamic constraints. Building on Shannon's information-entropy foundation where position, heat, fatigue, and resources determine possibility."
+      />
+      <ContentCard
+        slug="/information-physics/entropic-gap"
+        title="Entropic Gap: Mathematical Precision for Measuring Vector Deviation"
+        description="Detect system decay before it becomes catastrophic. Calculate the exact distance between what your system should be versus what it's become using vector mathematics. Transform reactive management into proactive maintenance."
+      />
+      <ContentCard
+        slug="/information-physics/entropic-equilibrium"
+        title="Entropic Equilibrium: Why Systems Stabilize Where They Do"
+        description="From game theory to entropic exhaustion, discover why systems stabilize when they do. Learn how Nash Equilibrium actually forms through observer-dependent optimization and why different positions create different realities."
+      />
+      <ContentCard
+        slug="/information-physics/field-guide"
+        title="Information Physics Field Guide"
+        description="From maximum-entropy environments to observer-dependent mathematics for embedded consciousness. The discovery journey revealing how physical conscious beings navigate Shannon's information-entropy through thermodynamic constraints."
+      />
+      <ContentCard
+        slug="/information-physics/in-mathematics"
+        title="Information Physics in Mathematics"
+        description="Observer-dependent mathematics for conscious beings as physical entities subject to thermodynamic constraints. Building on Shannon's information-entropy equivalence where position, heat, fatigue determine calculation outcomes."
+      />
+      <ContentCard
+        slug="/information-physics/in-science"
+        title="Information Physics in Science"
+        description="Building on Shannon's information-entropy equivalence to create observer-dependent mathematics for embedded consciousness. From quantum mechanics to biology, the same thermodynamic constraints on conscious beings appear at every scale."
+      />
+      <ContentCard
+        slug="/information-physics/throughout-history"
+        title="Information Physics Throughout History"
+        description="Sun Tzu, Machiavelli, and Napoleon intuited what we now can prove. Explore how history's greatest strategists applied Information Physics principles centuries before we had the mathematics."
+      />
     </div>
 
     <div class="my-24 flex justify-center">
@@ -75,27 +113,27 @@ const latest = sortedPosts.slice(0,3)
     {/* Repeat this pattern for each ContentCard */}
     <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <ContentCard
-        slug="developer-advocates-guide-to-metrics-and-reporting"
+        slug="/blog/developer-advocates-guide-to-metrics-and-reporting"
         title="The Developer Advocate's Guide to Metrics and Reporting"
         description="As developer advocates, avoid becoming extensions of other teams by closely learning metrics: the different types you'll encounter and when to use them, which are trusted and untrusted, and how to build them effectively to support your team's goals."
       />
       <ContentCard
-        slug="developer-advocates-guide-to-addressing-product-friction"
+        slug="/blog/developer-advocates-guide-to-addressing-product-friction"
         title="The Developer Advocate's Guide to Addressing Product Friction"
         description="Over the last three months, we've been developing a framework at Apollo called DX Audits to help us identify, document, report, and address product friction. It was getting difficult to scale this part of developer advocacy so we came up with a framework and this post covers our experience with it and where we landed on the framework's implementation."
       />
       <ContentCard
-        slug="developer-advocates-guide-to-content-creation"
+        slug="/blog/developer-advocates-guide-to-content-creation"
         title="The Developer Advocate's Guide to Content Creation"
         description={`Have you ever felt overwhelmed by the idea of having to create that next blog post or YouTube video? Do you find yourself unable to finish things because you're not quite sure when to call it done? Are you adjusting your outlines or talking points on the fly? Learn how to create content more effectively by doing the work before the work.`}
       />
       <ContentCard
-        slug="developer-advocates-guide-to-getting-buy-in"
+        slug="/blog/developer-advocates-guide-to-getting-buy-in"
         title="The Developer Advocate's Guide to Getting Buy-In"
         description={`Getting buy-in as a developer advocate is a unique challenge. We usually are not the owners or even direct contributors to what we're trying to change. Instead, we represent this bizarre ephemeral thing called a "community." In this post, I'll cover what buy-in is, how it applies to developer advocacy, what skills help the most when trying to get buy-in, and the processes I use.`}
       />
       <ContentCard
-        slug="developer-advocates-guide-to-asking-for-things"
+        slug="/blog/developer-advocates-guide-to-asking-for-things"
         title="The Developer Advocate's Guide to Asking for Things"
         description={`Whether we're trying to get buy-in internally or working on collaborations externally, we're generally in the business of asking. Learn how to get better results from your requests by rethinking the nature of relationships and following the three Rs of asking for things: Recognition, Request, and Reward.`}
       />

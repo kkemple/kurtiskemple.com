@@ -9,7 +9,7 @@ const { slug, title, description } = Astro.props;
 
 function truncateDescription(
   description: string,
-  maxLength: number = 300
+  maxLength = 300
 ): string {
   return description.length > maxLength
     ? `${description.slice(0, maxLength)}...`
@@ -17,7 +17,7 @@ function truncateDescription(
 }
 ---
 
-<a href={`/blog/${slug}`} class="block no-underline mb-8">
+<a href={`${slug}`} class="block no-underline mb-8">
   <article
     class="flex flex-col justify-between bg-naval-night h-full p-6 rounded-lg border-2 border-gradient hover:border-autumn-fire transition-all duration-300"
   >
