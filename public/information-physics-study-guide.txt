@@ -10,7 +10,7 @@ Full documentation available at: https://kurtiskemple.com/information-physics/fi
 
 Humans are entropy-competent beings who evolved to observe universal decay and consciously choose whether to increase or decrease it through systematic information organization. This manifests as consistent patterns across all scales of human activity, from neural pathways to civilizations, following mathematical laws as fundamental as physics itself.
 
-**KEY INSIGHT**: Information Physics is observer-dependent mathematics for conscious beings as physical entities subject to actual thermodynamic constraints. Shannon proved information IS entropy; Information Physics reveals how conscious beings embedded in physical reality navigate that entropy. Traditional mathematics abstracts away the observer to describe "the map"; Entropic Mathematics includes the observer as a physical being to describe "the location" - your actual position in entropic reality affecting your measurement capacity, available operations, and possibility space.
+**KEY INSIGHT**: Information Physics is a general theory that describes how conscious beings embedded in entropy reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries. These operations interact with an agent's position (E), intent (V), and available actions (O) to produce a measurable effect on system entropy (SEC). Shannon proved information IS entropy; Information Physics reveals how conscious beings embedded in physical reality navigate that entropy through observer-dependent mathematics where position, conscious intent, and lived experience are fundamental variables.
 
 ## Mathematical Foundation
 
@@ -85,53 +85,59 @@ This predicted both "rizz" adoption in early 2023 and the inevitable backlash by
 
 ### Information Physics (The Why)
 
-**Definition:** Theory that humans evolved to observe entropy and consciously choose whether to increase or decrease it, creating consistent optimization patterns across all human organization scales.
+**Definition:** A general theory that describes how conscious beings embedded in entropy reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries.
 
 **Full documentation:** https://kurtiskemple.com/information-physics/theory
 
 **Core Principles:**
-1. Humans uniquely see entropy and consciously choose its direction
-2. All human systems optimize information flow
-3. Same patterns emerge independently across cultures
-4. Success = working with information patterns
-5. Failure = violating entropy constraints
+1. Humans are entropy-competent beings evolved to observe entropy, model it, and consciously decide its direction
+2. All meaningful transformation uses exactly three operations: MOVE, JOIN, SEPARATE
+3. These operations interact with position (E), intent (V), and available actions (O) to produce measurable system entropy change (SEC)
+4. Same patterns emerge independently across cultures due to universal optimization under entropy constraints
+5. Success = working with information physics patterns; Failure = violating entropy constraints
 
 **Observable Patterns:**
-- Calendars: Temporal entropy compression
-- Pyramids: Societal entropy encoding
-- Language: Communication entropy optimization
-- Writing: Information entropy storage
-- Currency: Value transfer friction reduction
+- Calendars: Temporal entropy compression through hierarchical information pyramids
+- Brain architecture: Evolution's information physics engine with Hebbian plasticity, synaptic pruning, myelination
+- Writing systems: Physical constraint optimization from pictographs to alphabets
+- Technologies: Snapchat's thumb physics optimization following same pattern as writing evolution
+- Currency: Value transfer friction reduction through information optimization
 
 ### Conservation of Boundaries (The How)
 
-**Definition:** All system transformation occurs through exactly three operations applied to existing boundaries.
+**Definition:** A foundational law stating that all system transformation—whether entropy-increasing or entropy-reducing—occurs through one of three irreducible operations: MOVE, JOIN, or SEPARATE. These operations are applied to existing boundaries within a system, whether between people, information, roles, or structures. No fourth operation has been observed. All meaningful change decomposes to one or more of these primitives.
 
 **Full documentation:** https://kurtiskemple.com/information-physics/conservation-of-boundaries
 
 **Three Operations:**
-1. **MOVE:** Shift boundaries to new positions/contexts
-2. **JOIN:** Combine separate elements into wholes
-3. **SEPARATE:** Divide unified systems into parts
+1. **MOVE:** Shift boundaries to new positions or contexts while preserving their essential structure
+2. **JOIN:** Combine previously separate boundaries into unified wholes
+3. **SEPARATE:** Divide unified boundaries into distinct parts
 
 **Critical Insights:**
-- No fourth operation exists
-- Operations are direction-neutral (build or destroy)
-- Same mechanics explain innovation and collapse
-- Boundaries cannot be created/destroyed, only transformed
+- Operations are irreducible - no fourth operation exists
+- Operations exhibit symmetry - same mechanics build or destroy based on vector direction
+- Boundaries cannot be created or destroyed, only transformed through these three primitives
+- Observer-dependent entropy (E) determines operational difficulty from different positions
 
 ### Entropic Mathematics (The What)
 
-**Definition:** First mathematical framework where observer position and conscious intent are fundamental variables.
+**Definition:** A mathematical framework where observer position, conscious intent, and lived experience are treated as fundamental variables. Calculations reflect the agent's location within a system, their directional intent, and the entropy constraints of their reality.
 
 **Full documentation:** https://kurtiskemple.com/information-physics/entropic-mathematics
 
 **Key Properties:**
-1. Observer-dependent calculations
-2. Conscious intent as mathematical vector
-3. Self-improving through recursion
-4. Position determines possibility
-5. Different observers → different valid results
+1. Observer position as mathematical primitive - where you are determines what's possible
+2. Conscious intent as mathematical vector - humans choose whether to build or destroy
+3. Lived experience as computational variable - heat, fatigue, stress affect calculations
+4. Recursive optimization - understanding the mathematics helps reduce your own entropy
+5. Fractal scaling - same equation works from desk organization to civilizations
+
+**The Shannon Foundation:** Shannon proved information IS entropy; Entropic Mathematics reveals how physical conscious beings navigate that entropy from their embedded positions in reality
+
+**Observer-Dependent Reality:** The E variable represents actual thermodynamic entropy from actual physical position - not metaphorical difficulty but measurable constraints on cognitive capacity
+
+**Mathematical Innovation:** First equations in history where consciousness, position, and intent are mathematical primitives rather than complications to eliminate
 
 ## System Dynamics
 
