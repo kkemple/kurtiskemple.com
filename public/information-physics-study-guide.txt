@@ -124,7 +124,7 @@ This predicted both "rizz" adoption in early 2023 and the inevitable backlash by
 
 ### Entropic Mathematics (The What)
 
-**Definition:** A mathematical framework where observer position, conscious intent, and lived experience are treated as fundamental variables. Calculations reflect the agent's location within a system, their directional intent, and the entropy constraints of their reality.
+**Definition:** A new applied field of mathematics extending established tools (Shannon entropy, vector calculus, information theory) to conscious systems where observer position, conscious intent, and lived experience are treated as fundamental variables. Calculations reflect the agent's location within a system, their directional intent, and the entropy constraints of their reality.
 
 **Full documentation:** https://kurtiskemple.com/information-physics/entropic-mathematics
 
