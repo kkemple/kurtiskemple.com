@@ -92,12 +92,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 ### Supporting Framework
 
 **[Information Physics Throughout History](https://kurtiskemple.com/information-physics/throughout-history)**
-*Timeline: How Information Physics Manifests Across Civilizations*
+*Deep Time to Strategic Mastery: Information Physics Across 3.8 Billion Years*
 
-- **Intent**: Demonstrate Information Physics principles throughout human history via convergent evolution of information systems
-- **Historical Validation**: Independent civilizations developing identical solutions (calendars, writing, hierarchy, currency) proves these are universal optimization principles, not cultural accidents
-- **Pattern Recognition**: Same information compression and transmission optimizations appear regardless of geography, time period, or cultural context
-- **Impact**: Historical evidence supporting Information Physics as universal human tendency rather than modern business theory
+- **Intent**: Trace Information Physics principles from evolutionary survival through civilizational development to strategic mastery
+- **Evolutionary Foundation**: The fossil record provides ultimate validation - during every mass extinction event, specialist species consistently died while generalist species survived, following predictable SEC formula patterns (specialists ≈ 0.56, generalists ≈ 2.0) across 3.8 billion years of life
+- **Civilizational Patterns**: Independent human civilizations developing identical solutions (calendars, writing, hierarchy, currency) demonstrates these principles governing conscious organization, not random cultural evolution
+- **Strategic Intuition**: History's greatest strategists (Sun Tzu, Machiavelli, Napoleon) intuitively applied Information Physics principles centuries before the mathematics existed, proving these patterns are recognizable to entropy-competent beings
+- **Universal Recognition**: From evolutionary survival to human strategy, the same operational flexibility vs. specialization trade-offs determine outcomes across all scales and timescales
+- **Impact**: Establishes Information Physics as fundamental principle governing survival and success from planetary evolution to human organization
 
 **[Information Physics In Mathematics](https://kurtiskemple.com/information-physics/in-mathematics)**
 *Mathematical Foundation: How Information Physics Connects to Established Mathematical Principles*
@@ -388,6 +390,15 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Mathematical Analysis**: Even perfect gig worker execution yields SEC = 1 × 1 / (1 + High E) while operators achieve massive leverage through same formula
 - **Information Physics Connection**: Validates SEC equation's power to predict systemic outcomes - burnout and inefficiency emerge as thermodynamic guarantees, not behavioral failures
 - **Impact**: Transforms economic critique from moral argument to mathematical fact, shows how entropy concentration creates extraction mechanisms
+
+### [Survival Trends Across Mass Extinctions](https://kurtiskemple.com/information-physics/survival-trends-in-mass-extinction-events)
+*Evolutionary Validation: Information Physics at Planetary Scale*
+
+- **Intent**: Demonstrate Information Physics principles operating across evolutionary timescales through fossil record analysis
+- **Key Finding**: During every mass extinction event, specialist species died while generalist species thrived, following predictable SEC formula patterns where specialists operate at SEC = 0.56 and generalists achieve SEC = 2.0
+- **Mathematical Analysis**: Specialists optimized for stable environments (low E in specific niches) but became extinction-vulnerable when conditions changed; generalists maintained operational flexibility (high O) and environmental tolerance (low E) enabling 4x adaptive capacity
+- **Information Physics Connection**: Provides ultimate validation that SEC equation governs survival itself - evolution demonstrates that efficiency optimization creates fragility while operational diversity ensures survival during high-entropy events
+- **Impact**: Shows Information Physics operates across 3.8 billion years of life, validates mathematical framework for understanding human specialization risks, connects individual optimization patterns to species-level survival
 
 ## Theoretical Extensions: Planetary Information Physics
 

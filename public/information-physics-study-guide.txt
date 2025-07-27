@@ -393,6 +393,13 @@ Successful knowledge transfer when humans:
 - **Impact**: Transforms gig economy critique from moral argument to mathematical fact, showing how structural design determines human capability
 - **Documentation**: https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy
 
+**Survival Trends Across Mass Extinctions**
+- **Finding**: During every mass extinction event, specialist species died while generalist species thrived, following predictable SEC formula patterns where specialists operate at SEC = 0.56 and generalists achieve SEC = 2.0
+- **Mathematical Analysis**: Specialists evolved minimal E for stable environments but became extinction-vulnerable when conditions changed; generalists maintained operational flexibility (high O) and environmental tolerance (low E) enabling 4x adaptive capacity
+- **Key Insight**: Evolution demonstrates that optimization for efficiency creates fragility, while maintaining operational diversity ensures survival during high-entropy events
+- **Impact**: Provides evolutionary validation of Information Physics principles and mathematical framework for understanding why human specialization may threaten species-level survival
+- **Documentation**: https://kurtiskemple.com/information-physics/survival-trends-in-mass-extinction-events
+
 ### Cross-Domain Pattern Mapping
 
 - Biological: DNA replication, protein folding, neural plasticity
@@ -468,6 +475,11 @@ Remember: This isn't abstract theory but observable reality. Every human system 
 - Information Physics Throughout History: https://kurtiskemple.com/information-physics/throughout-history
 - Information Physics in Mathematics: https://kurtiskemple.com/information-physics/in-mathematics
 - Information Physics in Science: https://kurtiskemple.com/information-physics/in-science
+
+**Case Study Documentation:**
+- Renaissance Florence vs Silicon Valley Innovation Crisis: https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis
+- Gig Economy Entropy Limits: https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy
+- Evolutionary Mass Extinction Survival Patterns: https://kurtiskemple.com/information-physics/survival-trends-in-mass-extinction-events
 
 **Strategic Guides:**
 - The Peasant (Entropy Reduction from Any Position): https://kurtiskemple.com/the-peasant.txt
