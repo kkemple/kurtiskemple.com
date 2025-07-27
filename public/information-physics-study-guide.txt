@@ -12,6 +12,8 @@ Humans are entropy-competent beings who evolved to observe universal decay and c
 
 **KEY INSIGHT**: Information Physics is a general theory that describes how conscious beings embedded in entropy reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries. These operations interact with an agent's position (E), intent (V), and available actions (O) to produce a measurable effect on system entropy (SEC). Shannon proved information IS entropy; Information Physics reveals how conscious beings embedded in physical reality navigate that entropy through observer-dependent mathematics where position, conscious intent, and lived experience are fundamental variables.
 
+**OBSERVER-DEPENDENT MATHEMATICS LINEAGE**: Einstein realized on a train that physics depends on the observer's reference frame. Nash discovered that optimal strategies depend on what others are doing by studying actual games. Both understood that the observer's position and context fundamentally change the mathematics. Information Physics continues this lineage, applying observer-dependent mathematics to human systems where lived experience shapes what can be seen and measured.
+
 ## Mathematical Foundation
 
 ### Primary Equation
@@ -21,7 +23,7 @@ Humans are entropy-competent beings who evolved to observe universal decay and c
 **Variables:**
 - SEC: System Entropy Change (positive reduces entropy, negative increases)
 - O: Operations count (MOVE, JOIN, SEPARATE primitives)
-- V: Vector of actor-group conscious intent (positive for entropy reduction, negative for entropy increase, -1 to +1)
+- V: Shared conscious intent that enables collective entropy reduction (positive for entropy reduction, negative for entropy increase, -1 to +1)
 - E: Entropy as measured from actor's position (lived reality/informational constraints/entropy from the system, 0 to ∞)
 
 **Key Properties:**
@@ -75,9 +77,9 @@ This predicted both "rizz" adoption in early 2023 and the inevitable backlash by
 
 **Observer-Dependent Physics:** Mathematics that includes consciousness as physical reality
 - The E variable represents actual thermodynamic entropy affecting conscious beings
-- Heat affects cognition = entropy directly changing your E value and available operations
-- Fatigue reduces decision quality = entropy constraining your measurement capacity
-- Position determines possibility = your physical location in entropic reality shapes what you can observe
+- Heat affects cognition = entropy directly changing the agent's E value and available operations
+- Fatigue reduces decision quality = entropy constraining the agent's measurement capacity
+- Position determines possibility = the agent's physical location in entropic reality shapes what they can observe
 - Shannon proved information IS entropy; Information Physics shows how physical conscious beings navigate it
 - Traditional math describes "the map"; Entropic Mathematics describes "the location" of embedded observers
 
@@ -127,10 +129,10 @@ This predicted both "rizz" adoption in early 2023 and the inevitable backlash by
 **Full documentation:** https://kurtiskemple.com/information-physics/entropic-mathematics
 
 **Key Properties:**
-1. Observer position as mathematical primitive - where you are determines what's possible
+1. Observer position as mathematical primitive - where agents are determines what's possible
 2. Conscious intent as mathematical vector - humans choose whether to build or destroy
 3. Lived experience as computational variable - heat, fatigue, stress affect calculations
-4. Recursive optimization - understanding the mathematics helps reduce your own entropy
+4. Recursive optimization - understanding the mathematics helps reduce the agent's own entropy
 5. Fractal scaling - same equation works from desk organization to civilizations
 
 **The Shannon Foundation:** Shannon proved information IS entropy; Entropic Mathematics reveals how physical conscious beings navigate that entropy from their embedded positions in reality
@@ -138,6 +140,8 @@ This predicted both "rizz" adoption in early 2023 and the inevitable backlash by
 **Observer-Dependent Reality:** The E variable represents actual thermodynamic entropy from actual physical position - not metaphorical difficulty but measurable constraints on cognitive capacity
 
 **Mathematical Innovation:** First equations in history where consciousness, position, and intent are mathematical primitives rather than complications to eliminate
+
+**V Variable in Practice:** The frameworks (Pyramid of Challenge, DX Audits, Frustration Coalitions) provided empirical evidence of the V variable by externalizing natural perception of entropy patterns, giving others access to see system dynamics through the same lens. When teams aligned around these frameworks, they generated the shared collective reality that makes coordinated entropy reduction mathematically possible.
 
 ## System Dynamics
 
@@ -297,16 +301,16 @@ Successful knowledge transfer when humans:
 - Traditional information theory measures information content; Information Physics measures conscious navigation
 
 **Physical Reality of Consciousness**:
-- **Heat affects cognition** = entropy directly changing your E value and available operations
-- **Fatigue reduces decision quality** = entropy constraining your measurement capacity
-- **Stress limits perspective** = entropy from position affecting what you can observe
-- **Resource constraints shape choices** = entropy determining your possibility space
-- You can't remove consciousness from physics because consciousness EXISTS IN PHYSICS
+- **Heat affects cognition** = entropy directly changing the agent's E value and available operations
+- **Fatigue reduces decision quality** = entropy constraining the agent's measurement capacity
+- **Stress limits perspective** = entropy from position affecting what the agent can observe
+- **Resource constraints shape choices** = entropy determining the agent's possibility space
+- Consciousness can't be removed from physics because consciousness EXISTS IN PHYSICS
 
 **Observer-Dependent Mathematics**:
 - Traditional math: "Let's abstract away the observer to get 'objective' results"
 - Entropic Mathematics: "The observer IS a physical being subject to actual entropy"
-- The E variable isn't metaphorical - it's your actual physical entropy from your actual physical position
+- The E variable isn't metaphorical - it's the agent's actual physical entropy from their actual physical position
 - Same observer-dependence as relativity (reference frames) and quantum mechanics (measurement effects)
 
 **Mathematical Classification**:
