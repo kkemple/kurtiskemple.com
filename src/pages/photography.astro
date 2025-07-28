@@ -1,0 +1,152 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+// Photo data with proper public URL references
+const photosData = [
+  { src: "/images/photography/abstract.jpg", title: "Abstract", alt: "Abstract artistic composition" },
+  { src: "/images/photography/all-roads-lead-to.jpg", title: "All Roads Lead To", alt: "Roads converging in perspective" },
+  { src: "/images/photography/barriers.jpg", title: "Barriers", alt: "Urban barriers and boundaries" },
+  { src: "/images/photography/brooklyn-sunrise.jpg", title: "Brooklyn Sunrise", alt: "Sunrise over Brooklyn landscape" },
+  { src: "/images/photography/china-town-vibe.jpeg", title: "Chinatown Vibe", alt: "Street scene in Chinatown" },
+  { src: "/images/photography/coffee-to-the-people.jpg", title: "Coffee to the People", alt: "Coffee shop street culture" },
+  { src: "/images/photography/convergence.jpg", title: "Convergence", alt: "Lines and forms coming together" },
+  { src: "/images/photography/cool-and-collected.jpeg", title: "Cool and Collected", alt: "Portrait of composed individual" },
+  { src: "/images/photography/erin.jpg", title: "Erin", alt: "Portrait of Erin" },
+  { src: "/images/photography/faith.jpg", title: "Faith", alt: "Moment of spiritual reflection" },
+  { src: "/images/photography/food-cart.jpg", title: "Food Cart", alt: "Street food vendor scene" },
+  { src: "/images/photography/friends-we-make-along-the-way.jpg", title: "Friends We Make Along the Way", alt: "Candid friendship moment" },
+  { src: "/images/photography/headed-home.jpg", title: "Headed Home", alt: "Journey homeward" },
+  { src: "/images/photography/henri.jpg", title: "Henri", alt: "Portrait of Henri" },
+  { src: "/images/photography/hey-now-cowboy.jpg", title: "Hey Now Cowboy", alt: "Western-inspired street portrait" },
+  { src: "/images/photography/ice-with-the-fire.jpg", title: "Ice with the Fire", alt: "Contrast of elements" },
+  { src: "/images/photography/idk-building-or-something.jpg", title: "IDK Building or Something", alt: "Architectural urban study" },
+  { src: "/images/photography/if-we-could-all-be-so-lucky.jpg", title: "If We Could All Be So Lucky", alt: "Fortunate moment captured" },
+  { src: "/images/photography/introspection-records.jpg", title: "Introspection Records", alt: "Music and contemplation" },
+  { src: "/images/photography/joy.jpg", title: "Joy", alt: "Pure expression of happiness" },
+  { src: "/images/photography/las-vegas.jpg", title: "Las Vegas", alt: "Vegas street life" },
+  { src: "/images/photography/last-years-war.jpg", title: "Last Year's War", alt: "Reflective urban scene" },
+  { src: "/images/photography/late-night-eats.jpg", title: "Late Night Eats", alt: "Late night food culture" },
+  { src: "/images/photography/love-of-my-life.jpg", title: "Love of My Life", alt: "Intimate portrait moment" },
+  { src: "/images/photography/mj.jpg", title: "MJ", alt: "Portrait of MJ" },
+  { src: "/images/photography/murica.jpg", title: "Murica", alt: "American street culture" },
+  { src: "/images/photography/new-friend.jpg", title: "New Friend", alt: "Fresh connection moment" },
+  { src: "/images/photography/nice-day-for-a-walk.jpg", title: "Nice Day for a Walk", alt: "Peaceful walking scene" },
+  { src: "/images/photography/NZF_5215.jpg", title: "NZF 5215", alt: "Street photography composition" },
+  { src: "/images/photography/NZF_5372.JPG", title: "NZF 5372", alt: "Urban documentary moment" },
+  { src: "/images/photography/nyc-moses.jpg", title: "NYC Moses", alt: "New York character study" },
+  { src: "/images/photography/nyc-smiles.jpg", title: "NYC Smiles", alt: "Happy moment in New York" },
+  { src: "/images/photography/nyc-steam-punk.jpg", title: "NYC Steam Punk", alt: "Alternative culture in NYC" },
+  { src: "/images/photography/old-soul-young-spirit.jpg", title: "Old Soul Young Spirit", alt: "Wise beyond years portrait" },
+  { src: "/images/photography/shuffle-shuffle.jpg", title: "Shuffle Shuffle", alt: "Movement and rhythm" },
+  { src: "/images/photography/sunshine.jpg", title: "Sunshine", alt: "Bright, warm moment" },
+  { src: "/images/photography/that-70s-pool.jpg", title: "That 70s Pool", alt: "Retro pool scene" },
+  { src: "/images/photography/the-nights-you-remember.jpg", title: "The Nights You Remember", alt: "Memorable evening moment" },
+  { src: "/images/photography/these-three-suits.jpg", title: "These Three Suits", alt: "Formal wear street style" },
+  { src: "/images/photography/tierney.jpg", title: "Tierney", alt: "Portrait of Tierney" },
+  { src: "/images/photography/tougher-than-you-look.jpg", title: "Tougher Than You Look", alt: "Strong character portrait" },
+  { src: "/images/photography/vegas-street-art.jpg", title: "Vegas Street Art", alt: "Urban art in Las Vegas" },
+  { src: "/images/photography/we-are-what-others-see.jpg", title: "We Are What Others See", alt: "Reflection on perception" },
+  { src: "/images/photography/what-can-i-get-you.jpg", title: "What Can I Get You", alt: "Service industry moment" },
+  { src: "/images/photography/wish-believe.jpg", title: "Wish Believe", alt: "Hope and aspiration" },
+  { src: "/images/photography/youth.jpg", title: "Youth", alt: "Young energy captured" },
+];
+
+// Fisher-Yates shuffle algorithm to randomize photo order
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+// Shuffle photos on each page load
+const photos = shuffleArray(photosData);
+---
+
+<Layout title="Photography | Kurtis Kemple">
+  <div class="container mx-auto px-4">
+    <div class="mb-12">
+      <h1 class="text-4xl md:text-6xl font-bold text-center mb-4 text-honey-crusted-chicken">Photography</h1>
+      <p class="text-center text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
+        A collection of moments captured through the lens—street photography, portraits, and urban life.
+      </p>
+    </div>
+
+        <!-- Masonry Grid Layout -->
+    <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
+      {photos.map((photo, index) => (
+        <div class="break-inside-avoid mb-4">
+          <div class="group cursor-pointer" onclick={`openLightbox('${photo.src}', '${photo.title}')`}>
+            <img
+              src={photo.src}
+              alt={photo.alt}
+              class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-[1.02] group-hover:shadow-2xl"
+              loading="lazy"
+            />
+            <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
+              <cite class="text-sm font-medium text-honey-crusted-chicken">{photo.title}</cite>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Simple Lightbox -->
+    <div id="lightbox" class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden" style="background: rgba(0,0,0,0.9); backdrop-filter: blur(10px);">
+      <div class="relative">
+        <img id="lightbox-img" src="" alt="" style="max-width: 90vw; max-height: 90vh; object-fit: contain;" class="rounded-lg shadow-2xl" />
+        <div class="absolute top-4 right-4 text-white text-3xl cursor-pointer hover:text-honey-crusted-chicken" onclick="closeLightbox()">×</div>
+        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white text-center bg-black bg-opacity-50 px-4 py-2 rounded backdrop-blur-sm">
+          <cite id="lightbox-title"></cite>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back to Home -->
+    <div class="text-center mt-16 mb-24">
+      <a href="/" class="btn">
+        ← Back to Home
+      </a>
+    </div>
+  </div>
+
+    <!-- Custom Styles -->
+  <style>
+    /* Ensure smooth scrolling and proper spacing */
+    .columns-1 > div:first-child {
+      margin-top: 0;
+    }
+
+    /* Responsive adjustments for very small screens */
+    @media (max-width: 480px) {
+      .columns-1 {
+        column-count: 1;
+      }
+    }
+
+    /* Better responsive image handling */
+    @media (min-width: 640px) {
+      .columns-1 {
+        column-count: 2;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .columns-1 {
+        column-count: 3;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      .columns-1 {
+        column-count: 4;
+      }
+    }
+
+
+  </style>
+
+
+</Layout>

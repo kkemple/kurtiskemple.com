@@ -5,10 +5,9 @@ import "../styles/global.css";
 
 interface Props {
   title: string;
-  intensity?: "subtle" | "low" | "medium" | "high";
 }
 
-const { title, intensity = "subtle" } = Astro.props;
+const { title } = Astro.props;
 
 const frontmatter = {
   description:
@@ -29,7 +28,7 @@ const frontmatter = {
     <title>{`${title}`}</title>
     <meta name="description" content={frontmatter.description} />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="article" />
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={`${title}`} />
@@ -37,16 +36,6 @@ const frontmatter = {
     <meta property="og:image" content={new URL(frontmatter.image, Astro.url)} />
     <meta property="og:site_name" content="Kurtis Kemple" />
 
-    <!-- Twitter -->
-    <meta name="twitter:creator" content="@_digitalvandal" />
-    <meta property="twitter:card" content="summary" />
-    <meta property="twitter:url" content={Astro.url} />
-    <meta property="twitter:title" content={`${title}`} />
-    <meta property="twitter:description" content={frontmatter.description} />
-    <meta
-      property="twitter:image"
-      content={new URL(frontmatter.image, Astro.url)}
-    />
     <meta name="generator" content={Astro.generator} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
