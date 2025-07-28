@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
 
 // Photo data with proper public URL references
 const photosData = [
@@ -79,11 +80,16 @@ const photos = shuffleArray(photosData);
       {photos.map((photo) => (
         <div class="break-inside-avoid mb-4">
           <div class="group">
-            <img
+            <Image
               src={photo.src}
               alt={photo.alt}
+              width={1200}
+              height={1200}
+              layout="constrained"
               class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-[1.02] group-hover:shadow-2xl"
               loading="lazy"
+              format="webp"
+              quality={85}
             />
             <div class="opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-2">
               <cite class="text-sm font-medium text-honey-crusted-chicken">{photo.title}</cite>
