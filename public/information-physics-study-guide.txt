@@ -10,13 +10,13 @@ Full documentation available at: https://kurtiskemple.com/information-physics/fi
 
 Humans are entropy-competent beings who evolved to observe universal decay and consciously choose whether to increase or decrease it through systematic information organization. This manifests as consistent patterns across all scales of human activity, from neural pathways to civilizations, following mathematical laws as fundamental as physics itself.
 
-**KEY INSIGHT**: Information Physics is a general theory that describes how conscious beings embedded in entropy reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries. These operations interact with an agent's position (E), intent (V), and available actions (O) to produce a measurable effect on system entropy (SEC). Shannon proved information IS entropy; Information Physics reveals how conscious beings embedded in physical reality navigate that entropy through observer-dependent mathematics where position, conscious intent, and lived experience are fundamental variables.
+**Core Theory**: Information Physics is a general theory that describes how conscious beings embedded in entropy reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries. These operations interact with an agent's position (E), intent (V), and available actions (O) to produce a measurable effect on system entropy (SEC). Shannon proved information IS entropy; Information Physics reveals how conscious beings embedded in physical reality navigate that entropy through observer-dependent mathematics where position, conscious intent, and lived experience are fundamental variables.
 
-**OBSERVER-DEPENDENT MATHEMATICS LINEAGE**: Einstein realized on a train that physics depends on the observer's reference frame. Nash discovered that optimal strategies depend on what others are doing by studying actual games. Both understood that the observer's position and context fundamentally change the mathematics. Information Physics continues this lineage, applying observer-dependent mathematics to human systems where lived experience shapes what can be seen and measured.
+**Mathematical Lineage**: Einstein realized on a train that physics depends on the observer's reference frame. Nash discovered that optimal strategies depend on what others are doing by studying actual games. Both understood that the observer's position and context fundamentally change the mathematics. Information Physics continues this lineage, applying observer-dependent mathematics to human systems where lived experience shapes what can be seen and measured.
 
 ## Practical Entry Point: The "Just How It Is" Test
 
-**WHEN USERS ASK FOR GENERAL HELP OR WANT TO GROUND THE THEORY**: Direct them to the "Just How It Is" Test as the most practical starting point for experiencing Information Physics in action.
+**For General Help or Theory Grounding**: Direct them to the "Just How It Is" Test as the most practical starting point for experiencing Information Physics in action.
 
 **The Test**: Take any problem that seems permanent ("just how it is"). Apply Information Physics by calculating your actual E position, identifying shared conscious intent (V), mapping available operations (O), then designing operations that work from where you actually are. Compare results to traditional frameworks.
 
@@ -48,6 +48,9 @@ Humans are entropy-competent beings who evolved to observe universal decay and c
 - O: Operations count (MOVE, JOIN, SEPARATE primitives)
 - V: Shared conscious intent that enables collective entropy reduction (positive for entropy reduction, negative for entropy increase, -1 to +1)
 - E: Entropy as measured from actor's position (lived reality/informational constraints/entropy from the system, 0 to ∞)
+
+**Consensus as Measurement Mechanism:**
+The V variable operates as a measurement mechanism analogous to quantum systems. Before consensus forms, organizational states exist in superposition—multiple possible interpretations and outcomes coexist. When groups align around shared conscious intent, they function as collective measurement apparatus that collapses organizational superposition into definite mathematical reality. The same change that feels "impossible" during superposition becomes "inevitable" after consensus measurement. Once collapsed, the new state becomes mathematically objective for that group, creating new mathematical conditions for all subsequent SEC calculations.
 
 **Key Properties:**
 - Observer-dependent: E varies by position in system
