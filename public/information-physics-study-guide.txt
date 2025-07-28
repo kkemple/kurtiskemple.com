@@ -33,11 +33,15 @@ Humans are entropy-competent beings who evolved to observe universal decay and c
 
 **Full Documentation**: https://kurtiskemple.com/information-physics/just-how-it-is-test
 
+**Entropic Mathematics:** A mathematical framework where observer position, conscious intent, and lived experience are treated as fundamental variables. Calculations reflect the agent's location within a system, their directional intent, and the entropy constraints of their reality.
+
 ## Mathematical Foundation
 
 ### Primary Equation
 
 `SEC = O × V / (1 + E)`
+
+**System Entropy Change (SEC):** The measurable impact a conscious agent can have on system entropy from their specific position, calculated through observer-dependent mathematics where position, intent, and operations determine possibility.
 
 **Variables:**
 - SEC: System Entropy Change (positive reduces entropy, negative increases)
