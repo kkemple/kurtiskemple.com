@@ -76,9 +76,9 @@ const photos = shuffleArray(photosData);
 
         <!-- Masonry Grid Layout -->
     <div class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4">
-      {photos.map((photo, index) => (
+      {photos.map((photo) => (
         <div class="break-inside-avoid mb-4">
-          <div class="group cursor-pointer" onclick={`openLightbox('${photo.src}', '${photo.title}')`}>
+          <div class="group">
             <img
               src={photo.src}
               alt={photo.alt}
@@ -91,17 +91,6 @@ const photos = shuffleArray(photosData);
           </div>
         </div>
       ))}
-    </div>
-
-    <!-- Simple Lightbox -->
-    <div id="lightbox" class="fixed inset-0 z-50 flex items-center justify-center p-4 hidden" style="background: rgba(0,0,0,0.9); backdrop-filter: blur(10px);">
-      <div class="relative">
-        <img id="lightbox-img" src="" alt="" style="max-width: 90vw; max-height: 90vh; object-fit: contain;" class="rounded-lg shadow-2xl" />
-        <div class="absolute top-4 right-4 text-white text-3xl cursor-pointer hover:text-honey-crusted-chicken" onclick="closeLightbox()">×</div>
-        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white text-center bg-black bg-opacity-50 px-4 py-2 rounded backdrop-blur-sm">
-          <cite id="lightbox-title"></cite>
-        </div>
-      </div>
     </div>
 
     <!-- Back to Home -->
