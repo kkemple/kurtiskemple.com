@@ -202,6 +202,31 @@ This transforms vague concerns about "mission drift" or "technical debt" into pr
 
 The final piece was understanding how systems stabilize. Game theory described Nash Equilibrium but never explained the mechanism. Entropic Mathematics revealed it: the convergence of every actor taking optimal actions within their thermodynamic constraints from their embedded positions, resulting in entropic exhaustion where further improvement becomes impossible.
 
+### The Stability Condition
+
+Equilibrium occurs when:
+
+`d/dt[Σ(SEC_i × W_i)] ≈ 0`
+
+This derivative approaching zero doesn't mean no operations occur. It means the weighted sum of all entropy changes stabilizes. Agents continue optimizing locally, but system-wide entropy reaches steady state.
+
+### Nash Equilibrium Redefined
+
+> **Nash Equilibrium Redefined**: The convergence of every actor in an embedded system, taking the best actions within their informational and thermodynamic constraints from their observer-dependent position in the system, results in a system equilibrium. This occurs through entropic exhaustion—when all actors have optimized entropy reduction from their positions until further improvement becomes impossible.
+
+Traditional game theory describes the outcome but never explained the mechanism. Information Physics reveals how equilibrium actually forms:
+
+Each player optimizes until:
+
+`∂SEC_i/∂O_i = 0`
+
+The partial derivative of their entropy change with respect to their operations reaches zero. They've exhausted their available entropy reduction from their position. Further improvement requires either:
+
+- Position change (reducing `E_i`)
+- Coordinated action (combining operations with others)
+
+![The illustration shows three stacked equations: SEC = O × V / (1 + E), EG = 1 - S(anchor, current), and EE = Σ(SEC_i × W_i) → stable state.](/images/blog/entropic-mathematics-trinity.png)
+
 *This isn't about agreement or happiness. It's about mathematical reality—each actor exhausts their available entropy-reduction operations, creating system-wide stability through local optimization.*
 
 > For a perfect real-world example of Information Physics mathematics in action, see [Cultural Percolation: When Language Reaches Critical Mass](/information-physics/entropic-mathematics#cultural-percolation-when-language-reaches-critical-mass)—how "rizz" and other slang terms follow predictable mathematical patterns as they spread through and eventually get rejected by different cultural groups.
