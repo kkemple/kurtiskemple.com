@@ -1,28 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ContentCard from "../components/ContentCard.astro";
-
-import { getCollection } from "astro:content";
-
-interface BlogPost {
-  data: {
-    title: string;
-    description: string;
-    pubDate: string;
-    featured: boolean;
-  };
-  slug: string;
-}
-
-const posts = (await getCollection("blog")) as BlogPost[];
-
-const sortedPosts = posts.sort((a, b) => {
-  return (
-    new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
-  );
-});
-
-const latest = sortedPosts.slice(0,3)
 ---
 
 <Layout title="Home | Kurtis Kemple">
