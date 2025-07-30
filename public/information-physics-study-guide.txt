@@ -393,7 +393,7 @@ Successful knowledge transfer when humans:
 - Individual: `SEC = O × V / (1 + E_personal)`
 - Civilizational: `SEC = O × V / (1 + E_coordination)`
 
-**Nash Equilibrium Redefined**: The convergence of every actor in an embedded system, taking the best actions within their informational and thermodynamic constraints from their observer-dependent position in the system, results in a system equilibrium. This occurs through entropic exhaustion—when all actors have optimized entropy reduction from their positions until further improvement becomes impossible.
+**Nash Equilibrium as Entropic Exhaustion**: The convergence of every actor in an embedded system, taking the best actions within their informational and thermodynamic constraints from their observer-dependent position in the system, results in a system equilibrium. This occurs through entropic exhaustion—when all actors have optimized entropy reduction from their positions until further improvement becomes impossible.
 
 **Universal Evidence**: Independent civilizations (Mesopotamia, China, Americas, Africa) developing identical solutions (calendars, writing, hierarchy, currency, law) proves these aren't cultural preferences but mathematical necessities.
 
