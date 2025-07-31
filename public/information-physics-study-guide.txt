@@ -611,24 +611,7 @@ Successful knowledge transfer when humans:
 
 ### Falsifiable Case Studies
 
-#### Case Study 1: The Slack vs. Glean Competitive Displacement
-**Information Physics Prediction**: Glean should achieve 1000%+ growth by exploiting Slack's search friction through Frustration Coalition formation, despite Slack's dominant market position.
-
-**Testable Elements**:
-- Sentiment-Inertia Index (Sii) calculation for Slack users
-- Bottom-up adoption patterns through PLG model
-- Coalition formation mechanics within organizations
-- Defensive API restrictions as validation of threat model
-
-**Falsification Conditions**:
-- If Glean fails to achieve projected growth despite search advantage
-- If enterprise customers resist bottom-up pressure for tool switching
-- If friction reduction provides no competitive advantage
-- If sentiment-inertia gaps prove uncorrelated with disruption vulnerability
-
-**Current Results**: Glean grew from $15M (2019) to $7B+ (2025) = 46,567% increase, exactly following Frustration Coalition exploitation pattern. Slack implemented defensive API restrictions in June 2024, validating threat assessment.
-
-#### Case Study 2: Renaissance Florence Innovation Density
+#### Case Study 1: Renaissance Florence Innovation Density
 **Information Physics Prediction**: Historical low-entropy environments should produce measurably higher innovation rates per capita than modern high-entropy environments, despite technological disadvantages.
 
 **Testable Elements**:
@@ -645,7 +628,7 @@ Successful knowledge transfer when humans:
 
 **Current Results**: Florence (E ≈ 0.30) produced 3.9 innovators per 10,000 people vs. Silicon Valley (E ≈ 0.43) producing 0.32 per 10,000 = 12x difference favoring lower entropy environment, confirming theoretical predictions.
 
-#### Case Study 3: Mass Extinction Survival Patterns
+#### Case Study 2: Mass Extinction Survival Patterns
 **Information Physics Prediction**: Species survival during entropy crises should follow SEC formula, with generalists (high O, low E) outperforming specialists (low O, high E) consistently across all extinction events.
 
 **Testable Elements**:
