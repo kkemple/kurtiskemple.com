@@ -112,7 +112,7 @@ The SEC equation achieves optimal information density. Like E=mc², simple arith
 - Vector mathematics (V as directional intent)
 - Thermodynamics (E as actual energy constraints)
 - Group theory (O as mathematical group)
-- Quantum mechanics (V exhibits superposition/collapse)
+- Wave mechanics (V exhibits interference patterns)
 
 **Shannon Foundation**:
 - Shannon entropy: H = -Σ p(i) log₂ p(i)
@@ -127,8 +127,8 @@ The SEC equation achieves optimal information density. Like E=mc², simple arith
 
 **Quantum Mechanics**:
 - Observer effects on measurement
-- Superposition until observation
-- Wave function collapse parallels consensus formation
+- Multiple states until observation
+- Information filtering processes parallel consensus formation
 
 **Biology**:
 - Neural optimization through Hebbian plasticity
