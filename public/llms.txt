@@ -63,7 +63,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Three Universal Operations**: MOVE (shift boundaries to new positions), JOIN (combine separate elements), SEPARATE (divide unified systems) - used for both construction and destruction
 - **Observer-Dependent Reality**: Same operations feel impossible from one position and trivial from another - the executive at E=0.2 lives in different mathematical reality than worker at E=0.9
 - **Entropic Inversion Symmetry**: Same operations explain both innovation and collapse - high quality operations in reverse cause high-fidelity system destruction
-- **Impact**: COB provides the practical application framework for Information Physics - the actionable map showing how entropy-competent beings may systematically transform any human system through boundary manipulation
+- **Impact**: COB provides the practical application framework for Information Physics - the actionable map showing how entropy-competent beings might systematically transform any human system through boundary manipulation
 
 **[Entropic Mathematics: A New Mathematical Framework for Conscious Systems](https://kurtiskemple.com/information-physics/entropic-mathematics)**
 *Calculation: Observer-Dependent Mathematics for Human Systems*
@@ -128,6 +128,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Scientific Validation**: Connections to entropy in thermodynamics, information theory in physics, neural optimization in neuroscience
 - **Interdisciplinary Integration**: Shows how Information Physics unifies insights across multiple scientific disciplines
 - **Impact**: Establishes Information Physics as scientifically grounded theory rather than business metaphor
+
+**[The Thermodynamic Foundations of Information Physics](https://kurtiskemple.com/information-physics/thermodynamic-foundations)**
+*Deep Mathematical Connections: Converting Abstract Entropy to Measurable Energy Costs*
+
+- **Intent**: Provide exact calculations showing how E values translate to thermodynamic work measured in joules
+- **Key Insights**: Position-dependent entropy costs real biological energy; high-E positions require 33%+ more energy for identical tasks
+- **Mathematical Bridges**: Landauer's principle, Boltzmann distributions, quantum relative entropy, percolation theory phase transitions
+- **Impact**: Makes hidden thermodynamic costs visible and calculable, turning organizational design into thermodynamic engineering
 
 ## Blog Posts
 
@@ -404,6 +412,15 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Mathematical Analysis**: Florence: E = 0.30 (77% efficiency), Silicon Valley: E = 0.43 (70% efficiency), approaching critical threshold of 0.45
 - **Information Physics Connection**: Suggests technology cannot overcome high entropy - the Medici patronage model systematically reduced entropy across all dimensions while Silicon Valley maintains high entropy through architectural choices
 - **Impact**: Shows modern innovation hubs waste human potential through high-entropy design, validates Information Physics principles at civilizational scale
+
+### [Wolf Pack Thermodynamics](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)
+*Natural Systems Validation: Information Physics Principles in Wolf Pack Hierarchies*
+
+- **Intent**: Explore how wolf pack dynamics may demonstrate Information Physics through position-dependent energy costs
+- **Key Finding**: Theoretical calculations suggest omega wolves might require 26% more daily calories than alphas for equivalent survival activities
+- **Mathematical Analysis**: Position-based entropy (Alpha E=0.2, Omega E=0.8) translates to measurable differences in information processing (50% more bits), movement efficiency (50% more distance), and hunt effectiveness (33% reduced SEC)
+- **Information Physics Connection**: Explores how hierarchical position may create cascading thermodynamic costs potentially affecting survival probability
+- **Impact**: Provides testable predictions for how position determines energy expenditure in natural systems
 
 ### [Constraint by Design: Entropy Limits in the Gig Economy](https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy)
 *Mathematical Proof: How System Architecture Determines Human Capability*
