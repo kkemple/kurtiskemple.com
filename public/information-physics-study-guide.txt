@@ -45,7 +45,7 @@ Information Physics proposes that humans may be entropy-competent beings who evo
 - **E**: Positional entropy (0 to ∞, actual thermodynamic constraints)
 
 **Mathematical Properties**:
-- **V as quantum-like vector**: Exhibits superposition until consensus measurement collapses it
+- **V as information vector**: Exhibits competing states until consensus measurement collapses it
 - **O as mathematical group**: Forms closed set with associative operations
 - **E as thermodynamic reality**: Actual energy costs from observer position
 - **(1 + E) as dampening function**: Models asymptotic limits of high-entropy positions
