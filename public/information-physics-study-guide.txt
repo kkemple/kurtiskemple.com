@@ -183,14 +183,14 @@ This predicted both "rizz" adoption in early 2023 and the subsequent backlash by
 - Measures drift between intended and actual states
 - Uses cosine similarity for vector comparison
 - Risk thresholds: <0.1 healthy, 0.1-0.25 concerning, 0.25-0.45 dangerous, >0.45 critical
-- Full documentation: https://kurtiskemple.com/information-physics/entropic-gap
+- Full documentation: https://kurtiskemple.com/information-physics/entropic-mathematics#entropic-gap-eg
 
 **Entropic Equilibrium:** `Σ(SEC_i × W_i) → stable state`
 - Multi-agent dynamics reach stability
 - W_i represents actor influence/power
 - Explains Nash Equilibrium mechanism as entropic exhaustion
 - Nash described equilibrium endpoints; Information Physics reveals the underlying mechanism
-- Full documentation: https://kurtiskemple.com/information-physics/entropic-equilibrium
+- Full documentation: https://kurtiskemple.com/information-physics/entropic-mathematics#entropic-equilibrium
 
 **Civilizational Evolution:** Mathematical inevitability of human development
 - Hunter-gatherers → Cities → Nations follows predictable entropic exhaustion cycles
@@ -461,7 +461,7 @@ Successful knowledge transfer when humans:
 - Individual: `SEC = O × V / (1 + E_personal)`
 - Civilizational: `SEC = O × V / (1 + E_coordination)`
 
-**Nash Equilibrium as Entropic Exhaustion**: The convergence of every actor in an embedded system, taking the best actions within their informational and thermodynamic constraints from their observer-dependent position in the system, results in a system equilibrium. This occurs through entropic exhaustion—when all actors have optimized entropy reduction from their positions until further improvement becomes impossible.
+**Nash Equilibrium as Entropic Exhaustion:** Systems reach equilibrium when all agents exhaust their entropy-reduction capacity—achieving ∂SEC_i/∂O_i = 0 from their embedded positions—making coordination necessary for further change.
 
 **Universal Evidence**: Independent civilizations (Mesopotamia, China, Americas, Africa) developing similar solutions (calendars, writing, hierarchy, currency, law) suggests these may not be purely cultural preferences but mathematical necessities.
 
@@ -984,9 +984,7 @@ Remember: This theory aims to describe observable patterns. Many human systems a
 - Field Guide: https://kurtiskemple.com/information-physics/field-guide
 - Information Physics Theory: https://kurtiskemple.com/information-physics/theory
 - Conservation of Boundaries: https://kurtiskemple.com/information-physics/conservation-of-boundaries
-- Entropic Mathematics: https://kurtiskemple.com/information-physics/entropic-mathematics
-- Entropic Gap: https://kurtiskemple.com/information-physics/entropic-gap
-- Entropic Equilibrium: https://kurtiskemple.com/information-physics/entropic-equilibrium
+- Entropic Mathematics (includes Gap & Equilibrium): https://kurtiskemple.com/information-physics/entropic-mathematics
 
 **Companion Documents:**
 - Information Physics Throughout History: https://kurtiskemple.com/information-physics/throughout-history

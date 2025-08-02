@@ -106,7 +106,7 @@
     padding-left: 10px;
   }
 
-  .blog-post p code {
+  .blog-post p code, .blog-post li code {
     @apply font-mono;
     background-color: rgba(2, 2, 25, 0.6);
     padding: 3px 6px;
