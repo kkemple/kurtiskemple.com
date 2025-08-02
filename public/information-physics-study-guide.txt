@@ -225,7 +225,7 @@ This predicted both "rizz" adoption in early 2023 and the subsequent backlash by
 
 ### Conservation of Boundaries (The How)
 
-**Definition:** A foundational principle stating that all system transformation—whether entropy-increasing or entropy-reducing—occurs through one of three irreducible operations: MOVE, JOIN, or SEPARATE. These operations are applied to existing boundaries within a system, whether between people, information, roles, or structures. No fourth operation has been observed. All meaningful change decomposes to one or more of these primitives.
+**Definition:** A foundational principle stating that all system transformation—whether entropy-increasing or entropy-reducing—occurs through one of three irreducible operations: MOVE, JOIN, or SEPARATE. These operations are applied to existing boundaries within a system, whether between people, information, roles, or structures. No fourth operation has been observed. All meaningful change appears to decompose to one or more of these primitives.
 
 **Full documentation:** https://kurtiskemple.com/information-physics/conservation-of-boundaries
 
@@ -235,7 +235,7 @@ This predicted both "rizz" adoption in early 2023 and the subsequent backlash by
 3. **SEPARATE:** Divide unified boundaries into distinct parts
 
 **Critical Insights:**
-- Operations are irreducible - no fourth operation exists
+- Operations are irreducible - no fourth operation has been observed
 - Operations exhibit symmetry - same mechanics build or destroy based on vector direction
 - Boundaries cannot be created or destroyed, only transformed through these three primitives
 - Observer-dependent entropy (E) determines operational difficulty from different positions
