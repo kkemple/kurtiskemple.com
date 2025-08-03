@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import ContentPill from "../components/ContentPill.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -95,29 +96,122 @@ function getOrdinalSuffix(day: number) {
           <slot />
         </div>
       </main>
-      <section id="related-content" class="max-w-3xl mx-auto px-8 md:px-6 lg:px-0">
-        <h2 class="text-2xl md:text-3xl text-honey-crusted-chicken mb-8">
-          All Information Physics Content
-        </h2>
-        <ol class="list-decimal list-inside">
-          <li> <a href="/information-physics/field-guide"><strong>Information Physics Field Guide: Start Here</strong></a>: The field guide to Information Physics.
-          <li> <a href="/information-physics/theory"><strong>Information Physics Theory</strong></a>: A general theory describing how conscious beings reduce or increase entropy through three operations on information, coordination, and system boundaries.
-          <li> <a href="/information-physics/conservation-of-boundaries"><strong>Conservation of Boundaries</strong></a>: A proposed principle stating that system boundaries may not be created or destroyed, only transformed through three operations—move, join, separate.
-          <li> <a href="/information-physics/entropic-mathematics"><strong>Entropic Mathematics: Math for Conscious Systems</strong></a>: A proposed applied field of mathematics extending established tools (Shannon entropy, vector calculus, information theory) to conscious systems where observer position and lived experience may be primary calculation variables.
-          <li> <a href="/information-physics/thermodynamic-foundations"><strong>The Thermodynamic Foundations of Information Physics</strong></a>: Mathematical connections between Information Physics and established science, showing how entropy calculations may translate to measurable energy costs.
-          <li> <a href="/information-physics/conscious-chaos"><strong>Conscious Chaos: Entropy, Time, and the Observer-Driven Dynamics of Change</strong></a>: A theoretical synthesis of entropic and chaos mathematics, hypothesizing how entropy-driven systems might evolve over time when observed and acted upon by conscious agents.
-          <li> <a href="/information-physics/throughout-history"><strong>Information Physics Throughout History</strong></a>: How Sun Tzu, Machiavelli, and Napoleon may have intuitively applied IP principles centuries before the mathematics existed.
-          <li> <a href="/information-physics/in-science"><strong>Information Physics in Science</strong></a>: How IP may reveal the underlying principle that unites quantum mechanics, biology, and cosmology across all scales.
-          <li> <a href="/information-physics/the-innovation-entropy-crisis"><strong>Renaissance Florence vs Silicon Valley: Entropy & Innovation</strong></a>: Comparing how Silicon Valley may produce 12x fewer innovators per capita than Renaissance Florence despite vastly superior resources—suggesting technology cannot overcome high entropy.
-          <li> <a href="/information-physics/wolf-pack-thermodynamics"><strong>Wolf Pack Thermodynamics: Information Physics in Nature</strong></a>: Exploring how wolf pack hierarchies may demonstrate Information Physics principles through position-dependent energy costs and survival outcomes.
-          <li> <a href="/information-physics/entropy-limits-in-gig-economy"><strong>Constrained by Design? Entropy Limits in the Gig Economy</strong></a>: Mathematical analysis suggesting that gig economy architecture may make worker advancement impossible regardless of individual effort, potentially demonstrating how structural position determines capability.
-          <li> <a href="/information-physics/survival-trends-in-mass-extinction-events"><strong>Survival Trends Across Mass Extinctions</strong></a>: The fossil record suggests a pattern: during mass extinction events, specialists died while generalists thrived. This pattern may represent Information Physics playing out at planetary scale.
-          <li> <a href="/information-physics/mathematical-analysis-of-crowd-dynamics"><strong>Mathematical Analysis of Crowd Dynamics: From Sports Game to Riot</strong></a>: A theoretical framework applying entropy and chaos mathematics to collective behavior.
-          <li> <a href="/information-physics/agent-based-modeling-and-game-design"><strong>Game Design Principles in Agent-Based Modeling: Emergent Behaviors from Physics Constraints</strong></a>: Exploring how game design principles can be applied to agent-based modeling of human systems.
-          <li> <a href="/information-physics/just-how-it-is-test"><strong>The "Just How It Is" Test</strong></a>: Test Information Physics against traditional frameworks on any stubborn "unchangeable" problem to see which approach may work better from your position.
-          <li> <a href="/information-physics-study-guide.txt"><strong>Information Physics LLM Friendly Study Guide</strong></a>: Drop this in your context and ask AI to explain Information Physics objectively.
-          <li> <a href="/the-peasant.txt"><strong>The Peasant</strong></a>: A playbook for creating positive-sum outcomes in high-entropy (negative-sum) environments.
-        </ol>
+      <section id="related-content" class="max-w-3xl mx-auto px-8 md:px-6 lg:px-0 mb-16">
+        <div class="my-12 flex justify-center">
+          <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
+        </div>
+                  <h2 class="text-2xl md:text-3xl text-autumn-fire mb-8">
+            All Information Physics Content
+          </h2>
+          <p class="mb-12 text-raptures-light">
+            Explore the complete Information Physics framework—from foundational theory to real-world applications. These resources provide multiple entry points into understanding how entropy, consciousness, and position interact across all scales of human organization.
+          </p>
+
+          <h3 class="text-xl md:text-2xl text-autumn-fire mb-4">Core Framework</h3>
+        <p class="mb-6 text-raptures-light">
+          These three foundational components form the complete theoretical architecture of Information Physics. Together they provide a mathematical language for describing how conscious beings interact with entropy through position-dependent operations. Each builds upon the others to create an internally consistent framework that may explain patterns across all scales of human organization.
+        </p>
+        <div class="card-pill-container mb-8">
+          <ContentPill
+            slug="/information-physics/theory"
+            title="Information Physics Theory"
+            description="A general theory describing how conscious beings reduce or increase entropy through three operations on information, coordination, and system boundaries."
+          />
+          <ContentPill
+            slug="/information-physics/conservation-of-boundaries"
+            title="Conservation of Boundaries"
+            description="The universal principle that system boundaries cannot be created or destroyed, only transformed through three operations—move, join, separate."
+          />
+          <ContentPill
+            slug="/information-physics/entropic-mathematics"
+            title="Entropic Mathematics"
+            description="A proposed applied field of mathematics extending established tools to conscious systems where observer position and lived experience may be primary calculation variables."
+          />
+        </div>
+
+        <h3 class="text-xl md:text-2xl text-autumn-fire mb-4">Supporting Documents</h3>
+        <p class="mb-6 text-raptures-light">
+          These documents explore the deeper connections between Information Physics and established science, history, and mathematics. They demonstrate how the theoretical framework connects to thermodynamics, quantum mechanics, and historical patterns of human innovation. Each provides additional evidence and context for understanding how Information Physics principles may operate across different domains and time scales.
+        </p>
+        <div class="card-pill-container mb-8">
+          <ContentPill
+            slug="/information-physics/conscious-chaos"
+            title="Conscious Chaos"
+            description="A theoretical synthesis of entropic and chaos mathematics, hypothesizing how entropy-driven systems might evolve over time when observed and acted upon by conscious agents."
+          />
+          <ContentPill
+            slug="/information-physics/thermodynamic-foundations"
+            title="Thermodynamic Foundations"
+            description="Mathematical connections between Information Physics and established science, showing how entropy calculations may translate to measurable energy costs."
+          />
+          <ContentPill
+            slug="/information-physics/in-science"
+            title="Information Physics in Science"
+            description="How Information Physics may reveal the underlying principle that unites quantum mechanics, biology, and cosmology across all scales."
+          />
+          <ContentPill
+            slug="/information-physics/throughout-history"
+            title="Throughout History"
+            description="How Sun Tzu, Machiavelli, and Napoleon may have intuitively applied Information Physics principles centuries before the mathematics existed."
+          />
+        </div>
+
+        <h3 class="text-xl md:text-2xl text-autumn-fire mb-4">Case Studies</h3>
+        <p class="mb-6 text-raptures-light">
+          These real-world analyses demonstrate Information Physics principles in action across diverse systems. From biological hierarchies to economic structures, from innovation ecosystems to extinction events, each case study shows how positional entropy and conscious operations may determine outcomes. These examples provide empirical patterns that suggest the framework's potential validity across multiple scales and contexts.
+        </p>
+        <div class="card-pill-container mb-8">
+          <ContentPill
+            slug="/information-physics/wolf-pack-thermodynamics"
+            title="Wolf Pack Thermodynamics"
+            description="Exploring how wolf pack hierarchies may demonstrate Information Physics principles through position-dependent energy costs and survival outcomes."
+          />
+          <ContentPill
+            slug="/information-physics/the-innovation-entropy-crisis"
+            title="Innovation Entropy Crisis"
+            description="Comparing how Silicon Valley may produce 12x fewer innovators per capita than Renaissance Florence despite vastly superior resources—suggesting technology cannot overcome high entropy."
+          />
+          <ContentPill
+            slug="/information-physics/entropy-limits-in-gig-economy"
+            title="Gig Economy Entropy"
+            description="Mathematical analysis suggesting that gig economy architecture may make worker advancement impossible regardless of individual effort."
+          />
+          <ContentPill
+            slug="/information-physics/survival-trends-in-mass-extinction-events"
+            title="Mass Extinction Patterns"
+            description="The fossil record suggests a pattern: during mass extinction events, specialists died while generalists thrived. This pattern may represent Information Physics at planetary scale."
+          />
+          <ContentPill
+            slug="/information-physics/mathematical-analysis-of-crowd-dynamics"
+            title="Crowd Dynamics Analysis"
+            description="A theoretical framework applying entropy and chaos mathematics to collective behavior—from sports games to riots."
+          />
+          <ContentPill
+            slug="/information-physics/agent-based-modeling-and-game-design"
+            title="Agent-Based Modeling"
+            description="Exploring how game design principles can be applied to agent-based modeling of human systems through physics constraints."
+          />
+        </div>
+
+        <h3 class="text-xl md:text-2xl text-autumn-fire mb-4">Practical Tools</h3>
+        <p class="mb-6 text-raptures-light">
+          These resources help you apply Information Physics principles to real-world challenges. The Peasant provides a playbook for navigating high-entropy environments, while the "Just How It Is" Test offers a framework for comparing Information Physics solutions against traditional approaches. Both tools translate theoretical insights into actionable strategies.
+        </p>
+        <div class="card-pill-container mb-8">
+          <ContentPill
+            slug="/the-peasant.txt"
+            title="The Peasant Playbook"
+            description="A playbook for creating positive-sum outcomes in high-entropy (negative-sum) environments."
+          />
+          <ContentPill
+            slug="/information-physics/just-how-it-is-test"
+            title="The 'Just How It Is' Test"
+            description="Test Information Physics against traditional frameworks on any stubborn 'unchangeable' problem to see which approach may work better from your position."
+          />
+        </div>
+        <div class="mt-12 flex justify-center">
+          <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
+        </div>
       </section>
       <Footer />
     </div>

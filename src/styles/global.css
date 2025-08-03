@@ -125,4 +125,7 @@
     @apply pr-2 pb-2 text-left;
   }
 
+  .card-pill-container {
+    @apply flex flex-wrap gap-2 mb-4;
+  }
 }

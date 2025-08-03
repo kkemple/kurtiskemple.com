@@ -1,0 +1,19 @@
+---
+interface Props {
+  slug: string;
+  title: string;
+  description?: string;
+}
+
+const { slug, title, description } = Astro.props;
+---
+
+<a href={`${slug}`} class="inline-block no-underline" title={description || title}>
+  <article
+    class="bg-naval-night px-3 p-1 rounded-full border border-honey-crusted-chicken/20 hover:border-autumn-fire transition-all duration-300 hover:bg-honey-crusted-chicken/10"
+  >
+    <span class="text-sm font-bold text-honey-crusted-chicken whitespace-nowrap">
+      {title}
+    </span>
+  </article>
+</a>
