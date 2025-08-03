@@ -473,14 +473,14 @@ Successful knowledge transfer when humans:
 
 ### Case Studies: Information Physics in Action
 
-**Renaissance Florence vs Silicon Valley: The Innovation Entropy Crisis**
+**Renaissance Florence vs Silicon Valley: Entropy & Innovation**
 - **Finding**: Despite having vastly superior technology, global connectivity, and massive venture capital, Silicon Valley produces 12x fewer innovators per capita than 15th century Florence (0.32 vs 3.9 per 10,000 people)
 - **Mathematical Analysis**: Florence operated at E = 0.30 (77% efficiency) while Silicon Valley operates at E = 0.43 (70% efficiency), hovering dangerously close to the critical percolation threshold of 0.45
 - **Key Insight**: Technology cannot overcome high entropy - the Medici patronage model created optimal conditions for human flourishing through systematic entropy reduction across financial, spatial, temporal, and biological dimensions
 - **Impact**: Suggests that modern innovation hubs may waste human potential through high-entropy design despite overwhelming resource advantages
 - **Documentation**: https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis
 
-**Constraint by Design: Entropy Limits in the Gig Economy**
+**Constrained by Design? Entropy Limits in the Gig Economy**
 - **Finding**: The gig economy mathematically constrains workers to positions where meaningful system improvement becomes impossible regardless of individual effort (O = 1, High E)
 - **Mathematical Analysis**: Even optimal execution by gig workers yields SEC = 1 × 1 / (1 + High E), while platform operators at Low E achieve significant leverage through the same formula
 - **Key Insight**: Burnout and inefficiency emerge as thermodynamic likelihoods, not behavioral failures - the system architecture appears to maintain high entropy at the edge while preserving low entropy advantages for operators
@@ -706,7 +706,7 @@ Successful knowledge transfer when humans:
 
 **Current Results**: Across all 5 mass extinction events, specialist species (SEC ≈ 0.56) died while generalist species (SEC ≈ 2.0) survived, showing 4x survival advantage closely matching SEC formula predictions.
 
-#### Case Study 3: Wolf Pack Thermodynamics
+#### Case Study 3: Wolf Pack Thermodynamics: Information Physics in Nature
 **Information Physics Prediction**: Hierarchical position in biological systems should create measurable thermodynamic costs, with lower-ranked individuals requiring more energy for equivalent outcomes.
 
 **Testable Elements**:
@@ -729,7 +729,7 @@ Successful knowledge transfer when humans:
 
 **Current Status**: Theoretical predictions await field validation through metabolic studies and GPS tracking of wild packs. Calculations suggest position creates cascading energy costs affecting survival probability.
 
-**For detailed analysis**: See [Wolf Pack Thermodynamics](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)
+**For detailed analysis**: See [Wolf Pack Thermodynamics: Information Physics in Nature](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)
 
 #### Case Study 4: Gig Economy Worker Constraint Validation
 **Information Physics Prediction**: Gig economy architecture should mathematically constrain workers to positions where meaningful system improvement becomes impossible (O = 1, High E), regardless of individual effort or capability.
@@ -993,9 +993,9 @@ Remember: This theory aims to describe observable patterns. Many human systems a
 - The Thermodynamic Foundations of Information Physics: https://kurtiskemple.com/information-physics/thermodynamic-foundations
 
 **Case Study Documentation:**
-- Renaissance Florence vs Silicon Valley Innovation Crisis: https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis
-- Wolf Pack Thermodynamics: https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics
-- Gig Economy Entropy Limits: https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy
+- Renaissance Florence vs Silicon Valley: Entropy & Innovation: https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis
+- Wolf Pack Thermodynamics: Information Physics in Nature: https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics
+- Constrained by Design? Entropy Limits in the Gig Economy: https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy
 - Evolutionary Mass Extinction Survival Patterns: https://kurtiskemple.com/information-physics/survival-trends-in-mass-extinction-events
 
 **Strategic Guides:**

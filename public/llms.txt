@@ -16,7 +16,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ## Information Physics: The Complete Theory
 
-### [Information Physics Field Guide](https://kurtiskemple.com/information-physics/field-guide)
+### [Information Physics Field Guide: Start Here](https://kurtiskemple.com/information-physics/field-guide)
 *The Discovery Story: From Maximum Entropy to Universal Laws*
 
 - **Intent**: Chronicle the journey from navigating high-entropy environments to discovering universal principles governing all human organization
@@ -28,7 +28,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ### Core Theory: The Five Pillars
 
-**[Information Physics Theory: How Human Systems Exhibit Physics-Like Patterns](https://kurtiskemple.com/information-physics/theory)**
+**[Information Physics Theory](https://kurtiskemple.com/information-physics/theory)**
 *Foundation: Why Humans Evolved to Fight Entropy*
 
 - **Intent**: Establish the foundational theory explaining why humans across all cultures and time periods consistently create similar optimization patterns in information systems
@@ -66,7 +66,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Emergence Interpretation**: Apparent "spontaneous" boundary formation may be rapid, distributed JOIN operations occurring faster than individual tracking allows (e.g., social movements, market bubbles, viral phenomena)
 - **Impact**: COB provides the practical application framework for Information Physics - the actionable map showing how entropy-competent beings might systematically transform any human system through boundary manipulation
 
-**[Entropic Mathematics: A New Mathematical Framework for Conscious Systems](https://kurtiskemple.com/information-physics/entropic-mathematics)**
+**[Entropic Mathematics: Math for Conscious Systems](https://kurtiskemple.com/information-physics/entropic-mathematics)**
 *Calculation: Observer-Dependent Mathematics for Human Systems*
 
 - **Intent**: Develop mathematical framework where observer position and consciousness are primary variables, not complications to eliminate
@@ -115,7 +115,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Universal Recognition**: From evolutionary survival to human strategy, the same operational flexibility vs. specialization trade-offs determine outcomes across all scales and timescales
 - **Impact**: Establishes Information Physics as core principle governing survival and success from planetary evolution to human organization
 
-**[Information Physics In Mathematics](https://kurtiskemple.com/information-physics/in-mathematics)**
+**[Information Physics in Mathematics](https://kurtiskemple.com/information-physics/in-mathematics)**
 *Mathematical Foundation: How Information Physics Connects to Established Mathematical Principles*
 
 - **Intent**: Connect Information Physics to established mathematical frameworks for academic rigor and practical application
@@ -123,7 +123,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Formal Proofs**: Mathematical validation of core Information Physics principles using established theorems and equations
 - **Impact**: Provides mathematical credibility and enables precise calculations for Information Physics applications
 
-**[Information Physics In Science](https://kurtiskemple.com/information-physics/in-science)**
+**[Information Physics in Science](https://kurtiskemple.com/information-physics/in-science)**
 *Scientific Framework: How Information Physics Aligns with Current Scientific Understanding*
 
 - **Intent**: Demonstrate Information Physics compatibility with physics, biology, psychology, and complexity science
@@ -406,7 +406,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ## Information Physics Case Studies
 
-### [Renaissance Florence vs Silicon Valley: The Innovation Entropy Crisis](https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis)
+### [Renaissance Florence vs Silicon Valley: Entropy & Innovation](https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis)
 *Real-World Validation: Innovation Efficiency Through Entropy Analysis*
 
 - **Intent**: Demonstrate how high entropy prevents innovation despite resource advantages
@@ -415,7 +415,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Information Physics Connection**: Suggests technology cannot overcome high entropy - the Medici patronage model systematically reduced entropy across all dimensions while Silicon Valley maintains high entropy through architectural choices
 - **Impact**: Shows modern innovation hubs waste human potential through high-entropy design, validates Information Physics principles at civilizational scale
 
-### [Wolf Pack Thermodynamics](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)
+### [Wolf Pack Thermodynamics: Information Physics in Nature](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)
 *Natural Systems Validation: Information Physics Principles in Wolf Pack Hierarchies*
 
 - **Intent**: Explore how wolf pack dynamics may demonstrate Information Physics through position-dependent energy costs
@@ -424,7 +424,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Information Physics Connection**: Explores how hierarchical position may create cascading thermodynamic costs potentially affecting survival probability
 - **Impact**: Provides testable predictions for how position determines energy expenditure in natural systems
 
-### [Constraint by Design: Entropy Limits in the Gig Economy](https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy)
+### [Constrained by Design? Entropy Limits in the Gig Economy](https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy)
 *Mathematical Proof: How System Architecture Determines Human Capability*
 
 - **Intent**: Demonstrate how structural position mathematically constrains worker capability regardless of individual effort
