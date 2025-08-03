@@ -480,10 +480,10 @@ Successful knowledge transfer when humans:
 ### Case Studies: Information Physics in Action
 
 **Renaissance Florence vs Silicon Valley: Entropy & Innovation**
-- **Finding**: Despite having vastly superior technology, global connectivity, and massive venture capital, Silicon Valley produces 12x fewer innovators per capita than 15th century Florence (0.32 vs 3.9 per 10,000 people)
-- **Mathematical Analysis**: Florence operated at E = 0.30 (77% efficiency) while Silicon Valley operates at E = 0.43 (70% efficiency), hovering dangerously close to the critical percolation threshold of 0.45
-- **Key Insight**: Technology cannot overcome high entropy - the Medici patronage model created optimal conditions for human flourishing through systematic entropy reduction across financial, spatial, temporal, and biological dimensions
-- **Impact**: Suggests that modern innovation hubs may waste human potential through high-entropy design despite overwhelming resource advantages
+- **Finding**: Mathematical analysis suggests Renaissance Florence may have produced 12x more innovators per capita than Silicon Valley (3.9 vs 0.32 per 10,000 people) despite technological disadvantages
+- **Mathematical Analysis**: Calculations indicate Florence operated at E = 0.30 (SEC = 1.538) while Silicon Valley operates at E = 0.54 (SEC = 1.299). Thermodynamic analysis suggests Silicon Valley innovators might expend 9.2x more daily energy (1,560 vs 170 kcal) while achieving 16% less entropy reduction
+- **Key Insight**: Position-dependent thermodynamic costs may significantly affect innovation capacity. The analysis suggests high entropy environments could require substantially more energy for equivalent outcomes, potentially explaining innovation rate differences
+- **Impact**: If validated, would demonstrate that technological advantages may not compensate for high-entropy organizational design. Requires empirical validation across diverse innovation ecosystems
 - **Documentation**: https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis
 
 **Constrained by Design? Entropy Limits in the Gig Economy**

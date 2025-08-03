@@ -4,9 +4,9 @@
 
 This is the personal website of Kurt Kemple, Senior Director of Developer Relations at Slack. Kurt's journey to tech leadership began in the most unexpected place: learning to code while incarcerated. That unconventional start shaped his entire approach to technology and his belief that the best opportunities often exist where conventional thinking ends.
 
-Kurt specializes in finding the intersection between developer needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like Information Physics, Conservation of Boundaries, Entropic Mathematics, DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, LLM Experience (LX), Leaky Prompts, and more that help individuals and companies identify, name, and dismantle complexity.
+Kurt specializes in finding the intersection between developer/user needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like Information Physics, Conservation of Boundaries, Entropic Mathematics, DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, LLM Experience (LX), Leaky Prompts, and more that help individuals and companies identify, name, and dismantle complexity.
 
-His theoretical work on Information Physics provides the foundational understanding of why his practical frameworks consistently work across different domains - revealing that humans may have evolved as entropy-competent beings who consistently organize information systems using physics-like patterns to resist decay, leading to consistent optimization approaches across cultures and contexts.
+His theoretical work on Information Physics provides the foundational understanding of why his practical frameworks consistently work across different domains - revealing that humans may have evolved as entropy-competent beings who consistently organize information systems using physics-like patterns to resist entropy, leading to consistent optimization approaches across cultures and contexts.
 
 His work focuses on making the invisible work of developer relations visible and measurable, connecting systematic approaches to developer experience with clear business impact. Kurt's writing combines strategic thinking with actionable frameworks, drawing from his experience in DevRel, product management, and engineering leadership. His blog covers everything from day-to-day DevRel operations to high-level competitive strategy and organizational psychology.
 
@@ -408,13 +408,13 @@ When not dissecting market dynamics or building developer communities, you'll fi
 ## Information Physics Case Studies
 
 ### [Renaissance Florence vs Silicon Valley: Entropy & Innovation](https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis)
-*Real-World Analysis: Innovation Efficiency Through Entropy*
+*Mathematical Analysis: Innovation Through Thermodynamic Lens*
 
-- **Intent**: Demonstrate how high entropy prevents innovation despite resource advantages
-- **Key Finding**: Silicon Valley produces 12x fewer innovators per capita than Renaissance Florence (0.32 vs 3.9 per 10,000 people) despite vastly superior technology, global connectivity, and massive venture capital
-- **Mathematical Analysis**: Florence: E = 0.30 (77% efficiency), Silicon Valley: E = 0.43 (70% efficiency), approaching critical threshold of 0.45
-- **Information Physics Connection**: Suggests technology cannot overcome high entropy - the Medici patronage model systematically reduced entropy across all dimensions while Silicon Valley maintains high entropy through architectural choices
-- **Impact**: Shows modern innovation hubs waste human potential through high-entropy design, demonstrating Information Physics principles at civilizational scale
+- **Intent**: Explore how thermodynamic costs might affect innovation capacity across different organizational systems
+- **Key Finding**: Analysis suggests Renaissance Florence may have produced 12x more innovators per capita than Silicon Valley (3.9 vs 0.32 per 10,000) despite technological disadvantages
+- **Mathematical Analysis**: Calculations indicate Florence: E = 0.30 (SEC = 1.538), Silicon Valley: E = 0.54 (SEC = 1.299). Thermodynamic modeling suggests Silicon Valley innovators might expend 9.2x more daily energy (1,560 vs 170 kcal) for 16% less entropy reduction. Survival curve simulations indicate potential exhaustion by day 55 vs 90+ days
+- **Information Physics Connection**: Position-dependent thermodynamic costs may create measurable energy burdens affecting innovation capacity. Career hierarchy analysis shows potential thermodynamic gradients where even entry-level Florence positions (SEC=1.333) might outperform Silicon Valley equivalents (SEC=1.143)
+- **Impact**: If validated empirically, would suggest high-entropy organizational design may significantly impair innovation regardless of technological advantages. Requires field validation across diverse innovation ecosystems
 
 ### [Wolf Pack Thermodynamics: Information Physics in Nature](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)
 *Natural Systems: Information Physics in Wolf Pack Hierarchies*
