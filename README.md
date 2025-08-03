@@ -1,5 +1,3 @@
 # My personal website
 
-### Built with Astro
-
-Includes my writing and soon my photography.
+Includes my theorizing, writing, and photography.

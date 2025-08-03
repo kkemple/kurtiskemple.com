@@ -142,6 +142,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Mathematical Bridges**: Landauer's principle, Boltzmann distributions, quantum relative entropy, percolation theory phase transitions
 - **Impact**: Makes hidden thermodynamic costs visible and calculable, turning organizational design into thermodynamic engineering
 
+**[Conscious Chaos: Entropy, Time, and the Observer-Driven Dynamics of Change](https://kurtiskemple.com/information-physics/conscious-chaos)**
+*Temporal Dynamics: How Entropy Evolves Through Time*
+
+- **Intent**: Synthesize Information Physics with chaos mathematics to explore temporal evolution of entropic systems
+- **Core Equation**: `dSEC/dt = O × V × f(E) × [1 + α·sin(ωt)]` - adding time sensitivity to static entropy calculations
+- **Key Insights**: Position-sensitive initial conditions create exponentially diverging outcomes; chaos dynamics explain why identical efforts yield different results
+- **Impact**: Transforms static entropy calculations into dynamic predictions, explaining why organizational change feels unpredictable despite following deterministic rules
+
 ## Blog Posts
 
 ### AI & Technology Strategy
@@ -444,6 +452,24 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Mathematical Analysis**: Specialists optimized for stable environments (low E in specific niches) but became extinction-vulnerable when conditions changed; generalists maintained operational flexibility (high O) and environmental tolerance (low E) enabling 4x adaptive capacity
 - **Information Physics Connection**: Shows SEC equation may govern survival itself - evolutionary patterns suggest that efficiency optimization creates fragility while operational diversity may ensure survival during high-entropy events
 - **Impact**: Shows Information Physics operates across 3.8 billion years of life, providing mathematical framework for understanding human specialization risks, connects individual optimization patterns to species-level survival
+
+### [Mathematical Analysis of Crowd Dynamics: From Sports Game to Riot](https://kurtiskemple.com/information-physics/mathematical-analysis-of-crowd-dynamics)
+*Collective Behavior: Deterministic Chaos in Human Systems*
+
+- **Intent**: Apply Information Physics and chaos mathematics to understand how crowds transform from order to violence
+- **Key Framework**: Multiple mathematical systems converge - SEC creates position constraints, chaos dynamics add time sensitivity, Boltzmann distribution narrows choices, percolation theory predicts phase transitions
+- **Mathematical Analysis**: Position-based entropy (VIP E≈0.2, Standing room E≈0.8) creates different thermodynamic realities; temporal equation `dSEC/dt = O × V × f(E) × [1 + α·sin(ωt)]` shows system oscillation between order and disorder
+- **Information Physics Connection**: Demonstrates how deterministic mathematics may govern seemingly random collective behavior; position determines individual capacity while system dynamics create inevitable outcomes
+- **Impact**: Provides theoretical framework for predicting and potentially preventing crowd violence through entropy management
+
+### [Game Design Principles in Agent-Based Modeling: Emergent Behaviors from Physics Constraints](https://kurtiskemple.com/information-physics/agent-based-modeling-and-game-design)
+*Modeling Framework: Physics Engines for Human Systems*
+
+- **Intent**: Apply game design insights to create more realistic agent-based models using thermodynamic constraints
+- **Key Innovation**: Replace behavioral rules with physics constraints - agents navigate energy landscapes rather than following scripts
+- **Emergent Behaviors**: Agents spontaneously discover real-world strategies: coalition formation, alternative currencies, niche optimization, information asymmetry exploitation
+- **Information Physics Connection**: Demonstrates how simple energy minimization under entropy constraints produces complex realistic behaviors without explicit programming
+- **Impact**: Suggests new approach to modeling human systems where physics constraints generate emergent strategies matching real-world phenomena
 
 ## Theoretical Extensions: Planetary Information Physics
 
