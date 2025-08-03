@@ -136,17 +136,23 @@ The SEC equation achieves optimal information density. Like E=mc², simple arith
 - Neural optimization through Hebbian plasticity
 - Synaptic pruning as entropy reduction
 - Brain as 20-watt entropy management engine
+- Subconscious as entropy processing queue: 40 bits/second conscious processing from 11 million bits/second sensory input
+- Sleep as batch processing for queued entropy conversion into organized knowledge structures
+- Myelination creates physical threads that strengthen with repetition—information superhighways
+- "Alarm bell" phenomenon: Fight-or-flight response when encountering information that threatens established patterns
 
 **Network Theory**:
 - Metcalfe's Law: Network value scales with n²
 - Dunbar's Number: ~150 person cognitive limit
 - Power laws in human organization
 
-**Machine Learning**:
-- Neural networks converge through entropic exhaustion (∂Loss/∂w ≈ 0)
-- Vector mathematics essential for both backpropagation and Information Physics
-- Weight updates follow MOVE/JOIN/SEPARATE operations
-- Training requires measurable thermodynamic work (Landauer's principle)
+**Machine Learning and Neural Networks**:
+- Neural networks converge through entropic exhaustion (∂Loss/∂w ≈ 0) exactly paralleling Information Physics (∂SEC/∂O ≈ 0)
+- Vector mathematics essential for both: "Think in vectors, not scalars" (Yann LeCun) applies to neural networks AND Information Physics
+- Learning as entropy exhaustion: gradient descent exhausts improvements in weight space just as actors exhaust operations from positions
+- Conservation of Boundaries in weight space: initialization (high-entropy patterns), training (MOVE operations), pruning (SEPARATE), ensembles (JOIN)
+- Thermodynamic reality: Training large models requires megawatt-hours—actual thermodynamic work reorganizing information patterns
+- Both neural networks and Information Physics may describe the same entropy reduction process through vector operations on information boundaries
 
 ### Historical Validation
 **Convergent Evolution of Human Systems**:
@@ -491,7 +497,7 @@ Successful knowledge transfer when humans:
 - **Finding**: During every mass extinction event, specialist species died while generalist species thrived, following predictable SEC formula patterns where specialists operate at SEC = 0.56 and generalists achieve SEC = 2.0
 - **Mathematical Analysis**: Specialists evolved minimal E for stable environments but became extinction-vulnerable when conditions changed; generalists maintained operational flexibility (high O) and environmental tolerance (low E) enabling 4x adaptive capacity
 - **Key Insight**: Evolutionary patterns suggest that optimization for efficiency creates fragility, while maintaining operational diversity may ensure survival during high-entropy events
-- **Impact**: Provides evolutionary validation of Information Physics principles and mathematical framework for understanding why human specialization may threaten species-level survival
+- **Impact**: Shows Information Physics principles operating across 3.8 billion years of life, providing mathematical framework for understanding why human specialization may threaten species-level survival
 - **Documentation**: https://kurtiskemple.com/information-physics/survival-trends-in-mass-extinction-events
 
 ### Cross-Domain Pattern Mapping
