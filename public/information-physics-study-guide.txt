@@ -259,8 +259,18 @@ One interpretation suggests apparent "spontaneous" boundary formation may be rap
 - Market bubbles: Individual trades → sentiment alignment → mass behavior (distributed JOINs)
 - Cultural phenomena: Isolated instances → viral spread → mainstream adoption (network JOINs)
 - System collapse: Micro-failures → cascade effects → total breakdown (reverse JOINs/SEPARATEs)
+- Frustration Coalitions: Observable emergence in B2B SaaS through trackable JOIN operations with V alignment through constraint filtering
 
-This interpretation suggests emergence might not violate COB but rather demonstrate it at scale where individual operations occur too rapidly for tracking. *Note: This remains theoretical pending empirical validation.*
+This interpretation suggests emergence might not violate COB but rather demonstrate it at scale where individual operations occur too rapidly for tracking. May parallel the hierarchical organization of matter itself (quarks → nucleons → atoms → molecules), where each level potentially forms through aggregation of existing boundaries rather than creation from nothing. *Note: This remains theoretical pending empirical validation.*
+
+**The Entropy Bill Always Comes Due:**
+COB operations don't violate thermodynamics - they redistribute entropy. When reducing entropy in one location, it may necessarily increase elsewhere:
+- Workplace efficiency → exported stress to families
+- Corporate optimization → gig economy chaos
+- High-E positions may deal with accumulated exported entropy from the entire system above them
+- Explains why high-entropy positions require dramatically more energy for identical operations
+
+Understanding this prevents misconception that Information Physics violates physics - instead it may reveal hidden flows of entropy that traditional analysis overlooks.
 
 ### Entropic Mathematics (The What)
 
