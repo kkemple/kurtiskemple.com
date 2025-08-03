@@ -93,6 +93,7 @@ Information Physics proposes that humans may be entropy-competent beings who evo
 **Deep Mathematical Connections**:
 - **Quantum Relative Entropy**: S(ρ||σ) = Tr(ρ log ρ) - Tr(ρ log σ) - Information differences create measurable forces
 - **Percolation Theory**: Critical threshold at p_c ≈ 0.593 - Systems fail at E ≈ 0.45 (phase transition)
+- **Chaos Theory Bridge**: E values may follow chaos dynamics with bifurcations at critical thresholds (0.10, 0.25, 0.45, 0.62), potentially following Feigenbaum's constant. See [Chaos Theory and Conservation of Boundaries](https://kurtiskemple.com/information-physics/conservation-of-boundaries#chaos-theory-and-conservation-of-boundaries-a-mathematical-bridge)
 - **Statistical Mechanics**: P(state) = e^(-E_state/kT) / Z - High-E positions sample worse probability distributions
 - **Network Entropy**: H_network = -Σ p(path) log p(path) - Path length creates multiplicative entropy
 - **Coordination Work**: W = NkT ln(Ω_final/Ω_initial) - More agents and higher E mean more work
@@ -610,7 +611,7 @@ Successful knowledge transfer when humans:
 **Current Evidence**: "Rizz" adoption (early 2023) and backlash (late 2023) occurred near predicted EG thresholds.
 
 #### Falsifiable Prediction 4: System Breakdown Points
-**Claim**: Human systems experience catastrophic failure when collective E approaches the critical threshold of 0.62, regardless of available resources or intentions.
+**Claim**: Human systems experience catastrophic failure when collective E approaches the critical threshold of 0.62, regardless of available resources or intentions. This threshold may represent chaotic collapse in the period-doubling route described by chaos theory.
 
 **Test Method**: Monitor organizational health metrics, calculate aggregate entropy across teams, predict failure points.
 
