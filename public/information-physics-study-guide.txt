@@ -173,7 +173,7 @@ The SEC equation achieves optimal information density. Like E=mc², simple arith
 - Power laws in human organization
 
 **Machine Learning and Neural Networks**:
-- Neural networks converge through entropic exhaustion (∂Loss/∂w ≈ 0) exactly paralleling Information Physics (∂SEC/∂O ≈ 0)
+- Neural networks converge through entropic exhaustion (∂Loss/∂w ≈ 0) exactly paralleling Information Physics (ΔSEC/ΔO ≈ 0)
 - Vector mathematics essential for both: "Think in vectors, not scalars" (Yann LeCun) applies to neural networks AND Information Physics
 - Learning as entropy exhaustion: gradient descent exhausts improvements in weight space just as actors exhaust operations from positions
 - Conservation of Boundaries in weight space: initialization (high-entropy patterns), training (MOVE operations), pruning (SEPARATE), ensembles (JOIN)
