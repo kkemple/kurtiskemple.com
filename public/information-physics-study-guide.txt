@@ -42,7 +42,7 @@ Information Physics proposes that humans may be entropy-competent beings who evo
 
 **Variables**:
 - **SEC**: System Entropy Change (positive reduces entropy, negative increases)
-- **O**: Operations count (MOVE=1, JOIN=2, SEPARATE=3 as mathematical group)
+- **O**: Operations count (MOVE=1, JOIN=2, SEPARATE=3 - values reflect thermodynamic energy hierarchy)
 - **V**: Shared conscious intent vector (-1 to +1, with magnitude and direction)
 - **E**: Positional entropy (0 to ∞, actual thermodynamic constraints)
 
@@ -264,6 +264,14 @@ This predicted both "rizz" adoption in early 2023 and the subsequent backlash by
 1. **MOVE:** Shift boundaries to new positions or contexts while preserving their essential structure
 2. **JOIN:** Combine previously separate boundaries into unified wholes
 3. **SEPARATE:** Divide unified boundaries into distinct parts
+
+**Thermodynamic Basis for Operation Values (MOVE=1, JOIN=2, SEPARATE=3):**
+The numerical values aren't arbitrary—they reflect the actual thermodynamic energy hierarchy:
+- **MOVE (O=1)**: Requires the least energy because it only repositions existing boundaries without creating or destroying connections
+- **JOIN (O=2)**: Requires moderate energy to overcome the entropy keeping things separate and create new connections
+- **SEPARATE (O=3)**: Requires the most energy because it must break existing connections and maintain separation against natural recombination tendency
+
+This energy hierarchy aligns with observed reality across scales—from molecular chemistry to organizational dynamics.
 
 **Critical Insights:**
 - Operations are irreducible - no fourth operation has been observed
@@ -1025,10 +1033,10 @@ Explain why their position creates specific energy costs:
 - Limited O means fewer paths to success
 
 **Step 4: Operation Selection Rationale**
-Explain why certain operations work better from their position:
-- High E positions: Focus on MOVE operations (lowest energy)
-- Low V environments: Prioritize JOIN to build consensus
-- Resource-rich positions: Use SEPARATE to reduce complexity
+Explain why certain operations work better from their position based on thermodynamic costs:
+- High E positions: Focus on MOVE operations (O=1, lowest energy) - When you're already fighting high entropy, choose the operation that requires least thermodynamic work
+- Low V environments: Prioritize JOIN operations (O=2, moderate energy) to build consensus - The energy investment in creating connections pays off through increased V
+- Resource-rich positions: Use SEPARATE operations (O=3, highest energy) to reduce complexity - Only attempt energy-intensive bond-breaking when you have resources to maintain the separation
 
 **Example Application**:
 "I'm a middle manager trying to improve our deployment process but can't get buy-in."
