@@ -28,6 +28,8 @@ Information Physics introduces a minimal viable modeling system using `E`, `V`, 
 
 This framework may provide the first cross-scale, observer-embedded mathematical theory for understanding how physical consciousness interacts with entropy—not passively, but transformatively.
 
+While theoretical predictions align with observed patterns across multiple domains, systematic empirical validation remains necessary to establish the framework's validity.
+
 **Proposed Fields of Interest:** Complexity science, theoretical physics, thermodynamics, systems theory, cognitive science, AI/ML alignment, organizational behavior, evolutionary biology, civilizational modeling.
 
 **Contact:** Kurtis Kemple (kurtiskemple.com)
