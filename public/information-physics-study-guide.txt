@@ -50,7 +50,7 @@ Information Physics proposes a unifying framework describing how conscious agent
 
 **Variables**:
 - **SEC**: System Entropy Change (positive reduces entropy, negative increases)
-- **O**: Operations count (MOVE=1, JOIN=2, SEPARATE=3 - values reflect thermodynamic energy hierarchy)
+- **O**: Operations cost (MOVE=1, JOIN=2, SEPARATE=3 - values reflect thermodynamic energy hierarchy)
 - **V**: Shared conscious intent vector (-1 to +1, with magnitude and direction)
 - **E**: Positional entropy (0 to ∞, actual thermodynamic constraints)
 
