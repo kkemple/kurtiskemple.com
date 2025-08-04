@@ -24,9 +24,9 @@ The theory accounts for:
 * Innovation density (entropy explains historical disparities)
 * Real energetic cost of cognition and decision-making (Landauer's principle + E)
 
-Information Physics introduces a minimal viable modeling system using `E`, `V`, `O`, `α`, and `ω` to simulate conscious systems under thermodynamic constraint. Its explanatory power spans neural networks, economic behavior, agent-based modeling, and planetary survivability.
+Information Physics introduces a minimal viable modeling system using `E`, `V`, `O`, `α`, and `ω` to simulate conscious systems constrained by entropy. Its explanatory power spans neural networks, economic behavior, agent-based modeling, and planetary survivability.
 
-This framework may provide the first cross-scale, observer-embedded mathematical theory for understanding how physical consciousness interacts with entropy—not passively, but transformatively.
+This framework may provide the first cross-scale, observer-embedded mathematical theory of conscious systems embedded in entropy.
 
 While theoretical predictions align with observed patterns across multiple domains, systematic empirical validation remains necessary to establish the framework's validity.
 
