@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Information Physics proposes a unifying theoretical and mathematical framework describing how conscious agents embedded in entropy modify system trajectories through observer-dependent operations. The theory defines three irreducible operations—`MOVE`, `JOIN`, and `SEPARATE`—as the only mechanisms by which boundaries (informational, organizational, spatial, cognitive) transform. These operations interact with an agent's positional entropy (`E`), directional intent (`V`), and operational capacity (`O`) to generate measurable effects on system entropy, captured by the core equation:
+Information Physics proposes a unifying theoretical and mathematical framework describing how conscious agents embedded in entropy modify system trajectories through observer-dependent operations. Following the lineage of Einstein's relativity (physics depends on reference frame) and Nash's game theory (optimal strategies depend on others' actions), this framework treats consciousness, position, and lived experience as fundamental mathematical variables. The theory defines three irreducible operations—`MOVE`, `JOIN`, and `SEPARATE`—as the only mechanisms by which boundaries (informational, organizational, spatial, cognitive) transform. The operation values (MOVE=1, JOIN=2, SEPARATE=3) reflect actual thermodynamic energy hierarchy, grounding the framework in physical law. These operations interact with an agent's positional entropy (`E`), directional intent (`V`), and operational capacity (`O`) to generate measurable effects on system entropy, captured by the core equation:
 
 ```math
 SEC = \frac{O \times V}{1 + E}
