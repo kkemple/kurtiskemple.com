@@ -12,11 +12,19 @@ Full documentation available at: https://kurtiskemple.com/information-physics/fi
 
 Information Physics proposes that humans may be entropy-competent beings who evolved to observe entropic increase and consciously choose whether to increase or decrease it through systematic information organization. This manifests as consistent patterns across many scales of human activity, from neural pathways to civilizations, following mathematical laws that may be as fundamental as physics itself.
 
-**Core Theory**: Information Physics proposes a general theory that describes how conscious beings embedded in entropy may reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries. These operations interact with an agent's position (E), intent (V), and available actions (O) to produce a measurable effect on system entropy (SEC). Shannon proved information IS entropy; Information Physics proposes how physical conscious beings navigate it through observer-dependent mathematics where position, conscious intent, and lived experience are primary variables.
+### Core Theory
 
-**Central Insight**: Shannon proved information IS entropy; Information Physics proposes how physical conscious beings navigate that entropy through observer-dependent mathematics where position, conscious intent, and lived experience are primary variables.
+Information Physics proposes a general theory that describes how conscious beings embedded in entropy may reduce or increase it through observer-dependent operations on information, coordination, and system boundaries. All meaningful transformation reduces to one of three operations: MOVE, JOIN, or SEPARATE — applied to humans, information, or structural boundaries. These operations interact with an agent's position (E), intent (V), and available actions (O) to produce a measurable effect on system entropy (SEC). Shannon proved information IS entropy; Information Physics proposes how physical conscious beings navigate it through observer-dependent mathematics where position, conscious intent, and lived experience are primary variables.
 
-**Note on Theoretical Status**: Information Physics presents theoretical frameworks that await comprehensive empirical validation. While based on observable patterns and mathematical principles, many specific claims remain speculative. The theory aims to describe patterns that may exist rather than asserting definitive truths. Users should apply scientific skepticism and test predictions empirically.
+### Central Insight
+
+Shannon proved information IS entropy; Information Physics proposes how physical conscious beings navigate that entropy through observer-dependent mathematics where position, conscious intent, and lived experience are primary variables.
+
+> **Note on Theoretical Status**: Information Physics presents theoretical frameworks that await comprehensive empirical validation. While based on observable patterns and mathematical principles, many specific claims remain speculative. The theory aims to describe patterns that may exist rather than asserting definitive truths. Users should apply scientific skepticism and test predictions empirically.
+
+### Abstract Overview
+
+Information Physics proposes a unifying framework describing how conscious agents modify system trajectories through three irreducible operations (MOVE, JOIN, SEPARATE) that interact with positional entropy (E), directional intent (V), and operational capacity (O). The core equation SEC = O × V / (1 + E) captures measurable system entropy change. The framework extends from individual decision-making to civilizational evolution, introducing temporal dynamics through Conscious Chaos equations. It provides potential explanations for Nash Equilibrium, mass extinction patterns, organizational dynamics, and innovation density—all through a single mathematical lens. For the complete abstract, see: public/information-physics-abstract.txt
 
 ---
 
