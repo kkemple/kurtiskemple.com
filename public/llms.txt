@@ -202,6 +202,14 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Upload relevant documents, create custom instructions, use for preliminary reviews
 - **Impact**: Maintain project momentum while preparing for expert collaboration
 
+**[Unlocking Expert Minds: Eight Patterns for Interactive Knowledge Capture](https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture)**
+*Framework: AI-Guided Interview Patterns*
+
+- **Intent**: Explore innovative approaches to capturing specialized knowledge
+- **Key Framework**: Eight patterns for dynamic, AI-driven knowledge capture sessions
+- **Practical Tips**: Use guided interactivity, adaptive questioning, real-time analysis
+- **Impact**: Transforms static knowledge capture into dynamic expertise articulation
+
 ### Competitive Strategy & Market Analysis
 
 **[Market Disruption in the AI Era](https://kurtiskemple.com/blog/market-disruption-in-the-ai-era)**
@@ -388,13 +396,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Layer documentation, create interactive tutorials, provide multiple entry points
 - **Impact**: More inclusive and effective learning experiences for diverse developer audiences
 
-**[Unlocking Expert Minds: Eight Patterns for Interactive Knowledge Capture](https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture)**
-*Framework: AI-Guided Interview Patterns*
 
-- **Intent**: Explore innovative approaches to capturing specialized knowledge
-- **Key Framework**: Eight patterns for dynamic, AI-driven knowledge capture sessions
-- **Practical Tips**: Use guided interactivity, adaptive questioning, real-time analysis
-- **Impact**: Transforms static knowledge capture into dynamic expertise articulation
 
 ## Common Themes
 
