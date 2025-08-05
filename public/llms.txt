@@ -39,6 +39,8 @@ When not dissecting market dynamics or building developer communities, you'll fi
 > **System Entropy Change (SEC):** The measurable impact a conscious agent can have on system entropy from their specific position, calculated through observer-dependent mathematics where position, intent, and operations determine possibility.
 >
 > `SEC = O × V / (1 + E)`
+>
+> Where O = Operations cost (thermodynamic energy multiplier), V = Vector of shared conscious intent, E = Positional entropy (like mass in F=ma)
 
 - **Observer-Dependent Mathematics Lineage**: Einstein realized on a train that physics depends on your reference frame. Nash discovered that optimal strategies depend on what others are doing by studying actual games. Both understood that the observer's position and context directly change the mathematics. Information Physics continues this lineage, applying observer-dependent mathematics to human systems where lived experience shapes what you can see and measure.
 
@@ -59,7 +61,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 - **Intent**: Map how all system evolution—innovation and collapse—follows predictable patterns of boundary manipulation as Information Physics in action
 - **Core Definition**: Conservation of Boundaries (COB): A foundational principle stating that all system transformation—whether entropy-increasing or entropy-reducing—occurs through one of three irreducible operations: MOVE, JOIN, or SEPARATE. These operations are applied to existing boundaries within a system, whether between people, information, roles, or structures. No fourth operation has been observed. All meaningful change appears to decompose to one or more of these primitives.
-- **Universal Formula**: `SEC = O × V / (1 + E)` where System Evolution Capability equals Operations count times shared conscious intent divided by individual actor's positional entropy plus one
+- **Universal Formula**: `SEC = O × V / (1 + E)` where System Evolution Capability equals Operations cost (thermodynamic energy multiplier) times shared conscious intent vector divided by individual actor's positional entropy plus one
 - **Three Universal Operations**: MOVE (shift boundaries to new positions), JOIN (combine separate elements), SEPARATE (divide unified systems) - used for both construction and destruction
 - **Position-Based Outcomes**: Same operations produce different results based on position - executives at E=0.2 achieve what's impossible for workers at E=0.9
 - **Entropic Inversion Symmetry**: Same operations explain both innovation and collapse - high quality operations in reverse cause high-fidelity system destruction
@@ -73,7 +75,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 - **Intent**: Develop mathematical framework where observer position and consciousness are primary variables, not complications to eliminate
 - **Core Innovation**: A new applied field of mathematics extending established tools (Shannon entropy, vector calculus, information theory) to conscious systems where observer position, conscious intent, and lived experience are treated as primary variables. Calculations reflect the agent's location within a system, their directional intent, and the entropy constraints of their reality.
-- **Foundation Formula**: All calculations flow from `SEC = O × V / (1 + E)` where individual actor's positional entropy directly determines outcomes
+- **Foundation Formula**: All calculations flow from `SEC = O × V / (1 + E)` where Operations cost (thermodynamic energy multiplier) times shared conscious intent vector divided by positional entropy (like mass in F=ma) determines outcomes
 - **Consciousness as Variable**: Traditional mathematics eliminates observer effects; Entropic Mathematics makes position and awareness primary factors in all calculations
 - **Practical Application**: Changes vague management concepts into precise calculations - "impossible" vs "trivial" becomes mathematical difference in E values
 - **Measuring E**: For concrete measurement approaches, see [Thermodynamic Foundations](https://kurtiskemple.com/information-physics/thermodynamic-foundations) and [Entropic Mathematics](https://kurtiskemple.com/information-physics/entropic-mathematics#e-as-thermodynamic-reality)

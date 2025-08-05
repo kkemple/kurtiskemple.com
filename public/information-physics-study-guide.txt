@@ -23,10 +23,10 @@ SEC = O × V / (1 + E)
 ```
 
 **Variable definitions:**
-- **SEC:** System Entropy Change - hypothesized measurable impact on system entropy from specific position
-- **O:** Operations cost reflecting thermodynamic energy hierarchy (MOVE=1, JOIN=2, SEPARATE=3)
-- **V:** Vector of conscious intent with magnitude and direction (-1 to +1)
-- **E:** Positional entropy representing constraints from observer's position (0 to ∞)
+- **SEC (System Entropy Change)**: the measurable impact a conscious agent can have on system entropy from their specific position, calculated through observer-dependent mathematics where position, intent, and operations determine possibility
+- **O (Operations cost)**: thermodynamic energy multiplier reflecting the energy hierarchy required to perform each operation (MOVE=1, JOIN=2, SEPARATE=3). Values represent physical grounding in energy requirements, not mathematical convenience
+- **V (Vector of shared conscious intent)**: mathematical vector with magnitude (strength of collective alignment, 0 to 1) and direction (positive for entropy reduction, negative for increase). Exhibits wave properties where vectors can sum or interfere constructively/destructively. Represents collapsed state after social computation filters competing interpretations into shared reality
+- **E (Positional entropy)**: thermodynamic entropy from physical position. Like mass in F=ma, E must be known to predict outcomes. E varies dramatically across positions - a wolf in Yellowstone faces entirely different thermodynamic constraints than a frontline worker, who faces different constraints than a CEO
 
 This equation remains theoretical and requires extensive empirical testing to validate predictive capacity across domains.
 
