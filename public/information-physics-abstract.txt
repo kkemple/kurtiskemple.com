@@ -14,7 +14,7 @@ Building on the established equivalence between Shannon information entropy and 
 \frac{dSEC}{dt} = O \times V \times f(E) \times [1 + \alpha \cdot \sin(\omega t)]
 ```
 
-This evolution function allows entropy trajectory modeling under stress, fatigue, or emergent alignment, integrating concepts from chaos theory, percolation thresholds, and attractor basins.
+This evolution function allows entropy trajectory modeling under stress, fatigue, or emergent alignment, integrating concepts from chaos theory, percolation thresholds, and attractor basins. Here `f(E) = 1/(1+E)` represents the entropy dampening function.
 
 The theory accounts for:
 
