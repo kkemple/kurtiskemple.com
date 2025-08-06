@@ -26,7 +26,7 @@ SEC = O × V / (1 + E)
 - **SEC (System Entropy Change)**: the measurable impact a conscious agent can have on system entropy from their specific position, calculated through observer-dependent mathematics where position, intent, and operations determine possibility
 - **O (Operations cost)**: thermodynamic energy multiplier reflecting the energy hierarchy required to perform each operation (MOVE=1, JOIN=2, SEPARATE=3). Values represent physical grounding in energy requirements, not mathematical convenience
 - **V (Vector of shared conscious intent)**: mathematical vector with magnitude (strength of collective alignment, 0 to 1) and direction (positive for entropy reduction, negative for increase). Exhibits wave properties where vectors can sum or interfere constructively/destructively. Represents collapsed state after social computation filters competing interpretations into shared reality
-- **E (Positional entropy)**: thermodynamic entropy from physical position. Like mass in F=ma, E must be known to predict outcomes. E varies dramatically across positions - a wolf in Yellowstone faces entirely different thermodynamic constraints than a frontline worker, who faces different constraints than a CEO
+- **E (Positional entropy)**: thermodynamic entropy from physical position. Like mass in F=ma, `E` must be known to predict outcomes. `E` varies dramatically across positions - a wolf in Yellowstone faces entirely different thermodynamic constraints than a frontline worker, who faces different constraints than a CEO
 
 This equation remains theoretical and requires extensive empirical testing to validate predictive capacity across domains.
 
@@ -47,7 +47,7 @@ The numerical values potentially reflect thermodynamic energy hierarchy. MOVE op
 
 ## Positional Entropy Analysis
 
-E functions as a composite function capturing thermodynamic constraints affecting observer position. Like mass in Newton's F=ma equation, E potentially determines possible outcomes from any position.
+E functions as a composite function capturing thermodynamic constraints affecting observer position. Like mass in Newton's F=ma equation, `E` potentially determines possible outcomes from any position.
 
 **Proposed composite function:**
 E = f(wealth, education, location, social_capital, health, information_access, decision_authority)
@@ -78,7 +78,7 @@ V represents a mathematical vector with magnitude and direction. This component 
 - **Direction:** Positive for entropy reduction, negative for entropy increase
 - **Wave mechanics:** Vectors may sum or interfere like waves in physical systems
 
-The theory suggests consensus formation could function as measurement process that collapses multiple competing V states into shared reality. Before consensus, multiple interpretations may compete simultaneously. After consensus, aligned vectors potentially create measurable SEC outcomes through social computation processes.
+The theory suggests consensus formation could function as measurement process that collapses multiple competing V states into shared reality. Before consensus, multiple interpretations may compete simultaneously. After consensus, aligned vectors potentially create measurable `SEC` outcomes through social computation processes.
 
 This mechanism requires investigation to determine whether consensus formation follows mathematical principles analogous to wave function collapse in quantum mechanics.
 
@@ -151,7 +151,7 @@ The theory attempts connections with established scientific frameworks, though t
 **Game theory connections:**
 - **Nash equilibrium:** Potential mechanism through entropic exhaustion
 - **Strategic optimization:** Dependence on others' entropy positions
-- **Coordination failures:** Possibly explained by high E values
+- **Coordination failures:** Possibly explained by high `E` values
 
 These connections remain hypothetical until systematic empirical testing establishes validity.
 
@@ -162,16 +162,16 @@ These connections remain hypothetical until systematic empirical testing establi
 The framework suggests system analysis approaches, though these methods require validation through controlled studies.
 
 **System analysis protocol:**
-1. Map E values for each position through energy measurement
-2. Assess V alignment across agents through behavioral observation
-3. Identify available operations by E level through capability testing
-4. Calculate SEC for potential actions using proposed equation
+1. Map `E` values for each position through energy measurement
+2. Assess `V` alignment across agents through behavioral observation
+3. Identify available operations by `E` level through capability testing
+4. Calculate `SEC` for potential actions using proposed equation
 5. Predict equilibrium outcomes and test against actual results
 
 **Operation selection hypothesis by position:**
-- **High E (>0.7):** May be restricted primarily to MOVE operations
-- **Medium E (0.4-0.7):** Could potentially access MOVE and JOIN operations
-- **Low E (<0.4):** Might have access to all operations including SEPARATE
+- **High `E` (>0.7):** May be restricted primarily to MOVE operations
+- **Medium `E` (0.4-0.7):** Could potentially access MOVE and JOIN operations
+- **Low `E` (<0.4):** Might have access to all operations including SEPARATE
 
 **Critical thresholds:**
 - **EG < 0.10:** Potentially healthy system state
@@ -188,13 +188,13 @@ These thresholds require systematic testing across multiple domains to establish
 The theory proposes explanations for observed phenomena, though these remain speculative until proper validation occurs.
 
 **Mass extinction patterns:**
-Specialists with high E values may be limited to MOVE operations leading to extinction vulnerability, while generalists with lower E values could afford JOIN/SEPARATE operations enabling survival. This represents thermodynamic constraint hypothesis rather than established fact.
+Specialists with high `E` values may be limited to MOVE operations leading to extinction vulnerability, while generalists with lower `E` values could afford JOIN/SEPARATE operations enabling survival. This represents thermodynamic constraint hypothesis rather than established fact.
 
 **Innovation density patterns:**
-Renaissance Florence may have exhibited lower average E values leading to higher innovation density, while modern environments might show higher E values despite greater resources. This entropy-based explanation for historical innovation disparities requires extensive historical analysis to validate.
+Renaissance Florence may have exhibited lower average `E` values leading to higher innovation density, while modern environments might show higher `E` values despite greater resources. This entropy-based explanation for historical innovation disparities requires extensive historical analysis to validate.
 
 **Organizational change dynamics:**
-Same initiative may yield different SEC values depending on position, potentially explaining resistance as high positional entropy rather than poor attitude. Consensus formation could function as mathematical V vector alignment, though this mechanism needs empirical verification.
+Same initiative may yield different `SEC` values depending on position, potentially explaining resistance as high positional entropy rather than poor attitude. Consensus formation could function as mathematical `V` vector alignment, though this mechanism needs empirical verification.
 
 These case studies represent initial hypotheses requiring systematic investigation before accepting explanatory power.
 
@@ -212,7 +212,7 @@ When teaching this framework, emphasize theoretical status and need for empirica
 
 **User understanding indicators:**
 - **Basic comprehension:** "That explains why this is difficult for me but easy for them"
-- **Advanced readiness:** Questions about changing E values or system dynamics
+- **Advanced readiness:** Questions about changing `E` values or system dynamics
 
 Always maintain scientific skepticism and encourage users to test predictions against real-world outcomes rather than accepting framework uncritically.
 

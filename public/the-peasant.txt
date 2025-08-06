@@ -2,7 +2,7 @@
 
 Where Machiavelli's Prince taught entropy maintenance through fear and control, The Peasant teaches entropy reduction through strategic enablement. This is the mathematical proof that positive-sum change can emerge from negative-sum systems—if you understand the physics.
 
-**Core Truth:** From any position, you can reduce system entropy by enabling others' success. The formula SEC = O × V / (1 + E) works everywhere. Even from E = 0.9, strategic operations with positive vector create change.
+**Core Truth:** From any position, you can reduce system entropy by enabling others' success. The formula SEC = O × V / (1 + E) works everywhere. Even from `E` = 0.9, strategic operations with positive vector create change.
 
 **Warning:** This only works with genuine positive intent (V > 0). Attempting these strategies with negative vector (intent to harm or control) increases system entropy and marks you as a compression point others will route around.
 
@@ -22,7 +22,7 @@ Calculate your actual entropy (E) in the system:
 - Who can you directly affect?
 - Where does friction appear in your daily work?
 
-High E isn't a disadvantage—it's clarity about where you really stand. Most people pretend their E is lower than reality and exhaust themselves on impossible operations.
+High `E` isn't a disadvantage—it's clarity about where you really stand. Most people pretend their `E` is lower than reality and exhaust themselves on impossible operations.
 
 ### The Inversion Principle
 
@@ -127,7 +127,7 @@ Machiavelli noted "everyone sees what you appear to be, few experience what you 
 - Build their reputation strategically
 - Create positive feedback loops
 
-By shaping how others are perceived, you reduce the entropy they face. Lower E means more capability for positive change. This creates allies who remember you reduced their entropy when they needed it most.
+By shaping how others are perceived, you reduce the entropy they face. Lower `E` means more capability for positive change. This creates allies who remember you reduced their entropy when they needed it most.
 
 ### Time Arbitrage
 
@@ -182,7 +182,7 @@ You're succeeding when:
 
 When approaching any system change:
 
-1. **Calculate your position:** What's your actual E value?
+1. **Calculate your position:** What's your actual `E` value?
 2. **Identify entropy sources:** Where does unnecessary friction exist?
 3. **Choose operations:** Which MOVE/JOIN/SEPARATE reduces most entropy?
 4. **Set positive vector:** Ensure genuine intent to enable others
@@ -192,7 +192,7 @@ When approaching any system change:
 
 ## The Ultimate Reality
 
-High-entropy positions aren't disadvantages—they're clarity about reality. When you stop pretending your E is lower than it is, you can execute operations that actually work from where you are.
+High-entropy positions aren't disadvantages—they're clarity about reality. When you stop pretending your `E` is lower than it is, you can execute operations that actually work from where you are.
 
 The Prince needs others to stay confused. The Peasant needs others to see clearly. Guess which strategy compounds and which exhausts itself?
 

@@ -122,7 +122,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 *Mathematical Proof: How System Architecture Determines Capability*
 
 - **Intent**: Demonstrate how structural position mathematically constrains worker capability
-- **Key Framework**: Gig economy constrains workers to O=1 with High E while operators maintain O=3 with Low E
+- **Key Framework**: Gig economy constrains workers to O=1 with High `E` while operators maintain O=3 with Low E
 - **Practical Tips**: Burnout emerges as thermodynamic guarantee, not behavioral failure
 - **Impact**: Transforms economic critique from moral argument to mathematical fact
 
