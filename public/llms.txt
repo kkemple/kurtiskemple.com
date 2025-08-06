@@ -50,7 +50,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 *Calculation: Observer-Dependent Mathematics*
 
 - **Intent**: Develop mathematical framework where observer position and consciousness are primary variables
-- **Key Framework**: SEC = O × V / (1 + E) where position, intent, and operations determine possibility
+- **Key Framework**: `SEC = O × V / (1 + E)` where position, intent, and operations determine possibility
 - **Practical Tips**: Changes vague management concepts into precise calculations
 - **Impact**: Enables optimization of human systems through mathematical analysis
 

@@ -2,7 +2,7 @@
 
 Where Machiavelli's Prince taught entropy maintenance through fear and control, The Peasant teaches entropy reduction through strategic enablement. This is the mathematical proof that positive-sum change can emerge from negative-sum systems—if you understand the physics.
 
-**Core Truth:** From any position, you can reduce system entropy by enabling others' success. The formula SEC = O × V / (1 + E) works everywhere. Even from `E` = 0.9, strategic operations with positive vector create change.
+**Core Truth:** From any position, you can reduce system entropy by enabling others' success. The formula `SEC = O × V / (1 + E)` works everywhere. Even from `E = 0.9`, strategic operations with positive vector create change.
 
 **Warning:** This only works with genuine positive intent (V > 0). Attempting these strategies with negative vector (intent to harm or control) increases system entropy and marks you as a compression point others will route around.
 
@@ -16,7 +16,7 @@ You're not fighting the system. You're making it obsolete through superior infor
 
 ### Understanding Your Position
 
-Calculate your actual entropy (E) in the system:
+Calculate your actual entropy `(E)` in the system:
 - What information can you access?
 - Which operations are available to you?
 - Who can you directly affect?
