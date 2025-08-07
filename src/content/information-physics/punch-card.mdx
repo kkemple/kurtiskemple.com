@@ -62,20 +62,37 @@ No fourth operation has been observed, suggesting these three may exhaust the po
 `EG = 1 - S(anchor, current)`
 
 - Measures drift between original and current system state
-- **S()** = Cosine similarity
-- Thresholds:
-  - < 0.10 = stable
-  - 0.10–0.25 = concerning
-  - 0.25–0.45 = dangerous
-  - 0.45 = critical (triggers vector inversion)
+- **S()** = Cosine similarity function
+- Critical threshold at EG = 0.45 (percolation point)
+- System inverts at critical threshold (order → disorder cascade)
 
-### **Entropic Equilibrium**
+### **Multi-Agent System Stability**
 
 `Σ(SEC_i × W_i) → stable state`
 
-- Multi-agent system stabilizes when all agents reach local entropy minima
-- **W_i** = weight/influence of each actor
-- **Nash Equilibrium as Entropic Exhaustion:** Systems reach equilibrium when all agents exhaust their entropy-reduction capacity—achieving ΔSEC_i/ΔO_i = 0 from their embedded positions—making coordination necessary for further change
+- System stabilizes when weighted sum approaches zero
+- **W_i** = weight/influence of each actor in system
+- Stability ≠ optimality (can be trapped in local minima)
+- Coordination enables escape from suboptimal equilibria
+
+### **Nash Equilibrium as Entropic Exhaustion**
+
+`ΔSEC_i/ΔO_i ≈ 0` for all agents i
+
+- Equilibrium emerges when no agent can improve SEC by changing operations
+- Different from game theory: exhaustion of thermodynamic capability, not strategic choice
+- High-E positions reach exhaustion first (fewer operations affordable)
+- Breaking equilibrium requires external energy input or V coordination
+
+### **Conscious Chaos Extension**
+
+`dSEC/dt = O × V × f(E) × [1 + α·sin(ωt)]`
+
+- Introduces temporal dynamics and perturbation sensitivity
+- **f(E)** = (1 + E)⁻¹ (same denominator function as SEC)
+- **α** = perturbation amplitude (chaos strength)
+- **ω** = frequency of environmental oscillations
+- Position-sensitive initial conditions create exponentially diverging outcomes
 
 ---
 

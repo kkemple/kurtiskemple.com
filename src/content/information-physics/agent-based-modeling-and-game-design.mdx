@@ -33,6 +33,8 @@ if (police_present) then reduce_violence_probability()
 
 These rules require constant tuning and often break when encountering unexpected scenarios. Different phenomena need entirely different rule sets, making universal modeling difficult. The limitations of rule-based approaches become apparent when attempting to model complex, dynamic human systems.
 
+> ABM models are extremely sophisticated and powerful, but they can also be extremely complex and difficult to understand. This is a simplified example of how ABM models work for explanatory purposes.
+
 ### Game Design Alternative
 
 Modern games instead use physics engines where agents navigate energy landscapes:
@@ -52,6 +54,14 @@ When agents operate within systemically bounded environments under entropic cons
 ### The Base Mechanics
 
 The game implements the universal conditions through simple mechanics:
+
+> **System Entropy Change (SEC):** The measurable impact on system entropy from a specific position.
+>
+> `SEC = O × V / (1 + E)`
+>
+> Where: **O** = Operations cost (MOVE=1, JOIN=2, SEPARATE=3) | **V** = Vector of conscious intent (-1 to +1) | **E** = Positional entropy (0 to ∞)
+>
+> *For complete explanation, see [Entropic Mathematics](/information-physics/entropic-mathematics#system-entropy-change-sec)*
 
 - **Positional entropy:** Each agent has entropy `(E)` based on their system location
 - **Energy requirements:** Actions require energy proportional to `(1 + E)`
