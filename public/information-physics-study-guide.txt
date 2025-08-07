@@ -2,17 +2,46 @@
 
 ## Core Understanding Requirements
 
-Information Physics is a theoretical framework describing how conscious beings embedded in entropy may modify system trajectories through observer-dependent operations. This framework requires empirical validation before making definitive claims about universal applicability.
+Information Physics is a theoretical framework based on the proposed fundamental principle: **All organized systems are entropically constrained and systemically bounded.**
+
+The framework suggests consciousness may navigate these universal conditions using time and information as tools that potentially transcend normal thermodynamic limits. While other forms of matter and energy must obey constraints directly, consciousness might use temporal projection and information processing to work around limitations.
+
+This framework requires empirical validation before making definitive claims about universal applicability.
 
 Full documentation: https://kurtiskemple.com/information-physics/field-guide
 
 ---
 
+## Fundamental Principle and Navigation
+
+The framework proposes that all organized systems share two universal conditions:
+
+**1. Entropic Constraint:**
+- All order requires energy to maintain
+- Systems naturally degrade toward disorder
+- No perpetual motion or free energy exists
+- Thermodynamic costs increase with complexity
+
+**2. Systemic Boundary:**
+- All systems exist within limits
+- No system operates in true isolation
+- Boundaries define possible operations
+- Constraints shape available choices
+
+**Navigation Through Time and Information:**
+
+The theory suggests consciousness may uniquely leverage two tools to navigate these constraints:
+
+- **Time:** Enables planning, prediction, memory, and coordination across temporal boundaries
+- **Information:** Allows knowledge accumulation, pattern recognition, and collective coordination
+
+While matter and energy remain fully bound by constraints, time and information may operate under different rules—potentially explaining phenomena from black hole information paradox to human civilization's ability to temporarily overcome thermodynamic limits through planning and knowledge.
+
 ## Primary Theoretical Framework
 
-Information Physics proposes mathematical relationships governing conscious systems. Following Einstein's relativity (physics depends on reference frame) and Nash's game theory (optimal strategies depend on others' actions), this framework hypothesizes that consciousness, position, and lived experience function as fundamental mathematical variables.
+Information Physics proposes mathematical relationships governing how conscious systems navigate these universal conditions. Following Einstein's relativity (physics depends on reference frame) and Nash's game theory (optimal strategies depend on others' actions), this framework hypothesizes that consciousness, position, and lived experience function as fundamental mathematical variables determining navigation capability.
 
-The theory suggests human systems may exhibit consistent optimization patterns across scales, from neural pathways to civilizations, potentially following mathematical laws that could parallel established physics principles.
+The theory suggests human systems may exhibit consistent optimization patterns across scales, from neural pathways to civilizations, potentially following mathematical laws that describe navigation of entropic constraints within systemic boundaries.
 
 ### Central Mathematical Equation
 
@@ -34,14 +63,19 @@ This equation remains theoretical and requires extensive empirical testing to va
 
 ## Conservation of Boundaries Framework
 
-The theory proposes all boundary transformation may reduce to three irreducible operations. This represents a hypothesis suggesting these operations could represent the complete set of transformation mechanisms.
+The theory proposes all boundary transformation within constrained systems reduces to three irreducible operations. These operations represent how conscious agents navigate within the fundamental conditions—working within systemic boundaries while managing entropic constraints.
 
 **The three proposed operations:**
-- **MOVE (O=1):** Repositioning existing boundaries without changing connections
-- **JOIN (O=2):** Creating connections between previously separate elements
-- **SEPARATE (O=3):** Breaking connections between elements
+- **MOVE (O=1):** Repositioning within existing boundaries without changing connections
+- **JOIN (O=2):** Creating connections between previously separate elements within boundaries
+- **SEPARATE (O=3):** Breaking connections between elements while maintaining systemic bounds
 
-The numerical values potentially reflect thermodynamic energy hierarchy. MOVE operations may require minimal energy (repositioning only), JOIN operations moderate energy (creating bonds), and SEPARATE operations maximum energy (breaking bonds plus maintaining separation). This hierarchy appears consistent with observations across scales though systematic validation remains necessary.
+The numerical values reflect actual thermodynamic costs within bounded systems:
+- **MOVE** requires minimal energy as it works within existing constraints
+- **JOIN** demands moderate energy to overcome entropic resistance to connection
+- **SEPARATE** needs maximum energy to break bonds AND maintain separation against entropic pressure
+
+These operations explain why high-entropy positions become trapped—they lack energy budget for anything beyond MOVE, while low-entropy positions can afford expensive SEPARATE operations that restructure entire systems. This hierarchy appears consistent with observations from wolf packs to Silicon Valley, though systematic validation remains necessary.
 
 ---
 
