@@ -136,6 +136,12 @@ This energy differential could create mathematical inevitability in organization
 
 The theory attempts connections with established scientific frameworks, though these connections require rigorous validation.
 
+**Complexity science connections:**
+- **Teleonomic matter:** Observer-dependent entropy aligns with Krakauer's purposeful matter
+- **Emergent behavior:** Entropic Gap and equilibrium parallel emergence from constraint
+- **Reflexive theorizing:** Recursive SEC calculations match "theorizing about theorizers"
+- **Adaptive systems:** Position-dependent calculations complement adaptation frameworks
+
 **Physics connections:**
 - **Thermodynamics:** Second Law, Boltzmann distribution patterns
 - **Chaos theory:** Sensitive dependence on initial conditions
