@@ -145,7 +145,7 @@ Systems may stabilize when weighted sum of entropy changes approaches zero acros
 
 **Nash Equilibrium reinterpretation:**
 ```
-∂SEC_i/∂O_i ≈ 0 for all agents
+ΔSEC_i/ΔO_i ≈ 0 for all agents
 ```
 
 The theory proposes Nash Equilibrium could emerge through entropic exhaustion when agents exhaust local optimization capacity.
