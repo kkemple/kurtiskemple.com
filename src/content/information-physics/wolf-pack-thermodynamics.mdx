@@ -25,6 +25,8 @@ A typical wolf pack hierarchy creates distinct positions that correspond to diff
 
 These $E$ values represent additional entropy each wolf faces. The framework indicates the omega wolf burns more calories to achieve outcomes similar to higher-ranked pack members.
 
+> The $SEC$ equation captures the dynamic spiral—$E$ isn't fixed, it changes with every operation. An omega wolf's positional entropy climbing from 0.6 to 0.9 during a single hunt is the same mathematics as an athlete spiraling during a game, each error increasing $E$, reducing their $SEC$, making the next error more likely. We use average values for simplicity, but the actual values change with every operation.
+
 ---
 
 ## Calculating Hunt Information Entropy
@@ -58,6 +60,8 @@ Each wolf would process this baseline differently based on position-dependent fa
 
 This calculation indicates the omega processes 50% more information entropy for equivalent environmental knowledge.
 
+> The actual joules per bit burned isn't the important part. The important part is that the omega wolf processes 50% more information entropy for equivalent environmental knowledge. This has compounding effects on the wolf (agent) as it must navigate the same system with less information and suboptimal decisions creating a feedback loop.
+
 ---
 
 ## Thermodynamic Energy Costs
@@ -79,17 +83,17 @@ These values provide baseline estimates for calculating information processing c
 Using Landauer's principle at wolf body temperature (38°C = 311K):
 
 - **Energy per bit**: $kT \ln(2) = 2.98 \times 10^{-21} \text{ joules}$
-- **Caloric conversion**: $1 \text{ cal} = 4.184 \times 10^{19} \text{ joules}$
+- **Caloric conversion**: $1 \text{ kcal} = 4184 \text{ joules}$
 
-For one hour of hunting decisions:
+For one hour of hunting decisions (cascade effects):
 
-| Wolf Position | Decisions/Hour | Bits per Decision | Total Bits/Hour | Additional Energy |
+| Wolf Position | Decisions/Hour | Bits per Decision | Total Bits/Hour | Cascade Energy Cost |
 |---------------|----------------|-------------------|-----------------|-------------------|
-| Alpha (E=0.2) | 60             | 7.97             | 478.2          | 0.34 $\text{kcal/hour}$   |
-| Omega (E=0.8) | 60             | 11.95            | 717.0          | 0.51 $\text{kcal/hour}$   |
+| Alpha (E=0.2) | 60             | 7.97             | 478.2          | 0.34 kcal/hour   |
+| Omega (E=0.8) | 60             | 11.95            | 717.0          | 0.51 kcal/hour   |
 | **Difference** | **Same**       | **+50%**         | **+50%**       | **+50%**         |
 
-These calculations indicate 50% higher energy expenditure for information processing alone.
+These calculations represent the full thermodynamic cascade: initial information processing triggers stress responses, degraded decision quality, error correction, and metabolic compensation. The 50% higher energy expenditure emerges from compounding effects where each poor decision increases positional entropy, reducing capacity for the next decision—exactly what the SEC equation predicts.
 
 ---
 
@@ -132,9 +136,9 @@ Combining all energy costs provides daily requirements by position. These calcul
 |------------------|------------|------------|------------|
 | Base metabolism | 1,600 kcal | 1,600 kcal | — |
 | Hunting movement | 400 kcal | 600 kcal | +50% |
-| Information processing | 8 kcal | 12 kcal | +50% |
+| Information processing | 0.34 kcal | 0.51 kcal | +50% |
 | Stress hormones | — | 320 kcal | +320 kcal |
-| **Total Daily Energy** | **2,008 kcal** | **2,532 kcal** | **+26%** |
+| **Total Daily Energy** | **2,000 kcal** | **2,520 kcal** | **+26%** |
 
 These calculations indicate the omega needs 26% more calories daily for equivalent survival activities.
 
