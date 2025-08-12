@@ -3,11 +3,16 @@ import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import mdx from "@astrojs/mdx";
 import netlify from "@astrojs/netlify";
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://digitalvandal.xyz",
-  integrations: [tailwind(), react(), mdx()],
+  integrations: [tailwind(), react(), mdx({
+    remarkPlugins: [remarkMath],
+    rehypePlugins: [rehypeKatex],
+})],
   output: "static",
   adapter: netlify(),
   markdown: {
@@ -18,6 +23,6 @@ export default defineConfig({
     },
   },
   image: {
-    domains: ["localhost:4321", "localhost:4322", "kurtiskemple.com"],
+    domains: ["localhost:4321", "kurtiskemple.com"],
   },
 });

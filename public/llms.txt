@@ -4,7 +4,7 @@
 
 This is the personal website of Kurt Kemple, Senior Director of Developer Relations at Slack. Kurt's journey to tech leadership began in the most unexpected place: learning to code while incarcerated. That unconventional start shaped his entire approach to technology and his belief that the best opportunities often exist where conventional thinking ends.
 
-Kurt specializes in finding the intersection between developer needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, LLM Experience (LX), Leaky Prompts, and more that help individuals and companies identify, name, and dismantle complexity.
+Kurt specializes in finding the intersection between developer needs and business outcomes, whether that's building AI-enabled tools that deliver 10x productivity gains, creating measurement frameworks that connect DevRel to revenue, or identifying market dynamics before they materialize. He's the creator of frameworks and theories like DX Audits, Developer Relations Value Cycle, Frustration Coalitions, Keystone Paradox, Lava Leadership, LLM Experience (LX), Leaky Prompts, and Information Physics that help individuals and companies identify, name, and dismantle complexity.
 
 His work focuses on making the invisible work of developer relations visible and measurable, connecting systematic approaches to developer experience with clear business impact. Kurt's writing combines strategic thinking with actionable frameworks, drawing from his experience in DevRel, product management, and engineering leadership. His blog covers everything from day-to-day DevRel operations to high-level competitive strategy and organizational psychology.
 
@@ -14,157 +14,13 @@ When not dissecting market dynamics or building developer communities, you'll fi
 
 ## Information Physics
 
-**[Information Physics: A Position-Dependent Framework for Conscious System Dynamics](https://kurtiskemple.com/information-physics/abstract)**
-*Abstract: Complete Framework Overview*
+Kurt has developed **Information Physics**, a comprehensive theoretical framework proposing that consciousness represents an evolved capability for navigating entropic constraints through temporal and informational processing. The framework integrates mathematical principles, cosmological applications, and empirical validation across multiple domains from quantum mechanics to civilizational development.
 
-- **Intent**: Comprehensive abstract introducing Information Physics—a mathematical framework where consciousness and position shape outcomes
-- **Key Framework**: From SEC equations to Conscious Chaos dynamics, explore how three operations (MOVE, JOIN, SEPARATE) may describe patterns across scales
-- **Practical Tips**: Provides theoretical foundation and cross-domain applications for understanding conscious systems embedded in entropy
-- **Impact**: Unifying framework that may explain patterns from neural networks to civilizations
+**Core Framework**: Information Physics centers on the SEC (System Entropy Change) equation and five interconnected principles: Collision Theory, Irreversibility Principle, Conservation of Boundaries, Information Physics Theory, and Entropic Mathematics. The framework provides mathematical tools for understanding how conscious systems navigate thermodynamic constraints in ways unavailable to purely physical systems.
 
-**[Information Physics Field Guide: Start Here](https://kurtiskemple.com/information-physics/field-guide)**
-*The Discovery Story: From Maximum Entropy to Universal Laws*
+**Key Insights**: The framework explains patterns from mass extinctions to organizational dynamics through position-dependent energy costs, three fundamental operations (MOVE, JOIN, SEPARATE), and critical thresholds corresponding to percolation theory. It offers testable predictions about system behavior under entropic constraints across scales from neural networks to civilizations.
 
-- **Intent**: Chronicle the journey from navigating high-entropy environments to discovering universal principles
-- **Key Framework**: Complete exploration of Information Physics theory, mathematics, and applications
-- **Practical Tips**: Start by understanding your position, entropy, and available operations
-- **Impact**: Provides both theoretical foundation and practical entry point to Information Physics
-
-**[Information Physics Theory](https://kurtiskemple.com/information-physics/theory)**
-*Foundation: Universal Conditions and Navigation Tools*
-
-- **Intent**: Establish fundamental principle that all organized systems are entropically constrained and systemically bounded
-- **Key Framework**: Consciousness navigates constraints using time and information as tools that transcend normal limits
-- **Practical Tips**: Understanding how time enables planning and information enables coordination to work around constraints
-- **Impact**: Provides axiomatic foundation showing consciousness as navigation capability rather than passive observation
-
-**[Conservation of Boundaries](https://kurtiskemple.com/information-physics/conservation-of-boundaries)**
-*Method: How All System Transformation Happens*
-
-- **Intent**: Map how all system evolution follows predictable patterns of boundary manipulation
-- **Key Framework**: Three irreducible operations: MOVE, JOIN, SEPARATE applied to system boundaries
-- **Practical Tips**: Same operations explain both innovation and collapse—vector determines direction
-- **Impact**: Practical application framework for transforming any human system
-
-**[Entropic Mathematics: Math for Conscious Systems](https://kurtiskemple.com/information-physics/entropic-mathematics)**
-*Calculation: Observer-Dependent Mathematics*
-
-- **Intent**: Develop mathematical framework where observer position and consciousness are primary variables
-- **Key Framework**: `SEC = O × V / (1 + E)` where position, intent, and operations determine possibility
-- **Practical Tips**: Changes vague management concepts into precise calculations
-- **Impact**: Enables optimization of human systems through mathematical analysis
-
-**[Entropic Gap](https://kurtiskemple.com/information-physics/entropic-gap)**
-*Measurement: Quantifying Drift Between Intention and Reality*
-
-- **Intent**: Provide measurable diagnostic for detecting drift in any system with intended vs actual states
-- **Key Framework**: EG = 1 - S(anchor, current) using vector mathematics
-- **Practical Tips**: Clear intervention points for actionable response before critical failures
-- **Impact**: Makes invisible system degradation visible and measurable
-
-**[Entropic Equilibrium](https://kurtiskemple.com/information-physics/entropic-equilibrium)**
-*Stability: How Systems Reach and Maintain Balance*
-
-- **Intent**: Explain mechanism behind system stability and why change becomes difficult
-- **Key Framework**: Stability emerges when all actors exhaust entropy-reduction capacity from their positions
-- **Practical Tips**: Breaking equilibrium requires external energy or coordination for new operations
-- **Impact**: Framework for understanding when systems stabilize and what interventions enable evolution
-
-**[Thermodynamic Foundations](https://kurtiskemple.com/information-physics/thermodynamic-foundations)**
-*Deep Mathematical Connections*
-
-- **Intent**: Provide exact calculations showing how entropy values translate to measurable energy costs
-- **Key Framework**: Position-dependent entropy costs real biological energy
-- **Practical Tips**: High-E positions require 33%+ more energy for identical tasks
-- **Impact**: Makes hidden thermodynamic costs visible and calculable
-
-**[Information Physics in Science](https://kurtiskemple.com/information-physics/in-science)**
-*Scientific Framework: Alignment with Current Understanding*
-
-- **Intent**: Demonstrate Information Physics compatibility with physics, biology, psychology, and complexity science
-- **Key Framework**: Neural networks and Information Physics share identical mathematical structures; parallels with Krakauer's teleonomic matter and complexity science principles
-- **Practical Tips**: Understanding consciousness as active participant rather than passive observer
-- **Impact**: Establishes framework describing patterns from subatomic to cosmic scales with connections to established complexity science
-
-**[Information Physics Throughout History](https://kurtiskemple.com/information-physics/throughout-history)**
-*Deep Time to Strategic Mastery*
-
-- **Intent**: Trace Information Physics principles from evolution through civilization to strategy
-- **Key Framework**: Fossil record validation—specialists die, generalists survive in extinctions
-- **Practical Tips**: Historical strategists intuitively applied these principles before mathematics existed
-- **Impact**: Establishes Information Physics as core principle governing survival and success
-
-**[Conscious Chaos: Entropy, Time, and Observer-Driven Dynamics](https://kurtiskemple.com/information-physics/conscious-chaos)**
-*Temporal Dynamics: How Entropy Evolves Through Time*
-
-- **Intent**: Synthesize Information Physics with chaos mathematics for temporal evolution
-- **Key Framework**: dSEC/dt = O × V × f(E) × [1 + α·sin(ωt)] adding time sensitivity
-- **Practical Tips**: Position-sensitive initial conditions create exponentially diverging outcomes
-- **Impact**: Transforms static entropy calculations into dynamic predictions
-
-**[Wolf Pack Thermodynamics](https://kurtiskemple.com/information-physics/wolf-pack-thermodynamics)**
-*Natural Systems: Information Physics in Nature*
-
-- **Intent**: Explore how wolf pack hierarchies demonstrate Information Physics through position-dependent energy costs
-- **Key Framework**: Omega wolves require 26% more daily calories than alphas for equivalent activities
-- **Practical Tips**: Position creates cascading thermodynamic costs affecting survival probability
-- **Impact**: Provides testable predictions for energy expenditure in natural hierarchical systems
-
-**[Innovation Entropy Crisis](https://kurtiskemple.com/information-physics/the-innovation-entropy-crisis)**
-*Mathematical Analysis: Innovation Through Thermodynamic Lens*
-
-- **Intent**: Explore how thermodynamic costs affect innovation capacity across organizational systems
-- **Key Framework**: Renaissance Florence produced 12x more innovators per capita than Silicon Valley
-- **Practical Tips**: High-entropy organizational design may impair innovation regardless of technology
-- **Impact**: Suggests position-dependent costs create measurable energy burdens affecting innovation
-
-**[Gig Economy Entropy Limits](https://kurtiskemple.com/information-physics/entropy-limits-in-gig-economy)**
-*Mathematical Proof: How System Architecture Determines Capability*
-
-- **Intent**: Demonstrate how structural position mathematically constrains worker capability
-- **Key Framework**: Gig economy constrains workers to O=1 with High `E` while operators maintain O=3 with Low E
-- **Practical Tips**: Burnout emerges as thermodynamic guarantee, not behavioral failure
-- **Impact**: Transforms economic critique from moral argument to mathematical fact
-
-**[Mass Extinction Survival Patterns](https://kurtiskemple.com/information-physics/survival-trends-in-mass-extinction-events)**
-*Evolutionary Patterns: Information Physics at Planetary Scale*
-
-- **Intent**: Demonstrate Information Physics operating across evolutionary timescales
-- **Key Framework**: Specialists (SEC=0.56) die while generalists (SEC=2.0) thrive in mass extinctions
-- **Practical Tips**: Efficiency optimization creates fragility; operational diversity ensures survival
-- **Impact**: Shows SEC equation governing survival across 3.8 billion years of life
-
-**[Mathematical Analysis of Crowd Dynamics](https://kurtiskemple.com/information-physics/mathematical-analysis-of-crowd-dynamics)**
-*Collective Behavior: Deterministic Chaos in Human Systems*
-
-- **Intent**: Apply Information Physics and chaos mathematics to crowd transformation
-- **Key Framework**: Multiple mathematical systems converge—SEC, chaos dynamics, percolation theory
-- **Practical Tips**: Position determines individual capacity while system dynamics create outcomes
-- **Impact**: Framework for predicting and preventing crowd violence through entropy management
-
-**[Agent-Based Modeling and Game Design](https://kurtiskemple.com/information-physics/agent-based-modeling-and-game-design)**
-*Modeling Framework: Physics Engines for Human Systems*
-
-- **Intent**: Apply game design insights to create realistic agent-based models using thermodynamic constraints
-- **Key Framework**: Replace behavioral rules with physics constraints—agents navigate energy landscapes
-- **Practical Tips**: Simple energy minimization produces complex realistic behaviors without programming
-- **Impact**: New approach to modeling where physics constraints generate emergent strategies
-
-**[The "Just How It Is" Test](https://kurtiskemple.com/information-physics/just-how-it-is-test)**
-*Universal Problem-Solving Test*
-
-- **Intent**: Provide immediate practical entry point for experiencing Information Physics
-- **Key Framework**: Apply IP mathematics to any "permanent" problem—calculate E, identify V, map O
-- **Practical Tips**: Compare Information Physics solutions to traditional approaches on stuck situations
-- **Impact**: Validates theory through results in hours rather than years
-
-**[Information Physics Punch Card](https://kurtiskemple.com/information-physics/punch-card)**
-*Quick Reference Guide*
-
-- **Intent**: Provide compact reference for core Information Physics concepts and formulas
-- **Key Framework**: Essential equations, definitions, and applications on single reference card
-- **Practical Tips**: Quick lookup for SEC calculations, operation definitions, entropy thresholds
-- **Impact**: Enables rapid application of Information Physics principles in real-time situations
+**Complete Framework**: [Information Physics Documentation](https://kurtiskemple.com/information-physics/start-here) | [Abstract Overview](https://kurtiskemple.com/information-physics/abstract) | [Field Guide](https://kurtiskemple.com/information-physics/field-guide)
 
 ## Blog Posts
 
@@ -352,7 +208,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Automate routine tasks, standardize processes, create DevRel Manager role
 - **Impact**: Allows advocates to focus on high-value activities instead of administrative work
 
-### Communication
+### Communication & Leadership
 
 **[The Developer Advocate's Guide to Getting Buy-In](https://kurtiskemple.com/blog/developer-advocates-guide-to-getting-buy-in)**
 *Framework: Buy-in Strategy and Skills*
@@ -378,7 +234,7 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Communicate full scope, provide regular updates, use demonstrations effectively
 - **Impact**: Prevents loss of organizational support during long-term initiatives
 
-### Content
+### Content Strategy
 
 **[The Developer Advocate's Guide to Content Creation](https://kurtiskemple.com/blog/developer-advocates-guide-to-content-creation)**
 *Framework: Content Pre-work Checklist*
@@ -396,8 +252,6 @@ When not dissecting market dynamics or building developer communities, you'll fi
 - **Practical Tips**: Layer documentation, create interactive tutorials, provide multiple entry points
 - **Impact**: More inclusive and effective learning experiences for diverse developer audiences
 
-
-
 ## Common Themes
 
 Kurt's work consistently focuses on:
@@ -407,8 +261,9 @@ Kurt's work consistently focuses on:
 - Measurement and metrics for proving impact
 - User experience as competitive advantage
 - Organizational psychology and team dynamics
-- Practical frameworks combined with grand theory
+- Practical frameworks combined with theoretical rigor
 - Strategic thinking applied to operational challenges
+- Making invisible work visible and measurable
 
 ## Contact & More
 

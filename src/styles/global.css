@@ -113,6 +113,10 @@
     border-radius: 3px;
   }
 
+  .blog-post pre {
+    @apply mb-4 rounded-md;
+  }
+
   .blog-post table {
     @apply w-full mb-6 overflow-x-auto;
   }
@@ -123,6 +127,16 @@
 
   .blog-post table td {
     @apply pr-2 pb-2 text-left;
+  }
+
+  .blog-post .katex-display {
+    @apply px-4 py-8 my-8 rounded-md text-raptures-light;
+    @apply border border-raptures-light;
+    background-color: #001226;
+  }
+
+  .blog-post .katex .mspace.newline {
+    @apply mb-2;
   }
 
   .card-pill-container {

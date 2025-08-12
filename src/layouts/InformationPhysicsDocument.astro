@@ -77,6 +77,10 @@ function getOrdinalSuffix(day: number) {
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet prefetch"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+      rel="stylesheet prefetch"
+    />
   </head>
   <body class="font-sans bg-naval min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
@@ -96,7 +100,7 @@ function getOrdinalSuffix(day: number) {
           <slot />
         </div>
       </main>
-      <section id="related-content" class="max-w-3xl mx-auto px-8 md:px-6 lg:px-0 mb-16">
+      <!-- <section id="related-content" class="max-w-3xl mx-auto px-8 md:px-6 lg:px-0 mb-16">
         <div class="my-12 flex justify-center">
           <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
         </div>
@@ -225,7 +229,7 @@ function getOrdinalSuffix(day: number) {
         <div class="mt-12 flex justify-center">
           <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
         </div>
-      </section>
+      </section> -->
       <Footer />
     </div>
   </body>
