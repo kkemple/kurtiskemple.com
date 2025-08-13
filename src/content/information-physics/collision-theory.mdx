@@ -41,10 +41,10 @@ $$
 
 Where each term captures specific dynamics:
 
-- **Concentration φ**: Density of one component within another (matter, dark matter, fields)
-- **Diffusion coefficient D**: Rate of spreading through spacetime
-- **Hubble term H(t)**: Universal expansion stretching the mixing volume
-- **Source term S(φ)**: Particle creation and annihilation processes
+- **Concentration $\phi$**: Density of one component within another (matter, dark matter, fields)
+- **Diffusion coefficient $D$**: Rate of spreading through spacetime
+- **Hubble term $H(t)$**: Universal expansion stretching the mixing volume
+- **Source term $S(\phi)$**: Particle creation and annihilation processes
 
 The mathematics describes how matter diffuses through expanding spacetime while gravity creates observed structures. This framework provides the foundation for understanding how cosmic mixing generates the large-scale patterns observed in the universe today.
 
@@ -75,30 +75,32 @@ These wavelengths match observed large-scale structure, indicating the same math
 The collision initiates a process of continuous transformation described by the fundamental state evolution equation:
 
 $$
-\frac{\partial \Psi}{\partial t} = \mathcal{L}[O(t), E(t), V(t), \nabla \Psi] + \eta(t,x)
+\frac{\partial \Psi}{\partial t} = \mathcal{L}[\hat{O}(t), \eta(t), \vec{V}(t), \nabla \Psi] + \xi(t,x)
 $$
 
 Components of the evolution equation include:
 
 - $\text{State function }\Psi$: System configuration representing local mixture ratio
 - $\text{Evolution operator }\mathcal{L}$: Non-linear transformation incorporating all dynamics
-- $\text{Operations }O(t)$: Available transformations ($MOVE$, $JOIN$, $SEPARATE$)
-- $\text{Positional entropy }E(t)$: Resistance from embedded position
-- $\text{Directional vector }V(t)$: Momentum or selection pressure
+- $\text{Operations }\hat{O}(t)$: Available transformations ($MOVE$, $JOIN$, $SEPARATE$)
+- $\text{Positional energy multiplier }\eta(t)$: Total energy required to perform operations from embedded position, including baseline pattern maintenance ($mc^2$) plus position-dependent operational costs
+- $\text{Directional vector }\vec{V}(t)$: Momentum or selection pressure
 - $\text{Gradient }\nabla\Psi$: Interaction with neighboring states
-- $\text{Perturbations }\eta(t,x)$: Stochastic noise ensuring unpredictability
+- $\text{Perturbations }\xi(t,x)$: Stochastic noise ensuring unpredictability
 
 No solution exists where $\frac{\partial \Psi}{\partial t}$ equals zero, ensuring perpetual transformation at every scale. This mathematical requirement means the mixing process cannot reach equilibrium, explaining why the universe exhibits continuous evolution rather than static existence.
+
+The perpetual transformation requirement connects to Einstein's mass-energy equivalence through pattern maintenance energy. Each organized state $\Psi$ requires baseline energy $mc^2$ to maintain its pattern integrity within spacetime constraints, with additional positional energy multiplier $\eta(t)$ determining the cost of transformations from that embedded position.
 
 ### Connection to Standard Reaction-Diffusion Theory
 
 The state evolution equation connects directly to established reaction-diffusion mathematics familiar to physicists. By expanding the evolution operator $\mathcal{L}$ and making the diffusion terms explicit, we can rewrite the equation in standard PDE form:
 
 $$
-\frac{\partial \Psi}{\partial t} = D \nabla^2 \Psi - H(t) v \cdot \nabla \Psi + \mathcal{L}[O(t), E(t), V(t), \nabla \Psi] + \eta(t,x)
+\frac{\partial \Psi}{\partial t} = D \nabla^2 \Psi - H(t) v \cdot \nabla \Psi + \mathcal{L}[\hat{O}(t), \eta(t), \vec{V}(t), \nabla \Psi] + \xi(t,x)
 $$
 
-This formulation reveals how SEC dynamics map onto classical reaction-diffusion systems, with key extensions that account for conscious agency and observer-dependent effects:
+This formulation reveals how $SEC$ dynamics map onto classical reaction-diffusion systems, with key extensions that account for conscious agency and observer-dependent effects:
 
 | **Mathematical Term**     | **Standard Reaction–Diffusion**                         | **SEC Reaction–Diffusion**                                                                |
 | ------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -106,16 +108,16 @@ This formulation reveals how SEC dynamics map onto classical reaction-diffusion 
 |                           | Smoothing via random spreading                           | Entropy-driven smoothing of information potential                                         |
 | **Advection Term**        | $-\ H(t) v \cdot \nabla \phi$                                             | $-\ H(t) v \cdot \nabla \Psi$                                                                               |
 |                           | Directional transport of quantity                        | Directional transport of information                                                      |
-| **Reaction/Source Term**  | $+ S(\phi)$                                                  | $+ \mathcal{L}[O(t), E(t), V(t), \nabla \Psi]$                                                                |
+| **Reaction/Source Term**  | $+ S(\phi)$                                                  | $+ \mathcal{L}[\hat{O}(t), \eta(t), \vec{V}(t), \nabla \Psi]$                                                                |
 |                           | Local growth or decay of quantity                        | Generalized evolution operator: order, energy, and variance shaping system entropy change |
 | **Stochastic Term**       | —                                                       | $+ \eta(t,x)$                                                                                  |
 |                           | (Not typically included)                                 | Random shocks, noise, or context pollution                                                |
 
-The key insight is that the collision model treats cosmic evolution as a reaction-diffusion process where the "reaction" terms include conscious agency effects through the SEC framework. The traditional source term $S(\phi)$ becomes the generalized evolution operator $\mathcal{L}[O(t), E(t), V(t), \nabla \Psi]$, which incorporates:
+The key insight is that the collision model treats cosmic evolution as a reaction-diffusion process where the "reaction" terms include conscious agency effects through the SEC framework. The traditional source term $S(\phi)$ becomes the generalized evolution operator $\mathcal{L}[\hat{O}(t), \eta(t), \vec{V}(t), \nabla \Psi]$, which incorporates:
 
-- $O(t)$: Available transformations at each point (analogous to reaction rates)
-- $E(t)$: Local entropy constraints (analogous to activation barriers)
-- $V(t)$: Directional selection pressure (analogous to chemical potential gradients)
+- $\hat{O}(t)$: Available transformations at each point (analogous to reaction rates)
+- $\eta(t)$: Positional energy multiplier quantifying resistance from embedded position that increases energy requirements for operations, including baseline pattern maintenance ($mc^2$) plus position-dependent constraints
+- $\vec{V}(t)$: Directional vector representing momentum, selection pressure, or conscious intent
 
 This extension allows the mathematics to describe systems where conscious agents can influence the reaction dynamics—a capability absent in standard reaction-diffusion but essential for understanding how information and consciousness propagate through cosmic evolution.
 

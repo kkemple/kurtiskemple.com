@@ -60,23 +60,23 @@ When agents operate within systemically bounded environments under entropic cons
 
 The game implements the universal conditions through simple mechanics:
 
-> For the complete SEC equation and component explanations, see [Entropic Mathematics](/information-physics/entropic-mathematics#system-entropy-change-sec).
+> For the complete $SEC$ equation and component explanations, see [Entropic Mechanics](/information-physics/entropic-mechanics).
 
-- **Positional entropy:** Each agent has entropy $E$ based on their system location
-- **Energy requirements:** Actions require energy proportional to $1 + E$
-- **Operation costs:** MOVE=1 (lowest energy), JOIN=2 (moderate energy), SEPARATE=3 (highest energy)
+- **Positional energy multiplier:** Each agent has energy multiplier $\eta$ based on their system location
+- **Energy requirements:** Actions require energy proportional to $1 + \eta$
+- **Operation costs:** $O_M^{(1)}=1$ (lowest energy), $O_J^{(2)}=2$ (moderate energy), $O_S^{(3)}=3$ (highest energy)
 - **System feedback:** Successful actions can change agent or system entropy
 - **Resource regeneration:** Energy regenerates slowly over time
 
-These simple mechanics create rich behavioral landscapes without explicit programming. The thermodynamic hierarchy of operations (MOVE < JOIN < SEPARATE) means high-entropy agents naturally gravitate toward reorganization rather than restructuring—not through programmed behavior but through energy minimization.
+These simple mechanics create rich behavioral landscapes without explicit programming. The thermodynamic hierarchy of operations ($O_M^{(1)} < O_J^{(2)} < O_S^{(3)}$) means high-energy multiplier agents naturally gravitate toward reorganization rather than restructuring—not through programmed behavior but through energy minimization.
 
 ### Emergent Player Strategies
 
 When this system runs, agents naturally discover how to use time and information—the only elements that transcend normal constraints—to navigate their bounded environment. They don't follow prescribed behaviors but develop strategies that minimize thermodynamic costs. These emergent behaviors parallel real-world phenomena:
 
-- **Coalition formation:** Agents with high $E$ values spontaneously form groups to share resources and information. This isn't programmed—it emerges because collective action reduces individual energy costs. In games, this manifests as guild formation. In reality, this parallels mutual aid networks and community organizations.
+- **Coalition formation:** Agents with high $\eta$ values spontaneously form groups to share resources and information. This isn't programmed—it emerges because collective action reduces individual energy costs. In games, this manifests as guild formation. In reality, this parallels mutual aid networks and community organizations.
 
-- **Alternative currencies:** When standard progression paths require prohibitive energy for high-$E$ agents, they create parallel value systems. Agents trade information, social capital, or future obligations rather than competing in high-energy direct competition. Game designers recognize this as "soft currency" systems emerging alongside "hard currency."
+- **Alternative currencies:** When standard progression paths require prohibitive energy for high-$\eta$ agents, they create parallel value systems. Agents trade information, social capital, or future obligations rather than competing in high-energy direct competition. Game designers recognize this as "soft currency" systems emerging alongside "hard currency."
 
 - **Niche optimization:** Rather than competing in oversaturated, high-energy domains, some agents find low-competition spaces where their specific position provides advantages. In games, players discover "cheese strategies" or unexpected builds. In reality, people find alternative career paths or lifestyle choices that bypass traditional competition.
 
@@ -90,7 +90,7 @@ These individual strategies aggregate into system-level behaviors that mirror re
 
 - **Parallel economies:** When main progression paths become too energy-intensive, agents create alternative advancement systems. What game designers call "emergent gameplay" mirrors real-world grey markets and alternative economic systems.
 
-- **Entropy cascades:** High-$E$ agents sometimes inadvertently increase system entropy for others while trying to reduce their own. This creates the "griefing" phenomenon in games and various forms of systemic exploitation in reality.
+- **Entropy cascades:** High-$\eta$ agents sometimes inadvertently increase system entropy for others while trying to reduce their own. This creates the "griefing" phenomenon in games and various forms of systemic exploitation in reality.
 
 - **Meta-game evolution:** Agents eventually discover the underlying physics rules and begin optimizing at that level rather than playing the intended game. Speed-runners in video games exemplify this, as do those who find legal or financial "exploits" in real-world systems.
 
@@ -104,9 +104,9 @@ Translating theoretical concepts into practical modeling requires specific techn
 
 A physics-based ABM system would include several key components:
 
-- **Energy landscape mapping:** Rather than hard-coding environmental challenges, implement actual entropy gradients that agents must navigate. High-density areas naturally become high-$E$ zones without explicit programming.
-- **Thermodynamic action costs:** Every action consumes energy based on the fundamental equation: $Energy_{required} = Base_{cost} \times (1 + E_{position})$
-- **Information as resource:** Agents can reduce effective $E$ by gaining information about system states, creating natural incentives for exploration and knowledge sharing.
+- **Energy landscape mapping:** Rather than hard-coding environmental challenges, implement actual energy multiplier gradients that agents must navigate. High-density areas naturally become high-$\eta$ zones without explicit programming.
+- **Thermodynamic action costs:** Every action consumes energy based on the fundamental equation: $\eta = \frac{E - mc^{2}}{mc^{2}}$
+- **Information as resource:** Agents can reduce effective $\eta$ by gaining information about system states, creating natural incentives for exploration and knowledge sharing.
 - **Conservation laws:** Total system energy remains constant, forcing trade-offs between individual and collective advancement.
 
 These components work together to create realistic agent behaviors without explicit behavioral programming.
@@ -142,18 +142,19 @@ This rule-based approach requires extensive parameterization and fails to captur
 
 $$
 \begin{align}
-\text{E\_position} &= f(\text{wealth}, \text{education}, \text{location}, \text{social\_capital}) \\
-\text{Available\_opportunities} &= \{\text{o} \mid \text{energy\_cost}(\text{o}) < \text{energy\_available}\} \\
-\text{Selected\_action} &= \argmin(\text{energy\_cost}) \text{ where } \text{expected\_return} > \text{threshold}
+\eta &= f(\text{wealth}, \text{education}, \text{location}, \text{social\_capital}) \\
+\text{energy\_cost}(\hat{O}) &= \hat{O} \cdot mc^2 \cdot (1 + \eta) \\
+\text{Available\_operations} &= \{\hat{O} \in \{O_M^{(1)}, O_J^{(2)}, O_S^{(3)}\} \mid \text{energy\_cost}(\hat{O}) < \text{energy\_available}\} \\
+\text{Selected\_operation} &= \argmin(\text{energy\_cost}(\hat{O})) \text{ where } \text{SEC}(\hat{O}) > \text{threshold}
 \end{align}
 $$
 
-In the physics version, poverty naturally creates high $E$ (fewer options, higher costs for each action). Emergent behaviors include:
+In the physics version, poverty naturally creates high $\eta$ (fewer options, higher costs for each action). Emergent behaviors include:
 
-- **Coalition formation:** Reducing individual $E$ through collective action
+- **Coalition formation:** Reducing individual $\eta$ through collective action
 - **Grey market participation:** Lower energy barriers than formal economy
 - **Information trading:** Leveraging knowledge when lacking material resources
-- **Niche specialization:** Finding low-$E$ paths others overlook
+- **Niche specialization:** Finding low-$\eta$ paths others overlook
 
 These aren't programmed behaviors—they emerge from agents minimizing energy expenditure while seeking advancement. The physics-based approach reveals strategies that traditional models miss.
 
@@ -191,7 +192,7 @@ Understanding systems through physics-based game design principles offers more e
 - Empirical validation of SEC equation predictions against real-world organizational and economic outcomes
 - Energy expenditure measurements in human systems to validate thermodynamic cost calculations
 - Cross-domain testing of physics engine approaches across corporate, social, and market environments
-- Behavioral studies measuring actual decision-making patterns under varying entropy conditions
+- Behavioral studies measuring actual decision-making patterns under varying energy multiplier conditions
 - Longitudinal analysis of emergent strategies in game environments compared to real-world phenomena
 - Mathematical modeling validation of coalition formation and alternative currency emergence
 - Interdisciplinary review across computer science, physics, economics, and organizational behavior disciplines
