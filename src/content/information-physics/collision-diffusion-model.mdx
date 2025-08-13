@@ -32,34 +32,34 @@ The collision-diffusion equation employs variables that map directly to observab
 
 ### Primary Variables
 
-The concentration field $\boldsymbol{\Phi}$ represents the local mixing ratio between the two initial ordered states, varying continuously from 0 to 1 across space and time:
+The concentration field $\Phi$ represents the local mixing ratio between the two initial ordered states, varying continuously from 0 to 1 across space and time:
 
-- $\boldsymbol{\Phi}$ = concentration field (mixing ratio, dimensionless, 0 to 1)
-- $\boldsymbol{\Phi_A}$ = concentration of state A (dimensionless, 0 to 1)
-- $\boldsymbol{\Phi_B}$ = concentration of state B (dimensionless, 0 to 1)
+- $\Phi$ = concentration field (mixing ratio, dimensionless, 0 to 1)
+- $\Phi_A$ = concentration of state A (dimensionless, 0 to 1)
+- $\Phi_B$ = concentration of state B (dimensionless, 0 to 1)
 
 Temporal and spatial evolution parameters govern how the mixing process unfolds across cosmic scales:
 
-- $\boldsymbol{t}$ = time (seconds)
-- $\boldsymbol{D(t)}$ = diffusion coefficient (m²/s)
-- $\boldsymbol{H(t)}$ = Hubble parameter (s⁻¹)
-- $\boldsymbol{\vec{v}}$ = velocity vector (m/s)
+- $t$ = time (seconds)
+- $D(t)$ = diffusion coefficient (m²/s)
+- $H(t)$ = Hubble parameter (s⁻¹)
+- $\vec{v}$ = velocity vector (m/s)
 
 Process control functions determine the rates and magnitudes of transformation during different cosmic epochs:
 
-- $\boldsymbol{R}$ = reaction rate function (s⁻¹)
-- $\boldsymbol{S(t)}$ = source term (s⁻¹)
-- $\boldsymbol{\Lambda}$ = cosmological constant (s⁻¹)
+- $R$ = reaction rate function (s⁻¹)
+- $S(t)$ = source term (s⁻¹)
+- $\Lambda$ = cosmological constant (s⁻¹)
 
 ### Physical Constants
 
 The framework incorporates fundamental physical constants that connect the mathematical formalism to measured cosmic parameters:
 
-- $\boldsymbol{k}$ = Boltzmann constant = $1.38 \times 10^{-23}$ J/K
-- $\boldsymbol{c}$ = speed of light = $3 \times 10^8$ m/s
-- $\boldsymbol{G}$ = gravitational constant = $6.67 \times 10^{-11}$ m³/kg·s²
-- $\boldsymbol{T_{\text{CMB}}}$ = CMB temperature = 2.7 K
-- $\boldsymbol{\rho_{\text{crit}}}$ = critical density = $10^{-26}$ kg/m³
+- $k$ = Boltzmann constant = $1.38 \times 10^{-23}$ J/K
+- $c$ = speed of light = $3 \times 10^8$ m/s
+- $G$ = gravitational constant = $6.67 \times 10^{-11}$ m³/kg·s²
+- $T_{\text{CMB}}$ = CMB temperature = 2.7 K
+- $\rho_{\text{crit}}$ = critical density = $10^{-26}$ kg/m³
 
 These constants provide the dimensional analysis foundation that ensures the mathematical framework produces physically meaningful results at cosmic scales.
 
@@ -67,7 +67,7 @@ These constants provide the dimensional analysis foundation that ensures the mat
 
 ## Epoch 1: Collision
 
-$\boldsymbol{(t = 0 \text{ to } 10^{-32} \text{ seconds})}$
+$(t = 0 \text{ to } 10^{-32} \text{ seconds})$
 
 The collision epoch represents the initial moment when two ordered systems interact and begin the mixing process that drives all subsequent cosmic evolution. During this brief period, the source term dominates the collision-diffusion equation, establishing the initial conditions and energy scales that determine the universe's future development.
 
@@ -92,7 +92,8 @@ The delta function form captures the instantaneous energy release during the col
 **Initial energy density:**
 
 $$
-\rho_{\text{initial}} = \frac{A}{V_{\text{planck}}} = \frac{10^{69} \text{ J}}{10^{-105} \text{ m}^3} = 10^{174} \text{ J/m}^3
+\rho_{\text{initial}} = \frac{A}{V_{\text{planck}}} = \frac{10^{69} \text{ J}}{10^{-105} \text{ m}^3} = 10^{174} \text{ J/m}^3 \\
+\text{(gravitational compression to Planck scale) }
 $$
 
 This energy density represents the maximum possible concentration of energy within the Planck volume, establishing the physical scale at which the collision dynamics operate.
@@ -109,7 +110,7 @@ The collision temperature exceeds the Planck temperature by several orders of ma
 
 ## Epoch 2: Reaction Era
 
-$\boldsymbol{(t = 10^{-32} \text{ seconds to } 50{,}000 \text{ years})}$
+$(t = 10^{-32} \text{ seconds to } 50{,}000 \text{ years})$
 
 The reaction era encompasses the period when the two initial ordered states actively interact and transform through particle physics processes. During this epoch, the collision-diffusion equation transitions from source-controlled to reaction-expansion competitive dynamics, with the reaction term governing how the initial states convert into the matter and radiation we observe today.
 
@@ -160,7 +161,7 @@ This calculation demonstrates that reaction processes overwhelmingly exceed expa
 
 ## Epoch 3: Structure Formation
 
-$\boldsymbol{(t = 50{,}000 \text{ years to } 9 \text{ billion years})}$
+$(t = 50{,}000 \text{ years to } 9 \text{ billion years})$
 
 The structure formation epoch marks the transition from a smooth, homogeneous universe to the complex web of galaxies and clusters we observe today. During this period, the collision-diffusion equation enters a regime where gravitational instability competes with diffusion processes to create the characteristic patterns of cosmic structure.
 
@@ -238,7 +239,7 @@ These calculations demonstrate remarkable agreement between the theoretical Turi
 
 ## Epoch 4: Dark Energy Era
 
-$\boldsymbol{(t = 9 \text{ billion years to present})}$
+$(t = 9 \text{ billion years to present})$
 
 The dark energy era represents the current phase of cosmic evolution, where the cosmological constant term in the collision-diffusion equation drives accelerating expansion. This epoch emerges naturally from the mixing entropy generated during earlier phases, providing a thermodynamic explanation for dark energy without requiring additional exotic physics.
 
@@ -319,9 +320,9 @@ $$
 
 **Components:**
 
-- $\boldsymbol{D_{\text{effective}}}$: Current diffusion rate accounting for cosmic expansion and dark energy effects
-- $\boldsymbol{D_{\text{critical}}}$: Threshold diffusion rate beyond which structure formation becomes impossible
-- $\boldsymbol{0.30}$: Current ratio indicating active structure formation continues
+- $D_{\text{effective}}$: Current diffusion rate accounting for cosmic expansion and dark energy effects
+- $D_{\text{critical}}$: Threshold diffusion rate beyond which structure formation becomes impossible
+- $0.30$: Current ratio indicating active structure formation continues
 
 The current ratio remains well below the critical threshold, explaining why we observe ongoing galaxy formation and cosmic web evolution.
 
@@ -346,10 +347,10 @@ The collision-diffusion model generates quantitative predictions that can be dir
 
 $$
 \begin{align}
-\boldsymbol{\checkmark\checkmark\checkmark} &= \text{Excellent match (<5\% error)} \\
-\boldsymbol{\checkmark\checkmark} &= \text{Good match (<20\% error)} \\
-\boldsymbol{\checkmark} &= \text{Order of magnitude correct} \\
-\boldsymbol{\text{NEW}} &= \text{Novel explanation for unexplained phenomena}
+\checkmark\checkmark\checkmark &= \text{Excellent match (<5\% error)} \\
+\checkmark\checkmark &= \text{Good match (<20\% error)} \\
+\checkmark &= \text{Order of magnitude correct} \\
+\text{NEW} &= \text{Novel explanation for unexplained phenomena}
 \end{align}
 $$
 
