@@ -64,11 +64,11 @@ The game implements the universal conditions through simple mechanics:
 
 - **Positional energy multiplier:** Each agent has energy multiplier $\eta$ based on their system location
 - **Energy requirements:** Actions require energy proportional to $1 + \eta$
-- **Operation costs:** $O_M^{(1)}=1$ (lowest energy), $O_J^{(2)}=2$ (moderate energy), $O_S^{(3)}=3$ (highest energy)
+- **Operation costs:** $\hat{O}_M^{(1)}=1$ (lowest energy), $\hat{O}_J^{(2)}=2$ (moderate energy), $\hat{O}_S^{(3)}=3$ (highest energy)
 - **System feedback:** Successful actions can change agent or system entropy
 - **Resource regeneration:** Energy regenerates slowly over time
 
-These simple mechanics create rich behavioral landscapes without explicit programming. The thermodynamic hierarchy of operations ($O_M^{(1)} < O_J^{(2)} < O_S^{(3)}$) means high-energy multiplier agents naturally gravitate toward reorganization rather than restructuring—not through programmed behavior but through energy minimization.
+These simple mechanics create rich behavioral landscapes without explicit programming. The thermodynamic hierarchy of operations ($\hat{O}_M^{(1)} < \hat{O}_J^{(2)} < \hat{O}_S^{(3)}$) means high-energy multiplier agents naturally gravitate toward reorganization rather than restructuring—not through programmed behavior but through energy minimization.
 
 ### Emergent Player Strategies
 
@@ -144,7 +144,7 @@ $$
 \begin{align}
 \eta &= f(\text{wealth}, \text{education}, \text{location}, \text{social\_capital}) \\
 \text{energy\_cost}(\hat{O}) &= \hat{O} \cdot mc^2 \cdot (1 + \eta) \\
-\text{Available\_operations} &= \{\hat{O} \in \{O_M^{(1)}, O_J^{(2)}, O_S^{(3)}\} \mid \text{energy\_cost}(\hat{O}) < \text{energy\_available}\} \\
+\text{Available\_operations} &= \{\hat{O} \in \{\hat{O}_M^{(1)}, \hat{O}_J^{(2)}, \hat{O}_S^{(3)}\} \mid \text{energy\_cost}(\hat{O}) < \text{energy\_available}\} \\
 \text{Selected\_operation} &= \argmin(\text{energy\_cost}(\hat{O})) \text{ where } \text{SEC}(\hat{O}) > \text{threshold}
 \end{align}
 $$

@@ -115,7 +115,7 @@ $$
 **Variable Definitions:**
 
 - **SEC**: System Entropy Change - measurable impact on system entropy from specific position
-- **$\hat{O}$**: Operations multiplier ($O_M^{(1)}=1$, $O_J^{(2)}=2$, $O_S^{(3)}=3$) reflecting thermodynamic energy hierarchy
+- **$\hat{O}$**: Operations multiplier ($\hat{O}_M^{(1)}=1$, $\hat{O}_J^{(2)}=2$, $\hat{O}_S^{(3)}=3$) reflecting thermodynamic energy hierarchy
 - **$\vec{V}$**: Vector of shared conscious intent with magnitude (alignment strength) and direction (entropy change)
 - **$\eta$**: Positional energy multiplier representing thermodynamic costs on agent required to complete operation from position
 

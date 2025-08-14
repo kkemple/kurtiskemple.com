@@ -23,7 +23,7 @@ $$
 
 - $\eta_{\text{local}}$: Original positional energy multiplier from hierarchical, informational, and resource constraints
 - $\eta_{\text{spatial}}$: Additional energy multiplier from spatial separation
-- $\hat{O}$: Operation type ($O_M^{(1)}, O_J^{(2)}, O_S^{(3)}$) which affects spatial sensitivity
+- $\hat{O}$: Operation type ($\hat{O}_M^{(1)}, \hat{O}_J^{(2)}, \hat{O}_S^{(3)}$) which affects spatial sensitivity
 - $\vec{V}$: Intent vector remains unchanged but its effectiveness diminishes with distance
 - $d$: Characteristic distance between agent and boundary or between boundary components
 
@@ -56,18 +56,18 @@ The operation-specific parameters $\alpha_{\hat{O}}$, $\lambda_{\hat{O}}$, and $
 The three fundamental operations exhibit different characteristic length scales that determine their sensitivity to spatial separation. The hierarchy of spatial sensitivities mirrors the thermodynamic hierarchy established in the core SEC equation:
 
 $$
-\lambda_{O_M^{(1)}} > \lambda_{O_J^{(2)}} > \lambda_{O_S^{(3)}}
+\lambda_{\hat{O}_M^{(1)}} > \lambda_{\hat{O}_J^{(2)}} > \lambda_{\hat{O}_S^{(3)}}
 $$
 
 This hierarchy indicates that more thermodynamically complex operations become more sensitive to distance effects.
 
 The physical reasoning behind this hierarchy emerges from the different coordination requirements:
 
-- $O_M^{(1)}$: Require minimal coordination since they only involve relocation confirmation without structural changes. The operation can tolerate information delays because the boundary structure remains intact during movement.
-- $O_J^{(2)}$: Require synchronization between merging boundaries to ensure proper connection formation. Both boundary components must coordinate their approach and alignment across the separating distance.
-- $O_S^{(3)}$: Require continuous maintenance of division against natural reconnection forces. The operation must actively prevent reconnection across space, demanding constant information flow to maintain separation.
+- $\hat{O}_M^{(1)}$: Require minimal coordination since they only involve relocation confirmation without structural changes. The operation can tolerate information delays because the boundary structure remains intact during movement.
+- $\hat{O}_J^{(2)}$: Require synchronization between merging boundaries to ensure proper connection formation. Both boundary components must coordinate their approach and alignment across the separating distance.
+- $\hat{O}_S^{(3)}$: Require continuous maintenance of division against natural reconnection forces. The operation must actively prevent reconnection across space, demanding constant information flow to maintain separation.
 
-This hierarchy emerges from the fundamental information requirements of each operation type. $O_M^{(1)}$ operations can tolerate delays since they preserve existing structure, while $O_S^{(3)}$ operations must continuously prevent reconnection across space, making them most sensitive to information delays.
+This hierarchy emerges from the fundamental information requirements of each operation type. $\hat{O}_M^{(1)}$ operations can tolerate delays since they preserve existing structure, while $\hat{O}_S^{(3)}$ operations must continuously prevent reconnection across space, making them most sensitive to information delays.
 
 ### Information Flow Rate Limitation
 
@@ -215,9 +215,9 @@ For typical organizational conditions where $\eta_{\text{local}} \approx 0.5$ an
 
 The operation-specific length scales in the spatial energy multiplier function predict that the three fundamental operations should exhibit different decay rates with distance, following the thermodynamic hierarchy established in the core SEC framework:
 
-- $O_M^{(1)}$ operations should maintain 90% effectiveness at distances where $O_J^{(2)}$ operations drop to 70%
-- $O_J^{(2)}$ operations should be approximately 2x more sensitive to distance than $O_M^{(1)}$
-- $O_S^{(3)}$ operations should be approximately 1.5x more sensitive than $O_J^{(2)}$
+- $\hat{O}_M^{(1)}$ operations should maintain 90% effectiveness at distances where $\hat{O}_J^{(2)}$ operations drop to 70%
+- $\hat{O}_J^{(2)}$ operations should be approximately 2x more sensitive to distance than $\hat{O}_M^{(1)}$
+- $\hat{O}_S^{(3)}$ operations should be approximately 1.5x more sensitive than $\hat{O}_J^{(2)}$
 
 These specific ratios emerge from the different coordination requirements of each operation type and could be measured through controlled experiments with distributed teams performing standardized versions of each operation class. The measurements would provide direct validation of the operation-specific spatial sensitivity hierarchy.
 
