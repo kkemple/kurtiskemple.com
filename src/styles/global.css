@@ -118,7 +118,7 @@
   }
 
   .blog-post table {
-    @apply w-full mb-6 overflow-x-auto;
+    @apply w-full mb-6 overflow-x-auto block;
   }
 
   .blog-post table th {
@@ -133,6 +133,10 @@
     @apply px-4 py-8 my-8 rounded-md text-raptures-light;
     @apply border border-raptures-light;
     background-color: #001226;
+  }
+
+  .blog-post .katex-display .katex {
+    @apply overflow-x-scroll overflow-y-clip;
   }
 
   .blog-post .katex .mspace.newline {
