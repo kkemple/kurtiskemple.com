@@ -1,10 +1,4 @@
----
-layout: "../../layouts/InformationPhysicsDocument.astro"
-title: "Entropic Mechanics (EM): Observer-Dependent Entropy Navigation Mathematics"
-description: "Entropic Mechanics provides the mathematical framework for observer-dependent navigation of information gradients within the unified Information Physics system. This theory describes how conscious agents strategically influence system entropy evolution through operation selection, intent direction, and positional optimization within the discrete spacetime substrate."
-image: "/images/og/entropic-mechanics.png"
-pubDate: "08/09/2025"
----
+# Entropic Mechanics (EM): Observer-Dependent Navigation Framework
 
 Entropic Mechanics provides the mathematical framework for observer-dependent navigation of information gradients within the unified Information Physics system. This theory describes how conscious agents strategically influence system entropy evolution through operation selection, intent direction, and positional optimization within the discrete spacetime substrate.
 
@@ -37,7 +31,7 @@ This equation captures how operation-intent alignment, modulated by positional c
 
 ## System Entropy Change (SEC)
 
-The System Entropy Change equation represents the fundamental relationship governing how observers can influence entropy evolution within the cosmic system established by the CDE.
+The System Entropy Change equation represents the fundamental relationship governing how observers can influence entropy evolution within the cosmic system established by the collision of infinite information surfaces.
 
 ### Basic Formulation
 

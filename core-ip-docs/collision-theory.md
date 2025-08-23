@@ -1,14 +1,6 @@
----
-layout: "../../layouts/InformationPhysicsDocument.astro"
-title: "Collision Theory (CDE): Unified Information Physics Framework"
-description: "Collision Theory serves as the foundational component within the unified Information Physics framework, explaining cosmic evolution through boundary information dynamics. This theory integrates seamlessly with the broader Information Physics framework to provide a complete understanding of cosmic origins and evolution."
-image: "/images/og/collision-theory.png"
-pubDate: "08/09/2025"
----
+# Collision Theory (CDE): Unified Information Physics Framework
 
 Collision Theory serves as the foundational component within the unified Information Physics framework, explaining cosmic evolution through boundary information dynamics. This theory integrates seamlessly with the broader Information Physics framework to provide a complete understanding of cosmic origins and evolution.
-
-For a more detailed explanation of the Collision-Diffusion Equation (CDE), see [CDE-EVL v1.0 (Frozen Spec): First‑Principles Collision–Diffusion Cosmology](/information-physics/cde-evl-v1).
 
 ---
 
@@ -82,7 +74,7 @@ The collision-diffusion mechanism creates a continuous causal chain that explain
 
 ### Phase 1: Boundary Information Collision
 
-The CDE creates the fundamental energy gradients that drive cosmic evolution. This collision establishes the initial conditions for all subsequent processes.
+Two infinite information surfaces attempt to occupy the same space, creating the fundamental energy gradients that drive cosmic evolution. This collision establishes the initial conditions for all subsequent processes.
 
 ### Phase 2: Information Diffusion
 
@@ -285,7 +277,7 @@ This connection explains how conscious systems navigate the entropy gradients cr
 
 ## Conclusion and Implications
 
-The collision-diffusion model demonstrates how boundary information dynamics can account for the full spectrum of cosmic phenomena through a single mathematical framework. The CDE provides the fundamental mechanism that generates all observed cosmic structure through information processing rather than traditional matter-energy interactions.
+The collision-diffusion model demonstrates how boundary information dynamics can account for the full spectrum of cosmic phenomena through a single mathematical framework. The boundary information collision—where two infinite information surfaces attempted to occupy the same space—provides the fundamental mechanism that generates all observed cosmic structure through information processing rather than traditional matter-energy interactions.
 
 ### Theoretical Impact
 
@@ -297,7 +289,7 @@ The quantitative agreement between model predictions and observational data acro
 
 ### Future Directions
 
-The mathematical structure reveals deep connections between cosmic evolution, information theory, and established physics principles, including [reaction-diffusion equations](https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system), [Turing pattern formation](http://be150.caltech.edu/2019/handouts/21_turing.html), [holographic principle](https://arxiv.org/abs/hep-th/0003004), and [thermodynamic entropy](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/second-law-entropy/). Each calculation can be verified independently using standard mathematical methods, and the convergence with observations suggests the model captures fundamental information processing rather than coincidental numerical agreements.
+The mathematical structure reveals deep connections between cosmic evolution, information theory, and established physics principles, including reaction-diffusion equations, Turing pattern formation, holographic principle, and thermodynamic entropy. Each calculation can be verified independently using standard mathematical methods, and the convergence with observations suggests the model captures fundamental information processing rather than coincidental numerical agreements.
 
 The exceptional parsimony of this approach—one information processing mechanism explaining phenomena that typically require multiple independent theories—represents a paradigm shift that warrants serious investigation by the physics community. The collision-diffusion model offers a path toward a unified understanding of cosmic evolution as boundary information dynamics, positioning consciousness as a natural evolution within this cosmic information processing system that enables navigation of entropic constraints through information manipulation.
 
