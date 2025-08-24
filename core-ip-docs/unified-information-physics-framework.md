@@ -87,9 +87,9 @@ These equations form the mathematical foundation connecting cosmic collision to 
 
 ### Phase 1: Boundary Information Collision
 
-The collision of infinite information surfaces creates the fundamental energy gradients that drive all subsequent cosmic evolution. This collision establishes irreversible boundary information dynamics and launches universal mixing processes that determine cosmic structure formation.
+The CDE creates the fundamental energy gradients that drive all subsequent cosmic evolution. This collision establishes irreversible boundary information dynamics and launches universal mixing processes that determine cosmic structure formation.
 
-**Mechanism:** Two infinite information surfaces attempt to occupy the same space, creating entropy gradients across spacetime that establish the information landscape conscious systems will later navigate.
+**Mechanism:** Two distinct information domains with incompatible topologies collide, creating entropy gradients across spacetime that establish the information landscape conscious systems will later navigate.
 
 **Key dynamics:**
 

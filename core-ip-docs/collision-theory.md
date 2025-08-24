@@ -74,7 +74,7 @@ The collision-diffusion mechanism creates a continuous causal chain that explain
 
 ### Phase 1: Boundary Information Collision
 
-Two infinite information surfaces attempt to occupy the same space, creating the fundamental energy gradients that drive cosmic evolution. This collision establishes the initial conditions for all subsequent processes.
+The CDE creates the fundamental energy gradients that drive cosmic evolution. This collision represents the universe's first topology transformation event, where two distinct information domains with incompatible topologies collide, requiring massive information destruction and recreation at the interface.
 
 ### Phase 2: Information Diffusion
 
@@ -277,7 +277,7 @@ This connection explains how conscious systems navigate the entropy gradients cr
 
 ## Conclusion and Implications
 
-The collision-diffusion model demonstrates how boundary information dynamics can account for the full spectrum of cosmic phenomena through a single mathematical framework. The boundary information collision—where two infinite information surfaces attempted to occupy the same space—provides the fundamental mechanism that generates all observed cosmic structure through information processing rather than traditional matter-energy interactions.
+The collision-diffusion model demonstrates how boundary information dynamics can account for the full spectrum of cosmic phenomena through a single mathematical framework. The CDE provides the fundamental mechanism that generates all observed cosmic structure through information processing rather than traditional matter-energy interactions.
 
 ### Theoretical Impact
 

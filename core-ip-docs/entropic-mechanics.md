@@ -31,7 +31,7 @@ This equation captures how operation-intent alignment, modulated by positional c
 
 ## System Entropy Change (SEC)
 
-The System Entropy Change equation represents the fundamental relationship governing how observers can influence entropy evolution within the cosmic system established by the collision of infinite information surfaces.
+The System Entropy Change equation represents the fundamental relationship governing how observers can influence entropy evolution within the cosmic system established by the CDE.
 
 ### Basic Formulation
 

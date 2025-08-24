@@ -105,7 +105,7 @@ Gravity emerges as spacetime curvature from the collision interface dynamics and
 
 ### Collision Interface and Initial Curvature Conditions
 
-The cosmic collision of infinite information surfaces creates the initial curvature seeds that establish spacetime geometry. The collision interface generates localized stress that sources curvature and launches universal mixing dynamics.
+The CDE creates the initial curvature seeds that establish spacetime geometry. The collision interface generates localized stress that sources curvature and launches universal mixing dynamics.
 
 #### Interface Action and Boundary Tension
 

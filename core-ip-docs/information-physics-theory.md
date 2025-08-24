@@ -1,6 +1,6 @@
 # Information Physics Theory (IP): Unified Framework for Consciousness and Information Navigation
 
-Information Physics describes how consciousness evolved as a boundary information navigation mechanism within the cosmic processing system created by the collision of infinite information surfaces. This theory explains how conscious agents use time and information to navigate entropic constraints and systemic boundaries, operating as embedded observers within the discrete spacetime substrate established by the electromagnetic voxel lattice.
+Information Physics describes how consciousness evolved as a boundary information navigation mechanism within the cosmic processing system created by the information boundary collision mechanism. This theory explains how conscious agents use time and information to navigate entropic constraints and systemic boundaries, operating as embedded observers within the discrete spacetime substrate established by the electromagnetic voxel lattice.
 
 This framework integrates seamlessly with Collision Theory, Electromagnetic Voxel Lattice Theory, and Entropic Mechanics to provide a complete understanding of how consciousness emerges from the fundamental information processing dynamics of the universe.
 
@@ -45,7 +45,7 @@ This relationship connects consciousness capabilities to the fundamental informa
 
 ## Consciousness as Information Navigation Mechanism
 
-Consciousness evolved as a specialized boundary information processing system within the cosmic framework established by the collision of infinite information surfaces. This evolution represents a fundamental breakthrough in how organized systems can navigate the entropic constraints and systemic boundaries that define existence within the cosmic mixing process.
+Consciousness evolved as a specialized boundary information processing system within the cosmic framework established by the CDE. This evolution represents a fundamental breakthrough in how organized systems can navigate the entropic constraints and systemic boundaries that define existence within the cosmic mixing process.
 
 ### The Navigation Toolkit
 
@@ -131,7 +131,7 @@ The global adoption of optimally compressed mathematical representations validat
 
 ## Core Principles of Information Physics
 
-Information Physics operates according to fundamental principles that distinguish conscious agents as boundary information navigation mechanisms within the cosmic processing system established by the collision of infinite information surfaces.
+Information Physics operates according to fundamental principles that distinguish conscious agents as boundary information navigation mechanisms within the cosmic processing system established by the CDE.
 
 ### Entropy Recognition Capability
 
@@ -180,7 +180,7 @@ Information Physics serves as the bridge between cosmic-scale collision dynamics
 
 ### Connection to Collision Theory
 
-The collision-diffusion mechanism established by the cosmic collision creates the boundary information gradients that conscious agents learn to navigate. Consciousness evolved as a specialized response to the irreversibility and information processing requirements established by the collision of infinite information surfaces.
+The collision-diffusion mechanism established by the cosmic collision creates the boundary information gradients that conscious agents evolved to navigate. Consciousness emerged as a specialized evolutionary response to the irreversibility and information processing requirements established by the CDE.
 
 The collision-diffusion equation governs the large-scale information dynamics within which consciousness operates:
 
