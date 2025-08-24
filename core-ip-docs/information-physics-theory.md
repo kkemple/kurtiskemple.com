@@ -8,7 +8,7 @@ This framework integrates seamlessly with Collision Theory, Electromagnetic Voxe
 
 ## Mathematical Foundation
 
-Information Physics operates within the unified notation system established across all Information Physics frameworks. The theory describes how conscious agents navigate information gradients using mathematical principles that connect to the broader cosmic information processing system.
+Information Physics operates within the [unified notation system](/information-physics/notation-and-symbols-table) established across all Information Physics frameworks. The theory describes how conscious agents navigate information gradients using mathematical principles that connect to the broader cosmic information processing system.
 
 ### Core Information Processing Equations
 
