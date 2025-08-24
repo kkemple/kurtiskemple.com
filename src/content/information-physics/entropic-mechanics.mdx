@@ -165,6 +165,21 @@ $$
 
 This formulation accounts for the directional dependence of operations within the voxel lattice, where certain orientations experience enhanced or reduced effectiveness based on field alignment.
 
+### Temporal Extension
+
+The chaos extension incorporates nonlinear dynamics and sensitivity to initial conditions within the entropy navigation framework. The temporal dynamics equation demonstrates how system behavior oscillates with varying intensity:
+
+$$
+\frac{d\,\mathrm{SEC}}{dt} = (\mathcal{O} \cdot \mathbf{V}) \frac{1}{1+\eta} [1 + \alpha \sin(\omega t)]
+$$
+
+**Where:**
+
+- **$\alpha$:** Oscillation amplitude reflecting system intensity [dimensionless]
+- **$\omega$:** Angular frequency of oscillations [rad·s⁻¹]
+
+This extension captures how entropy navigation capacity varies over time due to system dynamics and environmental fluctuations. As $\alpha$ and $\omega$ increase simultaneously, the system becomes increasingly sensitive to perturbations—small triggers create disproportionate effects when the system exists in a mathematically different state with heightened sensitivity.
+
 ---
 
 ## Cross-Framework Integration
