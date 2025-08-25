@@ -49,21 +49,6 @@ $$
 
 This formulation captures the essential relationship between operation selection, intent direction, and positional constraints that determine entropy navigation effectiveness. The denominator ensures that higher positional energy multipliers correspond to reduced capacity for system entropy change.
 
-### Temporal Dynamics
-
-The time-extended form incorporates dynamic factors and oscillatory behavior:
-
-$$
-\frac{d\,\mathrm{SEC}}{dt} = (\mathcal{O} \cdot \mathbf{V}) \frac{1}{1+\eta} [1 + \alpha \sin(\omega t)]
-$$
-
-**Where:**
-
-- **$\alpha$:** Oscillation amplitude [dimensionless]
-- **$\omega$:** Angular frequency [rad·s⁻¹]
-
-This extension captures how entropy navigation capacity varies over time due to system dynamics and environmental fluctuations within the cosmic mixing process.
-
 ### Lattice-Aware Implementation
 
 Within the electromagnetic voxel lattice substrate, the positional energy multiplier incorporates lattice-specific constraints:
@@ -154,16 +139,6 @@ $$
 - **$\tau_{\mathcal{O}}$:** Characteristic time [s]
 
 This extension captures how entropy navigation effectiveness decreases with distance due to information propagation delays and field attenuation. The mathematical form reflects the fundamental constraints imposed by the speed of light and discrete spacetime structure.
-
-### Directional Anisotropy
-
-The lattice-aware dampening function incorporates directional effects:
-
-$$
-f_{\mathrm{lattice}}(\eta, \theta_{\mathrm{lat}}) = \frac{1}{1+\eta_{\mathrm{lattice}}(\theta_{\mathrm{lat}})}
-$$
-
-This formulation accounts for the directional dependence of operations within the voxel lattice, where certain orientations experience enhanced or reduced effectiveness based on field alignment.
 
 ### Temporal Extension
 

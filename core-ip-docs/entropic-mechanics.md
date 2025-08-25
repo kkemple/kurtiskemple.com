@@ -43,21 +43,6 @@ $$
 
 This formulation captures the essential relationship between operation selection, intent direction, and positional constraints that determine entropy navigation effectiveness. The denominator ensures that higher positional energy multipliers correspond to reduced capacity for system entropy change.
 
-### Temporal Dynamics
-
-The time-extended form incorporates dynamic factors and oscillatory behavior:
-
-$$
-\frac{d\,\mathrm{SEC}}{dt} = (\mathcal{O} \cdot \mathbf{V}) \frac{1}{1+\eta} [1 + \alpha \sin(\omega t)]
-$$
-
-**Where:**
-
-- **$\alpha$:** Oscillation amplitude [dimensionless]
-- **$\omega$:** Angular frequency [rad·s⁻¹]
-
-This extension captures how entropy navigation capacity varies over time due to system dynamics and environmental fluctuations within the cosmic mixing process.
-
 ### Lattice-Aware Implementation
 
 Within the electromagnetic voxel lattice substrate, the positional energy multiplier incorporates lattice-specific constraints:
@@ -149,15 +134,20 @@ $$
 
 This extension captures how entropy navigation effectiveness decreases with distance due to information propagation delays and field attenuation. The mathematical form reflects the fundamental constraints imposed by the speed of light and discrete spacetime structure.
 
-### Directional Anisotropy
+### Temporal Extension
 
-The lattice-aware dampening function incorporates directional effects:
+The temporal dynamics equation demonstrates how system behavior oscillates with varying intensity:
 
 $$
-f_{\mathrm{lattice}}(\eta, \theta_{\mathrm{lat}}) = \frac{1}{1+\eta_{\mathrm{lattice}}(\theta_{\mathrm{lat}})}
+\frac{d\,\mathrm{SEC}}{dt} = (\mathcal{O} \cdot \mathbf{V}) \frac{1}{1+\eta} [1 + \alpha \sin(\omega t)]
 $$
 
-This formulation accounts for the directional dependence of operations within the voxel lattice, where certain orientations experience enhanced or reduced effectiveness based on field alignment.
+**Where:**
+
+- **$\alpha$:** Oscillation amplitude reflecting system intensity [dimensionless]
+- **$\omega$:** Angular frequency of oscillations [rad·s⁻¹]
+
+This extension captures how entropy navigation capacity varies over time due to system dynamics and environmental fluctuations. As $\alpha$ and $\omega$ increase simultaneously, the system becomes increasingly sensitive to perturbations—small triggers create disproportionate effects when the system exists in a mathematically different state with heightened sensitivity.
 
 ---
 
