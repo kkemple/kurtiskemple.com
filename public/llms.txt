@@ -34,7 +34,6 @@ SEC = O × V / (1 + η)
 - Organizational design through positional η calculation
 - Innovation systems (requires η < 0.3)
 - Market dynamics and disruption patterns
-- Trading systems optimization
 - Code architecture and entropy management
 
 **Documentation:** https://kurtiskemple.com/information-physics/start-here
@@ -251,6 +250,6 @@ Framework for appropriate team member engagement.
 
 Learned to code while incarcerated, leading to complete life transformation. This unconventional path shaped approach to technology—finding opportunities where conventional thinking ends. Now applies pattern recognition across domains from quantum mechanics to organizational dynamics, discovering universal principles governing all organized systems.
 
-Currently: Building AI infrastructure at Slack while developing Information Physics framework and trading markets using entropic mechanics. Living proof that constraints create innovation opportunities.
+Currently: Building Platform DX & AI infrastructure at Slack while developing Information Physics framework. Living proof that constraints create innovation opportunities.
 
-Core belief: The best opportunities exist at the intersection of deep technical understanding and human empathy, where systematic thinking meets practical application.
+Core belief: The best opportunities exist at the intersection of deep technical understanding and human empathy, where systematic thinking meets practical application grounded in the experience of others.

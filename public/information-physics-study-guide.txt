@@ -99,7 +99,6 @@ Human brain: 20W entropy processor filtering 11 Mbits/sec → 40 bits/sec consci
 - **Organizational Design:** Calculate positional η for role optimization
 - **Innovation Systems:** Create low-entropy environments (η < 0.3)
 - **Conflict Resolution:** Address entropic exhaustion patterns
-- **Trading Systems:** Navigate market entropy through SEC optimization
 
 ## Core Insights
 
