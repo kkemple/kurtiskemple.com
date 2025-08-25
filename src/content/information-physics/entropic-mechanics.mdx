@@ -16,9 +16,13 @@ This framework integrates seamlessly with [Collision Theory](/information-physic
 
 Entropic Mechanics operates within the [unified notation system](/information-physics/notation-and-symbols-table) established across all Information Physics frameworks. The theory provides observer-dependent equations that describe how conscious agents can influence system entropy evolution through strategic operation selection within the constraints imposed by the voxel lattice substrate.
 
-### Core Navigation Equation
+---
 
-The fundamental relationship governing entropy navigation within the cosmic system:
+## System Entropy Change (SEC)
+
+The System Entropy Change equation represents the fundamental relationship governing how observers can influence entropy evolution within the cosmic system established by the CDE.
+
+The $\mathrm{SEC}$ equation describes entropy change capacity for individual observers operating within the voxel lattice constraints:
 
 $$
 \mathrm{SEC} = \frac{\mathcal{O} \cdot \mathbf{V}}{1+\eta}
@@ -29,43 +33,31 @@ $$
 - **$\mathrm{SEC}$:** System entropy change achievable by observer [dimensionless]
 - **$\mathcal{O}$:** Operation class from COB (Conservation of Boundaries) framework [dimensionless]
 - **$\mathbf{V}$:** Intent vector (magnitude and direction in entropy space) [dimensionless]
-- **$\eta$:** Positional energy multiplier incorporating topology transformation costs [dimensionless]
+- **$\eta$:** Positional energy multiplier incorporating pattern maintenance and topology transformation costs [dimensionless]
 
 This equation captures how operation-intent alignment, modulated by positional constraints and topology transformation costs, determines an observer's capacity to influence system entropy direction. The positional energy multiplier $\eta$ includes the cumulative cost of all boundary crossings required to execute an operation, with each crossing requiring information destruction and recreation according to the receiving topology's constraints.
 
----
+### Positional Energy Multiplier Definition
 
-## System Entropy Change (SEC)
-
-The System Entropy Change equation represents the fundamental relationship governing how observers can influence entropy evolution within the cosmic system established by the CDE.
-
-### Basic Formulation
-
-The SEC equation describes entropy change capacity for individual observers operating within the voxel lattice constraints:
+The positional energy multiplier relates to pattern maintenance and topology transformation costs within the voxel lattice:
 
 $$
-\mathrm{SEC} = \frac{\mathcal{O} \cdot \mathbf{V}}{1+\eta}
+\eta = \frac{E_{\text{total}} - mc^2}{mc^2}
 $$
 
-This formulation captures the essential relationship between operation selection, intent direction, and positional constraints that determine entropy navigation effectiveness. The denominator ensures that higher positional energy multipliers correspond to reduced capacity for system entropy change.
+**Where:**
 
-### Lattice-Aware Implementation
+- **$\eta$:** Positional energy multiplier [dimensionless]
+- **$E_{\text{total}}$:** Total energy including operational costs [J]
+- **$mc^2$:** Baseline pattern maintenance energy [J]
 
-Within the electromagnetic voxel lattice substrate, the positional energy multiplier incorporates lattice-specific constraints:
-
-$$
-\mathrm{SEC} = \frac{\mathcal{O} \cdot \mathbf{V}}{1+\eta_{\mathrm{lattice}}}
-$$
-
-The lattice-aware formulation accounts for additional energy costs imposed by discrete spacetime structure and electromagnetic field constraints. This connection grounds the abstract mathematics in measurable physical phenomena.
+This connection shows how the discrete lattice structure influences the energy costs that determine entropy navigation effectiveness.
 
 ---
 
 ## Entropic Gap (EG)
 
 The Entropic Gap measures divergence between intended and current system states, providing quantitative assessment of navigation effectiveness within the cosmic system.
-
-### Cosine Similarity Measurement
 
 The standard EG equation uses cosine similarity to measure state alignment:
 
@@ -112,9 +104,13 @@ $$
 
 This condition indicates that the system has reached a configuration where no agent can improve their entropy navigation capacity without corresponding changes in other agents' positions. The mathematical framework captures the interdependent nature of multi-agent entropy navigation.
 
-### Metastable Configurations
+### Entropic Exhaustion
 
-Within the voxel lattice topology, metastable entropic wells can emerge where equilibrium persists not because entropy cannot be reduced further theoretically, but because agents are trapped in local minima requiring disproportionate energy to escape. These configurations represent stable states that may not be globally optimal but are locally sustainable given the discrete spacetime constraints.
+Entropic exhaustion occurs when agents exhaust all available operations from their position, reaching what [game theory](https://plato.stanford.edu/entries/game-theory/) calls Nash equilibrium—a stable state where no move improves their situation. This represents the mathematical dead end where $\Delta \mathrm{SEC} / \Delta \mathcal{O} \approx 0$.
+
+When agents reach this state, they become trapped in positions where no available operation improves their entropy navigation capacity. This creates stable configurations that persist not because they are optimal, but because they represent local minima where escape requires disproportionate energy investment.
+
+The mechanism explains why some systems become stuck in suboptimal states despite having theoretical pathways to better configurations. Like the game theory principle it mirrors, entropic exhaustion creates stable states where improvement becomes thermodynamically prohibitive regardless of individual effort.
 
 ---
 
@@ -175,19 +171,19 @@ Entropic Mechanics provides the framework for how conscious agents can strategic
 
 ### Voxel Lattice Foundation
 
-The discrete spacetime substrate establishes the fundamental constraints within which Entropic Mechanics operates. The lattice determines maximum information propagation rate and pattern maintenance costs:
+The [discrete spacetime substrate](/information-physics/electromagnetic-voxel-lattice-theory) establishes the fundamental constraints within which Entropic Mechanics operates. The lattice determines maximum information propagation rate and pattern maintenance costs:
 
 $$
 c = \frac{\ell_v}{\tau_v}
 $$
 
-The positional energy multiplier incorporates costs imposed by discrete lattice structure, including the topology transformation costs at each boundary crossing. COB operations (MOVE, JOIN, SEPARATE) correspond to fundamental transformations supported by the substrate, with energy costs following the hierarchy $E_{\text{MOVE}} < E_{\text{JOIN}} < E_{\text{SEPARATE}}$ based on topology transformation complexity. This grounding connects abstract mathematics to the physical reality of information destruction and recreation at boundaries.
+The positional energy multiplier incorporates costs imposed by discrete lattice structure, including the topology transformation costs at each boundary crossing. [COB operations](/information-physics/electromagnetic-voxel-lattice-theory/#conservation-of-boundaries-cob-operations) $\mathcal{O} \in \{\mathcal{O}_M^{(1)},\;\mathcal{O}_J^{(2)},\;\mathcal{O}_S^{(3)}\}$ correspond to fundamental transformations supported by the substrate, with energy costs following the hierarchy $E_{\mathcal{O}_M^{(1)}} < E_{\mathcal{O}_J^{(2)}} < E_{\mathcal{O}_S^{(3)}}$ based on topology transformation complexity. This grounding connects abstract mathematics to the physical reality of information destruction and recreation at boundaries.
 
 ### Information Physics Bridge
 
-Entropic Mechanics provides the mathematical framework through which consciousness navigates information gradients. The three-resource toolkit (time, information, tools) operates through the SEC equation to enable strategic entropy navigation.
+Entropic Mechanics provides the mathematical framework through which consciousness navigates information gradients. The [three-resource toolkit (time, information, tools)](/information-physics/theory#the-navigation-toolkit) operates through the SEC equation to enable strategic entropy navigation.
 
-Memory compression efficiency connects to Entropic Mechanics through optimization of information storage and retrieval strategies that minimize positional energy multipliers while maximizing operation-intent alignment.
+[Memory compression efficiency](/information-physics/information-physics-theory#memory-and-compression-systems) connects to Entropic Mechanics through optimization of information storage and retrieval strategies that minimize positional energy multipliers while maximizing operation-intent alignment.
 
 ---
 
