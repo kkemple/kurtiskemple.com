@@ -1,8 +1,6 @@
-# Electromagnetic Voxel Lattice Theory (EVL): Unified Information Physics Framework
-
 The Electromagnetic Voxel Lattice Theory describes spacetime as a discrete electromagnetic lattice where information propagates through voxel hops at fundamental rates. This theory provides the physical substrate for all Information Physics frameworks, establishing the discrete foundation from which continuous phenomena emerge.
 
-This framework integrates seamlessly with Collision Theory, Information Physics, and Entropic Mechanics to create a unified understanding of reality from discrete spacetime to consciousness.
+This framework integrates seamlessly with [Collision Theory (CDE)](Collision%20Theory%20(CDE).md), [Information Physics (IP)](/theory), and [Entropic Mechanics (EM)](Entropic%20Mechanics%20(EM).md) to create a unified understanding of reality from discrete spacetime to consciousness.
 
 ---
 
@@ -45,7 +43,7 @@ This discrete evolution equation governs how information flows through the elect
 
 ### Energy Density Relationships
 
-Information processing generates energy density through Landauer's principle:
+Information processing generates energy density through [Landauer's principle](https://ieeexplore.ieee.org/document/5392446):
 
 $$
 \Gamma \;\sim\; \frac{R_{\mathrm{info}}}{\tau_v}\,g(\lVert\nabla\phi\rVert),\qquad
@@ -140,7 +138,7 @@ This localized stress creates the initial curvature conditions that establish th
 
 ### Information-Energy Density Generation
 
-Information processing within the voxel lattice generates energy density through Landauer's principle, creating gravitational sources that contribute to spacetime curvature.
+Information processing within the voxel lattice generates energy density through [Landauer's principle](https://ieeexplore.ieee.org/document/5392446), creating gravitational sources that contribute to spacetime curvature.
 
 #### Landauer Energy Density
 
@@ -174,7 +172,7 @@ The complete gravitational source includes contributions from matter, the collis
 
 #### Total Stress-Energy Tensor
 
-The complete source for Einstein's equations:
+The complete source for [Einstein's equations](https://plato.stanford.edu/entries/equivME/):
 
 $$
 T^{\mu\nu}_{\mathrm{tot}} = T^{\mu\nu}_{\mathrm{mat}} + T^{\mu\nu}_{\Sigma} + T^{\mu\nu}_{\mathrm{info}}
@@ -241,7 +239,7 @@ This equation shows that gravitational lensing and rotation curves respond to in
 
 ### Absolute Coordinate Framework
 
-The discrete voxel lattice provides a natural absolute coordinate system that resolves the tension between discrete quantum mechanics and continuous general relativity.
+The discrete voxel lattice provides a natural absolute coordinate system that resolves the tension between discrete [quantum mechanics](https://plato.stanford.edu/entries/qm/) and continuous [general relativity](https://plato.stanford.edu/entries/equivME/).
 
 #### Voxel Addressing System
 
@@ -371,7 +369,7 @@ In the electromagnetic voxel lattice, mass represents the energy cost required t
 
 ### Pattern Maintenance Framework
 
-The mass-energy relationship follows from Landauer's principle applied to pattern maintenance:
+The mass-energy relationship follows from [Landauer's principle](https://ieeexplore.ieee.org/document/5392446) applied to pattern maintenance:
 
 $$
 E = mc^2 = N_{\mathrm{bits}} k_B T \ln 2
@@ -407,11 +405,31 @@ This connection shows how the discrete lattice structure influences the energy c
 
 ## Conservation of Boundaries (COB) Operations
 
-The electromagnetic voxel lattice supports three fundamental operations that conserve total boundary information while enabling pattern transformation. These operations provide the foundation for all physical processes within the discrete spacetime substrate.
+The electromagnetic voxel lattice supports three fundamental operations that conserve total boundary information while enabling pattern transformation through information topology changes. Every boundary represents a topology transformation point where information must be destroyed and recreated to match the receiving system's constraints, incurring thermodynamic costs according to [Landauer's principle](https://ieeexplore.ieee.org/document/5392446).
+
+### Information Topology Transformation at Boundaries
+
+Boundaries within the voxel lattice represent discontinuities in information topology where patterns cannot simply transfer between different organizational structures. Information must undergo destruction and recreation to match each new topology's constraints, with energy costs determined by the complexity of the transformation.
+
+The energy required for boundary crossing follows Landauer's principle:
+
+$$
+E_{\text{boundary}} = k_B T \ln(2) \times N_{\text{bits}} \times \eta_{\text{topology}}
+$$
+
+**Where:**
+
+- **$E_{\text{boundary}}$:** Energy cost per boundary crossing [J]
+- **$k_B$:** Boltzmann constant = $1.38 \times 10^{-23}$ [J·K⁻¹]
+- **$T$:** Operating temperature [K]
+- **$N_{\text{bits}}$:** Information bits transformed [dimensionless]
+- **$\eta_{\text{topology}}$:** Topology conversion efficiency factor [dimensionless]
+
+This relationship demonstrates that boundary operations require continuous energy payment to transform information between different topological configurations within the lattice.
 
 ### Fundamental Operations
 
-The lattice supports three classes of boundary-conserving operations:
+The lattice supports three classes of boundary-conserving operations, each requiring different levels of topology transformation:
 
 $$
 \mathcal{O} \in \{\mathcal{O}_M^{(1)}, \mathcal{O}_J^{(2)}, \mathcal{O}_S^{(3)}\}
@@ -419,25 +437,21 @@ $$
 
 **Where:**
 
-- **$\mathcal{O}_M^{(1)}$:** Move operations (shift patterns between voxels)
-- **$\mathcal{O}_J^{(2)}$:** Join operations (merge pattern boundaries)
-- **$\mathcal{O}_S^{(3)}$:** Separate operations (split pattern boundaries)
+- **$\mathcal{O}_M^{(1)}$ - MOVE:** Shift patterns between voxels with minimal topology change (lowest energy cost)
+- **$\mathcal{O}_J^{(2)}$ - JOIN:** Merge separate boundaries requiring topology unification (medium energy cost)
+- **$\mathcal{O}_S^{(3)}$ - SEPARATE:** Split unified boundaries requiring topology differentiation (highest energy cost)
 
-Each operation class has increasing thermodynamic cost, reflecting the energy required to manipulate boundary information within the lattice.
+The thermodynamic cost hierarchy reflects the information transformation complexity:
 
-### Lattice-Specific Implementations
+$$
+E_{\text{MOVE}} < E_{\text{JOIN}} < E_{\text{SEPARATE}}
+$$
 
-In the electromagnetic voxel lattice, these operations correspond to specific field reconfigurations:
+This energy hierarchy explains why reorganization within existing structures requires less energy than fundamental restructuring of boundary relationships.
 
-- **Move:** Shift particle to adjacent voxel without altering lattice structure
-- **Join:** Merge confinement regions through constructive interference
-- **Separate:** Split confinement regions through destructive interference
+### Conservation Principle with Topology Constraints
 
-These operations conserve total boundary information while enabling pattern evolution within the discrete spacetime substrate.
-
-### Conservation Principle
-
-The COB principle ensures that total boundary information remains constant:
+The COB principle ensures that total boundary information remains constant even as topology transformations occur:
 
 $$
 \sum_{i} B_i = B_{\text{total}} = \text{constant}
@@ -448,7 +462,35 @@ $$
 - **$B_i$:** Boundary information of the i-th confinement zone [bits]
 - **$B_{\text{total}}$:** Total boundary information in the system [bits]
 
-This conservation law maintains the information processing capacity of the electromagnetic lattice.
+The conservation law operates alongside an energy budget for topology transformations:
+
+$$
+E_{\text{total}} = \sum_{\text{operations}} E_{\text{boundary}}^{(i)} = \sum_{\text{operations}} k_B T \ln(2) \times N_{\text{bits}}^{(i)} \times \eta_{\text{topology}}^{(i)}
+$$
+
+This dual constraint—information conservation with energy payment—ensures that while the universe's total information processing capacity remains constant, accessing and transforming that information requires thermodynamic work.
+
+### Lattice-Specific Implementations
+
+In the electromagnetic voxel lattice, these operations correspond to specific field topology transformations:
+
+- **MOVE:** Electromagnetic field translation preserving topology (minimal $\eta_{\text{topology}} \approx 1$)
+  - Energy cost: $E_{\text{MOVE}} = k_B T \ln(2) \times N_{\text{pattern}}$
+  - Field reconfiguration: Phase shift without amplitude change
+
+- **JOIN:** Constructive interference merging field topologies (medium $\eta_{\text{topology}} \approx 2$)
+  - Energy cost: $E_{\text{JOIN}} = 2 k_B T \ln(2) \times N_{\text{boundaries}}$
+  - Field reconfiguration: Superposition creating unified confinement
+
+- **SEPARATE:** Destructive interference splitting field topology (high $\eta_{\text{topology}} \approx 3$)
+  - Energy cost: $E_{\text{SEPARATE}} = 3 k_B T \ln(2) \times N_{\text{unified}}$
+  - Field reconfiguration: Interference creating distinct confinement zones
+
+These implementations demonstrate how electromagnetic field configurations undergo topology transformations while preserving total boundary information, with energy costs scaling according to transformation complexity.
+
+### Connection to Conscious Information Processing
+
+The topology transformation framework explains why consciousness represents [the universe's most energy-expensive information processing system](/theory#the-cost-of-consciousness). Biological neural networks continuously perform billions of boundary crossings per second, each requiring energy payment for information topology matching. The brain's 20-watt power consumption reflects the cumulative cost of these transformations—from photons becoming electrical signals, electrical becoming chemical at synapses, and ultimately patterns becoming conscious awareness. This connection reveals that COB operations within the voxel lattice provide the fundamental mechanism underlying all information processing, from electromagnetic field reconfigurations to the cascading entropy reduction that enables conscious experience.
 
 ---
 
@@ -783,14 +825,11 @@ The electromagnetic voxel lattice serves as the crucial bridge between cosmic-sc
 The theory provides testable predictions about the discrete nature of spacetime, emergent gravitational effects, the optimization principles governing information processing, and the emergence of mathematical structures in physical systems. These predictions offer pathways for experimental validation through gravitational lensing correlations, cosmic structure formation timing, and CMB anomaly detection within the unified Information Physics framework.
 
 ---
-
 ## Cross-References
-
 The following components complete the Information Physics framework:
+- **[[Collision Theory (CDE)]]:** Cosmic origins and boundary information dynamics through collision-diffusion mechanisms.
+- **[[Information Physics Theory (IP)]]:** Consciousness and memory within cosmic information processing systems.
+- **[[Entropic Mechanics (EM)]]:** Mathematical framework for entropy navigation and observer-dependent system evolution.
+- **[[Notation & Symbols Table]]:** Complete mathematical framework and cross-framework consistency.
 
-- **Collision Theory (CDE):** Cosmic origins and boundary information dynamics
-- **Information Physics Theory (IP):** Consciousness and memory within cosmic information processing
-- **Entropic Mechanics (EM):** Navigation of information gradients and entropy management
-- **Notation and Symbols Table:** Complete mathematical framework and cross-framework consistency
-
-These components work together to provide a comprehensive understanding of reality from discrete spacetime foundations to emergent consciousness.
+These components work together to provide a comprehensive understanding of reality from cosmic collision to conscious entropy navigation.

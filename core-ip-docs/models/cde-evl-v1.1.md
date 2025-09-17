@@ -281,10 +281,10 @@ Version 1.1 positions the Information Physics framework as a serious alternative
 
 ## Cross-References
 
-- **[CDE-EVL v1.0 (Frozen Spec)](/cde-evl-v1):** Baseline two-parameter model
-- **[Collision Theory](/collision-theory):** Theoretical foundation for CDE
-- **[Electromagnetic Voxel Lattice](/electromagnetic-voxel-lattice-theory):** Discrete spacetime substrate
-- **[Information Physics Overview](/information-physics-theory):** Complete theoretical framework
+- **[CDE-EVL v1.0 (Frozen Spec)](cde-evl-v1.md):** Baseline two-parameter model
+- **[Collision Theory](Collision%20Theory%20(CDE).md):** Theoretical foundation for CDE
+- **[Electromagnetic Voxel Lattice](Electromagnetic%20Voxel%20Lattice%20Theory%20(EVL).md):** Discrete spacetime substrate
+- **[Information Physics Overview](Information%20Physics%20Theory%20(IP).md):** Complete theoretical framework
 
 ---
 
