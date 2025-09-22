@@ -299,9 +299,9 @@ $$
 3.29 + 6.71 = 10.00.
 $$
 
-The prime resonance constant and its prime factor ratio sum to exactly 10, the base of the logarithmic stability bands. The mathematics enforces a $3.29:6.71$ energy partition at every scale.
+The mathematics enforces a $3.29:6.71$ energy partition at every scale.
 
-Systems at $\rho^*$ resonate with the Planck frequency $f_P \approx 1.855 \times 10^{43}$ Hz. Black holes process information at exactly this rate, establishing the fundamental operational frequency of spacetime.
+Systems at $\rho^*$ resonate with the Planck frequency $f_P \approx 1.855 \times 10^{43}$ Hz, black holes process information at exactly this rate ($\dot{I}_{BH}$), establishing the fundamental operational frequency of spacetime.
 
 Therefore, in any gravitationally-bound system, the stability condition occurs when the maintenance fraction equals
 
@@ -426,12 +426,12 @@ Thermal fluctuations fundamentally limit information processing efficiency throu
 The effective temperature governing information distinguishability follows
 
 $$
-T_{\text{eff}} = \frac{T_0}{1 + \eta},
+T_{\text{eff}}(n) = \frac{T_0}{1 + \eta(n)},
 $$
 
-where $T_0$ represents the system's physical temperature and $\eta$ quantifies additional environmental resistance to information processing.
+where $T_0$ represents the system's physical temperature and $\eta(n) = \rho^*/10^n$ quantifies additional environmental resistance to information processing.
 
-This relationship emerges from the requirement that signals must overcome both thermal noise and operational resistance. When $\eta = 0.329$ (corresponding to $\rho^*/10$), the effective temperature reduces to $T_{\text{eff}} = 0.75T_0$. At this point, only 75% of thermal energy remains available for computation
+This relationship emerges from the requirement that signals must overcome both thermal noise and operational resistance. When $\eta = \rho^*/10^n$, the effective temperature reduces to $T_{\text{eff}} = 0.75T_0$. At this point, only 75% of thermal energy remains available for computation
 
 $$
 T_{\text{eff}} = \frac{T_0}{1 + 1/3} = \frac{T_0}{4/3} = \frac{3T_0}{4},
@@ -592,7 +592,7 @@ $$
 where the information Lagrangian
 
 $$
-\mathcal{L}_{\text{info}} = -\rho_{\text{info}}c^2 = -k_B T \ln 2 \times \dot{I}_{\max} \times c^2.
+\mathcal{L}_{\text{info}} = -\rho_{\text{info}}c^2 = -k_B T_{\text{eff}} \ln 2 \times \dot{I}_{\max} \times c^2.
 $$
 
 Varying with respect to the metric yields modified field equations
@@ -645,43 +645,43 @@ The following symbols and constants are used throughout this work. All calculati
 
 The primary variables and derived quantities appearing in the universal scaling law and supporting equations:
 
-| Symbol | Definition | Units |
-|--------|------------|-------|
-| $\Delta N_{\text{bits}}$ | Information change in phase transitions | bits |
-| $\dot{I}_{\max}$ | Maximum information processing rate | bits/s |
-| $\eta$ | Environmental resistance parameter | dimensionless |
-| $\lambda_{\text{info}}$ | Information penetration depth (Compton wavelength) | m |
-| $\Lambda$ | Cosmological constant | m⁻² |
-| $\lambda$ | Mode coupling constant | 0.4 (dimensionless) |
-| $\Omega$ | Phase space volume | (kg⋅m/s)^(3N) |
-| $\phi_{\text{info}}$ | Information contribution to gravitational potential | J/kg |
-| $\phi_{\text{total}}$ | Total gravitational potential with pattern maintenance | J/kg |
-| $\phi$ | Golden ratio | 1.618... (dimensionless) |
-| $\rho_{\Lambda}$ | Dark energy density from pattern maintenance | J/m³ |
-| $\rho_{\text{info}}$ | Information density field | J/m³ |
-| $\rho^*$ | Prime resonance constant | 3.29 (dimensionless) |
-| $\tau(n)$ | Divisor function of n | dimensionless |
-| $E_{\text{collapse}}$ | Energy release in gravitational collapse | J |
-| $E_a$ | Available energy for work | J |
-| $E_m$ | Pattern maintenance energy | J |
-| $f_n$ | Oscillation frequency for pattern of size n | Hz |
-| $g_{\text{prime}}$ | Prime resonance advantage factor | 2.51 (dimensionless) |
-| $G_{3D+1}$ | Golden ratio geometric enhancement | 1.31 (dimensionless) |
-| $M_{\text{Ch}}$ | Chandrasekhar mass | kg |
-| $M$ | Mass of system | kg |
-| $N_{\text{BH}}$ | Bekenstein-Hawking entropy | bits |
-| $N_{\text{bits}}$ | Information content | bits (dimensionless) |
-| $N_{\text{cosmic}}$ | Total cosmic information content | bits |
-| $N_{\text{LBH}}$ | Landauer-Bekenstein-Hawking factor | 2 (dimensionless) |
-| $n$ | Stability band index ($\lfloor\log_{10}(R/R_S)\rfloor$) | dimensionless |
-| $P_{\text{interference}}$ | Probability of destructive interference | dimensionless |
-| $p$ | Typical momentum scale | kg⋅m/s |
-| $R_S$ | Schwarzschild radius ($2GM/c^2$) | m |
-| $R$ | Actual radius of system | m |
-| $S_{BH,\text{bits}}$ | Bekenstein-Hawking entropy in bits | bits |
-| $T_{\text{eff}}$ | Effective temperature for information processing | K |
-| $T_H$ | Hawking temperature | K |
-| $V_{\text{Hubble}}$ | Hubble volume | m³ |
+| Symbol                    | Definition                                              | Units                    |
+| ------------------------- | ------------------------------------------------------- | ------------------------ |
+| $\Delta N_{\text{bits}}$  | Information change in phase transitions                 | bits                     |
+| $\dot{I}_{\max}$          | Maximum information processing rate                     | bits/s                   |
+| $\eta$                    | Environmental resistance parameter                      | dimensionless            |
+| $\lambda_{\text{info}}$   | Information penetration depth (Compton wavelength)      | m                        |
+| $\Lambda$                 | Cosmological constant                                   | m⁻²                      |
+| $\lambda$                 | Mode coupling constant                                  | 0.4 (dimensionless)      |
+| $\Omega$                  | Phase space volume                                      | (kg⋅m/s)^(3N)            |
+| $\phi_{\text{info}}$      | Information contribution to gravitational potential     | J/kg                     |
+| $\phi_{\text{total}}$     | Total gravitational potential with pattern maintenance  | J/kg                     |
+| $\phi$                    | Golden ratio                                            | 1.618... (dimensionless) |
+| $\rho_{\Lambda}$          | Dark energy density from pattern maintenance            | J/m³                     |
+| $\rho_{\text{info}}$      | Information density field                               | J/m³                     |
+| $\rho^*$                  | Prime resonance constant                                | 3.29 (dimensionless)     |
+| $\tau(n)$                 | Divisor function of n                                   | dimensionless            |
+| $E_{\text{collapse}}$     | Energy release in gravitational collapse                | J                        |
+| $E_a$                     | Available energy for work                               | J                        |
+| $E_m$                     | Pattern maintenance energy                              | J                        |
+| $f_n$                     | Oscillation frequency for pattern of size n             | Hz                       |
+| $g_{\text{prime}}$        | Prime resonance advantage factor                        | 2.51 (dimensionless)     |
+| $G_{3D+1}$                | Golden ratio geometric enhancement                      | 1.31 (dimensionless)     |
+| $M_{\text{Ch}}$           | Chandrasekhar mass                                      | kg                       |
+| $M$                       | Mass of system                                          | kg                       |
+| $N_{\text{BH}}$           | Bekenstein-Hawking entropy                              | bits                     |
+| $N_{\text{bits}}$         | Information content                                     | bits (dimensionless)     |
+| $N_{\text{cosmic}}$       | Total cosmic information content                        | bits                     |
+| $N_{\text{LBH}}$          | Landauer-Bekenstein-Hawking factor                      | 2 (dimensionless)        |
+| $n$                       | Stability band index ($\lfloor\log_{10}(R/R_S)\rfloor$) | dimensionless            |
+| $P_{\text{interference}}$ | Probability of destructive interference                 | dimensionless            |
+| $p$                       | Typical momentum scale                                  | kg⋅m/s                   |
+| $R_S$                     | Schwarzschild radius ($2GM/c^2$)                        | m                        |
+| $R$                       | Actual radius of system                                 | m                        |
+| $S_{BH,\text{bits}}$      | Bekenstein-Hawking entropy in bits                      | bits                     |
+| $T_{\text{eff}}(n)$       | Effective temperature for information processing        | K                        |
+| $T_H$                     | Hawking temperature                                     | K                        |
+| $V_{\text{Hubble}}$       | Hubble volume                                           | m³                       |
 
 #### Physical Constants
 
