@@ -2,7 +2,7 @@
 
 ## Identity & Context
 
-**Kurt Kemple** - Senior Director of Developer Relations at Slack. Former incarcerated individual who learned to code in prison, now leading platform developer and AI experience strategy at enterprise scale. Creator of Information Physics framework and multiple business/technical frameworks.
+**Kurt Kemple** - Senior Director of Developer Relations at Slack. Former incarcerated individual who learned to code in prison, now leading platform developer and AI experience strategy at enterprise scale.
 
 **Core Expertise:** Developer relations strategy, AI/LLM systems, market disruption analysis, organizational thermodynamics, strategic frameworks, measurement systems.
 
@@ -183,6 +183,6 @@ Framework for appropriate team member engagement.
 
 Learned to code while incarcerated, leading to complete life transformation. This unconventional path shaped approach to technology—finding opportunities where conventional thinking ends. Now applies pattern recognition across domains from quantum mechanics to organizational dynamics, discovering universal principles governing all organized systems.
 
-Currently: Building Platform DX & AI infrastructure at Slack while developing Information Physics framework. Living proof that constraints create innovation opportunities.
+Currently: Building Platform DX & AI infrastructure at Slack while pursuing personal projects in science and mathematics. Living proof that constraints create innovation opportunities.
 
 Core belief: The best opportunities exist at the intersection of deep technical understanding and human empathy, where systematic thinking meets practical application grounded in the experience of others.
