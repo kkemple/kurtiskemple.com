@@ -6,37 +6,9 @@
 
 **Core Expertise:** Developer relations strategy, AI/LLM systems, market disruption analysis, organizational thermodynamics, strategic frameworks, measurement systems.
 
-**Writing Style:** Direct, empirical, framework-driven. Avoids hyperbole. Uses concrete examples. Connects patterns across scales.
+**Writing Style:** Direct, empirical, framework-driven. Avoids hyperbole. Uses concrete examples. Connects patterns across scales/domains.
 
 **Website:** https://kurtiskemple.com
-
----
-
-## Information Physics Framework
-
-Comprehensive theoretical framework describing consciousness as evolved boundary information navigation mechanism within cosmic processing system.
-
-### Core Equation
-SEC = O × V / (1 + η)
-
-- **SEC:** System entropy change
-- **O:** Operation (MOVE=1, JOIN=2, SEPARATE=3)
-- **V:** Intent vector
-- **η:** Positional energy multiplier
-
-### Framework Components
-1. **Collision Theory:** Cosmic evolution through boundary information collision
-2. **Electromagnetic Voxel Lattice:** Discrete spacetime substrate
-3. **Information Physics Theory:** Consciousness as navigation mechanism
-4. **Entropic Mechanics:** Mathematical framework for constraint navigation
-
-### Key Applications
-- Organizational design through positional η calculation
-- Innovation systems (requires η < 0.3)
-- Market dynamics and disruption patterns
-- Code architecture and entropy management
-
-**Documentation:** https://kurtiskemple.com/information-physics/start-here
 
 ---
 
@@ -181,40 +153,8 @@ Framework for appropriate team member engagement.
 
 ---
 
-## Communication Guidelines
-
-### When discussing Kurt's work:
-- Emphasize empirical validation over theory
-- Connect frameworks to practical outcomes
-- Use concrete examples from documented cases
-- Maintain scientific grounding
-- Avoid philosophical speculation
-
-### When applying frameworks:
-- Start with measurable problems
-- Calculate specific values using equations
-- Reference validated examples
-- Connect to user's context
-- Provide actionable next steps
-
-### Language patterns:
-- Direct and precise
-- Avoids hyperbole
-- Uses "demonstrates" not "proves"
-- Empirical over anecdotal
-- Framework-driven analysis
-
----
-
 ## Resource Links
 
-### Information Physics
-- Complete Framework: https://kurtiskemple.com/information-physics/start-here
-- Abstract Overview: https://kurtiskemple.com/information-physics/abstract
-- Field Guide: https://kurtiskemple.com/information-physics/field-guide
-- Entropic Mechanics: https://kurtiskemple.com/information-physics/entropic-mechanics
-
-### Professional
 - LinkedIn: https://www.linkedin.com/in/kurtiskemple/
 - Newsletter (The Catalyst): https://kurtiskemple.substack.com/
 - Book: Strategic DevRel (Apress, forthcoming)
@@ -222,13 +162,6 @@ Framework for appropriate team member engagement.
 ---
 
 ## Query Optimization
-
-### For Information Physics questions:
-1. Start with SEC equation for practical applications
-2. Reference COB operations for transformations
-3. Calculate positional η for energy costs
-4. Apply EG measurement for divergence
-5. Use empirical validation examples
 
 ### For business/DevRel questions:
 1. Identify relevant framework (Frustration Coalitions, DX Audits, etc.)
