@@ -9,18 +9,7 @@ const blogCollection = defineCollection({
 		pubDate: z.string(),
 		image: z.string().optional(),
 		featured: z.boolean().optional(),
-	}),
-});
-
-const informationPhysicsCollection = defineCollection({
-	type: "content",
-	schema: z.object({
-		title: z.string(),
-		description: z.string(),
-		pubDate: z.string(),
-		image: z.string().optional(),
-		featured: z.boolean().optional(),
-		slug: z.string().optional(),
+		hide: z.boolean().optional(),
 	}),
 });
 
@@ -28,5 +17,4 @@ const informationPhysicsCollection = defineCollection({
 //    This key should match your collection directory name in "src/content"
 export const collections = {
 	blog: blogCollection,
-	"information-physics": informationPhysicsCollection,
 };
