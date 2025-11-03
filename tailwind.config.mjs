@@ -20,12 +20,12 @@ export default {
         heading: ['Abril Fatface', ...fontFamily.serif],
       },
       fontSize: {
-        'h1': ['clamp(2rem, 4vw, 3rem)', { lineHeight: '1.2' }],
-        'h2': ['2.5rem', { lineHeight: '1.15' }],
-        'h3': ['2rem', { lineHeight: '1.15' }],
-        'h4': ['1.5rem', { lineHeight: '1.15' }],
-        'h5': ['1.25rem', { lineHeight: '1.15' }],
-        'h6': ['1rem', { lineHeight: '1.15' }],
+        'h1': ['clamp(1.4rem, 2.8vw, 2.1rem)', { lineHeight: '1.2' }],
+        'h2': ['1.6rem', { lineHeight: '1.15' }],
+        'h3': ['1.4rem', { lineHeight: '1.15' }],
+        'h4': ['1.05rem', { lineHeight: '1.15' }],
+        'h5': ['0.875rem', { lineHeight: '1.15' }],
+        'h6': ['0.7rem', { lineHeight: '1.15' }],
       }
     },
   },
