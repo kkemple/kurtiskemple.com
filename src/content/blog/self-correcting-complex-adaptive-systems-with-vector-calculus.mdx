@@ -13,7 +13,7 @@ When I [introduced context pollution](/blog/measuring-context-pollution) as a di
 
 But what I discovered: this same mathematical framework works for *any* adaptive system.
 
-The Alignment Distance (formally $d(S, A)$, informally called the "Entropic Gap") is a **universal drift detector** that works whether you're tracking intent drift in language models, behavioral drift in neuromorphic circuits, structural drift in nanosystems, or valuation drift in financial markets. Same math. Same solution.
+The Alignment Distance (formally $d(S, A)$) is a **universal drift detector** that works whether you're tracking intent drift in language models, behavioral drift in neuromorphic circuits, structural drift in nanosystems, or valuation drift in financial markets. Same math. Same solution.
 
 This reveals how adaptive systems all face the same paradox: they must learn and evolve to be useful, but without guardrails, that same adaptation becomes their downfall.
 
@@ -53,7 +53,7 @@ The common thread: **adaptation without measurement is drift without correction*
 
 ## Defining Alignment Distance
 
-The Alignment Distance (also called the "Entropic Gap" in earlier work) measures how far any system has drifted from its intended behavior,
+Now that we've seen the problem across domains, let's define the solution mathematically. The Alignment Distance measures how far any system has drifted from its intended behavior,
 
 $$
 d(S, A) = 1 - \frac{S \cdot A}{\|S\| \|A\|},
@@ -93,9 +93,7 @@ The Alignment Distance framework applies directly.
 
 Recent hardware shows this works. BrainScaleS-2 has 512 adaptive neurons with 131k plastic synapses. Darwin3 supports 2.35 million neurons with on-chip learning.
 
-What's missing? A drift detection mechanism. Systems also need to monitor their **efficiency state** $\eta$—the fraction of compute consumed by overhead. When $\eta$ approaches 1, the system has compute but can't apply it effectively due to excessive maintenance burden. The optimal operating point is $\eta \approx 0.1$, where complexity is sufficient but overhead remains manageable.
-
-By computing vector embeddings of circuit state and comparing against design anchors, these systems could detect when adaptation has gone too far—before they fail.
+What's missing? A drift detection mechanism. By computing vector embeddings of circuit state and comparing against design anchors, these systems could detect when adaptation has gone too far—before they fail.
 
 ### Nanotechnology & Structural Coherence
 
@@ -131,7 +129,9 @@ The Alignment Distance gives you early warning—before the crash.
 
 ## Vectors are Composable
 
-So far vectors have been used to measure drift. But here's where it gets powerful: vectors don't just measure—they **compose**.
+So far vectors have been used to measure drift. You embed your system's current state as a vector $S$, compare it against an anchor vector $A$ representing your goal, and compute the Alignment Distance $d(S, A)$ to see how far you've wandered. This gives you a diagnostic tool—a way to know when things have gone wrong.
+
+But here's where it gets powerful: vectors don't just measure—they **compose**.
 
 Vector operations transform Alignment Distance from a diagnostic tool into a complete programming language for adaptive systems. This is where things get interesting.
 
@@ -175,7 +175,7 @@ where:
 - $v_e$ captures efficiency (minimizing energy per spike)
 - $v_s$ enforces stability (preventing runaway excitation or deadlock)
 
-The chip continuously measures its current firing patterns against this composite anchor. When the Alignment Distance increases, it knows something's wrong—maybe it's getting too aggressive with power savings and losing accuracy, or maybe it's overcompensating and wasting energy. The vector decomposition tells it exactly which aspect is drifting, enabling targeted correction. The system's **Intervention Capacity** $\Phi(S, A, \eta) = C/(1-\eta)^{\rho^*} \times (S \cdot A)/(\|S\| \|A\|)$ quantifies how much modification potential it has, where $\rho^* = 3.29$ is the pentagonal geometric constraint that determines overhead scaling.
+The chip continuously measures its current firing patterns against this composite anchor. When the Alignment Distance increases, it knows something's wrong—maybe it's getting too aggressive with power savings and losing accuracy, or maybe it's overcompensating and wasting energy. The vector decomposition tells it exactly which aspect is drifting, enabling targeted correction.
 
 ### Avoidance Vectors Through Subtraction
 
@@ -362,7 +362,7 @@ elif alignment_distance > 0.9:  # ~45% of maximum separation
 anchor_chip = sum(w * a for w, a in zip(weights, [anchor_accuracy, anchor_efficiency, anchor_stability]))
 ```
 
-The chip autonomously shifts its optimization target based on operational needs. These aren't hard switches—the transitions can be smooth, gradually adjusting weights as the chip moves between phases or as the Alignment Distance changes. This creates adaptive behavior that responds to both internal state and external demands. The system's **Control Authority** determines how effectively actions can influence state.
+The chip autonomously shifts its optimization target based on operational needs. These aren't hard switches—the transitions can be smooth, gradually adjusting weights as the chip moves between phases or as the Alignment Distance changes. This creates adaptive behavior that responds to both internal state and external demands.
 
 ### Projection: Behavioral Attribution and Explainability
 
@@ -573,6 +573,8 @@ Complex, intelligent-seeming behaviors emerge from navigating constraint manifol
 
 You're not programming behavior directly. You're defining a **constraint geometry**, and intelligent behavior emerges from navigating that landscape.
 
+But measurement and composition alone aren't enough. Systems need a mechanism to actually correct themselves when they drift. The mathematical framework we've built provides the foundation—now we need to connect it to real corrective action.
+
 ---
 
 ## The Three-Part Solution: Adapt, Measure, Correct
@@ -602,7 +604,6 @@ Artificial systems need the same architecture. The complete framework requires:
 - Continuous computation of system state embeddings $S$
 - Comparison against anchor embeddings $A$ (design specifications)
 - Quantification of Alignment Distance $d(S, A)$ across the entire system
-- Monitoring efficiency state $\eta$ to ensure optimal operation near $\eta \approx 0.1$
 
 #### Layer 3: Threshold-Triggered Intervention
 
@@ -614,6 +615,8 @@ Artificial systems need the same architecture. The complete framework requires:
 Note: These thresholds correspond to roughly 10%, 25%, and 45% of maximum separation (since $d(S, A) \in [0, 2]$).
 
 This architecture creates **bounded exploration**: the system can adapt and optimize within design parameters, but cannot drift into catastrophic failure modes.
+
+But why does this work? What makes vector embeddings so powerful for drift detection across such diverse systems? The answer lies in the mathematical properties of vector spaces themselves.
 
 ---
 
@@ -640,6 +643,8 @@ Result ranges from 0 (completely different) to 1 (identical). Perfect for measur
 **For financial markets**: Embeddings capture price dynamics and fundamentals, making cosine similarity a measure of valuation alignment.
 
 Cosine similarity can be computed in O(n) time where n is the embedding dimension. This makes real-time drift detection feasible even for systems with limited computational resources, including neuromorphic hardware and molecular computers.
+
+Understanding the math is one thing. Implementing it is another. What does it actually take to build these self-correcting systems?
 
 ---
 
@@ -692,6 +697,8 @@ class DriftMonitor:
 
 This simple pattern enables any system with vector representations to monitor and respond to drift systematically.
 
+All of this raises a deeper question: can systems truly monitor themselves, or do they always require external supervision? The answer determines whether we're building tools or building autonomous agents.
+
 ---
 
 ## The Emergence Question: Can Systems Monitor Themselves?
@@ -715,11 +722,13 @@ This creates systems that are:
 
 Neural systems exhibit this pattern—local learning combined with global homeostatic regulation that prevents runaway adaptation. Artificial systems are now being built with the same architecture.
 
+This framework doesn't just apply to one type of system. The same mathematical principles work whether you're looking at molecules, circuits, or markets. Understanding these cross-scale patterns reveals something fundamental about how adaptive systems operate.
+
 ---
 
 ## Cross-Scale Implications
 
-The universality of the Alignment Distance framework suggests something deeper about adaptive systems across scales:
+The Alignment Distance framework suggests something deeper about adaptive systems across scales:
 
 **At the molecular level**, nanosystems can detect structural drift from design specifications, enabling self-healing materials and autonomous molecular manufacturing.
 
@@ -735,7 +744,7 @@ The mathematics is the same. The thresholds may differ. But the principle holds:
 
 ## Why This Matters Now
 
-Three converging trends make universal drift detection critical:
+This isn't just theoretical. Three converging trends make drift detection critical right now:
 
 **1. Proliferation of Adaptive Systems**
 
@@ -763,7 +772,7 @@ Information theory research demonstrates how precise meaning erodes as informati
 
 ### Thermodynamics and System Entropy
 
-The second law of thermodynamics states that closed systems naturally tend toward disorder. Applied to information systems, this predicts that adaptive systems will drift toward higher entropy states unless active measurement and correction maintain intended structure. The Alignment Distance operationalizes this principle. The pentagonal geometric constraint $\rho^* = 3.29$ determines how overhead scales with complexity, creating optimal operating points where systems balance sufficient structure with manageable maintenance burden.
+The second law of thermodynamics states that closed systems naturally tend toward disorder. Applied to information systems, this predicts that adaptive systems will drift toward higher entropy states unless active measurement and correction maintain intended structure. The Alignment Distance operationalizes this principle.
 
 ### Complex Systems and Cascading Failures
 
@@ -783,11 +792,11 @@ The success of embedding models in machine learning demonstrates that semantic r
 
 The Alignment Distance transforms adaptive systems from blind optimization engines into self-aware agents that monitor their own behavior.
 
-Whether you're measuring semantic drift in AI, behavioral drift in circuits, structural drift in molecules, or valuation drift in markets—the math stays the same. The Alignment Distance $d(S, A)$, Intervention Capacity $\Phi(S, A, \eta)$, and Control Authority $\Lambda(u, q, \eta)$ provide a complete framework for understanding how adaptive systems navigate probability space.
+Whether you're measuring semantic drift in AI, behavioral drift in circuits, structural drift in molecules, or valuation drift in markets—the math stays the same. The Alignment Distance $d(S, A)$ provides a complete framework for understanding how adaptive systems navigate probability space.
 
 This reflects a fundamental truth: **all adaptive systems face the same challenge of maintaining coherence while evolving**.
 
-The Alignment Distance provides a universal solution that works across scales, substrates, and domains. Combined with efficiency state monitoring ($\eta \approx 0.1$ optimal) and recursive self-modeling ($S_{n+1} = f(S_n, A)$), it enables systems that can adapt indefinitely within bounded constraints.
+The Alignment Distance provides a universal solution that works across scales, substrates, and domains. Combined with recursive self-modeling ($S_{n+1} = f(S_n, A)$), it enables systems that can adapt indefinitely within bounded constraints.
 
 As increasingly autonomous systems are built—from molecular assemblers to artificial general intelligence—the ability to detect and correct drift becomes essential. Systems that can measure their own Alignment Distance and trigger re-anchoring when necessary are the ones that can adapt indefinitely without supervision.
 
