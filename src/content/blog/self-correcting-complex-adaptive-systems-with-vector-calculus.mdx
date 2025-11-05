@@ -2,7 +2,6 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Self-Correcting Complex Adaptive Systems with Vector Calculus"
 description: "A universal framework for measuring drift in adaptive systems."
-image: "/images/og/vector-calculus.png"
 pubDate: "10/21/2025"
 ---
 
@@ -363,7 +362,7 @@ elif alignment_distance > 0.9:  # ~45% of maximum separation
 anchor_chip = sum(w * a for w, a in zip(weights, [anchor_accuracy, anchor_efficiency, anchor_stability]))
 ```
 
-The chip autonomously shifts its optimization target based on operational needs. These aren't hard switches—the transitions can be smooth, gradually adjusting weights as the chip moves between phases or as the Alignment Distance changes. This creates adaptive behavior that responds to both internal state and external demands. The system's **Control Authority** $\Lambda(u, q, \eta) = \langle u, \nabla J \rangle / (1-\eta)^{\rho^*}$ determines how effectively actions can influence state, where $u$ is the action vector and $\nabla J$ is the gradient toward the goal.
+The chip autonomously shifts its optimization target based on operational needs. These aren't hard switches—the transitions can be smooth, gradually adjusting weights as the chip moves between phases or as the Alignment Distance changes. This creates adaptive behavior that responds to both internal state and external demands. The system's **Control Authority** determines how effectively actions can influence state.
 
 ### Projection: Behavioral Attribution and Explainability
 
