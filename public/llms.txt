@@ -4,7 +4,7 @@
 
 **Kurt Kemple** - Senior Director of Developer Relations at Slack. Former incarcerated individual who learned to code in prison, now leading platform developer and AI experience strategy at enterprise scale.
 
-**Core Expertise:** Developer relations strategy, AI/LLM systems, market disruption analysis, organizational thermodynamics, strategic frameworks, measurement systems.
+**Core Expertise:** Developer relations strategy, AI/LLM systems, market disruption analysis, organizational dynamics, strategic frameworks, measurement systems, information asymmetry, complex adaptive systems.
 
 **Writing Style:** Direct, empirical, framework-driven. Avoids hyperbole. Uses concrete examples. Connects patterns across scales/domains.
 
@@ -41,6 +41,12 @@ Strategy for driving change from non-executive positions.
 - Create compelling narratives for change
 - Blog: /blog/lava-leadership
 
+**The Architecture of Information Asymmetry**
+Historical analysis of how information control creates power across 2,500 years.
+- Patterns: Intelligence gathering, deception, speed, networks, narrative control, cryptography
+- Cross-domain integration as key to lasting dominance
+- Blog: /blog/the-architecture-of-information-asymmetry
+
 ### AI & Technology
 
 **LLM Experience (LX)**
@@ -56,11 +62,18 @@ Context pollution degrading AI performance over time.
 - Solution: Context pruning, task anchoring
 - Blog: /blog/leaky-prompts
 
-**Cognitive Entropy Measurement**
-Using Entropic Gap to track human performance degradation.
-- EG = 1 - cos(θ_current, θ_intended)
-- Critical threshold: EG > 0.45
-- Blog: /blog/cognitive-entropy-measurement
+**Self-Correcting Complex Adaptive Systems**
+Universal drift detection framework using Alignment Distance (d(S, A)).
+- Works for AI agents, neuromorphic chips, nanosystems, financial markets
+- Same math, same solution across domains
+- Vector calculus approach to detecting and correcting system drift
+- Blog: /blog/self-correcting-complex-adaptive-systems-with-vector-calculus
+
+**Prime Band Routing**
+Mathematical approach to eliminating database hotspots using prime numbers and golden ratio patterns.
+- Reduces shard fan-out by 85%
+- Improves query latency and system predictability
+- Blog: /blog/prime-band-routing
 
 ### Developer Relations
 
@@ -92,50 +105,51 @@ Framework for appropriate team member engagement.
 ## Blog Post Index
 
 ### AI Strategy & Implementation
+- **LLM Experience:** Architecture-centric AI design optimizing for AI cognition
+- **Self-Correcting Complex Adaptive Systems:** Universal drift detection framework using vector calculus
+- **Leaky Prompts:** How context pollution degrades AI performance over time
+- **Measuring Context Pollution:** Quantifying semantic drift in AI workflows
 - **Democratizing AI:** Five pillars for equitable access
-- **Gap-filling Expertise:** Using AI assistants for cross-functional work
-- **Unlocking Expert Minds:** Eight patterns for knowledge capture
-- **Measuring Context Pollution:** Quantifying semantic drift
-- **LLM Experience:** Architecture-centric AI design
+- **Gap-filling Expertise:** Using Claude Projects for cross-functional work
+- **Unlocking Expert Minds:** Eight patterns for AI-guided knowledge capture
+
+### Information Systems & Architecture
+- **The Architecture of Information Asymmetry:** How information control shaped history across 2,500 years
+- **Prime Band Routing:** Mathematical invariants eliminating database hotspots
 
 ### Market Disruption & Competition
-- **Market Disruption in AI Era:** JTBD + Blue Ocean + Frustration Coalitions
+- **Frustration Coalitions:** Hidden threat to B2B SaaS—six-stage process of mass defection
+- **Frustration Coalitions: The Hidden Threat:** How frustrated users organize into coalitions driving mass churn
+- **Market Disruption in AI Era:** JTBD + Blue Ocean + Frustration Coalitions with PLG strategies
 - **Captive User Trap:** Why stable usage + declining NPS = danger
-- **Sentiment-Inertia Index:** Quantifying trapped frustration
-- **Frustration Coalitions:** Hidden threat to B2B SaaS
-- **Friction Economy:** How UX failures drive disruption
+- **Sentiment-Inertia Index:** Quantifying trapped frustration—Sii = ((100-NPS)/Churn)
+- **Friction Economy:** How UX failures drive systematic B2B SaaS disruption
 
 ### Developer Relations Operations
-- **Metrics and Reporting:** Building trusted measurement systems
+- **Metrics and Reporting:** Building trusted measurement systems (Engagement → Impact → Enablement)
 - **Content Creation:** Systematic approach with pre-work checklist
-- **Addressing Product Friction:** DX Audits framework
-- **Top-of-Funnel Alignment:** Three key metrics for DevRel
-- **Funnels or Flywheels:** Cross-functional alignment strategies
+- **Addressing Product Friction:** DX Audits framework (Discover, Build, Report, Follow Up)
+- **Top-of-Funnel Alignment:** Three key metrics for DevRel (New Developer Acquisition, Activation Rate, Time-to-Value)
+- **Funnels or Flywheels:** Cross-functional alignment strategies in DevRel
+- **Operationalizing DevRel:** Countering YAP syndrome in program management
 
 ### Leadership & Communication
 - **Getting Buy-In:** Skills and processes for advocacy
-- **Asking for Things:** Professional request framework (3 Rs)
-- **Balancing Execution:** Communication in long-term initiatives
-- **Systems Thinking:** Making invisible work visible
-- **Operationalizing DevRel:** Countering YAP syndrome
+- **Asking for Things:** Professional request framework (3 Rs: Recognition, Request, Reward)
+- **Balancing Execution:** Communication in long-term product initiatives
+- **Systems Thinking:** Making invisible work visible in DevRel
+- **The Peasant:** Creating positive-sum outcomes from any position
 
 ### Mental Models & Philosophy
 - **Knowledge Bubble Philosophy:** Reframing impostor syndrome
 - **Drop, Defer, Delegate:** Decision simplification method
-- **Theory to Practice:** Learning spectrum design
-- **Pyramid of Challenge:** Team engagement framework
-- **YAP Mental Model:** Program management inflation
+- **Theory to Practice:** Learning spectrum design meeting learners where they are
+- **Pyramid of Challenge:** Team engagement framework (Distributing Challenge)
+- **YAP Mental Model:** Program management inflation and overhead
 
 ---
 
 ## Key Insights & Patterns
-
-### Universal Principles
-1. **Position determines reality** - Same operation requires different energy from different positions (η effect)
-2. **Entropy drives everything** - All organization requires continuous energy against dissolution
-3. **Patterns repeat across scales** - Same mathematics from quantum to cosmic
-4. **Consciousness navigates constraints** - Using time and information differently than physical systems
-5. **Measurement creates visibility** - Making invisible work visible enables optimization
 
 ### Strategic Themes
 - Systematic approaches to intuitive work
@@ -143,13 +157,13 @@ Framework for appropriate team member engagement.
 - User experience as competitive advantage
 - Organizational psychology and team dynamics
 - Practical frameworks with theoretical rigor
+- Information architecture as competitive differentiator
+- Drift detection and correction in adaptive systems
 
 ### Operational Applications
-- Calculate positional η for role optimization
-- Monitor Sii for competitive threats
-- Apply SEC equation to decision-making
-- Use COB operations for transformation analysis
-- Measure EG for performance tracking
+- Monitor Sii for competitive threats (Sii > 170 = danger)
+- Apply Alignment Distance (d(S, A)) for drift detection in adaptive systems
+- Use Prime Band Routing for distributed database optimization
 
 ---
 
@@ -176,6 +190,13 @@ Framework for appropriate team member engagement.
 3. Identify context pollution patterns
 4. Recommend systematic solutions
 5. Connect to broader system design
+6. Consider drift detection for adaptive systems
+
+### For information systems/historical analysis:
+1. Reference patterns from Architecture of Information Asymmetry
+2. Connect historical mechanisms to modern applications
+3. Identify information advantage opportunities
+4. Consider multi-domain integration strategies
 
 ---
 
