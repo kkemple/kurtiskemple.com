@@ -134,7 +134,7 @@
   }
 
   .blog-post .katex-display .katex {
-    @apply overflow-x-scroll overflow-y-clip;
+    @apply overflow-x-clip overflow-y-clip;
   }
 
   .blog-post .katex .mspace.newline {
