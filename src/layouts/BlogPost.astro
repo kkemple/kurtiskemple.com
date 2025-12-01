@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { bio } from "../data/bio";
 import "../styles/global.css";
 
 interface Props {
@@ -13,6 +14,30 @@ interface Props {
 }
 
 const { frontmatter } = Astro.props;
+const siteUrl = Astro.site ?? Astro.url ?? new URL("https://kurtiskemple.com");
+const canonicalUrl = Astro.url?.href ?? siteUrl.href;
+const defaultOgImage = "/images/og/friction-economy.png";
+const ogImage = new URL(
+  frontmatter.image ?? defaultOgImage,
+  siteUrl
+).href;
+const publishedDate = new Date(frontmatter.pubDate).toISOString();
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: frontmatter.title,
+  description: frontmatter.description,
+  datePublished: publishedDate,
+  author: {
+    "@type": "Person",
+    name: "Kurt Kemple",
+    description: bio.short,
+    url: "https://kurtiskemple.com",
+  },
+  image: ogImage,
+  mainEntityOfPage: canonicalUrl,
+};
+const articleSchemaJson = JSON.stringify(articleSchema);
 
 function formatDate(dateString: string) {
   const date = new Date(dateString);
@@ -49,29 +74,25 @@ function getOrdinalSuffix(day: number) {
     <!-- Basic metadata -->
     <title>{`${frontmatter.title} | Kurtis Kemple`}</title>
     <meta name="description" content={frontmatter.description} />
+    <link rel="canonical" href={canonicalUrl} />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article" />
-    <meta property="og:url" content={Astro.url} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={`${frontmatter.title}`} />
     <meta property="og:description" content={frontmatter.description} />
-    <meta property="og:image" content={new URL(frontmatter.image, Astro.url)} />
-    <meta property="og:site_name" content="Kurtis Kemple" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:site_name" content="Kurt Kemple" />
 
     <!-- Twitter -->
     <meta name="twitter:creator" content="@_digitalvandal" />
-    <meta property="twitter:card" content="summary" />
-    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalUrl} />
     <meta property="twitter:title" content={`${frontmatter.title}`} />
     <meta property="twitter:description" content={frontmatter.description} />
-    <meta
-      property="twitter:image"
-      content={new URL(frontmatter.image, Astro.url)}
-    />
-    <meta name="generator" content={Astro.generator} />
+    <meta property="twitter:image" content={ogImage} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{frontmatter.title}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet prefetch"
@@ -80,6 +101,7 @@ function getOrdinalSuffix(day: number) {
       href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
       rel="stylesheet prefetch"
     />
+    <script type="application/ld+json" is:inline>{articleSchemaJson}</script>
   </head>
   <body class="font-sans bg-naval min-h-screen">
     <div class="relative min-h-screen overflow-hidden">

@@ -1,9 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ContentCard from "../components/ContentCard.astro";
+import { bio } from "../data/bio";
 ---
 
-<Layout title="Home | Kurtis Kemple">
+<Layout
+  title="Home | Kurtis Kemple"
+  description={bio.medium}
+  image="/images/og/friction-economy.png"
+  canonical="https://kurtiskemple.com/"
+>
   <div class="container mx-auto px-4">
     <div class="mb-24 lg:mb-48">
       <div class="text-center">

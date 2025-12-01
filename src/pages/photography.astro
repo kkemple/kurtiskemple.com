@@ -2,6 +2,9 @@
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
 
+const photographyDescription =
+  "Kurt Kemple’s street and portrait photography captures urban systems, resilience, and the human stories behind his DevRel and strategy work.";
+
 // Photo data with proper public URL references
 const photosData = [
   { src: "/images/photography/abstract.jpg", title: "Abstract", alt: "Abstract artistic composition" },
@@ -56,7 +59,12 @@ const photosData = [
 const photos = photosData;
 ---
 
-<Layout title="Photography | Kurtis Kemple">
+<Layout
+  title="Photography | Kurtis Kemple"
+  description={photographyDescription}
+  canonical="https://kurtiskemple.com/photography"
+  image="/images/profile.jpg"
+>
   <div class="container mx-auto px-4">
     <div class="mb-12">
       <h1 class="text-4xl md:text-6xl font-bold text-center mb-4 text-honey-crusted-chicken">Photography</h1>

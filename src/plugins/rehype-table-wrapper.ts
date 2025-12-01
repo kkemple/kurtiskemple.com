@@ -1,11 +1,13 @@
 import { visit } from "unist-util-visit";
+import type { Root } from "hast";
+import type { Element } from "hast";
 
 export function rehypeTableWrapper() {
-	return (tree) => {
-		visit(tree, "element", (node) => {
+	return (tree: Root) => {
+		visit(tree, "element", (node: Element) => {
 			if (node.tagName === "table") {
 				// Create wrapper div with overflow classes
-				const wrapper = {
+				const wrapper: Element = {
 					type: "element",
 					tagName: "div",
 					properties: {

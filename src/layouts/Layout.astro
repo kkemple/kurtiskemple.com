@@ -1,19 +1,36 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { bio } from "../data/bio";
 import "../styles/global.css";
 
 interface Props {
   title: string;
+  description?: string;
+  image?: string;
+  canonical?: string;
 }
 
-const { title } = Astro.props;
+const { title, description, image, canonical } = Astro.props;
 
-const frontmatter = {
-  description:
-    "Discover the intersection of technology, creativity, and social impact with Kurtis Kemple. Senior Director of DevRel at Slack, photographer, and advocate for second chances. Explore insights on developer relations, AI, and building inclusive tech communities.",
-  image: "/images/og/home.png",
+const siteUrl = Astro.site ?? Astro.url ?? new URL("https://kurtiskemple.com");
+const defaultOgImage = "/images/og/friction-economy.png";
+const metaDescription = description ?? bio.short;
+const metaImage = new URL(image ?? defaultOgImage, siteUrl).href;
+const canonicalUrl = canonical ?? Astro.url?.href ?? siteUrl.href;
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Kurt Kemple",
+  description: bio.short,
+  url: "https://kurtiskemple.com",
+  sameAs: [
+    "https://www.linkedin.com/in/kurtiskemple/",
+    "https://x.com/_digitalvandal",
+    "https://kurtiskemple.com",
+  ],
 };
+const personSchemaJson = JSON.stringify(personSchema);
 ---
 
 <!doctype html>
@@ -26,24 +43,31 @@ const frontmatter = {
 
     <!-- Basic metadata -->
     <title>{`${title}`}</title>
-    <meta name="description" content={frontmatter.description} />
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonicalUrl} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content={Astro.url} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={`${title}`} />
-    <meta property="og:description" content={frontmatter.description} />
-    <meta property="og:image" content={new URL(frontmatter.image, Astro.url)} />
-    <meta property="og:site_name" content="Kurtis Kemple" />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={metaImage} />
+    <meta property="og:site_name" content="Kurt Kemple" />
 
-    <meta name="generator" content={Astro.generator} />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@_digitalvandal" />
+    <meta property="twitter:url" content={canonicalUrl} />
+    <meta property="twitter:title" content={`${title}`} />
+    <meta property="twitter:description" content={metaDescription} />
+    <meta property="twitter:image" content={metaImage} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>{title}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet prefetch"
     />
+    <script type="application/ld+json" is:inline>{personSchemaJson}</script>
   </head>
   <body class="font-sans bg-naval-night text-charcoal min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
