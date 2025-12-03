@@ -101,7 +101,11 @@ function getOrdinalSuffix(day: number) {
       href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
       rel="stylesheet prefetch"
     />
-    <script type="application/ld+json" is:inline>{articleSchemaJson}</script>
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={articleSchemaJson}
+    ></script>
   </head>
   <body class="font-sans bg-naval min-h-screen">
     <div class="relative min-h-screen overflow-hidden">

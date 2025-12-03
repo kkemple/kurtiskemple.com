@@ -67,7 +67,11 @@ const personSchemaJson = JSON.stringify(personSchema);
       href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet prefetch"
     />
-    <script type="application/ld+json" is:inline>{personSchemaJson}</script>
+    <script
+      type="application/ld+json"
+      is:inline
+      set:html={personSchemaJson}
+    ></script>
   </head>
   <body class="font-sans bg-naval-night text-charcoal min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
