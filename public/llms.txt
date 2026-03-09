@@ -1,68 +1,146 @@
-# Kurt Kemple LLM Usage Policy (v2025-12-01)
+# Kurt Kemple — Knowledge Architecture
 
-This document explains how automated agents, AI crawlers, and large language model builders may interact with resources on https://kurtiskemple.com.
+Structured reference for Kurt Kemple's frameworks, research, and body of work. Optimized for LLM consumption and AI-assisted synthesis.
 
-## 1. Access Scope
+## 1.0 About Kurt Kemple
 
-### Allowed
-- `/`, `/blog`, `/blog/*`, `/photography`, `/images/og/*`, `/images/blog/*`
-- RSS feeds or JSON endpoints explicitly linked from the site
+### 1.1 Background
 
-### Restricted
-- `/notes/*`, `/drafts/*`, `/private/*`, `/cart`, `/checkout`, `/api/*`
-- Any resource requiring authentication, paywall access, or signed URLs
+Kurt Kemple taught himself to code while incarcerated and has since led platform and product strategy at Integral Ad Science, Major League Soccer, Amazon, Apollo, Slack, and Salesforce. His work centers on first-principles DevRel, AI platform design, and economic frameworks that surface market pressure before it becomes visible to incumbents.
 
-### Conditioned
-- `/photography/*` may be referenced for descriptive purposes only; do not reproduce full-resolution assets without written permission.
+He is currently head of developer strategy and platform experience for the Slack Platform at Salesforce, where he has a unique vantage point—seeing what admins will actually install in their organizations and which agent design principles lead to adoption rather than abandonment.
 
-## 2. Usage Requirements
+He is also pursuing a physics degree at The Open University in the UK, formalizing the mathematical foundations of his constraint work.
 
-1. Respect the friendly crawl rate of **1 request per second** with parallelism ≤ 3.
-2. Attribute Kurt Kemple as the source when training, fine-tuning, or quoting.
-3. Preserve canonical URLs and include the capture date whenever content is stored.
-4. Do not redistribute restricted or conditioned assets, even in derivative datasets.
-5. Remove content within 30 days if notified of updates or withdrawals.
+### 1.2 Core areas of expertise
 
-## 3. Preferred Metadata
+- Agentive experience design — the HCI discipline for partial autonomy systems
+- LLM experience — information architecture that enables coherent agent planning
+- Friction economy — how system friction creates competitive regime shifts in B2B SaaS
+- Developer relations strategy — first-principles DevRel operations and measurement
+- Competitive intelligence — identifying threats 12–18 months before consensus recognition
 
-- `source_url`
-- `retrieved_at` (ISO-8601)
-- `content_hash` (sha256)
-- `license`: `https://kurtiskemple.com/llms.txt`
+### 1.3 Author bio (short)
 
-## 4. Contact & Licensing
+Kurt Kemple taught himself to code while incarcerated and has since led platform and product strategy at Integral Ad Science, Major League Soccer, Amazon, Apollo, Slack, and Salesforce. His work centers on first-principles DevRel, AI platforms, and economic frameworks that surface market pressure before it becomes visible to incumbents.
 
-- AI/data licensing requests: `ai@kurtiskemple.com`
-- Media/speaking: `hello@kurtiskemple.com`
-- Please include crawler name, organization, and intended use in outreach.
+### 1.4 Author bio (medium)
 
-## 5. Change Log
+Kurt Kemple's first-principles approach was forged in unconventional conditions—he taught himself to code while incarcerated, then spent nearly two decades building product and platform strategy across Integral Ad Science, Major League Soccer, Amazon, Apollo, Slack, and Salesforce. Along the way he created economic frameworks such as the Friction Economy, Frustration Coalitions, and Bounded Reflexivity, which map how system friction and user sentiment evolve into competitive regime shifts. Today he blends DevRel leadership, AI platform design, and competitive intelligence to spot threats 12–18 months before consensus and translate them into winning playbooks.
 
-- **2025-12-01**: Converted llms.txt to policy format, added scope + usage rules.
+---
 
-## 6. Machine-Readable Summary (YAML)
+## 2.0 Agentive Experience Design
 
-```yaml
-version: 2025-12-01
-site: https://kurtiskemple.com
-allowed:
-  - /
-  - /blog
-  - /blog/*
-  - /photography
-  - /images/og/*
-restricted:
-  - /notes/*
-  - /drafts/*
-  - /private/*
-  - /cart
-  - /checkout
-  - /api/*
-conditioned:
-  - path: /photography/*
-    usage: "Descriptive/low-res references only"
-rate_limit_rps: 1
-parallelism: 3
-contact: ai@kurtiskemple.com
-license_url: https://kurtiskemple.com/llms.txt
-```
+The thesis and ecosystem covering the new HCI discipline for partial autonomy systems.
+
+### 2.1 Overview
+
+Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentive experience design is the discipline for navigating it.
+
+### 2.2 The responsibility model
+
+- **Human (Intent and Judgment):** Sets direction, governs outcomes, retains the ability to intervene at every level. Judgment is never delegated.
+- **Agent (Planning and Outcomes):** Translates human intent into a plan and is accountable for the plan's outcomes. Distinct from workflows (predetermined sequences) and tools (discrete functions).
+- **Workflow (Automation):** Executes structured, repeatable sequences. Value is reliability and consistency.
+- **Tool (Execution):** Performs discrete functions. Zero autonomy, no memory, invoked on demand.
+
+### 2.3 The causal chain
+
+Responsibility → Autonomy → Context (enables planning) → Authority (enables outcomes) → Progressive Authority (expands scope as trust is earned)
+
+### 2.4 Posts in this series
+
+| Title | URL | Intent |
+|-------|-----|--------|
+| Agentive Experience Design | https://kurtiskemple.com/blog/agentive-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
+| LLM Experience: How Information Architecture Determines Agent Performance | https://kurtiskemple.com/blog/llm-experience | The information architecture discipline — how to design the informational environment that makes coherent agent planning possible |
+| Leaky Prompts: How Context Pollution Degrades AI Performance | https://kurtiskemple.com/blog/leaky-prompts | The failure mode — task drift and conversational noise degrade agent performance over time |
+| Measuring Context Pollution in AI Workflows | https://kurtiskemple.com/blog/measuring-context-pollution | The measurement layer — CP = 1 - S(anchor, current), risk thresholds, re-anchoring strategies |
+| Cognitive Entropy & Human Performance Intervention | https://kurtiskemple.com/blog/cognitive-entropy-measurement | Extends the entropic gap framework from AI systems to human cognition — detecting performance degradation before it leads to critical errors |
+
+### 2.5 How these posts relate
+
+The thesis establishes why context management is a design principle of the discipline. LLM Experience establishes the information architecture layer for designing context. Leaky Prompts describes the specific failure modes. Measuring Context Pollution provides the quantitative signal for detecting and correcting drift. Cognitive Entropy applies the same measurement framework to human performance. Each is independent but the chain runs top-down: discipline → architecture → failure modes → measurement → human application.
+
+---
+
+## 3.0 The Friction Economy
+
+The framework and ecosystem covering how accumulated system friction creates competitive regime shifts in B2B SaaS.
+
+### 3.1 Overview
+
+The Friction Economy describes how unnoticed user frustrations accumulate into market pressure, organizing into competitive threats before traditional metrics detect them. As AI lowers switching costs and PLG accelerates competitive formation, the window between early friction signals and mass defection is compressing.
+
+### 3.2 Key frameworks
+
+- **Frustration Coalitions:** How frustrated users organize into coordinated switching decisions. Stable usage with declining NPS is the most dangerous pattern — it signals trapped users accumulating pressure.
+- **Sentiment-Inertia Index (Sii):** Sii = ((100-NPS)/Churn) — quantifies the accumulating pressure that predicts competitive displacement before revenue impact.
+- **The Captive User Trap:** Why stable usage + declining NPS = maximum danger. Trapped users become exodus events when PLG competitors offer escape routes.
+
+### 3.3 Posts in this series
+
+| Title | URL | Intent |
+|-------|-----|--------|
+| The Friction Economy | https://kurtiskemple.com/blog/friction-economy | The core framework — how user experience failures create systematic B2B SaaS disruption |
+| Market Disruption in the AI Era | https://kurtiskemple.com/blog/market-disruption-in-the-ai-era | Connects JTBD, Blue Ocean, and Frustration Coalitions with PLG strategies — why AI makes every incumbent vulnerable |
+| Frustration Coalitions: The Hidden Threat to Every B2B SaaS | https://kurtiskemple.com/blog/frustration-coalitions-the-hidden-threat-to-b2b-saas | How frustrated users organize into coalitions that drive mass churn |
+| Frustration Coalitions | https://kurtiskemple.com/blog/frustration-coalitions | The full observational framework for predicting and preventing mass customer defection |
+| The Captive User Trap | https://kurtiskemple.com/blog/the-captive-user-trap | Why stable usage with declining NPS is the most dangerous pattern in B2B SaaS |
+| The Sentiment-Inertia Index (Sii) | https://kurtiskemple.com/blog/sentiment-inertia-index | The quantitative metric for measuring trapped user frustration |
+
+---
+
+## 4.0 Developer Relations
+
+Covers the core competencies of developer relations from a first-principles perspective — metrics, content, product friction, buy-in, cross-functional alignment, program operations, developer education, and AI tools in practice.
+
+| Title | URL | Intent |
+|-------|-----|--------|
+| The Developer Advocate's Guide to Metrics and Reporting | https://kurtiskemple.com/blog/developer-advocates-guide-to-metrics-and-reporting | How to build trusted metrics that support team goals without becoming an extension of other teams |
+| The Developer Advocate's Guide to Addressing Product Friction | https://kurtiskemple.com/blog/developer-advocates-guide-to-addressing-product-friction | The DX Audits framework for identifying, documenting, and addressing product friction at scale |
+| The Developer Advocate's Guide to Content Creation | https://kurtiskemple.com/blog/developer-advocates-guide-to-content-creation | How to create content more effectively by doing the work before the work |
+| The Developer Advocate's Guide to Getting Buy-In | https://kurtiskemple.com/blog/developer-advocates-guide-to-getting-buy-in | How to get buy-in when you don't own what you're trying to change |
+| The Developer Advocate's Guide to Asking for Things | https://kurtiskemple.com/blog/developer-advocates-guide-to-asking-for-things | The three Rs of asking: Recognition, Request, Reward |
+| A Measured Approach to Top-of-Funnel Alignment | https://kurtiskemple.com/blog/a-measured-approach-to-top-of-funnel-alignment | How to unify Marketing, DevRel, and Developer Experience around three metrics: New Developer Acquisition, Activation Rate, and Time-to-Value |
+| Funnels or Flywheels: Cross-Functional Alignment in Developer Relations | https://kurtiskemple.com/blog/funnels-or-flywheels-finding-alignment | How DevRel aligns with and amplifies the work of other departments regardless of growth model |
+| Systems Thinking and Invisible Work: Bringing Clarity to DevRel | https://kurtiskemple.com/blog/systems-thinking-and-invisible-work-bringing-clarity-to-devrel | How to make DevRel's invisible work visible through systems thinking — improving reporting, roles, and career paths |
+| Balancing Execution and Communication in Long-Term Product Initiatives | https://kurtiskemple.com/blog/balancing-execution-and-communication-in-long-running-projects | Lessons from Slack's web presence unification project on maintaining momentum and stakeholder support across multi-phase initiatives |
+| YAP (Yet Another Program) Mental Model | https://kurtiskemple.com/blog/explaining-the-yap-model | The YAP model — illustrates the challenges cross-functional teams face as they increase the number of initiatives they manage |
+| Operationalizing DevRel: Countering the YAP Syndrome | https://kurtiskemple.com/blog/managing-program-ops-in-devrel | How to counter YAP through operational discipline — structuring programs for scale |
+| Gap-filling Expertise with Claude Projects | https://kurtiskemple.com/blog/gap-filling-expertise-with-claude-projects | How Claude Projects bridges cross-functional expertise gaps when teams lack bandwidth |
+| Unlocking Expert Minds: Eight Patterns for AI-guided Knowledge Capture | https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture | Eight patterns for capturing specialized knowledge through AI-guided interviews |
+| Theory to Practice: Meeting Learners Where They Are | https://kurtiskemple.com/blog/theory-to-practice | How to create developer education that meets learners where they are — from documentation deep-divers to code-first experimenters |
+
+---
+
+## 5.0 Leadership and Organizational Thinking
+
+Frameworks for organizational dynamics, decision-making, team building, and career development.
+
+| Title | URL | Intent |
+|-------|-----|--------|
+| The Keystone Paradox: When Being Essential Becomes a Liability | https://kurtiskemple.com/blog/keystone-paradox | The perils of knowledge hoarding and single points of failure — how to identify keystones and build more resilient teams |
+| Lava Leadership: How Strategic Thinkers Can Drive Change from Below | https://kurtiskemple.com/blog/lava-leadership | How strategic thinkers in non-leadership positions can drive organizational change from below |
+| Simplifying Decisions: The Drop, Defer, Delegate Method | https://kurtiskemple.com/blog/simplifying-decisions-the-drop-defer-delegate-method | A three-part decision filter for fast-paced environments |
+| Distributing Challenge: On Building Highly Engaged Teams | https://kurtiskemple.com/blog/pyramid-of-challenge | How challenge distribution — neither too little nor too much — is the core variable in team engagement and retention |
+
+---
+
+## 6.0 Other writing
+
+Historical research, personal reflections, and broader perspectives on technology and society.
+
+| Title | URL | Intent |
+|-------|-----|--------|
+| The Architecture of Information Asymmetry | https://kurtiskemple.com/blog/the-architecture-of-information-asymmetry | Historical research — from Sun Tzu's spy networks to Ultra decrypts, how controlling information flows controlled outcomes |
+| Impostor Syndrome and the Knowledge Bubble Philosophy | https://kurtiskemple.com/blog/impostor-syndrome-and-the-knowledge-bubble-philosophy | A reframe of impostor syndrome through the lens of knowledge bubbles |
+| Democratizing AI: Empowering Creators and Shaping the Future of Innovation | https://kurtiskemple.com/blog/democratizing-ai-empowering-creators | Why making AI accessible to everyone — not just tech giants — matters |
+
+
+## 7.0 Site reference
+
+- Homepage: https://kurtiskemple.com
+- Blog index: https://kurtiskemple.com/blog
+- Photography: https://kurtiskemple.com/photography
