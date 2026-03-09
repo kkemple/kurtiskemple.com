@@ -14,7 +14,7 @@ He is also pursuing a physics degree at The Open University in the UK, formalizi
 
 ### 1.2 Core areas of expertise
 
-- Agentive experience design — the HCI discipline for partial autonomy systems
+- Agentic experience design — the HCI discipline for partial autonomy systems
 - LLM experience — information architecture that enables coherent agent planning
 - Friction economy — how system friction creates competitive regime shifts in B2B SaaS
 - Developer relations strategy — first-principles DevRel operations and measurement
@@ -30,13 +30,13 @@ Kurt Kemple's first-principles approach was forged in unconventional conditions�
 
 ---
 
-## 2.0 Agentive Experience Design
+## 2.0 Agentic Experience Design
 
 The thesis and ecosystem covering the new HCI discipline for partial autonomy systems.
 
 ### 2.1 Overview
 
-Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentive experience design is the discipline for navigating it.
+Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentic experience design is the discipline for navigating it.
 
 ### 2.2 The responsibility model
 
@@ -53,7 +53,7 @@ Responsibility → Autonomy → Context (enables planning) → Authority (enable
 
 | Title | URL | Intent |
 |-------|-----|--------|
-| Agentive Experience Design | https://kurtiskemple.com/blog/agentive-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
+| Agentic Experience Design | https://kurtiskemple.com/blog/agentic-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
 | LLM Experience: How Information Architecture Determines Agent Performance | https://kurtiskemple.com/blog/llm-experience | The information architecture discipline — how to design the informational environment that makes coherent agent planning possible |
 | Leaky Prompts: How Context Pollution Degrades AI Performance | https://kurtiskemple.com/blog/leaky-prompts | The failure mode — task drift and conversational noise degrade agent performance over time |
 | Measuring Context Pollution in AI Workflows | https://kurtiskemple.com/blog/measuring-context-pollution | The measurement layer — CP = 1 - S(anchor, current), risk thresholds, re-anchoring strategies |
