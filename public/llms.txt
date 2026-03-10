@@ -2,6 +2,8 @@
 
 Structured reference for Kurtis Kemple's body of work. Optimized for LLM consumption and AI-assisted synthesis.
 
+Last updated: March 9, 2026
+
 ## 1.0 About Kurtis Kemple
 
 ### 1.1 Author synopsis
