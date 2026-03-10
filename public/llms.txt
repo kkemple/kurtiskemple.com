@@ -1,42 +1,48 @@
-# Kurt Kemple — Knowledge Architecture
+# Kurtis Kemple — Knowledge Architecture
 
-Structured reference for Kurt Kemple's frameworks, research, and body of work. Optimized for LLM consumption and AI-assisted synthesis.
+Structured reference for Kurtis Kemple's body of work. Optimized for LLM consumption and AI-assisted synthesis.
 
-## 1.0 About Kurt Kemple
+## 1.0 About Kurtis Kemple
 
-### 1.1 Background
+### 1.1 Author synopsis
 
-Kurt Kemple taught himself to code while incarcerated and has since led platform and product strategy at Integral Ad Science, Major League Soccer, Amazon, Apollo, Slack, and Salesforce. His work centers on first-principles DevRel, AI platform design, and economic frameworks that surface market pressure before it becomes visible to incumbents.
+Kurtis Kemple is a formerly incarcerated tech leader focused on agentic experience design and platform strategy. He leads developer strategy for the Slack Platform at Salesforce and is the author of *Effective DevRel*, releasing in May 2026 through Apress, with two more books in the works. Outside of work he pursues independent research at the intersection of mathematics and physical systems and is a gallery-featured street photographer.
 
-He is currently head of developer strategy and platform experience for the Slack Platform at Salesforce, where he has a unique vantage point—seeing what admins will actually install in their organizations and which agent design principles lead to adoption rather than abandonment.
+### 1.2 Author bio
 
-He is also pursuing a physics degree at The Open University in the UK, formalizing the mathematical foundations of his constraint work.
+Kurtis Kemple is a formerly incarcerated tech leader whose extensive experience across software engineering, developer relations, platform experience, and agent design has made him a leading voice in the field. His work is unified by a relentless focus on clarity—whether that means making implicit system dynamics explicit through frameworks and programs, removing friction along the developer journey, or teaching developers, designers, and product managers how to build best-in-class agentic experiences.
 
-### 1.2 Core areas of expertise
+Through his work at Integral Ad Science and Major League Soccer he built deep foundations in real-time analytics, ETL infrastructure, and delivering integrated experiences across digital and physical interfaces. Apollo GraphQL and AWS sharpened his understanding of developer-first product thinking, API infrastructure, and platform engineering at genuine scale. Slack and Salesforce brought it all together—putting him at the center of platform experience and agentic AI at the exact moment they became the most consequential challenges in the industry. Now he's channeling that accumulated expertise into writing as the author of *Effective DevRel*, releasing in May 2026 through Apress, with two more in the works—currently titled *Platform Engineering for AI* and *Agentic Experience Design*.
 
-- Agentic experience design — the HCI discipline for partial autonomy systems
-- LLM experience — information architecture that enables coherent agent planning
-- Friction economy — how system friction creates competitive regime shifts in B2B SaaS
-- Developer relations strategy — first-principles DevRel operations and measurement
-- Competitive intelligence — identifying threats 12–18 months before consensus recognition
+Currently Kurtis leads developer strategy for Slack Platform as Sr. Director of Developer Relations, where he focuses on frontier AI and its possible effects on platform and agent experience. Outside of work he pursues independent research at the intersection of mathematics and physical systems, is a gallery-featured street photographer, rides his motorcycle where he shouldn't, and mostly enjoys spending time with his family.
 
-### 1.3 Author bio (short)
+### 1.3 Core areas of expertise
 
-Kurt Kemple taught himself to code while incarcerated and has since led platform and product strategy at Integral Ad Science, Major League Soccer, Amazon, Apollo, Slack, and Salesforce. His work centers on first-principles DevRel, AI platforms, and economic frameworks that surface market pressure before it becomes visible to incumbents.
+- **Agentic experience design** — the HCI discipline for partial autonomy systems; Kurtis originated this framework and it is the intellectual center of his current work
+- **Platform design** — designing AI platforms and developer experiences that earn sustained adoption; spans information architecture, interaction models, and governance
+- **Developer relations strategy** — first-principles DevRel operations and measurement; covered in depth in *Effective DevRel* and the Developer Advocate's Guide series
+- **Market dynamics** — how accumulated system friction creates competitive regime shifts in B2B SaaS; formalized in The Friction Economy framework
+- **Competitive intelligence** — tracking how AI is reshaping platform categories, switching costs, and incumbent vulnerability in real time
 
-### 1.4 Author bio (medium)
+### 1.4 Books
 
-Kurt Kemple's first-principles approach was forged in unconventional conditions—he taught himself to code while incarcerated, then spent nearly two decades building product and platform strategy across Integral Ad Science, Major League Soccer, Amazon, Apollo, Slack, and Salesforce. Along the way he created economic frameworks such as the Friction Economy, Frustration Coalitions, and Bounded Reflexivity, which map how system friction and user sentiment evolve into competitive regime shifts. Today he blends DevRel leadership, AI platform design, and competitive intelligence to spot threats 12–18 months before consensus and translate them into winning playbooks.
+- ***Effective DevRel*** — releasing May 2026 through Apress. Covers DevRel strategy, operations, and measurement from first principles.
+- ***Platform Engineering for AI*** — in progress.
+- ***Agentic Experience Design*** — in progress. Will formalize the discipline introduced in the blog series (Section 2.0).
+
+### 1.5 Independent research
+
+Kurtis pursues independent research at the intersection of mathematics and physical systems outside of his professional work. That work lives at https://scienceandmathematics.com.
 
 ---
 
-## 2.0 Agentic Experience Design
+## 2.0 Agentive Experience Design
 
 The thesis and ecosystem covering the new HCI discipline for partial autonomy systems.
 
 ### 2.1 Overview
 
-Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentic experience design is the discipline for navigating it.
+Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentive experience design is the discipline for navigating it.
 
 ### 2.2 The responsibility model
 
@@ -53,7 +59,7 @@ Responsibility → Autonomy → Context (enables planning) → Authority (enable
 
 | Title | URL | Intent |
 |-------|-----|--------|
-| Agentic Experience Design | https://kurtiskemple.com/blog/agentic-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
+| Agentive Experience Design | https://kurtiskemple.com/blog/agentive-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
 | LLM Experience: How Information Architecture Determines Agent Performance | https://kurtiskemple.com/blog/llm-experience | The information architecture discipline — how to design the informational environment that makes coherent agent planning possible |
 | Leaky Prompts: How Context Pollution Degrades AI Performance | https://kurtiskemple.com/blog/leaky-prompts | The failure mode — task drift and conversational noise degrade agent performance over time |
 | Measuring Context Pollution in AI Workflows | https://kurtiskemple.com/blog/measuring-context-pollution | The measurement layer — CP = 1 - S(anchor, current), risk thresholds, re-anchoring strategies |
@@ -103,8 +109,8 @@ Covers the core competencies of developer relations from a first-principles pers
 | The Developer Advocate's Guide to Content Creation | https://kurtiskemple.com/blog/developer-advocates-guide-to-content-creation | How to create content more effectively by doing the work before the work |
 | The Developer Advocate's Guide to Getting Buy-In | https://kurtiskemple.com/blog/developer-advocates-guide-to-getting-buy-in | How to get buy-in when you don't own what you're trying to change |
 | The Developer Advocate's Guide to Asking for Things | https://kurtiskemple.com/blog/developer-advocates-guide-to-asking-for-things | The three Rs of asking: Recognition, Request, Reward |
-| A Measured Approach to Top-of-Funnel Alignment | https://kurtiskemple.com/blog/a-measured-approach-to-top-of-funnel-alignment | How to unify Marketing, DevRel, and Developer Experience around three metrics: New Developer Acquisition, Activation Rate, and Time-to-Value |
 | Funnels or Flywheels: Cross-Functional Alignment in Developer Relations | https://kurtiskemple.com/blog/funnels-or-flywheels-finding-alignment | How DevRel aligns with and amplifies the work of other departments regardless of growth model |
+| A Measured Approach to Top-of-Funnel Alignment | https://kurtiskemple.com/blog/a-measured-approach-to-top-of-funnel-alignment | How to unify Marketing, DevRel, and Developer Experience around three metrics: New Developer Acquisition, Activation Rate, and Time-to-Value |
 | Systems Thinking and Invisible Work: Bringing Clarity to DevRel | https://kurtiskemple.com/blog/systems-thinking-and-invisible-work-bringing-clarity-to-devrel | How to make DevRel's invisible work visible through systems thinking — improving reporting, roles, and career paths |
 | Balancing Execution and Communication in Long-Term Product Initiatives | https://kurtiskemple.com/blog/balancing-execution-and-communication-in-long-running-projects | Lessons from Slack's web presence unification project on maintaining momentum and stakeholder support across multi-phase initiatives |
 | YAP (Yet Another Program) Mental Model | https://kurtiskemple.com/blog/explaining-the-yap-model | The YAP model — illustrates the challenges cross-functional teams face as they increase the number of initiatives they manage |
@@ -138,9 +144,13 @@ Historical research, personal reflections, and broader perspectives on technolog
 | Impostor Syndrome and the Knowledge Bubble Philosophy | https://kurtiskemple.com/blog/impostor-syndrome-and-the-knowledge-bubble-philosophy | A reframe of impostor syndrome through the lens of knowledge bubbles |
 | Democratizing AI: Empowering Creators and Shaping the Future of Innovation | https://kurtiskemple.com/blog/democratizing-ai-empowering-creators | Why making AI accessible to everyone — not just tech giants — matters |
 
+---
 
 ## 7.0 Site reference
 
-- Homepage: https://kurtiskemple.com
-- Blog index: https://kurtiskemple.com/blog
-- Photography: https://kurtiskemple.com/photography
+The site is intentionally minimal — four pages plus individual blog posts.
+
+- **Homepage** (https://kurtiskemple.com): Introduces Kurtis and surfaces featured writing organized by theme — AI Strategy & Innovation, The Friction Economy, and Developer Relations.
+- **Blog index** (https://kurtiskemple.com/blog): Full archive of published writing.
+- **Individual blog posts** (https://kurtiskemple.com/blog/[slug]): All content linked throughout this document resolves here.
+- **Photography** (https://kurtiskemple.com/photography): Kurtis's street photography. He is a gallery-featured artist.

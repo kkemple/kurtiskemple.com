@@ -16,7 +16,7 @@ interface Props {
 const { frontmatter } = Astro.props;
 const siteUrl = Astro.site ?? Astro.url ?? new URL("https://kurtiskemple.com");
 const canonicalUrl = Astro.url?.href ?? siteUrl.href;
-const defaultOgImage = "/images/og/friction-economy.png";
+const defaultOgImage = "/images/og/homepage.png";
 const ogImage = new URL(
   frontmatter.image ?? defaultOgImage,
   siteUrl
@@ -30,8 +30,8 @@ const articleSchema = {
   datePublished: publishedDate,
   author: {
     "@type": "Person",
-    name: "Kurt Kemple",
-    description: bio.short,
+    name: "Kurtis Kemple",
+    description: bio.synopsis,
     url: "https://kurtiskemple.com",
   },
   image: ogImage,
@@ -82,7 +82,7 @@ function getOrdinalSuffix(day: number) {
     <meta property="og:title" content={`${frontmatter.title}`} />
     <meta property="og:description" content={frontmatter.description} />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:site_name" content="Kurt Kemple" />
+    <meta property="og:site_name" content="Kurtis Kemple" />
 
     <!-- Twitter -->
     <meta name="twitter:creator" content="@_digitalvandal" />

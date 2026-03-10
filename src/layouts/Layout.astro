@@ -14,15 +14,15 @@ interface Props {
 const { title, description, image, canonical } = Astro.props;
 
 const siteUrl = Astro.site ?? Astro.url ?? new URL("https://kurtiskemple.com");
-const defaultOgImage = "/images/og/friction-economy.png";
-const metaDescription = description ?? bio.short;
+const defaultOgImage = "/images/og/homepage.png";
+const metaDescription = description ?? bio.synopsis;
 const metaImage = new URL(image ?? defaultOgImage, siteUrl).href;
 const canonicalUrl = canonical ?? Astro.url?.href ?? siteUrl.href;
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "Kurt Kemple",
-  description: bio.short,
+  name: "Kurtis Kemple",
+  description: bio.synopsis,
   url: "https://kurtiskemple.com",
   sameAs: [
     "https://www.linkedin.com/in/kurtiskemple/",
@@ -52,7 +52,7 @@ const personSchemaJson = JSON.stringify(personSchema);
     <meta property="og:title" content={`${title}`} />
     <meta property="og:description" content={metaDescription} />
     <meta property="og:image" content={metaImage} />
-    <meta property="og:site_name" content="Kurt Kemple" />
+    <meta property="og:site_name" content="Kurtis Kemple" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
