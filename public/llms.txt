@@ -36,13 +36,13 @@ Kurtis pursues independent research at the intersection of mathematics and physi
 
 ---
 
-## 2.0 Agentive Experience Design
+## 2.0 Agentic Experience Design
 
 The thesis and ecosystem covering the new HCI discipline for partial autonomy systems.
 
 ### 2.1 Overview
 
-Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentive experience design is the discipline for navigating it.
+Agents introduce a genuinely new HCI paradigm—partial autonomy—defined as a system that can plan, take action within bounds, and own the outcomes of that plan. Every time a new interaction paradigm has emerged (CLI, GUI, web, mobile), it demanded a new design discipline. Partial autonomy is that shift now. Agentic experience design is the discipline for navigating it.
 
 ### 2.2 The responsibility model
 
@@ -59,15 +59,14 @@ Responsibility → Autonomy → Context (enables planning) → Authority (enable
 
 | Title | URL | Intent |
 |-------|-----|--------|
-| Agentive Experience Design | https://kurtiskemple.com/blog/agentive-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
+| Agentic Experience Design | https://kurtiskemple.com/blog/agentive-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
 | LLM Experience: How Information Architecture Determines Agent Performance | https://kurtiskemple.com/blog/llm-experience | The information architecture discipline — how to design the informational environment that makes coherent agent planning possible |
 | Leaky Prompts: How Context Pollution Degrades AI Performance | https://kurtiskemple.com/blog/leaky-prompts | The failure mode — task drift and conversational noise degrade agent performance over time |
 | Measuring Context Pollution in AI Workflows | https://kurtiskemple.com/blog/measuring-context-pollution | The measurement layer — CP = 1 - S(anchor, current), risk thresholds, re-anchoring strategies |
-| Cognitive Entropy & Human Performance Intervention | https://kurtiskemple.com/blog/cognitive-entropy-measurement | Extends the entropic gap framework from AI systems to human cognition — detecting performance degradation before it leads to critical errors |
 
 ### 2.5 How these posts relate
 
-The thesis establishes why context management is a design principle of the discipline. LLM Experience establishes the information architecture layer for designing context. Leaky Prompts describes the specific failure modes. Measuring Context Pollution provides the quantitative signal for detecting and correcting drift. Cognitive Entropy applies the same measurement framework to human performance. Each is independent but the chain runs top-down: discipline → architecture → failure modes → measurement → human application.
+The thesis establishes why context and authority are foundational design principles of the discipline. LLM Experience establishes the information architecture layer for designing context. Leaky Prompts describes the specific failure modes. Measuring Context Pollution provides the quantitative signal for detecting and correcting drift. Each is independent but the chain runs top-down: discipline → architecture → failure modes → measurement.
 
 ---
 
@@ -91,8 +90,8 @@ The Friction Economy describes how unnoticed user frustrations accumulate into m
 |-------|-----|--------|
 | The Friction Economy | https://kurtiskemple.com/blog/friction-economy | The core framework — how user experience failures create systematic B2B SaaS disruption |
 | Market Disruption in the AI Era | https://kurtiskemple.com/blog/market-disruption-in-the-ai-era | Connects JTBD, Blue Ocean, and Frustration Coalitions with PLG strategies — why AI makes every incumbent vulnerable |
-| Frustration Coalitions: The Hidden Threat to Every B2B SaaS | https://kurtiskemple.com/blog/frustration-coalitions-the-hidden-threat-to-b2b-saas | How frustrated users organize into coalitions that drive mass churn |
-| Frustration Coalitions | https://kurtiskemple.com/blog/frustration-coalitions | The full observational framework for predicting and preventing mass customer defection |
+| Frustration Coalitions: The Hidden Threat to Every B2B SaaS | https://kurtiskemple.com/blog/frustration-coalitions-the-hidden-threat-to-b2b-saas | Introduction to the concept — how frustrated users organize into coalitions that drive mass churn |
+| Frustration Coalitions | https://kurtiskemple.com/blog/frustration-coalitions | The deep framework — the full observational model for identifying, tracking, and preventing coalition-driven defection |
 | The Captive User Trap | https://kurtiskemple.com/blog/the-captive-user-trap | Why stable usage with declining NPS is the most dangerous pattern in B2B SaaS |
 | The Sentiment-Inertia Index (Sii) | https://kurtiskemple.com/blog/sentiment-inertia-index | The quantitative metric for measuring trapped user frustration |
 
@@ -102,6 +101,10 @@ The Friction Economy describes how unnoticed user frustrations accumulate into m
 
 Covers the core competencies of developer relations from a first-principles perspective — metrics, content, product friction, buy-in, cross-functional alignment, program operations, developer education, and AI tools in practice.
 
+### 4.1 The Developer Advocate's Guide series
+
+A practical series covering the day-to-day competencies of developer advocacy — each post is standalone but together they form a complete operational foundation for the role.
+
 | Title | URL | Intent |
 |-------|-----|--------|
 | The Developer Advocate's Guide to Metrics and Reporting | https://kurtiskemple.com/blog/developer-advocates-guide-to-metrics-and-reporting | How to build trusted metrics that support team goals without becoming an extension of other teams |
@@ -109,6 +112,13 @@ Covers the core competencies of developer relations from a first-principles pers
 | The Developer Advocate's Guide to Content Creation | https://kurtiskemple.com/blog/developer-advocates-guide-to-content-creation | How to create content more effectively by doing the work before the work |
 | The Developer Advocate's Guide to Getting Buy-In | https://kurtiskemple.com/blog/developer-advocates-guide-to-getting-buy-in | How to get buy-in when you don't own what you're trying to change |
 | The Developer Advocate's Guide to Asking for Things | https://kurtiskemple.com/blog/developer-advocates-guide-to-asking-for-things | The three Rs of asking: Recognition, Request, Reward |
+
+### 4.2 Strategy and operations
+
+Frameworks for how DevRel functions at the team and organizational level — alignment, program management, making the work legible to the rest of the business, and using AI tools to extend team capacity.
+
+| Title | URL | Intent |
+|-------|-----|--------|
 | Funnels or Flywheels: Cross-Functional Alignment in Developer Relations | https://kurtiskemple.com/blog/funnels-or-flywheels-finding-alignment | How DevRel aligns with and amplifies the work of other departments regardless of growth model |
 | A Measured Approach to Top-of-Funnel Alignment | https://kurtiskemple.com/blog/a-measured-approach-to-top-of-funnel-alignment | How to unify Marketing, DevRel, and Developer Experience around three metrics: New Developer Acquisition, Activation Rate, and Time-to-Value |
 | Systems Thinking and Invisible Work: Bringing Clarity to DevRel | https://kurtiskemple.com/blog/systems-thinking-and-invisible-work-bringing-clarity-to-devrel | How to make DevRel's invisible work visible through systems thinking — improving reporting, roles, and career paths |
@@ -116,7 +126,13 @@ Covers the core competencies of developer relations from a first-principles pers
 | YAP (Yet Another Program) Mental Model | https://kurtiskemple.com/blog/explaining-the-yap-model | The YAP model — illustrates the challenges cross-functional teams face as they increase the number of initiatives they manage |
 | Operationalizing DevRel: Countering the YAP Syndrome | https://kurtiskemple.com/blog/managing-program-ops-in-devrel | How to counter YAP through operational discipline — structuring programs for scale |
 | Gap-filling Expertise with Claude Projects | https://kurtiskemple.com/blog/gap-filling-expertise-with-claude-projects | How Claude Projects bridges cross-functional expertise gaps when teams lack bandwidth |
-| Unlocking Expert Minds: Eight Patterns for AI-guided Knowledge Capture | https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture | Eight patterns for capturing specialized knowledge through AI-guided interviews |
+
+### 4.3 Developer education
+
+How to teach developers effectively — meeting learners where they are across different learning styles and experience levels.
+
+| Title | URL | Intent |
+|-------|-----|--------|
 | Theory to Practice: Meeting Learners Where They Are | https://kurtiskemple.com/blog/theory-to-practice | How to create developer education that meets learners where they are — from documentation deep-divers to code-first experimenters |
 
 ---
@@ -136,19 +152,21 @@ Frameworks for organizational dynamics, decision-making, team building, and care
 
 ## 6.0 Other writing
 
-Historical research, personal reflections, and broader perspectives on technology and society.
+Writing that spans historical research, personal reflections, broader perspectives on technology and society, and exploratory frameworks that don't fit cleanly into the series above.
 
 | Title | URL | Intent |
 |-------|-----|--------|
+| Unlocking Expert Minds: Eight Patterns for AI-guided Knowledge Capture | https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture | Eight patterns for capturing specialized knowledge through AI-guided interviews |
 | The Architecture of Information Asymmetry | https://kurtiskemple.com/blog/the-architecture-of-information-asymmetry | Historical research — from Sun Tzu's spy networks to Ultra decrypts, how controlling information flows controlled outcomes |
 | Impostor Syndrome and the Knowledge Bubble Philosophy | https://kurtiskemple.com/blog/impostor-syndrome-and-the-knowledge-bubble-philosophy | A reframe of impostor syndrome through the lens of knowledge bubbles |
 | Democratizing AI: Empowering Creators and Shaping the Future of Innovation | https://kurtiskemple.com/blog/democratizing-ai-empowering-creators | Why making AI accessible to everyone — not just tech giants — matters |
+| Cognitive Entropy & Human Performance Intervention | https://kurtiskemple.com/blog/cognitive-entropy-measurement | Extends the entropic gap framework from AI systems to human cognition — detecting performance degradation before it leads to critical errors |
 
 ---
 
 ## 7.0 Site reference
 
-The site is intentionally minimal — four pages plus individual blog posts.
+The site is intentionally minimal — three pages plus individual blog posts.
 
 - **Homepage** (https://kurtiskemple.com): Introduces Kurtis and surfaces featured writing organized by theme — AI Strategy & Innovation, The Friction Economy, and Developer Relations.
 - **Blog index** (https://kurtiskemple.com/blog): Full archive of published writing.
