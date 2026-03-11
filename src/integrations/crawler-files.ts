@@ -36,15 +36,18 @@ function parseFrontmatter(filePath: string) {
 function buildBlogRoutes(blogDir: string): UrlEntry[] {
   return readdirSync(blogDir)
     .filter((file) => file.endsWith(".md") || file.endsWith(".mdx"))
-    .map((file) => {
-      const slug = file.replace(/\.mdx?$/, "");
+    .reduce<UrlEntry[]>((acc, file) => {
       const frontmatter = parseFrontmatter(join(blogDir, file));
+      if (frontmatter.hide === "true") return acc;
+
+      const slug = file.replace(/\.mdx?$/, "");
       const lastmod = frontmatter.pubDate
         ? new Date(frontmatter.pubDate).toISOString()
         : new Date().toISOString();
 
-      return { path: `/blog/${slug}`, lastmod };
-    });
+      acc.push({ path: `/blog/${slug}`, lastmod });
+      return acc;
+    }, []);
 }
 
 function generateSitemap(publicDir: string, blogDir: string, siteUrl: string) {
