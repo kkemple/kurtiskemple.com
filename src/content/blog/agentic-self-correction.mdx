@@ -1,0 +1,82 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Agentic Self-Correction"
+description: "Structured output from agents is easy to generate and hard to trust. Self-correction closes the loop—exposing validation interfaces that let agents generate, validate, and converge on outputs that satisfy constraints."
+pubDate: "03/20/2026"
+image: "/images/og/agentic-self-correction.png"
+featured: true
+---
+
+Structured output from agents is easy to generate and hard to trust.
+
+Field types, nesting rules, formatting constraints, interaction rules, semantic expectations—all of it has to line up. When it doesn't, the failure modes are grim: silent degradation, an engineer patching things after the fact, or a customer seeing the breakage firsthand. None of that is acceptable once agents sit in real execution paths.
+
+Sharper prompts and richer templates do not solve the problem. The answer is closing the loop—exposing validation that matches actual system constraints, returning violations in a form the model can act on, and letting the agent revise until the output satisfies the rules or a defined fallback takes over.
+
+That pattern is agentic self-correction. It moves agents from one-shot probabilistic generation toward constraint-satisfying systems that converge without a human in the execution loop.
+
+## The Gap Between Generation and Trust
+
+LLMs are strong at producing structured outputs. They are not reliable at satisfying strict constraints. That gap—between what a model can generate and what a production system will accept—is where most agent failures happen.
+
+When an agent produces an invalid output, one of three things happens: the output fails silently or degrades, a developer detects and corrects it manually, or the error reaches the end user. The agent generated something. It generated the wrong thing, and nothing in the system caught it.
+
+Agents need to detect and resolve their own errors before outputs are surfaced. That requires validation systems that are programmatically accessible and return structured feedback—a diagnosis the agent can act on.
+
+## The Validation Loop
+
+At the heart of self-correction is a recursive loop. The agent generates an output. The system validates it against the actual constraints of the target system—the same rules that would accept or reject the output in production. Structured errors come back describing what failed, where, and why. The agent feeds those errors back into its next generation attempt as context, producing a revised output that addresses the specific violations. The system validates again. The cycle repeats until the output passes or the attempt ceiling is reached and a defined fallback takes over.
+
+Self-correction feeds the failure signal back into the generation, so each attempt is informed by the specific errors of the previous one. Each iteration reduces the space of possible invalid outputs, forcing convergence toward the constraint surface defined by the system.
+
+## What Makes Correction Possible
+
+The validation loop is mechanically simple, but it does not work unless the surrounding system provides the right infrastructure.
+
+Three conditions must hold:
+
+1. **Authoritative validation interfaces:** Validation must be programmatically accessible, deterministic, and aligned with real system constraints. If the validation source is ambiguous or disconnected from the actual rules of the system, the agent is correcting toward the wrong target. The validation interface must be the same source of truth that governs acceptance in production—anything less introduces drift between what the agent learns to satisfy and what the system actually requires.
+2. **Structured error responses:** Binary pass/fail is insufficient. The agent needs to know what failed, where it failed, why it failed, and how it violated constraints. Without that signal, correction is guesswork. The richer and more specific the error response, the fewer correction attempts the agent needs to converge. A validation response that says "invalid" gives the agent nothing to work with. A response that says "field X expects an integer, received string at path Y, which violates constraint Z" gives the agent everything it needs to fix the problem in one pass.
+3. **Bounded iteration:** Systems must define a maximum number of attempts and a fallback behavior. Self-correction without bounds is an infinite loop with a language model in it. Bounded iteration ensures the system either converges or degrades gracefully. The fallback itself is a design decision—it might surface the best attempt so far, route to a human reviewer, or return a safe default. What matters is that the system never hangs and never silently emits an invalid result.
+
+These conditions are not independent. Authoritative validation without structured errors gives the agent a judge but no feedback. Structured errors without bounded iteration gives the agent feedback but no ceiling on failure. All three form the minimum viable infrastructure for self-correction to function reliably.
+
+## Self-Correction as Infrastructure
+
+This pattern is not specific to any single output type. The same shape applies wherever outputs must adhere to acceptance criteria: UI schemas, configuration manifests, API payloads, workflow definitions, code.
+
+The reason it generalizes is that self-correction depends on a small set of output-agnostic primitives: constraint definitions, validation interfaces, structured error semantics, and execution boundaries. These belong to the loop, not to any particular artifact. A UI schema and an API payload have nothing in common except that both require authoritative validation, structured feedback, and bounded iteration. The primitives are the same. The domain-specific validators are the only thing that changes.
+
+Without these primitives, agents remain best-effort generators. With them, agents become constraint-satisfying systems. You build the loop once. Domain-specific validators plug into it. The infrastructure investment compounds across every output type the agent produces.
+
+## From Correctness to Quality
+
+Structural validity is only the first bar.
+
+Self-correction extends beyond "is this output valid?" into "is this the right output?" These are two distinct questions. Validity asks: can this exist? Fitness asks: is this the right form? The validation loop handles the first. The evaluation layer handles the second.
+
+Validity is governed by structural constraints: schema correctness, formatting rules, required fields, type enforcement. Fitness is governed by experiential constraints: readability, information density, interaction clarity, cognitive load, task alignment. Is a table better than a paragraph? Should a time series be a chart instead of bullets? Is the information density appropriate for the context?
+
+The extended loop becomes: generate, validate, evaluate, correct, repeat. Validation enforces validity. Evaluation guides fitness. Dense comparisons surface as tables. Ordered items become numbered lists. High action density decomposes into separate interaction surfaces.
+
+This is where self-correction starts to resemble design. The agent is optimizing for fitness within the constraint space that validity already cleared. The evaluation layer introduces a second kind of feedback—qualitative rather than binary—and the agent uses both signals to converge on an output that is not only valid but fit for the task and context it serves.
+
+## Where Human Judgment Lives
+
+Self-correction relocates where human judgment operates.
+
+In a traditional execution loop, humans intervene at the point of failure—reviewing outputs, catching errors, patching problems. Self-correction moves human judgment upstream into the design of the constraints themselves: schema design, validation logic, error semantics, evaluation heuristics, and the prioritization of which constraints matter most.
+
+Humans define what "valid" means. Humans define what "good" means. Humans define what tradeoffs are acceptable. That judgment is not delegated to the agent—it is hard-coded into the acceptance criteria, the validation logic, the constraint definitions themselves. Agents do not exercise judgment. They iterate within boundaries that humans set.
+
+The constraints you define are the constraints the agent will satisfy. Design them poorly and the agent will converge reliably on the wrong thing.
+
+## Conclusion
+
+We have been building agent systems around a single implicit assumption: that the agent must get it right the first time. When it doesn't, we treat the failure as a deficiency in the model—a prompting problem, a capability gap, a training shortfall.
+
+Self-correction reframes the premise. Agents should not be expected to produce perfect outputs. They should be expected to converge on outputs that satisfy constraints. Reliability does not come from prediction. It emerges from iteration against an authoritative standard.
+
+The effectiveness of that iteration scales with how accessible validation is at the point of generation. When an agent has to leave its execution context to discover whether its output is valid, the cost of each correction attempt rises and the loop becomes fragile. The closer validation lives to the agent—through development tooling, agent frameworks, IDE integrations, embedded APIs, or documentation designed for machine consumption—the more self-correction becomes default behavior rather than an advanced pattern.
+
+The pattern starts with structural validity: generate, validate, correct, repeat. It extends into experiential quality: generate, validate, evaluate, correct, repeat. At each level, human judgment defines the constraints and agents drive the convergence. The discipline is in the constraint design. The reliability is in the loop.
