@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Banner from "../components/Banner.astro";
 import { bio } from "../data/bio";
 import "../styles/global.css";
 
@@ -75,6 +76,13 @@ const personSchemaJson = JSON.stringify(personSchema);
   </head>
   <body class="font-sans bg-naval-night text-charcoal min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
+      <Banner
+        callout="Effective DevRel is available for pre-order now. Releasing April 29, 2026."
+        ctaLabel="Pre-order"
+        ctaHref="https://link.springer.com/book/9798868823725"
+        id="effective-devrel-preorder"
+      />
+
       <Header />
 
       <main class="max md:py-8 lg:py-16 xl:py-24">

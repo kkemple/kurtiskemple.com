@@ -1,0 +1,55 @@
+---
+interface Props {
+  callout: string;
+  ctaLabel: string;
+  ctaHref: string;
+  id: string;
+}
+
+const { callout, ctaLabel, ctaHref, id } = Astro.props;
+---
+
+<div
+  id={`banner-${id}`}
+  class="hidden bg-poseidon border-b border-honey-crusted-chicken/20"
+>
+  <div class="container mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-center">
+    <p class="text-raptures-light text-sm sm:text-base m-0">
+      {callout}
+    </p>
+    <a
+      href={ctaHref}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block no-underline text-sm font-semibold px-4 py-1 rounded-full bg-autumn-fire text-raptures-light hover:bg-autumn-fire/80 transition-all duration-300 whitespace-nowrap"
+    >
+      {ctaLabel}
+    </a>
+    <button
+      id={`banner-close-${id}`}
+      class="absolute right-4 sm:relative sm:right-auto text-raptures-light/60 hover:text-raptures-light transition-colors duration-200 ml-2 p-1 leading-none"
+      aria-label="Dismiss banner"
+    >
+      ✕
+    </button>
+  </div>
+</div>
+
+<script is:inline define:vars={{ id }}>
+  (function () {
+    const key = "banner-dismissed-" + id;
+    const banner = document.getElementById("banner-" + id);
+    const closeBtn = document.getElementById("banner-close-" + id);
+
+    if (!banner || !closeBtn) return;
+
+    if (!localStorage.getItem(key)) {
+      banner.classList.remove("hidden");
+    }
+
+    closeBtn.addEventListener("click", function () {
+      banner.classList.add("hidden");
+      localStorage.setItem(key, "1");
+    });
+  })();
+</script>

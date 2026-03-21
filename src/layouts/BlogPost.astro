@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Banner from "../components/Banner.astro";
 import { bio } from "../data/bio";
 import "../styles/global.css";
 
@@ -109,6 +110,13 @@ function getOrdinalSuffix(day: number) {
   </head>
   <body class="font-sans bg-naval min-h-screen">
     <div class="relative min-h-screen overflow-hidden">
+      <Banner
+        callout="Effective DevRel is available for pre-order now. Releasing April 29, 2026."
+        ctaLabel="Pre-order"
+        ctaHref="https://link.springer.com/book/9798868823725"
+        id="effective-devrel-preorder"
+      />
+
       <Header />
 
       <main class="pt-24 md:pt-32 max-w-xl mx-auto px-8 md:px-6 lg:px-0">
