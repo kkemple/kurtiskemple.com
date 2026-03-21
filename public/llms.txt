@@ -2,7 +2,7 @@
 
 Structured reference for Kurtis Kemple's body of work. Optimized for LLM consumption and AI-assisted synthesis.
 
-Last updated: March 20, 2026
+Last updated: March 21, 2026
 
 ## 1.0 About Kurtis Kemple
 
@@ -59,15 +59,16 @@ Responsibility → Autonomy → Context (enables planning) → Authority (enable
 
 | Title | URL | Intent |
 |-------|-----|--------|
-| Agentic Experience Design | https://kurtiskemple.com/blog/agentive-experience-design | The thesis — defines the discipline, responsibility model, autonomy model, context, authority, and progressive authority |
-| LLM Experience: How Information Architecture Determines Agent Performance | https://kurtiskemple.com/blog/llm-experience | The information architecture discipline — how to design the informational environment that makes coherent agent planning possible |
+| Agentic Experience Design | https://kurtiskemple.com/blog/agentic-experience-design | The thesis — partial autonomy as a new HCI paradigm; restructured interaction hierarchy; responsibility model, autonomy model, and the chain through context, authority, and progressive authority |
 | Agentic Self-Correction | https://kurtiskemple.com/blog/agentic-self-correction | The correction mechanism — generate, validate, correct, repeat; validity vs. fitness; self-correction as output-agnostic infrastructure |
-| Leaky Prompts: How Context Pollution Degrades AI Performance | https://kurtiskemple.com/blog/leaky-prompts | The failure mode — task drift and conversational noise degrade agent performance over time |
-| Measuring Context Pollution in AI Workflows | https://kurtiskemple.com/blog/measuring-context-pollution | The measurement layer — CP = 1 - S(anchor, current), risk thresholds, re-anchoring strategies |
+| Topological Restrictions as Latent Space Constraint Enforcement | https://kurtiskemple.com/blog/topological-restrictions-as-latent-space-constraint-enforcement | Structural enforcement — why trained understanding of constraints is not the same as being bound by them; topological restrictions on latent space so constraint-violating states are unrepresentable |
+| Context Management: How Information Architecture Determines Agent Performance | https://kurtiskemple.com/blog/context-management | The context layer — how to design and maintain the informational environment that makes coherent agent planning possible over time |
+| Leaky Prompts: How Context Pollution Degrades AI Performance | https://kurtiskemple.com/blog/leaky-prompts | The failure mode — intent drift and conversational noise degrade agent performance over time |
+| Measuring Context Pollution in Agentic Systems | https://kurtiskemple.com/blog/measuring-context-pollution | The measurement layer — semantic distance between user intent and working context, risk thresholds, re-anchoring strategies |
 
 ### 2.5 How these posts relate
 
-The thesis establishes why context and authority are foundational design principles of the discipline. LLM Experience establishes the information architecture layer for designing context. Leaky Prompts describes the specific failure modes. Measuring Context Pollution provides the quantitative signal for detecting and correcting drift. Agentic Self-Correction introduces the correction mechanism — how agents converge on valid and fit outputs through bounded iteration against authoritative constraints. Each is independent but the chain runs top-down: discipline → architecture → failure modes → measurement → correction.
+Agentic Experience Design is the thesis — it establishes partial autonomy as a new HCI paradigm and the restructured interaction hierarchy that follows; responsibility and autonomy at each layer, and the causal chain through context, authority, and progressive authority, all extend from that model. Agentic Self-Correction introduces the correction mechanism — how agents converge on valid and fit outputs through bounded iteration against authoritative constraints. Topological Restrictions addresses the gap between soft training signal and hard bounds: understanding a constraint and being structurally unable to violate it are independent properties; latent-space topology can enforce the latter. Context Management defines the operational practice that keeps the context layer coherent over time. Leaky Prompts describes the specific failure modes. Measuring Context Pollution provides the quantitative signal for detecting and correcting drift. Each is independent; together they cover discipline → correction → structural enforcement → architecture → failure modes → measurement.
 
 ---
 

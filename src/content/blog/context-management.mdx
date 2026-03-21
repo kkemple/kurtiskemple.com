@@ -1,0 +1,87 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Context Management: How Information Architecture Determines Agent Performance"
+description: "Context management is the practice of designing and maintaining the informational environment agents plan within. When that environment is coherent, agents maintain alignment and continuity over time; when it degrades, drift follows."
+image: "/images/og/context-management.png"
+pubDate: "7/12/2025"
+---
+
+[Agentic Experience Design](/blog/agentic-experience-design) defines context as the informational environment an agent plans within. This post focuses on context management: the practice of designing and maintaining that environment so planning stays coherent over time.
+
+In that chain, context management is the operational practice that keeps the context layer coherent over time. When that environment is coherent, the agent can maintain continuity, reason from the right constraints, and keep planning toward the user's intent over time. When it degrades, stale decisions persist, irrelevant material accumulates, and [drift](/blog/leaky-prompts) follows.
+
+## Why Context Management Matters
+
+In agentic systems, model capability is only one part of the equation. The same underlying model can support coherent, useful agent behavior or scattered, low-trust behavior depending on the context the agent is given to plan from.
+
+This is why context management matters. It governs whether the agent has access to the right goal, constraints, prior decisions, current state, relevant history, and open questions at the point of planning. If those conditions are weak, the agent degrades no matter how strong the underlying model is.
+
+## The Core Challenge of Context Management
+
+Think about what happens when an agent takes on real work. Behind the scenes, the system needs to:
+
+- Parse the user's intent from potentially ambiguous language
+- Retrieve relevant information from various sources
+- Preserve the available actions, resources, and constraints the agent can plan over
+- Preserve constraints, prior decisions, and current state
+- Preserve what has already been resolved and what remains open
+- Maintain context across multiple turns and steps
+- Anticipate follow-up questions, dependencies, and related needs
+
+Most approaches address each of these as separate technical challenges. Context management creates additional value by treating them as parts of a single information architecture problem: designing the environment the agent plans within.
+
+The reality is that you have to anticipate user behavior and likely intent patterns to anticipate the needs of the agent. This requires designing your information architecture not just for retrieval accuracy, but for planning coherence, continuity, and synthesis over time.
+
+## Practical Context Management
+
+Effective context management operates at multiple levels of abstraction. Rather than thinking about individual prompts or single interactions, you're designing for the entire context flow through your system.
+
+Consider these specific techniques that support coherent planning over time:
+
+- **Multi-level embedding**: Use broad metadata matching for initial filtering, then detailed content matching for precision, mirroring how humans first identify relevant documents before diving into specifics
+- **Semantic chunking**: Preserve logical document structure by dividing content along natural boundaries like headings, rather than breaking text at arbitrary token counts
+- **Context prioritization**: Ensure the most valuable information is included when token constraints prevent using all relevant content
+- **Automatic enhancement**: Add relevant context without requiring explicit user requests, similar to how human experts bring related knowledge into conversations
+- **Context pruning**: Remove stale, irrelevant, or conflicting material so the agent keeps planning from the right environment
+
+Each of these techniques addresses a specific aspect of how context degrades over time. They are not just technical optimizations. They are design decisions that shape how effectively an agent can stay aligned with the user's intent and the current state of the work.
+
+## The Information Architecture Mindset
+
+The most important shift is moving from prompt-centric to architecture-centric design. Instead of asking _"How do I provide the model with context for this turn?"_ you ask _"How do I structure the agent's working environment so it can keep planning coherently as the work unfolds?"_
+
+This mindset changes how you approach every aspect of an agentic system. You start thinking about information hierarchy, context flow, continuity, and cognitive load as properties of the environment the agent operates within.
+
+Good context management accounts for the kinds of connections and synthesis models are good at, while structuring information so the agent can reason from the right material at the right time.
+
+## Moving Beyond Prompts and Tools
+
+The industry has naturally focused on prompt engineering and tool selection as the most visible parts of agent behavior. These matter. But the larger opportunity is the context layer that sits underneath them.
+
+Context management is what keeps agents coherent over long-running work. When you design that layer well, you improve performance across interactions, reduce the risk of [context pollution](/blog/measuring-context-pollution), and create the conditions for [self-correction](/blog/agentic-self-correction) to work against the right informational substrate.
+
+In a world where model capabilities are increasingly accessible, the systems that win will be the ones that maintain continuity, alignment, and coherence over time. The quality of the context layer becomes a primary differentiator.
+
+---
+
+<br />
+
+> **Example in practice:** To see context management principles applied to knowledge organization, visit [/llms.txt](/llms.txt) on this site.
+>
+> **This document demonstrates several key context management principles:** consistent structural formatting that aids machine comprehension (_Intent_ → _Key Framework_ → _Practical Tips_ → _Impact_), semantic organization that preserves logical relationships between concepts, and information hierarchy that enables both human browsing and agent synthesis. The _Common Themes_ section provides contextual bridges that help agents understand connections across different frameworks, and the structured approach transforms a collection of posts into a coherent knowledge architecture optimized for retrieval, synthesis, and continuity.
+
+---
+
+## Supporting Resources
+
+The concepts underlying context management draw from established research across multiple disciplines, providing a strong theoretical foundation for practical implementation.
+
+The following research areas offer the most relevant insights for understanding and implementing effective context management:
+
+- **Context drift and context degradation**: Research in natural language processing demonstrates how conversational context weakens over extended interactions, validating the need for architectural solutions that preserve coherent planning in agentic systems
+- **Entropy in systems thinking**: Claude Shannon's information theory and subsequent systems thinking research show that all systems naturally tend toward disorder without reinforcing structures, directly supporting the need for active context maintenance
+- **Bounded rationality**: Herbert Simon's foundational work on decision-making limitations reveals how cognitive constraints affect both human and artificial agents, informing the design of information architectures that work within those boundaries
+- **Feedback loops in systems design**: Donella Meadows' research on systems thinking demonstrates how feedback mechanisms can maintain or redirect system behavior, providing the theoretical basis for context prioritization, pruning, and reinforcement
+- **Cognitive load theory**: Research in human-computer interaction and cognitive psychology establishes how information presentation affects processing efficiency, directly applicable to designing context that supports agent planning and synthesis
+
+These research foundations collectively support the core premise that context management, rather than prompt engineering alone, represents the primary opportunity for improving agent performance and user experience.

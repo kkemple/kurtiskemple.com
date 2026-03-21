@@ -10,7 +10,7 @@ Your AI assistant starts the conversation perfectly focused. Twenty messages lat
 
 What's happening here? **Drift.**
 
-When I [introduced context pollution](/blog/measuring-context-pollution) as a diagnostic signal for AI workflows, I focused on one specific problem: measuring how conversations wander from their original purpose. The math was simple—compare vector embeddings using cosine similarity.
+When I [introduced context pollution](/blog/measuring-context-pollution) as a diagnostic signal for agentic systems, I focused on one specific problem: measuring how conversations wander from their original purpose. The math was simple—compare vector embeddings using cosine similarity.
 
 But what I discovered is that this same mathematical framework works for *any* adaptive system.
 
@@ -24,11 +24,11 @@ This reveals how adaptive systems all face the same paradox: they must learn and
 
 Every adaptive system faces a paradox. To be useful, it must respond to feedback and optimize for changing conditions. But uncontrolled adaptation leads to drift—the gradual divergence from design intent that eventually causes catastrophic failure.
 
-### In AI Systems
+### In Agentic Systems
 
-You've seen it happen. An AI assistant starts with a clear task—"help me debug this code"—but twenty messages later it's explaining the history of computer science. This is task drift in action.
+You've seen it happen. An agentic assistant starts with a clear intent—"help me debug this code"—but twenty messages later it's explaining the history of computer science. This is intent drift in action.
 
-As conversations progress, the context window fills with tangential information. Each response slightly shifts the focus. The AI adapts to recent messages rather than the original intent. Without a mechanism to detect this drift, conversations become increasingly incoherent until they're completely off-track.
+As conversations progress, the context window fills with tangential information. Each response slightly shifts the focus. The agent adapts to recent messages rather than the original intent. Without a mechanism to detect this drift, conversations become increasingly incoherent until they're completely off-track.
 
 #### In Neuromorphic Hardware
 
@@ -809,5 +809,5 @@ The Alignment Distance makes that self-knowledge computable.
 
 ## Related Resources
 
-- [Leaky Prompts: How Context Pollution Degrades AI Performance](/blog/leaky-prompts) - The original exploration of drift in AI systems
-- [Measuring Context Pollution in AI Workflows](/blog/measuring-context-pollution) - Practical implementation for conversational AI
+- [Leaky Prompts: How Context Pollution Degrades AI Performance](/blog/leaky-prompts) - The original exploration of drift in agentic systems
+- [Measuring Context Pollution in Agentic Systems](/blog/measuring-context-pollution) - Practical implementation for conversational agents

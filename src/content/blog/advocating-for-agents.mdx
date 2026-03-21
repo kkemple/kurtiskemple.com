@@ -11,7 +11,7 @@ The way developers interact with your platform has changed. Increasingly, they a
 
 These agents create a new **shadow persona**: a second consumer of your platform that interprets documentation, invokes APIs, and often becomes the first interface between your platform and the developer. They are increasingly the lens through which your platform is understood and the hands through which it is used.
 
-Most platforms are already being consumed by agents—they just weren't designed for it. Documentation is optimized for human reading, not machine comprehension. APIs return errors designed for human debugging, not agent self-correction. Feedback loops capture developer friction but are blind to agent friction. Success metrics measure developer outcomes but ignore the agent's role in producing them.
+Most platforms are already being consumed by agents—they just weren't designed for it. Documentation is optimized for human reading, not machine comprehension. APIs return errors designed for human debugging, not [agent self-correction](/blog/agentic-self-correction). Feedback loops capture developer friction but are blind to agent friction. Success metrics measure developer outcomes but ignore the agent's role in producing them.
 
 If you aren't advocating for the agent, you're no longer fully enabling the developer.
 
@@ -23,7 +23,7 @@ When a developer delegates implementation to an agent, the agent takes on planni
 
 You cannot control what a developer will ask an agent to do with your platform. What you control is the information the agent plans from. That information becomes your primary lever for outcome quality.
 
-The agent plans inside your platform's information architecture. If that architecture isn't designed for agent consumption, the plan degrades—and the developer attributes the failure to your platform, not to the agent.
+The agent plans inside your platform's information architecture. [Context management](/blog/context-management) is what determines whether that environment is coherent enough for agent consumption. If it isn't, the plan degrades—and the developer attributes the failure to your platform, not to the agent.
 
 Agent readiness means designing for this second consumer at every stage of the developer journey—from the context the agent starts from, to the feedback that tells you where it breaks down.
 
@@ -33,13 +33,10 @@ The most immediate opportunity is turning documentation into context the agent c
 
 The fix operates at multiple levels:
 
-**LLM-optimized content export.** A user-facing action like "Copy as Markdown" in a share menu that copies a clean, structured representation of the page's core content to the clipboard. The artifact strips non-content HTML, preserves semantic structure, formats code blocks with correct language hints, and includes the page title as a top-level heading. This gives the developer a perfectly formatted prompt for any LLM they choose to use.
-
-**One-click agent handoff.** Actions like "Open in Claude," "Open in ChatGPT," "Open in Cursor" that send optimized content directly to AI applications. This eliminates the copy-paste step entirely, reducing friction from two actions to one and making documentation a first-class starting point in the AI-powered developer workflow rather than a dead end in it.
-
-**Public LLM directives.** An `llms.txt` file at the root of the documentation domain, serving as a public instruction set for all LLMs on how to best ingest the platform's content. This is where you define the structural formatting, semantic organization, and information hierarchy that help agents build coherent mental models of your platform. The format follows an established convention—Intent, Key Framework, Practical Tips, Impact—that aids both human browsing and AI synthesis.
-
-**LLM-targeted metadata.** Structured, LLM-specific metadata embedded in the `<head>` of each documentation page—invisible to users, invaluable to agents. This is headless context: per-page summaries, version constraints, keyword classifications, and parent-child relationships that give the agent crucial orientation before it processes the main content. A page that declares its purpose, its scope, and its position in the information hierarchy is a page an agent can plan from.
+- **LLM-optimized content export.** A user-facing action like "Copy as Markdown" in a share menu that copies a clean, structured representation of the page's core content to the clipboard or serving dedicated markdown versions of the content. The artifact strips non-content HTML, preserves semantic structure, formats code blocks with correct language hints, and includes the page title as a top-level heading. This gives the developer a perfectly formatted prompt for any LLM they choose to use.
+- **One-click agent handoff.** Actions like "Open in Claude," "Open in ChatGPT," "Open in Cursor" that send optimized content directly to AI applications. This eliminates the copy-paste step entirely, reducing friction from two actions to one and making documentation a first-class starting point in the AI-powered developer workflow rather than a dead end in it.
+- **Public LLM directives.** An `llms.txt` file at the root of the documentation domain, serving as a public instruction set for all LLMs on how to best ingest the platform's content. This is where you define the structural formatting, semantic organization, and information hierarchy that help agents build coherent mental models of your platform. The format follows an established convention—Intent, Key Framework, Practical Tips, Impact—that aids both human browsing and AI synthesis.
+- **LLM-targeted metadata.** Structured, LLM-specific metadata embedded in the `<head>` of each documentation page—invisible to users, invaluable to agents. This is headless context—per-page summaries, version constraints, keyword classifications, and parent-child relationships that give the agent crucial orientation before it processes the main content. A page that declares its purpose, its scope, and its position in the information hierarchy is a page an agent can plan from.
 
 Each of these optimizations addresses a specific failure mode in how agents currently consume documentation. Together, they transform documentation from a human-readable artifact into a dual-purpose resource that serves both the developer reading it and the agent reasoning from it.
 
@@ -47,17 +44,15 @@ Each of these optimizations addresses a specific failure mode in how agents curr
 
 Context gets the agent to a plan. Validation closes the loop on execution.
 
-[Agentic self-correction](/blog/agentic-self-correction) establishes the pattern: generate, validate against an authoritative source, receive structured feedback, correct, repeat. The agent produces an output, the system tells it what's wrong in a form it can act on, and the agent revises until the output satisfies the constraints or a defined fallback takes over. This moves agents from one-shot probabilistic generation toward constraint-satisfying systems that converge without a human in the execution loop.
+Agentic self-correction establishes the pattern: generate, validate against an authoritative source, receive structured feedback, correct, repeat. The agent produces an output, the system tells it what's wrong in a form it can act on, and the agent revises until the output satisfies the constraints or a defined fallback takes over. This moves agents from one-shot probabilistic generation toward constraint-satisfying systems that converge without a human in the execution loop.
 
 For platforms, this means exposing validation interfaces that agents can hit programmatically. When a developer asks an agent to produce an integration—a UI schema, an API payload, a configuration manifest, a workflow definition—the agent needs access to the same acceptance criteria that governs whether the output would work in production.
 
 Three conditions make this work:
 
-**Authoritative validation interfaces.** The validation source must be programmatically accessible, deterministic, and aligned with real system constraints. If validation is disconnected from the actual rules of the system, the agent corrects toward the wrong target. The validation interface must be the same source of truth that governs acceptance in production.
-
-**Structured error responses.** Binary pass/fail is insufficient. The agent needs to know what failed, where, why, and how it violated constraints. A response that says "invalid" gives the agent nothing. A response that says "field X expects an integer, received string at path Y, which violates constraint Z" gives the agent everything it needs to fix the problem in one pass.
-
-**Bounded iteration with fallback.** The system defines a maximum number of attempts and a predictable fallback behavior. Self-correction without bounds is an infinite loop with a language model in it. Bounded iteration ensures the system either converges or degrades gracefully—surfacing the best attempt, routing to a human reviewer, or returning a safe default.
+1. **Authoritative validation interfaces.** The validation source must be programmatically accessible, deterministic, and aligned with real system constraints. If validation is disconnected from the actual rules of the system, the agent corrects toward the wrong target. The validation interface must be the same source of truth that governs acceptance in production.
+2. **Structured error responses.** Binary pass/fail is insufficient. The agent needs to know what failed, where, why, and how it violated constraints. A response that says "invalid" gives the agent nothing. A response that says "field X expects an integer, received string at path Y, which violates constraint Z" gives the agent everything it needs to fix the problem in one pass.
+3. **Bounded iteration with fallback.** The system defines a maximum number of attempts and a predictable fallback behavior. Self-correction without bounds is an infinite loop with a language model in it. Bounded iteration ensures the system either converges or degrades gracefully—surfacing the best attempt, routing to a human reviewer, or returning a safe default.
 
 Validation APIs are what make agent-produced outputs trustworthy enough for real execution paths. Without them, every agent-generated integration is a one-shot gamble. With them, agents become constraint-satisfying systems that can reliably deliver outcomes rather than just plans. In the developer-agent workflow, validation is the difference between an agent that can propose an integration and one that can complete it.
 
@@ -69,7 +64,7 @@ Beyond validation, agents need purpose-built tooling that lets them take actions
 
 The distinction matters: a human developer reads a quickstart guide, understands the mental model, and writes integration code. An agent must discover capabilities, understand constraints, and compose them into a working implementation—often within a single interaction. Tooling designed for agent consumption optimizes for that discovery-to-implementation path.
 
-Every unnecessary token the agent spends understanding your platform's tooling is [context it can't spend](/blog/measuring-context-pollution) on the developer's actual problem. Clean, well-structured tooling reduces the context cost of integration, which directly increases the quality of the agent's output on the task the developer actually cares about.
+Every unnecessary token the agent spends understanding your platform's tooling is context it can't spend on the developer's actual problem. Clean, well-structured tooling reduces the context cost of integration, which directly increases the quality of the agent's output on the task the developer actually cares about.
 
 ## Agent-Specific Feedback Loops
 
@@ -89,7 +84,7 @@ Feedback loops capture where agents hit friction. Metrics quantify the impact on
 
 [A measured approach to top-of-funnel alignment](/blog/a-measured-approach-to-top-of-funnel-alignment) tracks three metrics: new developer acquisition, activation rate, and time-to-value. Each shifts when the developer-agent pair becomes the unit of measurement.
 
-- **New developer acquisition.** Developers increasingly evaluate platforms through the lens of agent compatibility. Visible agent support—LLM-optimized documentation, validation APIs, well-structured tooling—becomes a factor in whether a developer chooses your platform at all. Acquisition now depends in part on whether your platform signals that it's designed for how developers actually work.
+- **New developer acquisition.** Developers increasingly evaluate platforms through the lens of agent compatibility. Visible agent support—optimized documentation, validation APIs, well-structured tooling—becomes a factor in whether a developer chooses your platform at all. Acquisition now depends in part on whether your platform signals that it's designed for how developers actually work.
 - **Activation rate.** A developer who reaches activation through agent-produced integrations is still activated. The question is whether developer-agent pairs activate at the same rate as developers working alone, and whether the platform's agent-readiness correlates with higher activation. What percentage of agent-generated integrations pass validation on the first attempt? How many correction cycles are required before the output is valid?
 - **Time-to-value.** TTV should compress when agents can plan from clean documentation, correct course via validation APIs, and take action through well-structured tooling. The agent's iteration cycles are now part of TTV. Every friction point adds time. How quickly can a developer-agent pair go from intent to working integration?
 
