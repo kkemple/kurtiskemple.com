@@ -1,10 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /notes/
-Disallow: /drafts/
-Disallow: /private/
-Disallow: /cart/
-Disallow: /checkout/
-Disallow: /api/
-Sitemap: https://kurtiskemple.com/sitemap.xml
+Sitemap: https://kurtiskemple.com/sitemap-index.xml
 LLMS: https://kurtiskemple.com/llms.txt

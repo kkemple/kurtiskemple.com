@@ -1,11 +1,12 @@
 import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import mdx from "@astrojs/mdx";
 import netlify from "@astrojs/netlify";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import crawlerFilesIntegration from "./src/integrations/crawler-files";
+import { hiddenBlogPaths } from "./utils/hidden-blog-paths";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +18,12 @@ export default defineConfig({
       remarkPlugins: [remarkMath],
       rehypePlugins: [rehypeKatex],
     }),
-    crawlerFilesIntegration(),
+    sitemap({
+      filter: (page) => {
+        const pathname = new URL(page).pathname.replace(/\/$/, "") || "/";
+        return !hiddenBlogPaths.has(pathname);
+      },
+    }),
   ],
   output: "static",
   adapter: netlify(),
