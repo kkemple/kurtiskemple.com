@@ -1,7 +1,44 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ContentCard from "../components/ContentCard.astro";
+import { getCollection } from "astro:content";
 import { bio } from "../data/bio";
+
+const homepageSections = [
+  {
+    key: "applied-ai-agentic-systems",
+    id: "ai-strategy",
+    title: "Applied AI & Agentic Systems",
+  },
+  {
+    key: "market-research-competitive-intelligence",
+    id: "market-research",
+    title: "Market Research & Competitive Intelligence",
+  },
+  {
+    key: "developer-enablement-platform-strategy",
+    id: "developer-enablement-platform-strategy",
+    title: "Developer Enablement & Platform Strategy",
+  },
+  {
+    key: "clarity-power-agency",
+    id: "clarity-power-agency",
+    title: "On Clarity, Power, and Agency",
+  },
+] as const;
+
+const posts = await getCollection("blog");
+
+const sectionsWithPosts = homepageSections.map((section) => ({
+  ...section,
+  posts: posts
+    .filter((post) => post.data.homepage?.section === section.key)
+    .sort(
+      (a, b) =>
+        (a.data.homepage?.order ?? Number.MAX_SAFE_INTEGER) -
+        (b.data.homepage?.order ?? Number.MAX_SAFE_INTEGER)
+    ),
+}));
 ---
 
 <Layout
@@ -35,147 +72,32 @@ import { bio } from "../data/bio";
       </div>
     </div>
 
-    <h3 class="text-4xl font-semibold mb-8 text-raptures-light" id="ai-strategy">
-      Applied AI & Agentic Systems
-    </h3>
+    {
+      sectionsWithPosts.map((section, index) => (
+        <>
+          <h3 class="text-4xl font-semibold mb-8 text-raptures-light" id={section.id}>
+            {section.title}
+          </h3>
 
-    {/* Repeat this pattern for each ContentCard */}
-    <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <ContentCard
-        slug="/blog/agentic-experience-design"
-        title="Agentic Experience Design"
-        description="Agents introduce a new human-computer interaction paradigm—partial autonomy. Partial autonomy is defined as a system that can plan, take action within bounds, and own the outcomes. This new paradigm demands a new design discipline—Agentic Experience Design."
-      />
-      <ContentCard
-        slug="/blog/agentic-self-correction"
-        title="Agentic Self-Correction"
-        description="Structured output from agents is easy to generate and hard to trust. Self-correction closes the loop—exposing validation interfaces that let agents generate, validate, and converge on outputs that satisfy constraints."
-      />
-      <ContentCard
-        slug="/blog/topological-restrictions-as-latent-space-constraint-enforcement"
-        title="Topological Restrictions as Latent Space Constraint Enforcement"
-        description="Understanding a constraint and being bound by a constraint are independent properties. Current agentic systems collapse this distinction—treating trained understanding as enforcement. Topological restrictions on the latent space can make constraint-violating states structurally unrepresentable, closing the gap between understanding and enforcement."
-      />
-      <ContentCard
-        slug="/blog/context-management"
-        title="Context Management: How Information Architecture Determines Agent Performance"
-        description="Context management is the practice of designing and maintaining the informational environment agents plan within. When that environment is coherent, agents maintain alignment and continuity over time; when it degrades, drift follows."
-      />
-      <ContentCard
-        slug="/blog/leaky-prompts"
-        title="Leaky Prompts: How Context Pollution Degrades AI Performance"
-        description="As model capabilities become commoditized, the quality of your context architecture determines success. Understanding how leaky prompts create context pollution is essential for building agentic systems that maintain focus and deliver consistent value."
-      />
-      <ContentCard
-        slug="/blog/measuring-context-pollution"
-        title="Measuring Context Pollution in Agentic Systems"
-        description="Context pollution measures the semantic distance between a user's original intent and an agent's current working context. When that distance grows unchecked, the agent drifts outside its authority—optimizing away from the user's intent while appearing to function normally."
-      />
-    </div>
+          <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {section.posts.map((post) => (
+              <ContentCard
+                slug={`/blog/${post.slug}`}
+                title={post.data.title}
+                description={post.data.description}
+              />
+            ))}
+          </div>
 
-    <div class="my-24 flex justify-center">
-      <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
-    </div>
-
-    <h3 class="text-4xl font-semibold mb-8 text-raptures-light" id="market-research">
-      Market Research & Competitive Intelligence
-    </h3>
-
-    {/* Repeat this pattern for each ContentCard */}
-    <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <ContentCard
-        slug="/blog/friction-economy"
-        title="The Friction Economy: How User Experience Failures Create Systematic B2B SaaS Disruption"
-        description="Discover the Friction Economy—a hidden force reshaping B2B SaaS. Learn how unnoticed user frustrations drive market disruption and why your retention metrics might be masking critical vulnerabilities."
-      />
-      <ContentCard
-        slug="/blog/market-disruption-in-the-ai-era"
-        title="Market Disruption in the AI Era: Connecting JTBD, Blue Ocean, and Frustration Coalitions with PLG Strategies"
-        description="Learn how user frustration drives B2B SaaS disruption through Jobs to be Done, Frustration Coalitions, and Blue Ocean Strategy—and why AI makes every incumbent vulnerable."
-      />
-      <ContentCard
-        slug="/blog/frustration-coalitions-the-hidden-threat-to-b2b-saas"
-        title="Frustration Coalitions: The Hidden Threat to Every B2B SaaS"
-        description="Learn how frustrated users organize into coalitions that drive mass B2B SaaS churn. Discover early warning signs and prevention strategies before customers leave."
-      />
-      <ContentCard
-        slug="/blog/the-captive-user-trap"
-        title="The Captive User Trap: Why Stable Usage + Declining NPS = Maximum Danger"
-        description="Why stable usage with declining NPS is the most dangerous pattern in B2B SaaS. How trapped users become exodus events when PLG competitors offer escape routes."
-      />
-      <ContentCard
-        slug="/blog/frustration-coalitions"
-        title="Frustration Coalitions"
-        description="An observational framework for predicting and preventing mass B2B SaaS customer defection. Learn how frustrated users organize into coalitions that drive switching decisions, why stable usage with declining NPS signals maximum risk, and how PLG accelerates coalition formation from months to weeks."
-      />
-      <ContentCard
-        slug="/blog/sentiment-inertia-index"
-        title="The Sentiment-Inertia Index (Sii)"
-        description="A quantifiable metric that measures trapped user frustration in B2B SaaS. When NPS drops but churn stays flat, Sii = ((100-NPS)/Churn) reveals the accumulating pressure that predicts competitive displacement before revenue impact."
-      />
-    </div>
-
-    <div class="my-24 flex justify-center">
-      <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
-    </div>
-
-    <h3 class="text-4xl font-semibold mb-8 text-raptures-light" id="devrel">
-      Developer Relations
-    </h3>
-
-    {/* Repeat this pattern for each ContentCard */}
-    <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <ContentCard
-        slug="/blog/developer-advocates-guide-to-metrics-and-reporting"
-        title="The Developer Advocate's Guide to Metrics and Reporting"
-        description="As developer advocates, avoid becoming extensions of other teams by closely learning metrics: the different types you'll encounter and when to use them, which are trusted and untrusted, and how to build them effectively to support your team's goals."
-      />
-      <ContentCard
-        slug="/blog/developer-advocates-guide-to-addressing-product-friction"
-        title="The Developer Advocate's Guide to Addressing Product Friction"
-        description="Over the last three months, we've been developing a framework at Apollo called DX Audits to help us identify, document, report, and address product friction. It was getting difficult to scale this part of developer advocacy so we came up with a framework and this post covers our experience with it and where we landed on the framework's implementation."
-      />
-      <ContentCard
-        slug="/blog/developer-advocates-guide-to-content-creation"
-        title="The Developer Advocate's Guide to Content Creation"
-        description={`Have you ever felt overwhelmed by the idea of having to create that next blog post or YouTube video? Do you find yourself unable to finish things because you're not quite sure when to call it done? Are you adjusting your outlines or talking points on the fly? Learn how to create content more effectively by doing the work before the work.`}
-      />
-      <ContentCard
-        slug="/blog/developer-advocates-guide-to-getting-buy-in"
-        title="The Developer Advocate's Guide to Getting Buy-In"
-        description={`Getting buy-in as a developer advocate is a unique challenge. We usually are not the owners or even direct contributors to what we're trying to change. Instead, we represent this bizarre ephemeral thing called a "community." In this post, I'll cover what buy-in is, how it applies to developer advocacy, what skills help the most when trying to get buy-in, and the processes I use.`}
-      />
-      <ContentCard
-        slug="/blog/developer-advocates-guide-to-asking-for-things"
-        title="The Developer Advocate's Guide to Asking for Things"
-        description={`Whether we're trying to get buy-in internally or working on collaborations externally, we're generally in the business of asking. Learn how to get better results from your requests by rethinking the nature of relationships and following the three Rs of asking for things: Recognition, Request, and Reward.`}
-      />
-    </div>
-
-    <div class="my-24 flex justify-center">
-      <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
-    </div>
-
-    <h3 class="text-4xl font-semibold mb-8 text-raptures-light" id="clarity-power-agency">
-      On Clarity, Power, and Agency
-    </h3>
-
-    <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <ContentCard
-        slug="/blog/invisible-prisons"
-        title="Invisible Prisons"
-        description="Invisible prisons form when we mistake rigid abstractions for the hard rules of reality. The way out is learning to tell the difference."
-      />
-      <ContentCard
-        slug="/blog/the-architecture-of-information-asymmetry"
-        title="The Architecture of Information Asymmetry"
-        description="How information asymmetry shaped history—from Sun Tzu's spy networks to Ultra decrypts, from the Rothschilds' courier pigeons to modern market manipulation. The mechanisms changed but the principle remained constant: those who controlled information flows controlled outcomes."
-      />
-      <ContentCard
-        slug="/blog/the-peasant"
-        title="The Peasant"
-        description="A practical guide to creating positive-sum outcomes from any position. Learn strategies for spotting and navigating constraints and high information asymmetry, helping you build influence and drive change from any position."
-      />
-    </div>
+          {
+            index < sectionsWithPosts.length - 1 && (
+              <div class="my-24 flex justify-center">
+                <div class="w-1/2 h-1 bg-honey-crusted-chicken rounded-full"></div>
+              </div>
+            )
+          }
+        </>
+      ))
+    }
   </div>
 </Layout>

@@ -1,5 +1,12 @@
 // 1. Import utilities from `astro:content`
 import { z, defineCollection } from "astro:content";
+
+const homepageSectionSchema = z.enum([
+	"applied-ai-agentic-systems",
+	"market-research-competitive-intelligence",
+	"developer-enablement-platform-strategy",
+	"clarity-power-agency",
+]);
 // 2. Define your collection(s)
 const blogCollection = defineCollection({
 	type: "content",
@@ -10,6 +17,12 @@ const blogCollection = defineCollection({
 		image: z.string().optional(),
 		featured: z.boolean().optional(),
 		hide: z.boolean().optional(),
+		homepage: z
+			.object({
+				section: homepageSectionSchema,
+				order: z.number().int().positive(),
+			})
+			.optional(),
 	}),
 });
 
