@@ -176,7 +176,7 @@ Writing that spans personal reflections, broader perspectives on technology and 
 
 | Title | URL | Intent |
 |-------|-----|--------|
-| Unlocking Expert Minds: Eight Patterns for AI-guided Knowledge Capture | https://kurtiskemple.com/blog/unlocking-expert-minds-eight-patterns-for-interactive-knowledge-capture | Eight patterns for capturing specialized knowledge through AI-guided interviews |
+| Context Management for Long-Running Knowledge Extraction Systems | https://kurtiskemple.com/blog/context-management-for-long-running-knowledge-extraction-systems | How context management preserves coherence in long-running knowledge extraction workflows such as interviews, skill capture, and heuristic elicitation |
 | Impostor Syndrome and the Knowledge Bubble Philosophy | https://kurtiskemple.com/blog/impostor-syndrome-and-the-knowledge-bubble-philosophy | A reframe of impostor syndrome through the lens of knowledge bubbles |
 | Democratizing AI: Empowering Creators and Shaping the Future of Innovation | https://kurtiskemple.com/blog/democratizing-ai-empowering-creators | Why making AI accessible to everyone — not just tech giants — matters |
 | Cognitive Entropy & Human Performance Intervention | https://kurtiskemple.com/blog/cognitive-entropy-measurement | Extends the entropic gap framework from AI systems to human cognition — detecting performance degradation before it leads to critical errors |

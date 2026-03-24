@@ -46,7 +46,7 @@ These conditions are not independent. Authoritative validation without structure
 
 ## Self-Correction as Infrastructure
 
-This pattern is not specific to any single output type. The same shape applies wherever outputs must adhere to acceptance criteria: UI schemas, configuration manifests, API payloads, workflow definitions, code.
+The same shape applies wherever outputs must adhere to acceptance criteria: UI schemas, configuration manifests, API payloads, workflow definitions, code. This pattern is not specific to any single output type.
 
 The reason it generalizes is that self-correction depends on a small set of output-agnostic primitives: constraint definitions, validation interfaces, structured error semantics, and execution boundaries. These belong to the loop, not to any particular artifact. A UI schema and an API payload have nothing in common except that both require authoritative validation, structured feedback, and bounded iteration. The primitives are the same. The domain-specific validators are the only thing that changes.
 

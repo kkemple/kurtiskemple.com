@@ -1,0 +1,103 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Context Management for Long-Running Knowledge Extraction Systems"
+description: "Long-running knowledge extraction systems degrade as drift, stale context, and conversational noise accumulate. Context management preserves coherence over time, keeping interviews, skill capture, and heuristic extraction aligned with the knowledge the system is trying to surface."
+image: "/images/og/unlocking-experts.png"
+pubDate: "09/07/2024"
+---
+
+Knowledge extraction is easy to start and hard to keep coherent.
+
+The challenge is not generating questions. It is maintaining the informational conditions that let a system keep extracting the right knowledge over time. Once an interaction stretches across many turns, demonstrations, artifacts, clarifications, and follow-up branches, coherence starts to degrade. Tangents accumulate. Early assumptions go stale. Partial answers remain in circulation long after they should have been refined or discarded. The system is still active, but it is no longer planning from the right environment.
+
+That is the core problem in long-running knowledge extraction systems. Whether the format is an expert interview, a retrospective, a skill deconstruction session, a heuristic elicitation workflow, or a collaborative expert discussion, the system has to stay aligned with the knowledge it is trying to surface. If it does not, extraction quality degrades even when the underlying model remains capable.
+
+## Why Extraction Degrades Over Time
+
+Traditional interviews are entropy-passive. They let conversations expand naturally and rely on the interviewer to manually keep the discussion coherent. Sometimes that works. Often it does not.
+
+As the interaction continues, multiple failure modes compound:
+
+- The target knowledge becomes less defined as the conversation branches
+- Old assumptions stay in play after the expert has refined or contradicted them
+- Tangential anecdotes consume space that should be reserved for extraction
+- Partial insights are collected without being connected, tested, or resolved
+- The system loses track of what has already been established and what remains open
+
+This is not just a moderation problem. It is an information architecture problem. The extraction system is planning from degraded context, so the quality of the knowledge it surfaces degrades with it.
+
+The same pattern shows up across agentic systems more broadly. [Leaky prompts](/blog/leaky-prompts) create [context pollution](/blog/measuring-context-pollution) because drift and conversational noise accumulate faster than the system can correct for them. In knowledge extraction workflows, the consequence is not only weaker responses. It is weaker capture of the underlying expertise.
+
+## Context Management as the Discipline
+
+[Context management](/blog/context-management) is the practice of designing and maintaining the informational environment an agent plans within. In long-running knowledge extraction systems, that environment includes more than prior conversation.
+
+It includes the extraction objective, the current hypothesis about the expert's knowledge, the concepts already surfaced, the heuristics already captured, the unresolved questions, the contradictions that still need to be clarified, and the artifacts the interaction is actively building.
+
+That distinction matters. A long-running extraction system is not trying to remember everything that was said. It is trying to preserve the right working environment for surfacing the right knowledge.
+
+That means the system has to continuously manage:
+
+1. **The anchor:** What knowledge is the system trying to extract?
+2. **The state:** What has already been established, refined, or ruled out?
+3. **The open questions:** What still needs to be clarified, tested, or challenged?
+4. **The relevance boundary:** What belongs inside the extraction process and what does not?
+
+Without that structure, the system defaults to transcript accumulation. Transcript accumulation is not knowledge extraction. It is just storage.
+
+## Coherence Is the Constraint
+
+The central requirement in long-running extraction is coherence.
+
+Coherence means the system remains aligned with the target knowledge as the interaction unfolds. It stays oriented to the right objective, preserves continuity across turns, and keeps new information connected to the evolving structure of what is being extracted.
+
+Once coherence is treated as the core constraint, the design problem becomes clearer. The system has to do three things well:
+
+1. **Preserve alignment:** Keep the extraction process tied to the agreed objective rather than letting the session optimize around the latest tangent.
+2. **Preserve continuity:** Maintain a usable representation of what has already been learned, revised, or invalidated.
+3. **Preserve relevance:** Prevent stale, noisy, or low-value material from distorting the working context.
+
+This is where [context pollution](/blog/measuring-context-pollution) becomes useful. Drift is no longer just a vague sense that the interview is losing focus. It becomes a measurable signal that the system is moving away from the target knowledge it is supposed to be extracting.
+
+An expert may wander into a useful adjacent story. That is not necessarily failure. Productive exploration is part of extraction. The problem is ungoverned divergence: when the system cannot distinguish between a tangent that enriches the target knowledge and one that displaces it.
+
+## The Coherence Loop
+
+Once coherence is understood as a constraint, maintaining it becomes a loop rather than a hope.
+
+The system anchors the target knowledge, tracks the evolving extraction state, monitors for drift, and corrects when the working context starts moving outside useful bounds. That is the same structural pattern described in [Agentic Self-Correction](/blog/agentic-self-correction): generate, validate, correct, repeat. Here the loop is applied to extraction coherence rather than output structure.
+
+In practice, that loop looks like this:
+
+1. **Anchor the objective:** Define the knowledge target clearly enough that the system can detect movement away from it.
+2. **Track extraction state:** Preserve what has already been surfaced, what has been revised, and what remains unresolved.
+3. **Measure drift:** Compare the current working context against the extraction anchor to detect when coherence is degrading.
+4. **Correct direction:** Feed that signal back into the interaction through clarification, re-anchoring, pruning, or targeted follow-up.
+5. **Bound the loop:** If the system cannot recover coherence, it should escalate, narrow scope, or explicitly reset the extraction state.
+
+The point is not to eliminate exploration. The point is to keep exploration connected to the knowledge target so the session continues producing high-density signal instead of accumulating semantic noise.
+
+This is why long-running extraction systems should not rely on a single interviewing surface alone. The conversational agent may be interacting fluidly with the expert, but some part of the system still has to preserve anchors, monitor drift, and decide when re-alignment is necessary. Otherwise the extraction process degrades invisibly while appearing to function normally.
+
+## Applications of the Model
+
+This is why interviews and skill capture are best understood as applications of the model rather than the model itself.
+
+The same coherence architecture applies across multiple forms of knowledge extraction:
+
+- **Expert interviews:** keeping long conversations aligned with the target expertise rather than whatever is most recently salient
+- **Retrospective analysis:** preserving the threads that connect past work without letting biography overwhelm the extraction objective
+- **Heuristic capture:** surfacing decision rules while distinguishing core heuristics from incidental stories
+- **Tacit skill deconstruction:** maintaining focus on subtle cues, micro-decisions, and embodied expertise across demonstrations
+- **Concept mapping:** refining conceptual relationships over time without letting unresolved contradictions collapse into noise
+- **Collaborative expert synthesis:** managing disagreement, refinement, and convergence across multiple participants
+
+What changes across these formats is the domain artifact being extracted. What stays the same is the need to preserve coherence over time.
+
+## Conclusion
+
+The future of knowledge extraction is not better prompting in isolation and it is not more dynamic interviewing on its own. It is systems that can remain coherent long enough to surface dense, accurate, and relevant expertise as the interaction unfolds.
+
+Long-running knowledge extraction systems degrade when coherence is left unmanaged. [Context management](/blog/context-management) provides the discipline for maintaining the right informational environment. [Context pollution measurement](/blog/measuring-context-pollution) provides the signal for detecting drift. [Self-correction](/blog/agentic-self-correction) provides the loop for bringing the system back into alignment.
+
+The quality of a knowledge extraction system is determined not by how well it starts, but by how well it stays aligned over time.
