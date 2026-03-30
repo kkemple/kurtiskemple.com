@@ -21,7 +21,7 @@ export default defineConfig({
     sitemap({
       filter: (page) => {
         const pathname = new URL(page).pathname.replace(/\/$/, "") || "/";
-        return !hiddenBlogPaths.has(pathname);
+        return !hiddenBlogPaths.has(pathname) && !pathname.endsWith("/md");
       },
     }),
   ],
