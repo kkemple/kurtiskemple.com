@@ -128,12 +128,14 @@ function getOrdinalSuffix(day: number) {
         >
           {frontmatter.title}
         </h1>
-        <button id="copy-markdown-btn" class="block text-xs px-3 py-1 mb-4 border border-honey-crusted-chicken text-honey-crusted-chicken rounded font-bold transition-colors duration-300 hover:bg-honey-crusted-chicken hover:text-naval-night">
-          Copy Post
-        </button>
-        <span class="block mb-2 text-autumn-fire font-bold">
-          {formatDate(frontmatter.pubDate)}
-        </span>
+        <div class="flex items-center mb-4">
+          <span class="text-autumn-fire font-bold">
+            {formatDate(frontmatter.pubDate)}
+          </span>
+          <button id="copy-markdown-btn" class="ml-4 text-xs px-3 py-1 border border-honey-crusted-chicken text-honey-crusted-chicken rounded-full font-bold transition-colors duration-300 hover:bg-honey-crusted-chicken hover:text-naval-night">
+            Copy Post
+          </button>
+        </div>
         <div class="blog-post mb-16 rounded-lg">
           <slot />
         </div>
