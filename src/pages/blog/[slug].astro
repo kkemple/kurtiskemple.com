@@ -13,6 +13,11 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 // @ts-ignore
 const { Content } = await entry.render();
+const title = entry.data.title;
+const rawBody = entry.body;
 ---
 
 <Content />
+<script define:vars={{ rawBody, title }}>
+  window.__rawMarkdown = `# ${title}\n\n${rawBody}`;
+</script>

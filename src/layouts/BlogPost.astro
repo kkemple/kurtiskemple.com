@@ -128,7 +128,10 @@ function getOrdinalSuffix(day: number) {
         >
           {frontmatter.title}
         </h1>
-        <span class="block mb-8 text-autumn-fire font-bold">
+        <button id="copy-markdown-btn" class="block text-xs px-3 py-1 mb-4 border border-honey-crusted-chicken text-honey-crusted-chicken rounded font-bold transition-colors duration-300 hover:bg-honey-crusted-chicken hover:text-naval-night">
+          Copy Markdown
+        </button>
+        <span class="block mb-2 text-autumn-fire font-bold">
           {formatDate(frontmatter.pubDate)}
         </span>
         <div class="blog-post mb-16 rounded-lg">
@@ -139,4 +142,21 @@ function getOrdinalSuffix(day: number) {
       <Footer />
     </div>
   </body>
+  <script>
+    const btn = document.getElementById('copy-markdown-btn');
+    if (btn) {
+      btn.addEventListener('click', async () => {
+        const raw = (window as any).__rawMarkdown || '';
+        try {
+          await navigator.clipboard.writeText(raw);
+          btn.textContent = 'Copied!';
+        } catch {
+          btn.textContent = 'Failed to copy';
+        }
+        setTimeout(() => {
+          btn.textContent = 'Copy as Markdown';
+        }, 2000);
+      });
+    }
+  </script>
 </html>
