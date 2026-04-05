@@ -1,9 +1,16 @@
-# build output
+# ignored
 dist/
-# generated types
 .astro/
-
 .cursor/
+.netlify/
+.idea/
+.claude/
+.vscode/
+
+notes/
+blog-posts/
+
+CLAUDE.md
 
 # dependencies
 node_modules/
@@ -14,20 +21,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-
 # environment variables
 .env
 .env.production
 
 # macOS-specific files
 .DS_Store
-
-# jetbrains setting folder
-.idea/
-
-.netlify/
-
-analytics.csv
-
-notes/
-blog-posts/

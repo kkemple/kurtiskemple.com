@@ -24,7 +24,7 @@ Kurtis Kemple is a formerly incarcerated tech leader focused on agentic experien
 
 Kurtis Kemple is a formerly incarcerated tech leader whose extensive experience across software engineering, developer relations, platform experience, and agent design has made him a leading voice in the field. His work is unified by a relentless focus on clarity—whether that means making implicit system dynamics explicit through frameworks and programs, removing friction along the developer journey, or teaching developers, designers, and product managers how to build best-in-class agentic experiences.
 
-Through his work at Integral Ad Science and Major League Soccer he built deep foundations in real-time analytics, ETL infrastructure, and delivering integrated experiences across digital and physical interfaces. Apollo GraphQL and AWS sharpened his understanding of developer-first product thinking, API infrastructure, and platform engineering at genuine scale. Slack and Salesforce brought it all together—putting him at the center of platform experience and agentic AI at the exact moment they became the most consequential challenges in the industry. Now he's channeling that accumulated expertise into writing as the author of *Effective DevRel*, releasing in May 2026 through Apress, with two more in the works—currently titled *Platform Engineering for AI* and *Agentic Experience Design*.
+Through his work at Integral Ad Science and Major League Soccer he built deep foundations in real-time analytics, ETL infrastructure, and delivering integrated experiences across digital and physical interfaces. Apollo GraphQL and AWS sharpened his understanding of developer-first product thinking, API infrastructure, and platform engineering at genuine scale. Slack and Salesforce brought it all together—putting him at the center of platform experience and agentic AI at the exact moment they became the most consequential challenges in the industry. Now he's channeling that accumulated expertise into writing as the author of *Effective DevRel*, releasing in May 2026 through Apress, with two more in the works—currently titled *Architecting AI Platforms* and *Agentic Experience Design*.
 
 Currently Kurtis leads developer strategy for Slack Platform as Sr. Director of Developer Relations, where he focuses on frontier AI and its possible effects on platform and agent experience. Outside of work he pursues independent research at the intersection of mathematics and physical systems, is a gallery-featured street photographer, rides his motorcycle where he shouldn't, and mostly enjoys spending time with his family.
 
@@ -38,9 +38,9 @@ Currently Kurtis leads developer strategy for Slack Platform as Sr. Director of 
 
 ### 2.3 Books
 
-- ***Effective DevRel*** — releasing May 2026 through Apress. Covers DevRel strategy, operations, and measurement from first principles.
-- ***Platform Engineering for AI*** — in progress. Covers end-to-end AI platform engineering across inference, protocols, agents, security, operations, and strategy.
-- ***Agentic Experience Design*** — in progress. Will formalize the discipline introduced in the blog series (Section 2.0).
+- *Effective DevRel* — releasing May 2026 through Apress. Covers DevRel strategy, operations, and measurement from first principles.
+- *Architecting AI Platforms* — in progress. Covers end-to-end AI platform engineering across inference, protocols, agents, security, operations, and strategy.
+- *Agentic Experience Design* — in progress. Will formalize the discipline introduced in the blog series (Section 2.0).
 
 ### 2.4 Independent research
 
