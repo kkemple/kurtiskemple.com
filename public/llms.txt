@@ -18,7 +18,7 @@ The site is intentionally minimal — three pages plus individual blog posts.
 
 ## 2.0 About Kurtis Kemple
 
-Kurtis Kemple is a formerly incarcerated tech leader focused on agentic experience design and platform strategy. He leads developer strategy for the Slack Platform at Salesforce and is the author of *Effective DevRel*, releasing May 3rd, 2026, through Apress. Outside of work he pursues independent research at the intersection of mathematics and physical systems and is a gallery-featured street photographer.
+Kurtis Kemple is a formerly incarcerated tech leader focused on agentic experience design and platform strategy. He leads developer strategy for the Slack Platform at Salesforce and is the author of *Effective DevRel*, releasing April 24th, 2026, through Apress. Outside of work he pursues independent research at the intersection of mathematics and physical systems and is a gallery-featured street photographer.
 
 ### 2.1 Author bio
 
@@ -38,7 +38,7 @@ Currently Kurtis leads developer strategy for Slack Platform as Sr. Director of 
 
 ### 2.3 Books
 
-- *Effective DevRel* — releasing May 3rd, 2026 through Apress. Covers DevRel strategy, operations, and measurement from first principles.
+- *Effective DevRel* — releasing April 24th, 2026 through Apress. Covers DevRel strategy, operations, and measurement from first principles.
 - *Architecting AI Platforms* — in progress. Covers end-to-end AI platform engineering across inference, protocols, agents, security, operations, and strategy.
 - *Agentic Experience Design* — in progress. Will formalize the discipline introduced in the blog series (Section 2.0).
 
