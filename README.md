@@ -6,7 +6,7 @@ I'm a formerly incarcerated tech leader working at the intersection of software 
 
 My work is unified by a relentless focus on clarity: making implicit system dynamics explicit through frameworks and programs, removing friction along the developer journey, and helping developers, designers, and product managers build best-in-class agentic experiences.
 
-Today I lead developer strategy for Slack platform as Sr. Director of Developer Relations, where I focus on applied AI and agentic systems. I'm also the author of [Effective DevRel](https://kurtiskemple.com/effective-devrel), releasing through Apress on April 24th, 2026.
+Today I lead developer strategy for Slack platform as Sr. Director of Developer Relations, where I focus on applied AI and agentic systems. I'm also the author of [Effective DevRel](https://kurtiskemple.com/effective-devrel), releasing through Apress on May 7th, 2026.
 
 This site is the primary home for my writing, frameworks, and published thinking across agentic experience design, platform strategy, developer relations, market dynamics, leadership, and related research. A structured reference for that body of work is available in `public/llms.txt`.
 
