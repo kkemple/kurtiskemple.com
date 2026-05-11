@@ -3,18 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import ContentCard from "../../components/ContentCard.astro";
 import { getCollection } from "astro:content";
 
-interface BlogPost {
-  data: {
-    title: string;
-    description: string;
-    pubDate: string;
-    featured: boolean;
-    hide: boolean;
-  };
-  id: string;
-}
-
-const posts = (await getCollection("blog")) as BlogPost[];
+const posts = await getCollection("blog");
 
 const sortedPosts = posts.sort((a, b) => {
   if (a.data.featured !== b.data.featured) {
