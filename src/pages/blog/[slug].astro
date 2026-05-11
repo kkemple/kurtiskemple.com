@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection("blog");
@@ -10,8 +10,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-// @ts-ignore
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 const title = entry.data.title;
 const rawBody = entry.body;
 ---
