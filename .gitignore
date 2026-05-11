@@ -10,8 +10,6 @@ dist/
 notes/
 blog-posts/
 
-CLAUDE.md
-
 # dependencies
 node_modules/
 
