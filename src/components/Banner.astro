@@ -13,7 +13,7 @@ const { callout, ctaLabel, ctaHref, id } = Astro.props;
   id={`banner-${id}`}
   class="hidden bg-poseidon border-b border-honey-crusted-chicken/20"
 >
-  <div class="container mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-center">
+  <div class="container mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
     <p class="text-raptures-light text-sm sm:text-base m-0">
       {callout}
     </p>
@@ -27,7 +27,7 @@ const { callout, ctaLabel, ctaHref, id } = Astro.props;
     </a>
     <button
       id={`banner-close-${id}`}
-      class="absolute right-4 sm:relative sm:right-auto text-raptures-light/60 hover:text-raptures-light transition-colors duration-200 ml-2 p-1 leading-none"
+      class="absolute right-4 sm:relative sm:right-auto text-raptures-light/60 hover:text-raptures-light transition-colors duration-200 p-1 leading-none"
       aria-label="Dismiss banner"
     >
       ✕
