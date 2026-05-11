@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const { fontFamily } = require('tailwindcss/defaultTheme')
+import defaultTheme from 'tailwindcss/defaultTheme.js'
 export default {
   content: [
     // Add your content sources here
@@ -16,8 +16,8 @@ export default {
         'autumn-fire': '#C44E4F',
       },
       fontFamily: {
-        sans: ['Open Sans', ...fontFamily.sans],
-        heading: ['Abril Fatface', ...fontFamily.serif],
+        sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
+        heading: ['Abril Fatface', ...defaultTheme.fontFamily.serif],
       },
       fontSize: {
         'h1': ['clamp(1.4rem, 2.8vw, 2.1rem)', { lineHeight: '1.2' }],
