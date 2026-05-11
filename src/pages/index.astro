@@ -81,7 +81,7 @@ const sectionsWithPosts = homepageSections.map((section) => ({
           <div class="mb-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {section.posts.map((post) => (
               <ContentCard
-                slug={`/blog/${post.slug}`}
+                slug={`/blog/${post.id}`}
                 title={post.data.title}
                 description={post.data.description}
               />
