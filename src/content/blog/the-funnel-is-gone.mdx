@@ -1,0 +1,39 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "The Funnel Is Gone"
+description: "Agents have collapsed the developer journey into a single session on a surface no analytics layer can see. On the telemetry gap, context distance, and why awareness work now has to happen before the first prompt."
+image: "/images/og/the-funnel-is-gone.png"
+pubDate: "07/19/2026"
+---
+
+A developer wants to automate their team's deployment notifications in Slack. They open Claude, describe the problem, and Claude confirms it can help—it knows what Slack is, it knows what a CI pipeline is, and it begins planning with confidence. The session unravels in the detail: which event payload structure to listen for, which SDK method handles the channel lookup, whether the bot token needs a specific scope that isn't in the llms.txt file Claude retrieved. Each gap produces a clarification loop. Each loop consumes turns the developer expected to spend building. The session ends without a working scaffold, and nothing in the platform's instrumentation registered that it happened.
+
+The traditional developer funnel was measurable because the developer was present on surfaces we owned: page views, time on site, tutorial completions, API key generation each left a trace. Agents do not leave those traces, and no instrumentation layer has been built to read the ones they do leave.
+
+Agents have collapsed the awareness-to-activation sequence into a single session. A developer arrives at a stated intent and either reaches a working scaffold within that exchange or the session ends—no re-engagement campaign for what was lost, no retargeting for an intent that stalled at turn three. Enablement artifacts—llms.txt files, auth patterns, API reference, quickstarts, recommended prompts—either carry the developer from intent to working foundation within the session or the funnel fails before it registers as anything at all.
+
+## The Telemetry Gap
+
+Agents fetch documentation pages constantly, and those requests register in server logs and CDN analytics as legitimate traffic. The gap opens downstream: serving raw text—a Markdown endpoint, an llms.txt file, a content-negotiated plain-text response—bypasses the instrumentation layer that lives in the rendered page. No JavaScript executes, no analytics beacon fires, no session is established, and what happened in that interaction is gone.
+
+Every parallel agent-readable surface—twin Markdown endpoints, AI-specific subdomains, header-gated content negotiation—is the same tradeoff made explicit: agent accessibility purchased at the cost of analytics coverage. The web platform currently offers no path out of that tradeoff. There is no native way to deliver a structured, agent-readable view from the same source that renders for humans and instruments normally, and that missing primitive is the architectural root of everything that follows.
+
+## Collapsing the Distance Between Context and Action
+
+The telemetry problem and the enablement problem share a cause: distance. Domain-level protocols—auth.md, AGENTS.md, llms.txt—place agent instructions at the root of a site. In a multi-step workflow, the agent reads that file early, then traverses pages, calls tools, runs planning loops, and interacts with the user before it reaches the form, OAuth consent screen, or API boundary the instruction was written to govern. By the time the governed interaction enters the agent's working context, the specific constraint—an OAuth scope, a callback rule, an instruction to switch from DOM interaction to a native API call—has traveled thousands of tokens from its point of use.
+
+Documentation built for human navigation assumes re-entry: a developer reads, leaves, returns, finds the relevant section when they need it. An agent consuming the same documentation must resolve scope selection, token lifecycle, and authentication pattern in a single pass, at the moment the relevant boundary enters the session—not from a file read at the start of the workflow. The failure mode is distance. Instructions arrive too early, travel too far through the model's working context, and are not present when they are needed.
+
+## The Awareness Work That Still Has to Happen
+
+The compressed funnel makes the upstream awareness problem more consequential, not less. A developer who does not know a platform's primitives exist will arrive at their first agent session without the vocabulary to frame a useful prompt. Platform primitives—Block Kit, the CLI, MCP integration, skills architecture—must reach developers before they invoke an agent to build something, because they are the conceptual scaffolding the agent needs to proceed. Awareness is a prerequisite for the session to succeed, not a downstream outcome of it, which means the work of developer relations has moved earlier in the sequence even as the sequence itself has compressed.
+
+The response is a sustained, high-frequency presence in the channels developers inhabit before they build—social platforms, community forums, developer-facing newsletters, conference tracks—not for conversion, which the session will handle if the enablement artifacts are right, but for vocabulary installation: ensuring that when a developer arrives at a prompt intending to build, they arrive with enough conceptual framing that the agent has something accurate to work with.
+
+Recommended prompts hold the position for the agent session that code samples have long held for the API—working invocations, published beside the capability they exercise, expected to go stale with each release and maintained as a matter of course. They are also one more surface the core vocabulary has to reach, and the one closest to the session: the same primitives that run through every talk, post, and newsletter arrive here as the exact phrasing a developer carries into the prompt. A documentation surface that ships these prompts is not an instruction manual; it is the published set of entry points to sessions the platform cannot otherwise observe. The specific strings date the way code samples date—continuously and without consequence. What persists is the category—an enablement surface teaches developers what to say, not only what exists.
+
+## What Comes Next
+
+The instrumentation gap will not close without a change to the underlying architecture. Friction logging against known intent clusters, structured prompt sequences as diagnostic instruments, and turn-by-turn evaluation of enablement artifact coverage are the available tools now—early, manual, and low-ceremony—but they are measures taken in a period when the infrastructure has not caught up to the behavioral reality. What closes the gap is a native platform primitive that keeps agent traffic on the canonical instrumented document: one that lets authors co-locate agent-targeted instructions next to the content they govern, exclude chrome and navigation from the agent-readable view, and keep the analytics layer firing because the agent is reading the same document the human would have read—not a parallel surface built to avoid it.
+
+That primitive does not exist yet, and its absence is now observable as friction at the scale of every developer building with AI. The funnel did not disappear—it became a single session on an uninstrumented surface. The direction of effort is clear.
